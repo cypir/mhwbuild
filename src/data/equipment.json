@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Leather Headgear Alpha",
+    "part": "helmet",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 1
+      },
+      {
+        "name": "Defense Boost",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Alloy Alpha"
+  },
+  {
+    "name": "Leather Mail Alpha",
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Water Resistance",
+        "level": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Alloy Alpha"
+  },
+  {
+    "name": "Leather Gloves Alpha",
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "level": 1
+      },
+      {
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Alloy Alpha"
+  },
+  {
+    "name": "Leather Belt Alpha",
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Poison Resistance",
+        "level": 1
+      },
+      {
+        "name": "Water Resistance",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Alloy Alpha"
+  },
+  {
+    "name": "Leather Trousers Alpha",
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Speed Sharpening",
+        "level": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Alloy Alpha"
+  },
+  {
+    "name": "Leather Headgear Beta",
+    "part": "helmet",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Alloy Alpha"
+  },
+  {
+    "name": "Leather Mail Beta",
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Water Resistance",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Alloy Alpha"
+  },
+  {
+    "name": "Leather Gloves Beta",
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Alloy Alpha"
+  },
+  {
+    "name": "Leather Belt Beta",
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Poison Resistance",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Alloy Alpha"
+  },
+  {
+    "name": "Leather Trousers Beta",
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Alloy Alpha"
+  },
+  {
+    "name": "Anja Helm Alpha",
+    "part": "helmet",
+    "skills": [
+      {
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "name": "Fire Resistance",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [
+      "Adrenaline",
+      "Stamina Cap Up"
+    ],
+    "set": "Anja Alpha"
+  },
+  {
+    "name": "Anja Mail Alpha",
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      },
+      {
+        "name": "Special Ammo Boost",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [
+      "Adrenaline",
+      "Stamina Cap Up"
+    ],
+    "set": "Anja Alpha"
+  },
+  {
+    "name": "Anja Vambraces Alpha",
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Special Ammo Boost",
+        "level": 1
+      },
+      {
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [
+      "Adrenaline",
+      "Stamina Cap Up"
+    ],
+    "set": "Anja Alpha"
+  },
+  {
+    "name": "Anja Coil Alpha",
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "level": 2
+      },
+      {
+        "name": "Artillery",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [
+      "Adrenaline",
+      "Stamina Cap Up"
+    ],
+    "set": "Anja Alpha"
+  },
+  {
+    "name": "Anja Greaves Alpha",
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Artillery",
+        "level": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [
+      "Adrenaline",
+      "Stamina Cap Up"
+    ],
+    "set": "Anja Alpha"
+  },
+  {
+    "name": "Anja Helm Beta",
+    "part": "helmet",
+    "skills": [
+      {
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [
+      "Adrenaline",
+      "Stamina Cap Up"
+    ],
+    "set": "Anja Beta"
+  },
+  {
+    "name": "Anja Mail Beta",
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [
+      "Adrenaline",
+      "Stamina Cap Up"
+    ],
+    "set": "Anja Beta"
+  },
+  {
+    "name": "Anja Vambraces Beta",
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Special Ammo Boost",
+        "level": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [
+      "Adrenaline",
+      "Stamina Cap Up"
+    ],
+    "set": "Anja Beta"
+  },
+  {
+    "name": "Anja Coil Beta",
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "level": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [
+      "Adrenaline",
+      "Stamina Cap Up"
+    ],
+    "set": "Anja Beta"
+  },
+  {
+    "name": "Anja Greaves Beta",
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Artillery",
+        "level": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [
+      "Adrenaline",
+      "Stamina Cap Up"
+    ],
+    "set": "Anja Beta"
+  },
+  {
+    "name": "Baan Helm Alpha",
+    "part": "helmet",
+    "skills": [
+      {
+        "name": "Tremor Resistance",
+        "level": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Baan Alpha"
+  },
+  {
+    "name": "Baan Mail Alpha",
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Sleep Attack",
+        "level": 1
+      },
+      {
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Baan Alpha"
+  },
+  {
+    "name": "Baan Vambraces Alpha",
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Sleep Attack",
+        "level": 2
+      },
+      {
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Baan Alpha"
+  },
+  {
+    "name": "Baan Coil Alpha",
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Baan Alpha"
+  },
+  {
+    "name": "Baan Greaves Alpha",
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Bleeding Resistance",
+        "level": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Baan Alpha"
+  },
+  {
+    "name": "Baan Helm Beta",
+    "part": "helmet",
+    "skills": [
+      {
+        "name": "Tremor Resistance",
+        "level": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Baan Beta"
+  },
+  {
+    "name": "Baan Mail Beta",
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Sleep Attack",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Baan Beta"
+  },
+  {
+    "name": "Baan Vambraces Beta",
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Sleep Attack",
+        "level": 1
+      },
+      {
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Baan Beta"
+  },
+  {
+    "name": "Baan Coil Beta",
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Baan Beta"
+  },
+  {
+    "name": "Baan Greaves Beta",
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Baan Beta"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "set": "Alloy Alpha",
+  "rank": "hr",
+  "pieces": [
+    {
+      "name": "Leather Headgear Alpha",
+      "part": "helmet",
+      "skills": [
+        { "name": "Windproof", "level": 1 },
+        { "name": "Defense Boost", "level": 1 }
+      ],
+      "slots": [0, 0, 0]
+    },
+    {
+      "name": "Leather Mail Alpha",
+      "part": "chest",
+      "skills": [{ "name": "Water Resistance", "level": 2 }],
+      "slots": [0, 0, 0]
+    },
+    {
+      "name": "Leather Gloves Alpha",
+      "part": "arm",
+      "skills": [
+        { "name": "Defense Boost", "level": 1 },
+        { "name": "Speed Sharpening", "level": 1 }
+      ],
+      "slots": [0, 0, 0]
+    },
+    {
+      "name": "Leather Belt Alpha",
+      "part": "waist",
+      "skills": [
+        { "name": "Poison Resistance", "level": 1 },
+        { "name": "Water Resistance", "level": 1 }
+      ],
+      "slots": [0, 0, 0]
+    },
+    {
+      "name": "Leather Trousers Alpha",
+      "part": "leg",
+      "skills": [{ "name": "Speed Sharpening", "level": 2 }],
+      "slots": [0, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "set": "Anja Beta",
+  "rank": "hr",
+  "bonuses": ["Adrenaline", "Stamina Cap Up"],
+  "pieces": [
+    {
+      "name": "Anja Helm Beta",
+      "part": "helmet",
+      "skills": [{ "name": "Fire Attack", "level": 2 }],
+      "slots": [2, 0, 0]
+    },
+    {
+      "name": "Anja Mail Beta",
+      "part": "chest",
+      "skills": [{ "name": "Marathon Runner", "level": 1 }],
+      "slots": [2, 0, 0]
+    },
+    {
+      "name": "Anja Vambraces Beta",
+      "part": "arm",
+      "skills": [{ "name": "Special Ammo Boost", "level": 1 }],
+      "slots": [2, 0, 0]
+    },
+    {
+      "name": "Anja Coil Beta",
+      "part": "waist",
+      "skills": [{ "name": "Fire Resistance", "level": 2 }],
+      "slots": [2, 0, 0]
+    },
+    {
+      "name": "Anja Greaves Beta",
+      "part": "leg",
+      "skills": [{ "name": "Artillery", "level": 1 }],
+      "slots": [2, 0, 0]
+    }
+  ]
+}
