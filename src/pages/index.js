@@ -10,8 +10,8 @@ export default class IndexPage extends React.Component {
     super();
     this.state = {
       skillsWanted: [
-        { name: "Defense Boost", level: 2 },
-        { name: "Fire Resistance", level: 1 }
+        { name: "Fire Attack", level: 1 },
+        { name: "Sleep Attack", level: 1 }
       ]
     };
 
@@ -88,15 +88,24 @@ export default class IndexPage extends React.Component {
       allSets.forEach(set => {
         //iterate through the set and figure out if we meet the minimum criteria
         let sum = 0;
+        let efficientSum = true
         set.forEach(piece => {
           piece.skills.forEach(skill => {
             if (skill.name === skillWanted.name) {
-              sum++;
+              //we check to make sure the sum was less than the 
+              //requested level. If it is equal or above, this set
+              //is adding extraneous skill points, which is inefficient
+              if(sum < skillWanted.level){
+                //need to add the equipment's skill level to sum
+                sum += skill.level;
+              }else{
+                efficientSum = false
+              }              
             }
           });
         });
 
-        if (sum >= skillWanted.level) {
+        if (sum >= skillWanted.level && efficientSum) {
           criteriaSets.push(set);
         }
       });
