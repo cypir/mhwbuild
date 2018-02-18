@@ -10,7 +10,8 @@ export default class IndexPage extends React.Component {
     super();
     this.state = {
       skillsWanted: [
-        { name: "Fire Attack", level: 1 },
+        { name: "Fire Resistance", level: 1},
+        { name: "Heat Guard", level: 1 },
         { name: "Sleep Attack", level: 1 }
       ]
     };
@@ -27,14 +28,16 @@ export default class IndexPage extends React.Component {
         });
       });
 
-      //console.log(relevantEquips);
+      console.log(relevantEquips);
 
       //for storing sets that match one skill criteria
       let categorizedByPart = {};
 
       //split the relevant equips into their equipment part categories
-      equipmentParts.forEach((equipmentPart, index) => {
+      equipmentParts.forEach(equipmentPart => {
         let equips = relevantEquips.filter(equip => {
+          console.log(equip)
+          console.log(equipmentPart)
           return equip.part === equipmentPart;
         });
 
@@ -43,7 +46,7 @@ export default class IndexPage extends React.Component {
         }
       });
 
-      //console.log(categorizedByPart);
+      console.log(categorizedByPart);
 
       //need to do the cartesian product of each combination of equip parts
       //for example, if two pieces (arms and helmet), we need to do just arm,
@@ -120,6 +123,7 @@ export default class IndexPage extends React.Component {
     //some results will not make sense, like possibly two gauntlets. We must throw
     //these sets out
     let categorizedBySkillArray = _.values(setsWithSkillsWanted);
+    console.log(categorizedBySkillArray)
     let cp = Combinatrics.cartesianProduct(
       ...categorizedBySkillArray
     ).toArray();

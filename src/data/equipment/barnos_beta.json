@@ -1,0 +1,16 @@
+{
+    "set": "Barnos Beta",
+    "rank": "hr",
+    "bonuses": [],
+    "pieces": [
+      {
+        "name": "Barnos Jacket Beta",
+        "part": "mail",
+        "skills": [
+            { "name": "Heat Guard", "level": 1 }
+        ],
+        "slots": [1, 0, 0]
+      }
+    ]
+  }
+  

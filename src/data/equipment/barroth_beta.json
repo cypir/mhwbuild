@@ -1,0 +1,42 @@
+{
+    "set": "Barroth Beta",
+    "rank": "hr",
+    "bonuses": [],
+    "pieces": [
+      {
+        "name": "Barroth Helm Beta",
+        "part": "helmet",
+        "skills": [{ "name": "Guard", "level": 1 }],
+        "slots": [1, 0, 0]
+      },
+      {
+        "name": "Barroth Mail Beta",
+        "part": "chest",
+        "skills": [
+          { "name": "Stamina Thief", "level": 1 }
+        ],
+        "slots": [1, 0, 0]
+      },
+      {
+        "name": "Barroth Vambraces Beta",
+        "part": "arm",
+        "skills": [
+          { "name": "Marathon Runner", "level": 1 }
+        ],
+        "slots": [1, 0, 0]
+      },
+      {
+        "name": "Barroth Coil Beta",
+        "part": "waist",
+        "skills": [{ "name": "Muck Resistance", "level": 1 }],
+        "slots": [2, 0, 0]
+      },
+      {
+        "name": "Barroth Greaves Beta",
+        "part": "leg",
+        "skills": [{ "name": "Stun Resistance", "level": 1 }],
+        "slots": [1, 1, 0]
+      }
+    ]
+  }
+  

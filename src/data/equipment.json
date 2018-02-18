@@ -598,5 +598,237 @@
     "rank": "hr",
     "bonuses": [],
     "set": "Baan Beta"
+  },
+  {
+    "name": "Barnos Jacket Alpha",
+    "part": "mail",
+    "skills": [
+      {
+        "name": "Heat Guard",
+        "level": 1
+      },
+      {
+        "name": "Iron Skin",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barnos Alpha"
+  },
+  {
+    "name": "Barnos Jacket Beta",
+    "part": "mail",
+    "skills": [
+      {
+        "name": "Heat Guard",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barnos Beta"
+  },
+  {
+    "name": "Barroth Helm Alpha",
+    "part": "helmet",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barroth Alpha"
+  },
+  {
+    "name": "Barroth Mail Alpha",
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Stamina Thief",
+        "level": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barroth Alpha"
+  },
+  {
+    "name": "Barroth Vambraces Alpha",
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      },
+      {
+        "name": "Stamina Thief",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barroth Alpha"
+  },
+  {
+    "name": "Barroth Coil Alpha",
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Muck Resistance",
+        "level": 1
+      },
+      {
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barroth Alpha"
+  },
+  {
+    "name": "Barroth Greaves Beta",
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "level": 2
+      },
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barroth Alpha"
+  },
+  {
+    "name": "Barroth Helm Beta",
+    "part": "helmet",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barroth Beta"
+  },
+  {
+    "name": "Barroth Mail Beta",
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Stamina Thief",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barroth Beta"
+  },
+  {
+    "name": "Barroth Vambraces Beta",
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barroth Beta"
+  },
+  {
+    "name": "Barroth Coil Beta",
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Muck Resistance",
+        "level": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barroth Beta"
+  },
+  {
+    "name": "Barroth Greaves Beta",
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "level": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "bonuses": [],
+    "set": "Barroth Beta"
   }
 ]
