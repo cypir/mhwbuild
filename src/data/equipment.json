@@ -601,7 +601,7 @@
   },
   {
     "name": "Barnos Jacket Alpha",
-    "part": "mail",
+    "part": "chest",
     "skills": [
       {
         "name": "Heat Guard",
@@ -623,7 +623,7 @@
   },
   {
     "name": "Barnos Jacket Beta",
-    "part": "mail",
+    "part": "chest",
     "skills": [
       {
         "name": "Heat Guard",

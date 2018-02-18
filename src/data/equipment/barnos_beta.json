@@ -5,7 +5,7 @@
     "pieces": [
       {
         "name": "Barnos Jacket Beta",
-        "part": "mail",
+        "part": "chest",
         "skills": [
             { "name": "Heat Guard", "level": 1 }
         ],

@@ -8,6 +8,7 @@ const fs = require("fs");
 const path = require(`path`);
 const possibleSkillNames = require("./src/data/skill_name.json");
 const setBonus = require("./src/data/set_bonus.json");
+const possibleEquipmentParts = require('./src/data/equipment_part.json')
 
 //before build, we need to parse through all the json files
 //and generate a single database of equipment
@@ -30,6 +31,12 @@ exports.onPreBootstrap = ({ store }, pluginOptions) => {
           throw Error(`${skill.name} is an invalid skill name in ${filename}`);
         }
       });
+
+      //check to see that equipment parts are valid
+      const validPart = possibleEquipmentParts.includes(piece.part)
+      if(!validPart){
+        throw Error(`${piece.part} is an invalid part in ${filename}`);
+      }
 
       //TODO do extra validation if needed
 
