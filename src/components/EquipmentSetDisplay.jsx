@@ -21,6 +21,8 @@ import Collapse from "material-ui/transitions/Collapse";
 import ExpandLess from "material-ui-icons/ExpandLess";
 import ExpandMore from "material-ui-icons/ExpandMore";
 
+import Grid from "material-ui/Grid";
+
 const SkillSecondaryDisplay = ({ part, set }) => {
   const piece = set[part];
 
@@ -86,11 +88,22 @@ const EquipmentSetDisplay = ({ set, index }) => {
     <Card>
       <CardContent>
         <Typography variant="title">Equipment Set {index}</Typography>
-        <List>
-          {equipmentParts.map((part, index) => {
-            return <EquipmentPartDisplay part={part} set={set} key={index} />;
-          })}
-        </List>
+        <Grid container spacing={24}>
+          <Grid item xs={12} sm={6}>
+            <Typography variant="subheading">Equipment Pieces</Typography>
+            <List>
+              {equipmentParts.map((part, index) => {
+                return (
+                  <EquipmentPartDisplay part={part} set={set} key={index} />
+                );
+              })}
+            </List>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <Typography variant="subheading">Totals</Typography>
+            <Typography variant="body2">Fire Resistance + 3</Typography>
+          </Grid>
+        </Grid>
       </CardContent>
     </Card>
   );

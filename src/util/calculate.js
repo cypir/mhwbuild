@@ -122,14 +122,6 @@ module.exports = {
         }
       });
 
-      console.log(efficientCriteriaSets);
-
-      //   //first we need to sort the sets in order of
-
-      //   criteraSets.sort((a,b) => {
-      //     if(set.length <)
-      //   })
-
       //now we filter out the sets which don't meet the user's criteria
       //console.log(criteriaSets);
       setsWithSkillsWanted[skillWanted.name] = efficientCriteriaSets;
