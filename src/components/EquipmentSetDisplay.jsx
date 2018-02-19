@@ -15,17 +15,65 @@ import helmetIcon from "../icons/helmet.png";
 import waistIcon from "../icons/waist.png";
 import legIcon from "../icons/leg.png";
 
+import Avatar from "material-ui/Avatar";
+
+import Collapse from "material-ui/transitions/Collapse";
+import ExpandLess from "material-ui-icons/ExpandLess";
+import ExpandMore from "material-ui-icons/ExpandMore";
+
+const SkillSecondaryDisplay = ({ part, set }) => {
+  const piece = set[part];
+
+  //if this piece exists, then get skills
+  if (piece) {
+    let buffer = "";
+    piece.skills.forEach(skill => {
+      buffer += `${skill.name} +${skill.level} / `;
+    });
+
+    return <div>{buffer.substring(0, buffer.length - 3)}</div>;
+  }
+
+  return <div />;
+};
+
 /**
  * Display the equipment part (arms, chest, etc). If the set does not contain it, display the icon and
  * write in ---
  * @param {} param0
  */
 const EquipmentPartDisplay = ({ part, set }) => {
-  console.log(set[part]);
+  let imageSrc = "";
+  switch (part) {
+    case "helmet":
+      imageSrc = helmetIcon;
+      break;
+    case "chest":
+      imageSrc = chestIcon;
+      break;
+    case "arm":
+      imageSrc = armIcon;
+      break;
+    case "waist":
+      imageSrc = waistIcon;
+      break;
+    case "leg":
+      imageSrc = legIcon;
+      break;
+  }
+
   return (
-    <ListItem button>
-      <ListItemText primary={set[part] ? set[part].name : "-----"} />
-    </ListItem>
+    <div>
+      <ListItem button>
+        <ListItemIcon>
+          <img alt="part" src={imageSrc} />
+        </ListItemIcon>
+        <ListItemText
+          primary={set[part] ? set[part].name : "-----"}
+          secondary={<SkillSecondaryDisplay part={part} set={set} />}
+        />
+      </ListItem>
+    </div>
   );
 };
 
