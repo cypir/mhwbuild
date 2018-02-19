@@ -3,9 +3,18 @@ import Link from "gatsby-link";
 import _ from "lodash";
 import skills from "../data/skill_name.json";
 import calculate from "../util/calculate";
-import EquipmentSetDisplay from "../components/EquipmentSetDisplay";
+import EquipmentSetCard from "../components/EquipmentSetCard";
+import { withStyles } from "material-ui/styles";
+import Grid from "material-ui/Grid";
 
-export default class IndexPage extends React.Component {
+const styles = theme => ({
+  container: {
+    display: "flex",
+    flexWrap: "wrap"
+  }
+});
+
+class IndexPage extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -57,6 +66,7 @@ export default class IndexPage extends React.Component {
   };
 
   render() {
+    const { classes } = this.props;
     return (
       <div>
         <button onClick={this.handleAddWantedSkill}>Add Another Skill</button>
@@ -77,19 +87,19 @@ export default class IndexPage extends React.Component {
           })}
           <button type="submit">Submit</button>
         </form>
-        <div>
-          Sets that match your criteria: <br />
+        Sets that match your criteria: <br />
+        <Grid container spacing={8}>
           {this.state.matchingEquipmentSets.map((set, index) => {
-            return <EquipmentSetDisplay key={index} set={set} index={index} />;
+            return (
+              <Grid item xs={12} md={6}>
+                <EquipmentSetCard key={index} set={set} index={index} />
+              </Grid>
+            );
           })}
-        </div>
-        <div>
-          <h1>Hi people</h1>
-          <p>Welcome to your new Gatsby site.</p>
-          <p>Now go build something great.</p>
-          <Link to="/page-2/">Go to page 2</Link>
-        </div>
+        </Grid>
       </div>
     );
   }
 }
+
+export default withStyles(styles)(IndexPage);
