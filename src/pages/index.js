@@ -3,12 +3,14 @@ import Link from "gatsby-link";
 import _ from "lodash";
 import skills from "../data/skill_name.json";
 import calculate from "../util/calculate";
+import EquipmentSetDisplay from "../components/EquipmentSetDisplay";
 
 export default class IndexPage extends React.Component {
   constructor() {
     super();
     this.state = {
-      skillsWanted: []
+      skillsWanted: [],
+      matchingEquipmentSets: []
     };
   }
 
@@ -22,6 +24,9 @@ export default class IndexPage extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
     let sets = calculate.generateSets(this.state.skillsWanted);
+    this.setState({
+      matchingEquipmentSets: sets
+    });
     console.log(sets);
   };
 
@@ -72,6 +77,12 @@ export default class IndexPage extends React.Component {
           })}
           <button type="submit">Submit</button>
         </form>
+        <div>
+          Sets that match your criteria: <br />
+          {this.state.matchingEquipmentSets.map((set, index) => {
+            return <EquipmentSetDisplay key={index} set={set} index={index} />;
+          })}
+        </div>
         <div>
           <h1>Hi people</h1>
           <p>Welcome to your new Gatsby site.</p>
