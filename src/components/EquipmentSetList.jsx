@@ -3,6 +3,15 @@ import PropTypes from "prop-types";
 import Grid from "material-ui/Grid";
 import EquipmentSetCard from "./EquipmentSetCard";
 import Button from "material-ui/Button";
+import { withStyles } from "material-ui/styles";
+
+const styles = theme => ({
+  showMoreContainer: {
+    display: "flex",
+    justifyContent: "center",
+    marginTop: "8px"
+  }
+});
 
 class EquipmentSetList extends Component {
   constructor() {
@@ -24,7 +33,7 @@ class EquipmentSetList extends Component {
   };
 
   render() {
-    const { matchingEquipmentSets } = this.props;
+    const { matchingEquipmentSets, classes } = this.props;
     //to paginate, first we slice into pages of 30
     //keep track of the page number and enable show more.
     const paginated = matchingEquipmentSets.slice(
@@ -45,9 +54,11 @@ class EquipmentSetList extends Component {
           })}
         </Grid>
         {this.state.lastIndex < matchingEquipmentSets.length ? (
-          <Button color="primary" onClick={this.handleShowMore}>
-            Show More
-          </Button>
+          <div className={classes.showMoreContainer}>
+            <Button color="primary" onClick={this.handleShowMore}>
+              Show More
+            </Button>
+          </div>
         ) : (
           ""
         )}
@@ -58,4 +69,4 @@ class EquipmentSetList extends Component {
 
 EquipmentSetList.propTypes = {};
 
-export default EquipmentSetList;
+export default withStyles(styles)(EquipmentSetList);
