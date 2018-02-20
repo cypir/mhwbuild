@@ -10,7 +10,8 @@ import Typography from "material-ui/Typography";
 
 const styles = theme => ({
   listHeader: {
-    marginTop: "24px"
+    marginTop: "24px",
+    marginBottom: "24px"
   }
 });
 
@@ -35,7 +36,7 @@ class IndexPage extends React.Component {
       <div>
         <SkillsInputForm onFormSave={this.onFormSave} />
         <Typography variant="title" className={classes.listHeader}>
-          Sets that match your criteria
+          {`${this.state.matchingEquipmentSets.length} Results Found`}
         </Typography>
         <EquipmentSetList
           matchingEquipmentSets={this.state.matchingEquipmentSets}

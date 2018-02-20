@@ -5177,14 +5177,6 @@
       {
         "name": "Quick Sheath",
         "level": 1
-      },
-      {
-        "name": "Fire Attack",
-        "level": 2
-      },
-      {
-        "name": "Quick Sheath",
-        "level": 1
       }
     ],
     "name": "Lavasioth Helm Alpha",
@@ -5199,14 +5191,6 @@
   {
     "part": "chest",
     "skills": [
-      {
-        "name": "Fire Attack",
-        "level": 2
-      },
-      {
-        "name": "Heat Guard",
-        "level": 1
-      },
       {
         "name": "Fire Attack",
         "level": 2
@@ -5235,14 +5219,6 @@
       {
         "name": "Wide-Range",
         "level": 1
-      },
-      {
-        "name": "Affinity Sliding",
-        "level": 1
-      },
-      {
-        "name": "Wide-Range",
-        "level": 1
       }
     ],
     "name": "Lavasioth Vambraces Alpha",
@@ -5257,14 +5233,6 @@
   {
     "part": "waist",
     "skills": [
-      {
-        "name": "Quick Sheath",
-        "level": 2
-      },
-      {
-        "name": "Recovery Up",
-        "level": 1
-      },
       {
         "name": "Quick Sheath",
         "level": 2
@@ -5293,14 +5261,6 @@
       {
         "name": "Fire Attack",
         "level": 1
-      },
-      {
-        "name": "Spread/Power Shots",
-        "level": 1
-      },
-      {
-        "name": "Fire Attack",
-        "level": 1
       }
     ],
     "name": "Lavasioth Greaves Alpha",
@@ -5315,14 +5275,6 @@
   {
     "part": "head",
     "skills": [
-      {
-        "name": "Fire Attack",
-        "level": 1
-      },
-      {
-        "name": "Quick Sheath",
-        "level": 1
-      },
       {
         "name": "Fire Attack",
         "level": 1
@@ -5347,10 +5299,6 @@
       {
         "name": "Fire Attack",
         "level": 2
-      },
-      {
-        "name": "Fire Attack",
-        "level": 2
       }
     ],
     "name": "Lavasioth Mail Beta",
@@ -5365,10 +5313,6 @@
   {
     "part": "arm",
     "skills": [
-      {
-        "name": "Affinity Sliding",
-        "level": 1
-      },
       {
         "name": "Affinity Sliding",
         "level": 1
@@ -5389,10 +5333,6 @@
       {
         "name": "Quick Sheath",
         "level": 2
-      },
-      {
-        "name": "Quick Sheath",
-        "level": 2
       }
     ],
     "name": "Lavasioth Coil Beta",
@@ -5407,10 +5347,6 @@
   {
     "part": "leg",
     "skills": [
-      {
-        "name": "Spread/Power Shots",
-        "level": 1
-      },
       {
         "name": "Spread/Power Shots",
         "level": 1

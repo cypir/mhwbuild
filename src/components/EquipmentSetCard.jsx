@@ -118,7 +118,7 @@ const EquipmentSetCard = ({ set, index, classes }) => {
     <div>
       <Card>
         <CardContent>
-          <Typography variant="title">Equipment Set {index}</Typography>
+          <Typography variant="title">Equipment Set {index + 1}</Typography>
           <Grid container spacing={24}>
             <Grid item xs={12} sm={6}>
               <Typography variant="subheading">Equipment Pieces</Typography>

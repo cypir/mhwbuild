@@ -1,20 +1,9 @@
-# gatsby-starter-default
+# Monster Hunter World Build Creator
 
-The default Gatsby starter
+## Data
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+Data was retrieved from https://mhworld.kiranico.com/
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+## Contributing
 
-```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-1. Validate all skills against skill_names.json
-2. Validate every entry has valid schema
-3. Need to be able to figure out which gear gives a set bonus
-4. Slots use index for decoration slot and number for decoration level
+The data set is stored in the src/data/equipment directory. Additions, updates and corrections are welcome. Simply follow the format of the other equipment JSON files and submit a pull request. There is an automated build process that validates the equipment and adds them to a single json file that is used at the database for the build creator.

@@ -11,22 +11,10 @@
         {
           "name": "Quick Sheath",
           "level": 1
-        },
-        {
-          "name": "Fire Attack",
-          "level": 2
-        },
-        {
-          "name": "Quick Sheath",
-          "level": 1
         }
       ],
       "name": "Lavasioth Helm Alpha",
-      "slots": [
-        0,
-        0,
-        0
-      ]
+      "slots": [0, 0, 0]
     },
     {
       "part": "chest",
@@ -38,22 +26,10 @@
         {
           "name": "Heat Guard",
           "level": 1
-        },
-        {
-          "name": "Fire Attack",
-          "level": 2
-        },
-        {
-          "name": "Heat Guard",
-          "level": 1
         }
       ],
       "name": "Lavasioth Mail Alpha",
-      "slots": [
-        0,
-        0,
-        0
-      ]
+      "slots": [0, 0, 0]
     },
     {
       "part": "arm",
@@ -65,22 +41,10 @@
         {
           "name": "Wide-Range",
           "level": 1
-        },
-        {
-          "name": "Affinity Sliding",
-          "level": 1
-        },
-        {
-          "name": "Wide-Range",
-          "level": 1
         }
       ],
       "name": "Lavasioth Vambraces Alpha",
-      "slots": [
-        2,
-        0,
-        0
-      ]
+      "slots": [2, 0, 0]
     },
     {
       "part": "waist",
@@ -92,22 +56,10 @@
         {
           "name": "Recovery Up",
           "level": 1
-        },
-        {
-          "name": "Quick Sheath",
-          "level": 2
-        },
-        {
-          "name": "Recovery Up",
-          "level": 1
         }
       ],
       "name": "Lavasioth Coil Alpha",
-      "slots": [
-        0,
-        0,
-        0
-      ]
+      "slots": [0, 0, 0]
     },
     {
       "part": "leg",
@@ -119,22 +71,10 @@
         {
           "name": "Fire Attack",
           "level": 1
-        },
-        {
-          "name": "Spread/Power Shots",
-          "level": 1
-        },
-        {
-          "name": "Fire Attack",
-          "level": 1
         }
       ],
       "name": "Lavasioth Greaves Alpha",
-      "slots": [
-        1,
-        0,
-        0
-      ]
+      "slots": [1, 0, 0]
     }
   ],
   "set": "Lavasioth Alpha Set",

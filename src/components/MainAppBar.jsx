@@ -28,7 +28,15 @@ class MainAppBar extends Component {
             >
               MHW Build Creator
             </Typography>
-            <Button color="inherit">github</Button>
+            <Button
+              color="inherit"
+              onClick={() => {
+                window.location.href =
+                  "https://github.com/alexmnguyen/mhwbuild";
+              }}
+            >
+              github
+            </Button>
           </Toolbar>
         </AppBar>
       </div>
