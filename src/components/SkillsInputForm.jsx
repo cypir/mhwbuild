@@ -6,13 +6,19 @@ import TextField from "material-ui/TextField";
 import Grid from "material-ui/Grid";
 import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
+import IconButton from "material-ui/IconButton";
+import DeleteIcon from "material-ui-icons/Delete";
 
 const skillNames = Object.keys(skillNamesJson);
 
 const styles = theme => ({
   buttonContainer: {
     display: "flex",
-    justifyContent: "flex-end"
+    justifyContent: "flex-end",
+    marginTop: "16px"
+  },
+  fieldContainer: {
+    marginTop: "8px"
   }
 });
 
@@ -63,6 +69,15 @@ class SkillsInputForm extends Component {
     });
   };
 
+  handleDeleteWantedSkill = index => event => {
+    this.setState({
+      skillsWanted: [
+        ...this.state.skillsWanted.slice(0, index),
+        ...this.state.skillsWanted.slice(index + 1)
+      ]
+    });
+  };
+
   onSubmit = e => {
     e.preventDefault();
     console.log(this.state);
@@ -76,7 +91,7 @@ class SkillsInputForm extends Component {
         <form onSubmit={this.onSubmit}>
           {this.state.skillsWanted.map((skill, index) => {
             return (
-              <div key={index}>
+              <div key={index} className={classes.fieldContainer}>
                 <Grid container spacing={8}>
                   <Grid item xs={12} sm={9} key={index}>
                     <SkillAutocompleteField
@@ -85,13 +100,21 @@ class SkillsInputForm extends Component {
                       index={index}
                     />
                   </Grid>
-                  <Grid item xs={12} sm={3} key={`${index}_level`}>
+                  <Grid item xs={12} sm={2} key={`${index}_level`}>
                     <TextField
                       label="Skill Level"
                       fullWidth
                       value={skill.level}
                       onChange={this.handleSkillLevelChange(index)}
                     />
+                  </Grid>
+                  <Grid item xs={12} sm={1} key={`${index}_delete`}>
+                    <IconButton
+                      aria-label="Delete"
+                      onClick={this.handleDeleteWantedSkill(index)}
+                    >
+                      <DeleteIcon />
+                    </IconButton>
                   </Grid>
                 </Grid>
               </div>
