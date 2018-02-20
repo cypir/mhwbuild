@@ -114,7 +114,6 @@ const EquipmentPartList = ({ set }) => {
  * Component that displays a set
  */
 const EquipmentSetCard = ({ set, index, classes }) => {
-  console.log(set);
   return (
     <div>
       <Card>
