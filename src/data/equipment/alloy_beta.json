@@ -4,7 +4,7 @@
   "pieces": [
     {
       "name": "Leather Headgear Beta",
-      "part": "helmet",
+      "part": "head",
       "skills": [{ "name": "Windproof", "level": 1 }],
       "slots": [1, 0, 0]
     },

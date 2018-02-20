@@ -4,7 +4,7 @@
   "pieces": [
     {
       "name": "Leather Headgear Alpha",
-      "part": "helmet",
+      "part": "head",
       "skills": [
         { "name": "Windproof", "level": 1 },
         { "name": "Defense Boost", "level": 1 }

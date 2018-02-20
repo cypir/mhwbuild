@@ -5,7 +5,7 @@
   "pieces": [
     {
       "name": "Baan Helm Beta",
-      "part": "helmet",
+      "part": "head",
       "skills": [{ "name": "Tremor Resistance", "level": 1 }],
       "slots": [2, 0, 0]
     },
