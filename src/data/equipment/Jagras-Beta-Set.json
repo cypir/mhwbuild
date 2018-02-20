@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "level": 1
+        }
+      ],
+      "name": "Jagras Helm Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Intimidator",
+          "level": 1
+        }
+      ],
+      "name": "Jagras Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "level": 1
+        }
+      ],
+      "name": "Jagras Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        }
+      ],
+      "name": "Jagras Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Speed Crawler",
+          "level": 1
+        }
+      ],
+      "name": "Jagras Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Jagras Beta Set",
+  "rarity": 5
+}

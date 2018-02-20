@@ -1,0 +1,90 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Aquatic Expert",
+          "level": 2
+        }
+      ],
+      "name": "Jyura Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Muck Resistance",
+          "level": 1
+        },
+        {
+          "name": "Water Attack",
+          "level": 1
+        }
+      ],
+      "name": "Jyura Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Water Attack",
+          "level": 2
+        },
+        {
+          "name": "Aquatic Expert",
+          "level": 1
+        }
+      ],
+      "name": "Jyura Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Jyura Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 2
+        }
+      ],
+      "name": "Jyura Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Jyura Alpha Set",
+  "rarity": 5
+}

@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Nero Helm Beta",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Nero Mail Beta",
+      "slots": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Nero Braces Beta",
+      "slots": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Nero Coil Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Normal Shots",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Nero Greaves Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Diablos Nero Beta Set",
+  "rarity": 7
+}

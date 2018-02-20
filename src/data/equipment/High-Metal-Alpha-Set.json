@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "level": 2
+        },
+        {
+          "name": "Earplugs",
+          "level": 1
+        }
+      ],
+      "name": "High Metal Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 2
+        },
+        {
+          "name": "Ice Attack",
+          "level": 1
+        }
+      ],
+      "name": "High Metal Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 2
+        },
+        {
+          "name": "Ice Attack",
+          "level": 1
+        }
+      ],
+      "name": "High Metal Braces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Capacity Boost",
+          "level": 1
+        },
+        {
+          "name": "Defense Boost",
+          "level": 1
+        }
+      ],
+      "name": "High Metal Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "level": 1
+        },
+        {
+          "name": "Ice Resistance",
+          "level": 1
+        }
+      ],
+      "name": "High Metal Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "High Metal Alpha Set",
+  "rarity": 6
+}

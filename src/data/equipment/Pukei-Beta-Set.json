@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Sporepuff Expert",
+          "level": 1
+        }
+      ],
+      "name": "Pukei Hood Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "level": 1
+        }
+      ],
+      "name": "Pukei Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Pukei Vambraces Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "level": 1
+        }
+      ],
+      "name": "Pukei Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 1
+        }
+      ],
+      "name": "Pukei Greaves Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Pukei Beta Set",
+  "rarity": 5
+}

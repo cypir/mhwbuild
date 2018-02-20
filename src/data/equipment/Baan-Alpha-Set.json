@@ -1,0 +1,90 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Baan Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "level": 1
+        },
+        {
+          "name": "Bleeding Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Baan Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Sleep Attack",
+          "level": 2
+        },
+        {
+          "name": "Guard",
+          "level": 1
+        }
+      ],
+      "name": "Baan Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 2
+        }
+      ],
+      "name": "Baan Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Bleeding Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Baan Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Baan Alpha Set",
+  "rarity": 6
+}

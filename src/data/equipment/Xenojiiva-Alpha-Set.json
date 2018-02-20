@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        },
+        {
+          "name": "Special Ammo Boost",
+          "level": 1
+        }
+      ],
+      "name": "Xeno'jiiva Headgear Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Power Prolonger",
+          "level": 2
+        },
+        {
+          "name": "Blight Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Xeno'jiiva Hide Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        },
+        {
+          "name": "Critical Boost",
+          "level": 1
+        }
+      ],
+      "name": "Xeno'jiiva Claws Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "level": 2
+        },
+        {
+          "name": "Special Ammo Boost",
+          "level": 1
+        }
+      ],
+      "name": "Xeno'jiiva Spine Alpha",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        },
+        {
+          "name": "Power Prolonger",
+          "level": 1
+        }
+      ],
+      "name": "Xeno'jiiva Spurs Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Xeno'jiiva Alpha Set",
+  "rarity": 8
+}

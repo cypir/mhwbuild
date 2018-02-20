@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 2
+        }
+      ],
+      "name": "Vaal Hazak Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "level": 2
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 1
+        }
+      ],
+      "name": "Vaal Hazak Mail Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        },
+        {
+          "name": "Recovery Speed",
+          "level": 1
+        }
+      ],
+      "name": "Vaal Hazak Braces Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        },
+        {
+          "name": "Effluvia Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Vaal Hazak Coil Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Effluvia Resistance",
+          "level": 2
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 1
+        }
+      ],
+      "name": "Vaal Hazak Greaves Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Vaal Hazak Alpha Set",
+  "rarity": 8
+}

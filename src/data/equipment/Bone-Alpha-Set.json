@@ -1,0 +1,94 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Health Boost",
+          "level": 1
+        },
+        {
+          "name": "Entomologist",
+          "level": 1
+        }
+      ],
+      "name": "Bone Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "name": "Bone Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "name": "Bone Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Horn Maestro",
+          "level": 1
+        },
+        {
+          "name": "Master Fisher",
+          "level": 1
+        }
+      ],
+      "name": "Bone Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Entomologist",
+          "level": 2
+        }
+      ],
+      "name": "Bone Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Bone Alpha Set",
+  "rarity": 5
+}

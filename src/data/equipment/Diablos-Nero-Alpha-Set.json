@@ -1,0 +1,94 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 2
+        }
+      ],
+      "name": "Diablos Nero Helm Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 2
+        }
+      ],
+      "name": "Diablos Nero Mail Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        },
+        {
+          "name": "Marathon Runner",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Nero Braces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Resentment",
+          "level": 1
+        },
+        {
+          "name": "Partbreaker",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Nero Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Normal Shots",
+          "level": 1
+        },
+        {
+          "name": "Heroics",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Nero Greaves Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Diablos Nero Alpha Set",
+  "rarity": 7
+}

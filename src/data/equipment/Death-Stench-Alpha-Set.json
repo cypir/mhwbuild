@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Resuscitate",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "name": "Death Stench Brain Alpha",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "name": "Death Stench Muscle Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 2
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 1
+        }
+      ],
+      "name": "Death Stench Grip Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Dragon Attack",
+          "level": 2
+        },
+        {
+          "name": "Focus",
+          "level": 1
+        }
+      ],
+      "name": "Death Stench Bowels Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 2
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 2
+        }
+      ],
+      "name": "Death Stench Heel Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Death Stench Alpha Set",
+  "rarity": 7
+}

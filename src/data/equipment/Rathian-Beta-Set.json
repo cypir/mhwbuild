@@ -1,0 +1,94 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Health Boost",
+          "level": 1
+        },
+        {
+          "name": "Poison Attack",
+          "level": 1
+        }
+      ],
+      "name": "Rathian Helm Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 1
+        },
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "name": "Rathian Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "level": 1
+        }
+      ],
+      "name": "Rathian Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "level": 1
+        },
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "name": "Rathian Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "name": "Rathian Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Rathian Beta Set",
+  "rarity": 5
+}

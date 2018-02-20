@@ -1,0 +1,62 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Master Gatherer",
+          "level": 1
+        }
+      ],
+      "name": "Chainmail Headgear Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [],
+      "name": "Chainmail Armor Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [],
+      "name": "Chainmail Gloves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [],
+      "name": "Chainmail Belt Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [],
+      "name": "Chainmail Trousers Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Chainmail Beta Set",
+  "rarity": 5
+}

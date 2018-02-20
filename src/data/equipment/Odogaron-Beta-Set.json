@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Bleeding Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Odogaron Helm Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "level": 2
+        }
+      ],
+      "name": "Odogaron Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "name": "Odogaron Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "level": 2
+        }
+      ],
+      "name": "Odogaron Coil Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        }
+      ],
+      "name": "Odogaron Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Odogaron Beta Set",
+  "rarity": 6
+}

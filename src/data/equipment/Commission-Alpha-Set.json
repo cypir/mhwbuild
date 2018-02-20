@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        },
+        {
+          "name": "Master Gatherer",
+          "level": 1
+        }
+      ],
+      "name": "Commission Gorget Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 2
+        },
+        {
+          "name": "Cliffhanger",
+          "level": 1
+        }
+      ],
+      "name": "Commission Jacket Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Blindsider",
+          "level": 1
+        },
+        {
+          "name": "Carving Pro",
+          "level": 1
+        }
+      ],
+      "name": "Commission Vambraces Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        },
+        {
+          "name": "Pro Transporter",
+          "level": 1
+        }
+      ],
+      "name": "Commission Belt Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Stealth",
+          "level": 2
+        },
+        {
+          "name": "Affinity Sliding",
+          "level": 1
+        }
+      ],
+      "name": "Commission Pants Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Commission Alpha Set",
+  "rarity": 8
+}

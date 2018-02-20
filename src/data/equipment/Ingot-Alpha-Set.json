@@ -1,0 +1,90 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 2
+        }
+      ],
+      "name": "Ingot Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Ingot Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Health Boost",
+          "level": 2
+        },
+        {
+          "name": "Thunder Attack",
+          "level": 1
+        }
+      ],
+      "name": "Ingot Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 2
+        }
+      ],
+      "name": "Ingot Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 2
+        },
+        {
+          "name": "Windproof",
+          "level": 1
+        }
+      ],
+      "name": "Ingot Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Ingot Alpha Set",
+  "rarity": 6
+}

@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Scoutfly Range Up",
+          "level": 1
+        }
+      ],
+      "name": "Hunter's Headgear Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "level": 1
+        }
+      ],
+      "name": "Hunter's Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Stealth",
+          "level": 1
+        }
+      ],
+      "name": "Hunter's Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Master Gatherer",
+          "level": 1
+        }
+      ],
+      "name": "Hunter's Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Scenthound",
+          "level": 1
+        }
+      ],
+      "name": "Hunter's Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Hunter's Beta Set",
+  "rarity": 5
+}

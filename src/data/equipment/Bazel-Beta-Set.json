@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 2
+        }
+      ],
+      "name": "Bazel Helm Beta",
+      "slots": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 2
+        }
+      ],
+      "name": "Bazel Mail Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "level": 2
+        }
+      ],
+      "name": "Bazel Vambraces Beta",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 2
+        }
+      ],
+      "name": "Bazel Coil Beta",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 2
+        }
+      ],
+      "name": "Bazel Greaves Beta",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Bazel Beta Set",
+  "rarity": 7
+}

@@ -1,0 +1,98 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Blindsider",
+          "level": 1
+        },
+        {
+          "name": "Stun Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Tzitzi Headgear Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Constitution",
+          "level": 1
+        },
+        {
+          "name": "Water Attack",
+          "level": 2
+        }
+      ],
+      "name": "Tzitzi Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "level": 2
+        },
+        {
+          "name": "Wide-Range",
+          "level": 1
+        }
+      ],
+      "name": "Tzitzi Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 2
+        },
+        {
+          "name": "Water Attack",
+          "level": 1
+        }
+      ],
+      "name": "Tzitzi Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Sleep Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Tzitzi Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Tzitzi Alpha Set",
+  "rarity": 5
+}

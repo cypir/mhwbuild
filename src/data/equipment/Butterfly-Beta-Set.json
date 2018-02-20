@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Evade Window",
+          "level": 2
+        }
+      ],
+      "name": "Butterfly Vertex Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 2
+        }
+      ],
+      "name": "Butterfly Thorax Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 2
+        }
+      ],
+      "name": "Butterfly Brachia Beta",
+      "slots": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "level": 1
+        }
+      ],
+      "name": "Butterfly Elytra Beta",
+      "slots": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Forager's Luck",
+          "level": 1
+        }
+      ],
+      "name": "Butterfly Crura Beta",
+      "slots": [
+        2,
+        1,
+        0
+      ]
+    }
+  ],
+  "set": "Butterfly Beta Set",
+  "rarity": 5
+}

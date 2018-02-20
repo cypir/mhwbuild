@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Health Boost",
+          "level": 1
+        }
+      ],
+      "name": "Bone Helm Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "name": "Bone Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 1
+        }
+      ],
+      "name": "Bone Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Horn Maestro",
+          "level": 1
+        }
+      ],
+      "name": "Bone Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Entomologist",
+          "level": 1
+        }
+      ],
+      "name": "Bone Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Bone Beta Set",
+  "rarity": 5
+}

@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "level": 2
+        }
+      ],
+      "name": "Brigade Lobos Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "name": "Brigade Suit Beta",
+      "slots": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "level": 2
+        }
+      ],
+      "name": "Brigade Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Geologist",
+          "level": 2
+        }
+      ],
+      "name": "Brigade Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Scholar",
+          "level": 1
+        }
+      ],
+      "name": "Brigade Boots Beta",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Brigade Beta Set",
+  "rarity": 6
+}

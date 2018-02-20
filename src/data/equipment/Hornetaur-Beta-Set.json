@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Dungmaster",
+          "level": 1
+        }
+      ],
+      "name": "Hornetaur Helm Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Effluvial Expert",
+          "level": 1
+        }
+      ],
+      "name": "Hornetaur Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Free Meal",
+          "level": 1
+        }
+      ],
+      "name": "Hornetaur Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Carving Pro",
+          "level": 1
+        }
+      ],
+      "name": "Hornetaur Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "name": "Hornetaur Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Hornetaur Beta Set",
+  "rarity": 5
+}

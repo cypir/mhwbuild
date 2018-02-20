@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Dungmaster",
+          "level": 1
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 1
+        }
+      ],
+      "name": "Hornetaur Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Effluvial Expert",
+          "level": 1
+        },
+        {
+          "name": "Hunger Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Hornetaur Mail Apha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Free Meal",
+          "level": 1
+        },
+        {
+          "name": "Hunger Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Hornetaur Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Carving Pro",
+          "level": 1
+        },
+        {
+          "name": "Hunger Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Hornetaur Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Dragon Attack",
+          "level": 1
+        }
+      ],
+      "name": "Hornetaur Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Hornetaur Alpha Set",
+  "rarity": 5
+}

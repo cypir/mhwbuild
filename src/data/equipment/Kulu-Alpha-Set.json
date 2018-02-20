@@ -1,0 +1,98 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "level": 1
+        },
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        }
+      ],
+      "name": "Kulu Headpiece Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "name": "Kulu Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Pro Transporter",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "name": "Kulu Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "level": 2
+        }
+      ],
+      "name": "Kulu Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "level": 1
+        },
+        {
+          "name": "Item Prolonger",
+          "level": 1
+        }
+      ],
+      "name": "Kulu Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Kulu Alpha Set",
+  "rarity": 5
+}

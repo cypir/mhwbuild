@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "level": 2
+        }
+      ],
+      "name": "Kushala Glare Beta",
+      "slots": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 2
+        }
+      ],
+      "name": "Kushala Cista Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Evade Window",
+          "level": 2
+        }
+      ],
+      "name": "Kushala Grip Beta",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "level": 2
+        }
+      ],
+      "name": "Kushala Cocoon Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 2
+        }
+      ],
+      "name": "Kushala Crus Beta",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Kushala Beta Set",
+  "rarity": 8
+}

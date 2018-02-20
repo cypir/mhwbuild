@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "name": "Kadachi Helm Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Jump Master",
+          "level": 1
+        }
+      ],
+      "name": "Kadachi Mail Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1
+        }
+      ],
+      "name": "Kadachi Vambraces Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 1
+        }
+      ],
+      "name": "Kadachi Coil Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Kadachi Greaves Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "set": "Kadachi Beta Set",
+  "rarity": 5
+}

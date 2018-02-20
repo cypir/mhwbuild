@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 2
+        },
+        {
+          "name": "Speed Sharpening",
+          "level": 1
+        }
+      ],
+      "name": "Damascus Helm Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 2
+        },
+        {
+          "name": "Defense Boost",
+          "level": 2
+        }
+      ],
+      "name": "Damascus Mail Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Speed Sharpening",
+          "level": 1
+        }
+      ],
+      "name": "Damascus Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Focus",
+          "level": 1
+        },
+        {
+          "name": "Iron Skin",
+          "level": 2
+        }
+      ],
+      "name": "Damascus Coil Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 2
+        },
+        {
+          "name": "Iron Skin",
+          "level": 1
+        }
+      ],
+      "name": "Damascus Greaves Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Damascus Alpha Set",
+  "rarity": 7
+}

@@ -1,0 +1,94 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Constitution",
+          "level": 2
+        }
+      ],
+      "name": "Kadachi Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Jump Master",
+          "level": 1
+        },
+        {
+          "name": "Evade Extender",
+          "level": 1
+        }
+      ],
+      "name": "Kadachi Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 2
+        }
+      ],
+      "name": "Kadachi Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 2
+        },
+        {
+          "name": "Thunder Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Kadachi Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "level": 2
+        },
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "name": "Kadachi Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Kadachi Alpha Set",
+  "rarity": 5
+}

@@ -9,11 +9,11 @@ import _ from "lodash";
 
 import equipmentParts from "../data/equipment_part.json";
 
-import armIcon from "../icons/arm.png";
-import chestIcon from "../icons/chest.png";
-import helmetIcon from "../icons/helmet.png";
-import waistIcon from "../icons/waist.png";
-import legIcon from "../icons/leg.png";
+import armIcon from "../icons/1/arm.png";
+import chestIcon from "../icons/1/chest.png";
+import headIcon from "../icons/1/head.png";
+import waistIcon from "../icons/1/waist.png";
+import legIcon from "../icons/1/leg.png";
 
 import Avatar from "material-ui/Avatar";
 
@@ -77,8 +77,8 @@ const EquipmentPartList = ({ set }) => {
         {equipmentParts.map((part, index) => {
           let imageSrc = "";
           switch (part) {
-            case "helmet":
-              imageSrc = helmetIcon;
+            case "head":
+              imageSrc = headIcon;
               break;
             case "chest":
               imageSrc = chestIcon;

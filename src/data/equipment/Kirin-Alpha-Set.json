@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "level": 2
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "name": "Kirin Horn Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "level": 2
+        },
+        {
+          "name": "Thunder Attack",
+          "level": 1
+        }
+      ],
+      "name": "Kirin Jacket Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 2
+        },
+        {
+          "name": "Marathon Runner",
+          "level": 1
+        }
+      ],
+      "name": "Kirin Longarms Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "level": 1
+        },
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "name": "Kirin Hoop Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 2
+        },
+        {
+          "name": "Thunder Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Kirin Leg Guards Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Kirin Alpha Set",
+  "rarity": 6
+}

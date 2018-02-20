@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Dragon Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Dober Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 2
+        },
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        }
+      ],
+      "name": "Dober Mail Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 2
+        },
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        }
+      ],
+      "name": "Dober Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Dragon Resistance",
+          "level": 2
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "name": "Dober Coil Alpha",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 2
+        },
+        {
+          "name": "Stamina Surge",
+          "level": 1
+        }
+      ],
+      "name": "Dober Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Dober Alpha Set",
+  "rarity": 7
+}

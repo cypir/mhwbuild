@@ -1,0 +1,90 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        },
+        {
+          "name": "Paralysis Attack",
+          "level": 1
+        }
+      ],
+      "name": "Vespoid Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1
+        }
+      ],
+      "name": "Vespoid Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "level": 1
+        }
+      ],
+      "name": "Vespoid Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Vespoid Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "level": 1
+        },
+        {
+          "name": "Paralysis Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Vespoid Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Vespoid Alpha Set",
+  "rarity": 5
+}

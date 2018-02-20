@@ -1,0 +1,94 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 2
+        }
+      ],
+      "name": "Kaiser Crown Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Special Ammo Boost",
+          "level": 2
+        },
+        {
+          "name": "Latent Power",
+          "level": 1
+        }
+      ],
+      "name": "Kaiser Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 2
+        }
+      ],
+      "name": "Kaiser Vambraces Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "level": 2
+        },
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        }
+      ],
+      "name": "Kaiser Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 2
+        },
+        {
+          "name": "Blast Attack",
+          "level": 1
+        }
+      ],
+      "name": "Kaiser Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Teostra Alpha Set",
+  "rarity": 8
+}

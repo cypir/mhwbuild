@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 2
+        }
+      ],
+      "name": "Rathalos Helm Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 2
+        }
+      ],
+      "name": "Rathalos Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Rathalos Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "level": 2
+        }
+      ],
+      "name": "Rathalos Coil Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Jump Master",
+          "level": 1
+        }
+      ],
+      "name": "Rathalos Greaves Beta",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Rathalos Beta Set",
+  "rarity": 6
+}

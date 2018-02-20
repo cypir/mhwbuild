@@ -1,0 +1,98 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "level": 2
+        },
+        {
+          "name": "Horn Maestro",
+          "level": 1
+        }
+      ],
+      "name": "Brigade Lobos Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "level": 2
+        }
+      ],
+      "name": "Brigade Suit Alpha",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "level": 2
+        },
+        {
+          "name": "Divine Blessing",
+          "level": 1
+        }
+      ],
+      "name": "Brigade Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Geologist",
+          "level": 2
+        },
+        {
+          "name": "Recovery Speed",
+          "level": 1
+        }
+      ],
+      "name": "Brigade Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Scholar",
+          "level": 1
+        },
+        {
+          "name": "Geologist",
+          "level": 1
+        }
+      ],
+      "name": "Brigade Boots Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Brigade Alpha Set",
+  "rarity": 6
+}

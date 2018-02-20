@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Blindsider",
+          "level": 1
+        }
+      ],
+      "name": "Tzitzi Headgear Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Constitution",
+          "level": 1
+        }
+      ],
+      "name": "Tzitzi Mail Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Tzitzi Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 1
+        }
+      ],
+      "name": "Tzitzi Coil Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Sleep Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Tzitzi Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Tzitzi Beta Set",
+  "rarity": 5
+}

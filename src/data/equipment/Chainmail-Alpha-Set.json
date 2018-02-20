@@ -1,0 +1,86 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Master Gatherer",
+          "level": 1
+        },
+        {
+          "name": "Guard",
+          "level": 1
+        }
+      ],
+      "name": "Chainmail Headgear Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Chainmail Armor Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "level": 1
+        }
+      ],
+      "name": "Chainmail Gloves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        }
+      ],
+      "name": "Chainmail Belt Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Recovery Up",
+          "level": 1
+        }
+      ],
+      "name": "Chainmail Trousers Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Chainmail Alpha Set",
+  "rarity": 5
+}

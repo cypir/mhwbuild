@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "name": "Zorah Headgear Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "level": 2
+        }
+      ],
+      "name": "Zorah Hide Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "name": "Zorah Claws Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        }
+      ],
+      "name": "Zorah Spine Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 2
+        }
+      ],
+      "name": "Zorah Spurs Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Zorah Beta Set",
+  "rarity": 6
+}

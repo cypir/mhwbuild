@@ -1,0 +1,94 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Scoutfly Range Up",
+          "level": 1
+        },
+        {
+          "name": "Scholar",
+          "level": 1
+        }
+      ],
+      "name": "Hunter's Headgear Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "level": 2
+        }
+      ],
+      "name": "Hunter's Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Stealth",
+          "level": 2
+        }
+      ],
+      "name": "Hunter's Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Stealth",
+          "level": 1
+        },
+        {
+          "name": "Master Gatherer",
+          "level": 1
+        }
+      ],
+      "name": "Hunter's Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Slinger Capacity",
+          "level": 1
+        },
+        {
+          "name": "Scenthound",
+          "level": 1
+        }
+      ],
+      "name": "Hunter's Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Hunter's Alpha Set",
+  "rarity": 5
+}

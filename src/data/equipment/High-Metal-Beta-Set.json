@@ -1,0 +1,86 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Ice Resistance",
+          "level": 2
+        }
+      ],
+      "name": "High Metal Helm Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 1
+        },
+        {
+          "name": "Ice Attack",
+          "level": 1
+        }
+      ],
+      "name": "High Metal Mail Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 2
+        }
+      ],
+      "name": "High Metal Braces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Capacity Boost",
+          "level": 1
+        }
+      ],
+      "name": "High Metal Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Heavy Artillery",
+          "level": 1
+        }
+      ],
+      "name": "High Metal Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "High Metal Beta Set",
+  "rarity": 6
+}

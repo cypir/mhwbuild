@@ -1,0 +1,94 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Speed Eating",
+          "level": 2
+        }
+      ],
+      "name": "Jagras Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Intimidator",
+          "level": 2
+        }
+      ],
+      "name": "Jagras Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "level": 1
+        },
+        {
+          "name": "Intimidator",
+          "level": 1
+        }
+      ],
+      "name": "Jagras Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        },
+        {
+          "name": "Speed Eating",
+          "level": 1
+        }
+      ],
+      "name": "Jagras Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Speed Crawler",
+          "level": 1
+        },
+        {
+          "name": "Free Meal",
+          "level": 1
+        }
+      ],
+      "name": "Jagras Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Jagras Alpha Set",
+  "rarity": 5
+}

@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Evade Window",
+          "level": 2
+        }
+      ],
+      "name": "King Beetle Vertex Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 2
+        }
+      ],
+      "name": "King Beetle Thorax Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 2
+        }
+      ],
+      "name": "King Beetle Brachia Beta",
+      "slots": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "level": 1
+        }
+      ],
+      "name": "King Beetle Elytra Beta",
+      "slots": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Forager's Luck",
+          "level": 1
+        }
+      ],
+      "name": "King Beetle Crura Beta",
+      "slots": [
+        2,
+        1,
+        0
+      ]
+    }
+  ],
+  "set": "King Beetle Beta Set",
+  "rarity": 5
+}

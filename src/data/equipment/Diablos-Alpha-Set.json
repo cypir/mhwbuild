@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "level": 2
+        },
+        {
+          "name": "Heroics",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Slugger",
+          "level": 2
+        },
+        {
+          "name": "Heroics",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Heroics",
+          "level": 2
+        },
+        {
+          "name": "Tremor Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "level": 2
+        },
+        {
+          "name": "Critical Draw",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Tremor Resistance",
+          "level": 2
+        },
+        {
+          "name": "Slugger",
+          "level": 1
+        }
+      ],
+      "name": "Diablos Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Diablos Alpha Set",
+  "rarity": 6
+}

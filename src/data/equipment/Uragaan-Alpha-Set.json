@@ -1,0 +1,90 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Thunder Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Uragaan Helm Alpha",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 2
+        }
+      ],
+      "name": "Uragaan Mail Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 1
+        },
+        {
+          "name": "Defense Boost",
+          "level": 1
+        }
+      ],
+      "name": "Uragaan Vambraces Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Partbreaker",
+          "level": 1
+        },
+        {
+          "name": "Thunder Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Uragaan Coil Alpha",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 2
+        }
+      ],
+      "name": "Uragaan Greaves Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Uragaan Alpha Set",
+  "rarity": 7
+}

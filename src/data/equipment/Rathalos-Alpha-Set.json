@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 2
+        },
+        {
+          "name": "Fire Attack",
+          "level": 1
+        }
+      ],
+      "name": "Rathalos Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 2
+        },
+        {
+          "name": "Fire Attack",
+          "level": 1
+        }
+      ],
+      "name": "Rathalos Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "level": 2
+        },
+        {
+          "name": "Attack Boost",
+          "level": 1
+        }
+      ],
+      "name": "Rathalos Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Fire Attack",
+          "level": 2
+        },
+        {
+          "name": "Focus",
+          "level": 1
+        }
+      ],
+      "name": "Rathalos Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Jump Master",
+          "level": 1
+        },
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        }
+      ],
+      "name": "Rathalos Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Rathalos Alpha Set",
+  "rarity": 6
+}

@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "level": 2
+        }
+      ],
+      "name": "Nergigante Helm Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 2
+        }
+      ],
+      "name": "Nergigante Mail Beta",
+      "slots": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Agitator",
+          "level": 2
+        }
+      ],
+      "name": "Nergigante Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 2
+        }
+      ],
+      "name": "Nergigante Coil Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Maximum Might",
+          "level": 1
+        }
+      ],
+      "name": "Nergigante Greaves Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Nergigante Beta Set",
+  "rarity": 8
+}

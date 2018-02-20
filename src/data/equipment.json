@@ -1,7 +1,6 @@
 [
   {
-    "name": "Leather Headgear Alpha",
-    "part": "helmet",
+    "part": "head",
     "skills": [
       {
         "name": "Windproof",
@@ -12,16 +11,16 @@
         "level": 1
       }
     ],
+    "name": "Alloy Helm Alpha",
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "set": "Alloy Alpha"
+    "set": "Alloy Alpha Set"
   },
   {
-    "name": "Leather Mail Alpha",
     "part": "chest",
     "skills": [
       {
@@ -29,16 +28,16 @@
         "level": 2
       }
     ],
+    "name": "Alloy Mail Alpha",
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "set": "Alloy Alpha"
+    "set": "Alloy Alpha Set"
   },
   {
-    "name": "Leather Gloves Alpha",
     "part": "arm",
     "skills": [
       {
@@ -50,16 +49,16 @@
         "level": 1
       }
     ],
+    "name": "Alloy Vambraces Alpha",
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "set": "Alloy Alpha"
+    "set": "Alloy Alpha Set"
   },
   {
-    "name": "Leather Belt Alpha",
     "part": "waist",
     "skills": [
       {
@@ -71,16 +70,16 @@
         "level": 1
       }
     ],
+    "name": "Alloy Coil Alpha",
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "set": "Alloy Alpha"
+    "set": "Alloy Alpha Set"
   },
   {
-    "name": "Leather Trousers Alpha",
     "part": "leg",
     "skills": [
       {
@@ -88,33 +87,33 @@
         "level": 2
       }
     ],
+    "name": "Alloy Greaves Alpha",
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "set": "Alloy Alpha"
+    "set": "Alloy Alpha Set"
   },
   {
-    "name": "Leather Headgear Beta",
-    "part": "helmet",
+    "part": "head",
     "skills": [
       {
         "name": "Windproof",
         "level": 1
       }
     ],
+    "name": "Alloy Helm Beta",
     "slots": [
       1,
       0,
       0
     ],
     "rank": "hr",
-    "set": "Alloy Alpha"
+    "set": "Alloy Beta Set"
   },
   {
-    "name": "Leather Mail Beta",
     "part": "chest",
     "skills": [
       {
@@ -122,16 +121,16 @@
         "level": 1
       }
     ],
+    "name": "Alloy Mail Beta",
     "slots": [
       1,
       0,
       0
     ],
     "rank": "hr",
-    "set": "Alloy Alpha"
+    "set": "Alloy Beta Set"
   },
   {
-    "name": "Leather Gloves Beta",
     "part": "arm",
     "skills": [
       {
@@ -139,16 +138,16 @@
         "level": 1
       }
     ],
+    "name": "Alloy Vambraces Beta",
     "slots": [
       1,
       0,
       0
     ],
     "rank": "hr",
-    "set": "Alloy Alpha"
+    "set": "Alloy Beta Set"
   },
   {
-    "name": "Leather Belt Beta",
     "part": "waist",
     "skills": [
       {
@@ -156,16 +155,16 @@
         "level": 1
       }
     ],
+    "name": "Alloy Coil Beta",
     "slots": [
       1,
       0,
       0
     ],
     "rank": "hr",
-    "set": "Alloy Alpha"
+    "set": "Alloy Beta Set"
   },
   {
-    "name": "Leather Trousers Beta",
     "part": "leg",
     "skills": [
       {
@@ -173,91 +172,79 @@
         "level": 1
       }
     ],
+    "name": "Alloy Greaves Beta",
     "slots": [
       1,
       0,
       0
     ],
     "rank": "hr",
-    "set": "Alloy Alpha"
+    "set": "Alloy Beta Set"
   },
   {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "name": "Fire Resistance",
+        "level": 1
+      }
+    ],
     "name": "Anja Helm Alpha",
-    "part": "helmet",
-    "skills": [
-      {
-        "name": "Fire Attack",
-        "level": 2
-      },
-      {
-        "name": "Fire Resistance",
-        "level": 1
-      }
-    ],
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [
-      "Adrenaline",
-      "Stamina Cap Up"
-    ],
-    "set": "Anja Alpha"
+    "set": "Anja Alpha Set"
   },
   {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      },
+      {
+        "name": "Special Ammo Boost",
+        "level": 1
+      }
+    ],
     "name": "Anja Mail Alpha",
-    "part": "chest",
-    "skills": [
-      {
-        "name": "Marathon Runner",
-        "level": 1
-      },
-      {
-        "name": "Special Ammo Boost",
-        "level": 1
-      }
-    ],
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [
-      "Adrenaline",
-      "Stamina Cap Up"
-    ],
-    "set": "Anja Alpha"
+    "set": "Anja Alpha Set"
   },
   {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Special Ammo Boost",
+        "level": 1
+      },
+      {
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
     "name": "Anja Vambraces Alpha",
-    "part": "arm",
-    "skills": [
-      {
-        "name": "Special Ammo Boost",
-        "level": 1
-      },
-      {
-        "name": "Fire Attack",
-        "level": 1
-      }
-    ],
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [
-      "Adrenaline",
-      "Stamina Cap Up"
-    ],
-    "set": "Anja Alpha"
+    "set": "Anja Alpha Set"
   },
   {
-    "name": "Anja Coil Alpha",
     "part": "waist",
     "skills": [
       {
@@ -269,20 +256,16 @@
         "level": 1
       }
     ],
+    "name": "Anja Coil Alpha",
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [
-      "Adrenaline",
-      "Stamina Cap Up"
-    ],
-    "set": "Anja Alpha"
+    "set": "Anja Alpha Set"
   },
   {
-    "name": "Anja Greaves Alpha",
     "part": "leg",
     "skills": [
       {
@@ -290,41 +273,33 @@
         "level": 2
       }
     ],
+    "name": "Anja Greaves Alpha",
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [
-      "Adrenaline",
-      "Stamina Cap Up"
-    ],
-    "set": "Anja Alpha"
+    "set": "Anja Alpha Set"
   },
   {
-    "name": "Anja Helm Beta",
-    "part": "helmet",
+    "part": "head",
     "skills": [
       {
         "name": "Fire Attack",
         "level": 2
       }
     ],
+    "name": "Anja Helm Beta",
     "slots": [
       2,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [
-      "Adrenaline",
-      "Stamina Cap Up"
-    ],
-    "set": "Anja Beta"
+    "set": "Anja Beta Set"
   },
   {
-    "name": "Anja Mail Beta",
     "part": "chest",
     "skills": [
       {
@@ -332,20 +307,16 @@
         "level": 1
       }
     ],
+    "name": "Anja Mail Beta",
     "slots": [
-      2,
-      0,
+      1,
+      1,
       0
     ],
     "rank": "hr",
-    "bonuses": [
-      "Adrenaline",
-      "Stamina Cap Up"
-    ],
-    "set": "Anja Beta"
+    "set": "Anja Beta Set"
   },
   {
-    "name": "Anja Vambraces Beta",
     "part": "arm",
     "skills": [
       {
@@ -353,20 +324,16 @@
         "level": 1
       }
     ],
+    "name": "Anja Vambraces Beta",
     "slots": [
-      2,
+      1,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [
-      "Adrenaline",
-      "Stamina Cap Up"
-    ],
-    "set": "Anja Beta"
+    "set": "Anja Beta Set"
   },
   {
-    "name": "Anja Coil Beta",
     "part": "waist",
     "skills": [
       {
@@ -374,20 +341,16 @@
         "level": 2
       }
     ],
+    "name": "Anja Coil Beta",
     "slots": [
       2,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [
-      "Adrenaline",
-      "Stamina Cap Up"
-    ],
-    "set": "Anja Beta"
+    "set": "Anja Beta Set"
   },
   {
-    "name": "Anja Greaves Beta",
     "part": "leg",
     "skills": [
       {
@@ -395,60 +358,54 @@
         "level": 1
       }
     ],
+    "name": "Anja Greaves Beta",
     "slots": [
-      2,
+      1,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [
-      "Adrenaline",
-      "Stamina Cap Up"
-    ],
-    "set": "Anja Beta"
+    "set": "Anja Beta Set"
   },
   {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Tremor Resistance",
+        "level": 2
+      }
+    ],
     "name": "Baan Helm Alpha",
-    "part": "helmet",
-    "skills": [
-      {
-        "name": "Tremor Resistance",
-        "level": 2
-      }
-    ],
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Baan Alpha"
+    "set": "Baan Alpha Set"
   },
   {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Sleep Attack",
+        "level": 1
+      },
+      {
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
     "name": "Baan Mail Alpha",
-    "part": "chest",
-    "skills": [
-      {
-        "name": "Sleep Attack",
-        "level": 1
-      },
-      {
-        "name": "Bleeding Resistance",
-        "level": 1
-      }
-    ],
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Baan Alpha"
+    "set": "Baan Alpha Set"
   },
   {
-    "name": "Baan Vambraces Alpha",
     "part": "arm",
     "skills": [
       {
@@ -460,17 +417,16 @@
         "level": 1
       }
     ],
+    "name": "Baan Vambraces Alpha",
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Baan Alpha"
+    "set": "Baan Alpha Set"
   },
   {
-    "name": "Baan Coil Alpha",
     "part": "waist",
     "skills": [
       {
@@ -478,17 +434,16 @@
         "level": 2
       }
     ],
+    "name": "Baan Coil Alpha",
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Baan Alpha"
+    "set": "Baan Alpha Set"
   },
   {
-    "name": "Baan Greaves Alpha",
     "part": "leg",
     "skills": [
       {
@@ -496,35 +451,33 @@
         "level": 2
       }
     ],
+    "name": "Baan Greaves Alpha",
     "slots": [
       0,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Baan Alpha"
+    "set": "Baan Alpha Set"
   },
   {
-    "name": "Baan Helm Beta",
-    "part": "helmet",
+    "part": "head",
     "skills": [
       {
         "name": "Tremor Resistance",
         "level": 1
       }
     ],
+    "name": "Baan Helm Beta",
     "slots": [
       2,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Baan Beta"
+    "set": "Baan Beta Set"
   },
   {
-    "name": "Baan Mail Beta",
     "part": "chest",
     "skills": [
       {
@@ -532,17 +485,16 @@
         "level": 1
       }
     ],
+    "name": "Baan Mail Beta",
     "slots": [
       1,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Baan Beta"
+    "set": "Baan Beta Set"
   },
   {
-    "name": "Baan Vambraces Beta",
     "part": "arm",
     "skills": [
       {
@@ -554,17 +506,16 @@
         "level": 1
       }
     ],
+    "name": "Baan Vambraces Beta",
     "slots": [
       1,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Baan Beta"
+    "set": "Baan Beta Set"
   },
   {
-    "name": "Baan Coil Beta",
     "part": "waist",
     "skills": [
       {
@@ -572,17 +523,16 @@
         "level": 1
       }
     ],
+    "name": "Baan Coil Beta",
     "slots": [
       2,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Baan Beta"
+    "set": "Baan Beta Set"
   },
   {
-    "name": "Baan Greaves Beta",
     "part": "leg",
     "skills": [
       {
@@ -590,245 +540,8019 @@
         "level": 1
       }
     ],
+    "name": "Baan Greaves Beta",
     "slots": [
       1,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Baan Beta"
+    "set": "Baan Beta Set"
   },
   {
-    "name": "Barnos Jacket Alpha",
+    "part": "head",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "name": "Barroth Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barroth Alpha Set"
+  },
+  {
     "part": "chest",
     "skills": [
       {
-        "name": "Heat Guard",
+        "name": "Stamina Thief",
+        "level": 2
+      }
+    ],
+    "name": "Barroth Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barroth Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Marathon Runner",
         "level": 1
+      },
+      {
+        "name": "Stamina Thief",
+        "level": 1
+      }
+    ],
+    "name": "Barroth Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barroth Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Muck Resistance",
+        "level": 1
+      },
+      {
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "name": "Barroth Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barroth Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "level": 2
+      },
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "name": "Barroth Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barroth Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "name": "Barroth Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barroth Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Stamina Thief",
+        "level": 1
+      }
+    ],
+    "name": "Barroth Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barroth Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "name": "Barroth Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barroth Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Muck Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Barroth Coil Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barroth Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Barroth Greaves Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barroth Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Earplugs",
+        "level": 2
+      },
+      {
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "name": "Bazel Helm Alpha",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bazel Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 2
+      },
+      {
+        "name": "Blast Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Bazel Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bazel Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Critical Draw",
+        "level": 2
+      },
+      {
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
+    "name": "Bazel Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bazel Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Earplugs",
+        "level": 2
+      },
+      {
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "name": "Bazel Coil Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bazel Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Bombardier",
+        "level": 2
+      },
+      {
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "name": "Bazel Greaves Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bazel Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Earplugs",
+        "level": 2
+      }
+    ],
+    "name": "Bazel Helm Beta",
+    "slots": [
+      3,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bazel Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "name": "Bazel Mail Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bazel Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Critical Draw",
+        "level": 2
+      }
+    ],
+    "name": "Bazel Vambraces Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bazel Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Earplugs",
+        "level": 2
+      }
+    ],
+    "name": "Bazel Coil Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bazel Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Bombardier",
+        "level": 2
+      }
+    ],
+    "name": "Bazel Greaves Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bazel Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Health Boost",
+        "level": 1
+      },
+      {
+        "name": "Entomologist",
+        "level": 1
+      }
+    ],
+    "name": "Bone Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bone Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "name": "Bone Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bone Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Slugger",
+        "level": 1
+      },
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "name": "Bone Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bone Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Horn Maestro",
+        "level": 1
+      },
+      {
+        "name": "Master Fisher",
+        "level": 1
+      }
+    ],
+    "name": "Bone Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bone Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Entomologist",
+        "level": 2
+      }
+    ],
+    "name": "Bone Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bone Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "name": "Bone Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bone Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "name": "Bone Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bone Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Slugger",
+        "level": 1
+      }
+    ],
+    "name": "Bone Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bone Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Horn Maestro",
+        "level": 1
+      }
+    ],
+    "name": "Bone Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bone Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Entomologist",
+        "level": 1
+      }
+    ],
+    "name": "Bone Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Bone Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Recovery Speed",
+        "level": 2
+      },
+      {
+        "name": "Horn Maestro",
+        "level": 1
+      }
+    ],
+    "name": "Brigade Lobos Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Brigade Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "name": "Brigade Suit Alpha",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Brigade Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Heavy Artillery",
+        "level": 2
+      },
+      {
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "name": "Brigade Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Brigade Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Geologist",
+        "level": 2
+      },
+      {
+        "name": "Recovery Speed",
+        "level": 1
+      }
+    ],
+    "name": "Brigade Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Brigade Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Scholar",
+        "level": 1
+      },
+      {
+        "name": "Geologist",
+        "level": 1
+      }
+    ],
+    "name": "Brigade Boots Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Brigade Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Recovery Speed",
+        "level": 2
+      }
+    ],
+    "name": "Brigade Lobos Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Brigade Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "name": "Brigade Suit Beta",
+    "slots": [
+      2,
+      2,
+      0
+    ],
+    "rank": "hr",
+    "set": "Brigade Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Heavy Artillery",
+        "level": 2
+      }
+    ],
+    "name": "Brigade Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Brigade Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Geologist",
+        "level": 2
+      }
+    ],
+    "name": "Brigade Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Brigade Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Scholar",
+        "level": 1
+      }
+    ],
+    "name": "Brigade Boots Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Brigade Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Botanist",
+        "level": 1
+      },
+      {
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "name": "Butterfly Vertex Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Butterfly Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Botanist",
+        "level": 1
+      },
+      {
+        "name": "Quick Sheath",
+        "level": 2
+      }
+    ],
+    "name": "Butterfly Thorax Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Butterfly Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Botanist",
+        "level": 2
+      },
+      {
+        "name": "Leap of Faith",
+        "level": 1
+      }
+    ],
+    "name": "Butterfly Brachia Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Butterfly Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Honey Hunter",
+        "level": 1
+      },
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "name": "Butterfly Elytra Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Butterfly Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Forager's Luck",
+        "level": 1
+      },
+      {
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "name": "Butterfly Crura Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Butterfly Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "name": "Butterfly Vertex Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Butterfly Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 2
+      }
+    ],
+    "name": "Butterfly Thorax Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Butterfly Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Botanist",
+        "level": 2
+      }
+    ],
+    "name": "Butterfly Brachia Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Butterfly Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Honey Hunter",
+        "level": 1
+      }
+    ],
+    "name": "Butterfly Elytra Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Butterfly Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Forager's Luck",
+        "level": 1
+      }
+    ],
+    "name": "Butterfly Crura Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Butterfly Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Master Gatherer",
+        "level": 1
+      },
+      {
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "name": "Chainmail Headgear Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Chainmail Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Water Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Chainmail Armor Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Chainmail Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Recovery Speed",
+        "level": 1
+      }
+    ],
+    "name": "Chainmail Gloves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Chainmail Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "name": "Chainmail Belt Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Chainmail Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "name": "Chainmail Trousers Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Chainmail Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Master Gatherer",
+        "level": 1
+      }
+    ],
+    "name": "Chainmail Headgear Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Chainmail Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [],
+    "name": "Chainmail Armor Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Chainmail Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [],
+    "name": "Chainmail Gloves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Chainmail Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [],
+    "name": "Chainmail Belt Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Chainmail Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [],
+    "name": "Chainmail Trousers Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Chainmail Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "level": 1
+      },
+      {
+        "name": "Master Gatherer",
+        "level": 1
+      }
+    ],
+    "name": "Commission Gorget Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Commission Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "level": 2
+      },
+      {
+        "name": "Cliffhanger",
+        "level": 1
+      }
+    ],
+    "name": "Commission Jacket Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Commission Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Blindsider",
+        "level": 1
+      },
+      {
+        "name": "Carving Pro",
+        "level": 1
+      }
+    ],
+    "name": "Commission Vambraces Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Commission Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Mushroomancer",
+        "level": 1
+      },
+      {
+        "name": "Pro Transporter",
+        "level": 1
+      }
+    ],
+    "name": "Commission Belt Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Commission Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Stealth",
+        "level": 2
+      },
+      {
+        "name": "Affinity Sliding",
+        "level": 1
+      }
+    ],
+    "name": "Commission Pants Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Commission Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "name": "Commission Gorget Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Commission Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "level": 2
+      }
+    ],
+    "name": "Commission Jacket Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Commission Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Blindsider",
+        "level": 1
+      }
+    ],
+    "name": "Commission Vambraces Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Commission Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Mushroomancer",
+        "level": 1
+      }
+    ],
+    "name": "Commission Belt Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Commission Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Stealth",
+        "level": 2
+      }
+    ],
+    "name": "Commission Pants Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Commission Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "level": 2
+      },
+      {
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "name": "Damascus Helm Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Damascus Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 2
+      },
+      {
+        "name": "Defense Boost",
+        "level": 2
+      }
+    ],
+    "name": "Damascus Mail Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Damascus Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 1
+      },
+      {
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "name": "Damascus Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Damascus Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 1
+      },
+      {
+        "name": "Iron Skin",
+        "level": 2
+      }
+    ],
+    "name": "Damascus Coil Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Damascus Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "level": 2
       },
       {
         "name": "Iron Skin",
         "level": 1
       }
     ],
-    "slots": [
-      0,
-      0,
-      0
-    ],
-    "rank": "hr",
-    "bonuses": [],
-    "set": "Barnos Alpha"
-  },
-  {
-    "name": "Barnos Jacket Beta",
-    "part": "chest",
-    "skills": [
-      {
-        "name": "Heat Guard",
-        "level": 1
-      }
-    ],
+    "name": "Damascus Greaves Alpha",
     "slots": [
       1,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Barnos Beta"
+    "set": "Damascus Alpha Set"
   },
   {
-    "name": "Barroth Helm Alpha",
-    "part": "helmet",
+    "part": "head",
     "skills": [
       {
-        "name": "Guard",
+        "name": "Defense Boost",
         "level": 2
       }
     ],
+    "name": "Damascus Helm Beta",
     "slots": [
-      0,
+      3,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Barroth Alpha"
+    "set": "Damascus Beta Set"
   },
   {
-    "name": "Barroth Mail Alpha",
     "part": "chest",
     "skills": [
       {
-        "name": "Stamina Thief",
+        "name": "Focus",
         "level": 2
       }
     ],
+    "name": "Damascus Mail Beta",
     "slots": [
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Barroth Alpha"
+    "set": "Damascus Beta Set"
   },
   {
-    "name": "Barroth Vambraces Alpha",
     "part": "arm",
     "skills": [
       {
-        "name": "Marathon Runner",
-        "level": 1
-      },
-      {
-        "name": "Stamina Thief",
+        "name": "Handicraft",
         "level": 1
       }
     ],
+    "name": "Damascus Vambraces Beta",
     "slots": [
-      0,
+      1,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Barroth Alpha"
+    "set": "Damascus Beta Set"
   },
   {
-    "name": "Barroth Coil Alpha",
     "part": "waist",
     "skills": [
       {
-        "name": "Muck Resistance",
-        "level": 1
-      },
-      {
-        "name": "Guard",
+        "name": "Focus",
         "level": 1
       }
     ],
+    "name": "Damascus Coil Beta",
     "slots": [
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Barroth Alpha"
+    "set": "Damascus Beta Set"
   },
   {
-    "name": "Barroth Greaves Beta",
     "part": "leg",
     "skills": [
       {
-        "name": "Stun Resistance",
+        "name": "Defense Boost",
         "level": 2
+      }
+    ],
+    "name": "Damascus Greaves Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Damascus Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Resuscitate",
+        "level": 1
       },
       {
-        "name": "Marathon Runner",
+        "name": "Critical Eye",
         "level": 1
       }
     ],
-    "slots": [
-      0,
-      0,
-      0
-    ],
-    "rank": "hr",
-    "bonuses": [],
-    "set": "Barroth Alpha"
-  },
-  {
-    "name": "Barroth Helm Beta",
-    "part": "helmet",
-    "skills": [
-      {
-        "name": "Guard",
-        "level": 1
-      }
-    ],
-    "slots": [
-      1,
-      0,
-      0
-    ],
-    "rank": "hr",
-    "bonuses": [],
-    "set": "Barroth Beta"
-  },
-  {
-    "name": "Barroth Mail Beta",
-    "part": "chest",
-    "skills": [
-      {
-        "name": "Stamina Thief",
-        "level": 1
-      }
-    ],
-    "slots": [
-      1,
-      0,
-      0
-    ],
-    "rank": "hr",
-    "bonuses": [],
-    "set": "Barroth Beta"
-  },
-  {
-    "name": "Barroth Vambraces Beta",
-    "part": "arm",
-    "skills": [
-      {
-        "name": "Marathon Runner",
-        "level": 1
-      }
-    ],
-    "slots": [
-      1,
-      0,
-      0
-    ],
-    "rank": "hr",
-    "bonuses": [],
-    "set": "Barroth Beta"
-  },
-  {
-    "name": "Barroth Coil Beta",
-    "part": "waist",
-    "skills": [
-      {
-        "name": "Muck Resistance",
-        "level": 1
-      }
-    ],
+    "name": "Death Stench Brain Alpha",
     "slots": [
       2,
       0,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Barroth Beta"
+    "set": "Death Stench Alpha Set"
   },
   {
-    "name": "Barroth Greaves Beta",
-    "part": "leg",
+    "part": "chest",
     "skills": [
       {
-        "name": "Stun Resistance",
+        "name": "Fortify",
+        "level": 1
+      },
+      {
+        "name": "Free Elem/Ammo Up",
         "level": 1
       }
     ],
+    "name": "Death Stench Muscle Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Death Stench Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 2
+      },
+      {
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "name": "Death Stench Grip Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Death Stench Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Dragon Attack",
+        "level": 2
+      },
+      {
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "name": "Death Stench Bowels Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Death Stench Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 2
+      },
+      {
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "name": "Death Stench Heel Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Death Stench Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Resuscitate",
+        "level": 1
+      }
+    ],
+    "name": "Death Stench Brain Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Death Stench Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Fortify",
+        "level": 1
+      }
+    ],
+    "name": "Death Stench Muscle Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Death Stench Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "name": "Death Stench Grip Beta",
     "slots": [
       1,
       1,
       0
     ],
     "rank": "hr",
-    "bonuses": [],
-    "set": "Barroth Beta"
+    "set": "Death Stench Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "name": "Death Stench Bowels Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Death Stench Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "name": "Death Stench Heel Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Death Stench Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Critical Draw",
+        "level": 2
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Slugger",
+        "level": 2
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Heroics",
+        "level": 2
+      },
+      {
+        "name": "Tremor Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "level": 2
+      },
+      {
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Tremor Resistance",
+        "level": 2
+      },
+      {
+        "name": "Slugger",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Critical Draw",
+        "level": 2
+      }
+    ],
+    "name": "Diablos Helm Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Slugger",
+        "level": 2
+      }
+    ],
+    "name": "Diablos Mail Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Heroics",
+        "level": 2
+      }
+    ],
+    "name": "Diablos Vambraces Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "level": 2
+      }
+    ],
+    "name": "Diablos Coil Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Tremor Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Diablos Greaves Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "name": "Diablos Nero Helm Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Nero Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Resentment",
+        "level": 2
+      }
+    ],
+    "name": "Diablos Nero Mail Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Nero Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 1
+      },
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Nero Braces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Nero Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Resentment",
+        "level": 1
+      },
+      {
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Nero Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Nero Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Normal Shots",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Nero Greaves Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Nero Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Nero Helm Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Nero Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Resentment",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Nero Mail Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Nero Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Nero Braces Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Nero Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Resentment",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Nero Coil Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Nero Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Normal Shots",
+        "level": 1
+      }
+    ],
+    "name": "Diablos Nero Greaves Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Diablos Nero Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "name": "Dragon Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Dober Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dober Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "name": "Mushroomancer",
+        "level": 1
+      }
+    ],
+    "name": "Dober Mail Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dober Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 2
+      },
+      {
+        "name": "Mushroomancer",
+        "level": 1
+      }
+    ],
+    "name": "Dober Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dober Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Dragon Resistance",
+        "level": 2
+      },
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "name": "Dober Coil Alpha",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dober Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "name": "Dober Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dober Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "name": "Dober Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dober Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "name": "Dober Mail Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dober Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      },
+      {
+        "name": "Mushroomancer",
+        "level": 1
+      }
+    ],
+    "name": "Dober Vambraces Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dober Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Dragon Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Dober Coil Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dober Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "name": "Dober Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dober Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Blast Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Dodogama Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dodogama Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Blast Attack",
+        "level": 2
+      }
+    ],
+    "name": "Dodogama Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dodogama Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Bombardier",
+        "level": 2
+      }
+    ],
+    "name": "Dodogama Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dodogama Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Artillery",
+        "level": 2
+      },
+      {
+        "name": "Blast Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Dodogama Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dodogama Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Capacity Boost",
+        "level": 1
+      },
+      {
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "name": "Dodogame Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dodogama Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Blast Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Dodogama Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dodogama Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "name": "Dodogama Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dodogama Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Bombardier",
+        "level": 1
+      }
+    ],
+    "name": "Dodogama Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dodogama Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Artillery",
+        "level": 2
+      }
+    ],
+    "name": "Dodogama Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dodogama Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Capacity Boost",
+        "level": 1
+      }
+    ],
+    "name": "Dodogama Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dodogama Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Horn Maestro",
+        "level": 1
+      },
+      {
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Girros Mask Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Girros Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Paralysis Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Girros Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Girros Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Palico Rally",
+        "level": 2
+      }
+    ],
+    "name": "Girros Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Girros Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Effluvial Expert",
+        "level": 1
+      },
+      {
+        "name": "Paralysis Attack",
+        "level": 1
+      }
+    ],
+    "name": "Girros Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Girros Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Paralysis Attack",
+        "level": 2
+      }
+    ],
+    "name": "Girros Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Girros Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Horn Maestro",
+        "level": 1
+      }
+    ],
+    "name": "Girros Mask Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Girros Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Girros Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Girros Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Palico Rally",
+        "level": 1
+      }
+    ],
+    "name": "Girros Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Girros Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Effluvial Expert",
+        "level": 1
+      }
+    ],
+    "name": "Girros Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Girros Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Paralysis Attack",
+        "level": 1
+      }
+    ],
+    "name": "Girros Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Girros Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Ice Resistance",
+        "level": 2
+      },
+      {
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
+    "name": "High Metal Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "High Metal Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Earplugs",
+        "level": 2
+      },
+      {
+        "name": "Ice Attack",
+        "level": 1
+      }
+    ],
+    "name": "High Metal Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "High Metal Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "level": 2
+      },
+      {
+        "name": "Ice Attack",
+        "level": 1
+      }
+    ],
+    "name": "High Metal Braces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "High Metal Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Capacity Boost",
+        "level": 1
+      },
+      {
+        "name": "Defense Boost",
+        "level": 1
+      }
+    ],
+    "name": "High Metal Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "High Metal Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Heavy Artillery",
+        "level": 1
+      },
+      {
+        "name": "Ice Resistance",
+        "level": 1
+      }
+    ],
+    "name": "High Metal Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "High Metal Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Ice Resistance",
+        "level": 2
+      }
+    ],
+    "name": "High Metal Helm Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "High Metal Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Earplugs",
+        "level": 1
+      },
+      {
+        "name": "Ice Attack",
+        "level": 1
+      }
+    ],
+    "name": "High Metal Mail Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "High Metal Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "level": 2
+      }
+    ],
+    "name": "High Metal Braces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "High Metal Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Capacity Boost",
+        "level": 1
+      }
+    ],
+    "name": "High Metal Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "High Metal Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Heavy Artillery",
+        "level": 1
+      }
+    ],
+    "name": "High Metal Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "High Metal Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Dungmaster",
+        "level": 1
+      },
+      {
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "name": "Hornetaur Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hornetaur Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Effluvial Expert",
+        "level": 1
+      },
+      {
+        "name": "Hunger Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Hornetaur Mail Apha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hornetaur Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Free Meal",
+        "level": 1
+      },
+      {
+        "name": "Hunger Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Hornetaur Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hornetaur Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Carving Pro",
+        "level": 1
+      },
+      {
+        "name": "Hunger Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Hornetaur Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hornetaur Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 1
+      },
+      {
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "name": "Hornetaur Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hornetaur Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Dungmaster",
+        "level": 1
+      }
+    ],
+    "name": "Hornetaur Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hornetaur Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Effluvial Expert",
+        "level": 1
+      }
+    ],
+    "name": "Hornetaur Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hornetaur Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Free Meal",
+        "level": 1
+      }
+    ],
+    "name": "Hornetaur Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hornetaur Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Carving Pro",
+        "level": 1
+      }
+    ],
+    "name": "Hornetaur Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hornetaur Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Hornetaur Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hornetaur Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Scoutfly Range Up",
+        "level": 1
+      },
+      {
+        "name": "Scholar",
+        "level": 1
+      }
+    ],
+    "name": "Hunter's Headgear Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hunter's Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Slinger Capacity",
+        "level": 2
+      }
+    ],
+    "name": "Hunter's Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hunter's Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Stealth",
+        "level": 2
+      }
+    ],
+    "name": "Hunter's Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hunter's Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Stealth",
+        "level": 1
+      },
+      {
+        "name": "Master Gatherer",
+        "level": 1
+      }
+    ],
+    "name": "Hunter's Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hunter's Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Slinger Capacity",
+        "level": 1
+      },
+      {
+        "name": "Scenthound",
+        "level": 1
+      }
+    ],
+    "name": "Hunter's Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hunter's Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Scoutfly Range Up",
+        "level": 1
+      }
+    ],
+    "name": "Hunter's Headgear Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hunter's Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Slinger Capacity",
+        "level": 1
+      }
+    ],
+    "name": "Hunter's Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hunter's Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Stealth",
+        "level": 1
+      }
+    ],
+    "name": "Hunter's Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hunter's Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Master Gatherer",
+        "level": 1
+      }
+    ],
+    "name": "Hunter's Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hunter's Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Scenthound",
+        "level": 1
+      }
+    ],
+    "name": "Hunter's Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Hunter's Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Thunder Attack",
+        "level": 2
+      }
+    ],
+    "name": "Ingot Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Ingot Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Thunder Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Ingot Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Ingot Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Health Boost",
+        "level": 2
+      },
+      {
+        "name": "Thunder Attack",
+        "level": 1
+      }
+    ],
+    "name": "Ingot Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Ingot Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "name": "Ingot Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Ingot Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "level": 2
+      },
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Ingot Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Ingot Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Thunder Attack",
+        "level": 1
+      }
+    ],
+    "name": "Ingot Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Ingot Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Thunder Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Ingot Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Ingot Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Health Boost",
+        "level": 2
+      }
+    ],
+    "name": "Ingot Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Ingot Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Ingot Coil Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Ingot Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "level": 2
+      }
+    ],
+    "name": "Ingot Greaves Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Ingot Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Speed Eating",
+        "level": 2
+      }
+    ],
+    "name": "Jagras Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jagras Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Intimidator",
+        "level": 2
+      }
+    ],
+    "name": "Jagras Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jagras Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Palico Rally",
+        "level": 1
+      },
+      {
+        "name": "Intimidator",
+        "level": 1
+      }
+    ],
+    "name": "Jagras Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jagras Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Fortify",
+        "level": 1
+      },
+      {
+        "name": "Speed Eating",
+        "level": 1
+      }
+    ],
+    "name": "Jagras Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jagras Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Speed Crawler",
+        "level": 1
+      },
+      {
+        "name": "Free Meal",
+        "level": 1
+      }
+    ],
+    "name": "Jagras Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jagras Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Speed Eating",
+        "level": 1
+      }
+    ],
+    "name": "Jagras Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jagras Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Intimidator",
+        "level": 1
+      }
+    ],
+    "name": "Jagras Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jagras Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Palico Rally",
+        "level": 1
+      }
+    ],
+    "name": "Jagras Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jagras Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Fortify",
+        "level": 1
+      }
+    ],
+    "name": "Jagras Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jagras Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Speed Crawler",
+        "level": 1
+      }
+    ],
+    "name": "Jagras Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jagras Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Aquatic Expert",
+        "level": 2
+      }
+    ],
+    "name": "Jyura Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jyura Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Muck Resistance",
+        "level": 1
+      },
+      {
+        "name": "Water Attack",
+        "level": 1
+      }
+    ],
+    "name": "Jyura Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jyura Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Water Attack",
+        "level": 2
+      },
+      {
+        "name": "Aquatic Expert",
+        "level": 1
+      }
+    ],
+    "name": "Jyura Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jyura Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Ice Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Jyura Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jyura Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "name": "Jyura Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jyura Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Aquatic Expert",
+        "level": 1
+      }
+    ],
+    "name": "Jyura Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jyura Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Muck Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Jyura Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jyura Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Water Attack",
+        "level": 2
+      }
+    ],
+    "name": "Jyura Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jyura Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Ice Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Jyura Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jyura Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "name": "Jyura Greaves Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Jyura Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Constitution",
+        "level": 2
+      }
+    ],
+    "name": "Kadachi Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kadachi Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Jump Master",
+        "level": 1
+      },
+      {
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "name": "Kadachi Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kadachi Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "level": 2
+      }
+    ],
+    "name": "Kadachi Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kadachi Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Thunder Attack",
+        "level": 2
+      },
+      {
+        "name": "Thunder Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Kadachi Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kadachi Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Thunder Resistance",
+        "level": 2
+      },
+      {
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
+    "name": "Kadachi Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kadachi Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
+    "name": "Kadachi Helm Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kadachi Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "name": "Kadachi Mail Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kadachi Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "name": "Kadachi Vambraces Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kadachi Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Thunder Attack",
+        "level": 1
+      }
+    ],
+    "name": "Kadachi Coil Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kadachi Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Thunder Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Kadachi Greaves Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kadachi Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Evade Window",
+        "level": 2
+      },
+      {
+        "name": "Botanist",
+        "level": 1
+      }
+    ],
+    "name": "King Beetle Vertex Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "King Beetle Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "name": "Botanist",
+        "level": 1
+      }
+    ],
+    "name": "King Beetle Thorax Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "King Beetle Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Botanist",
+        "level": 2
+      },
+      {
+        "name": "Leap of Faith",
+        "level": 1
+      }
+    ],
+    "name": "King Beetle Brachia Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "King Beetle Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Honey Hunter",
+        "level": 1
+      },
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "name": "King Beetle Elytra Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "King Beetle Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Forager's Luck",
+        "level": 1
+      },
+      {
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "name": "King Beetle Crura Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "King Beetle Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "name": "King Beetle Vertex Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "King Beetle Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 2
+      }
+    ],
+    "name": "King Beetle Thorax Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "King Beetle Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Botanist",
+        "level": 2
+      }
+    ],
+    "name": "King Beetle Brachia Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "King Beetle Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Honey Hunter",
+        "level": 1
+      }
+    ],
+    "name": "King Beetle Elytra Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "King Beetle Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Forager's Luck",
+        "level": 1
+      }
+    ],
+    "name": "King Beetle Crura Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "King Beetle Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "level": 2
+      },
+      {
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "name": "Kirin Horn Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kirin Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 2
+      },
+      {
+        "name": "Thunder Attack",
+        "level": 1
+      }
+    ],
+    "name": "Kirin Jacket Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kirin Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Thunder Attack",
+        "level": 2
+      },
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "name": "Kirin Longarms Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kirin Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Blight Resistance",
+        "level": 1
+      },
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "name": "Kirin Hoop Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kirin Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 2
+      },
+      {
+        "name": "Thunder Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Kirin Leg Guards Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kirin Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "level": 2
+      }
+    ],
+    "name": "Kirin Horn Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kirin Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "name": "Kirin Jacket Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kirin Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Thunder Attack",
+        "level": 2
+      }
+    ],
+    "name": "Kirin Longarms Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kirin Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Blight Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Kirin Hoop Beta",
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "rank": "hr",
+    "set": "Kirin Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 2
+      }
+    ],
+    "name": "Kirin Leg Guards Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kirin Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "name": "Kulu Headpiece Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      },
+      {
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "name": "Kulu Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Pro Transporter",
+        "level": 1
+      },
+      {
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "name": "Kulu Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Item Prolonger",
+        "level": 2
+      }
+    ],
+    "name": "Kulu Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Critical Eye",
+        "level": 1
+      },
+      {
+        "name": "Item Prolonger",
+        "level": 1
+      }
+    ],
+    "name": "Kulu Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Kulu Headpiece Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "name": "Kulu Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Pro Transporter",
+        "level": 1
+      }
+    ],
+    "name": "Kulu Vambraces Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Item Prolonger",
+        "level": 1
+      }
+    ],
+    "name": "Kulu Coil Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "name": "Kulu Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Ice Attack",
+        "level": 2
+      },
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Kushala Glare Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kushala Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 2
+      },
+      {
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "name": "Kushala Cista Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kushala Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Evade Window",
+        "level": 2
+      },
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Kushala Grip Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kushala Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Ice Attack",
+        "level": 2
+      },
+      {
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "name": "Kushala Cocoon Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kushala Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "level": 2
+      },
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Kushala Crus Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kushala Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Ice Attack",
+        "level": 2
+      }
+    ],
+    "name": "Kushala Glare Beta",
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "rank": "hr",
+    "set": "Kushala Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "name": "Kushala Cista Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kushala Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "name": "Kushala Grip Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kushala Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Ice Attack",
+        "level": 2
+      }
+    ],
+    "name": "Kushala Cocoon Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kushala Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "level": 2
+      }
+    ],
+    "name": "Kushala Crus Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kushala Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "name": "Lavasioth Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lavasioth Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "name": "Heat Guard",
+        "level": 1
+      },
+      {
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "name": "Heat Guard",
+        "level": 1
+      }
+    ],
+    "name": "Lavasioth Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lavasioth Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Affinity Sliding",
+        "level": 1
+      },
+      {
+        "name": "Wide-Range",
+        "level": 1
+      },
+      {
+        "name": "Affinity Sliding",
+        "level": 1
+      },
+      {
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "name": "Lavasioth Vambraces Alpha",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lavasioth Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "name": "Recovery Up",
+        "level": 1
+      },
+      {
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "name": "Lavasioth Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lavasioth Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Spread/Power Shots",
+        "level": 1
+      },
+      {
+        "name": "Fire Attack",
+        "level": 1
+      },
+      {
+        "name": "Spread/Power Shots",
+        "level": 1
+      },
+      {
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
+    "name": "Lavasioth Greaves Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lavasioth Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Fire Attack",
+        "level": 1
+      },
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "name": "Fire Attack",
+        "level": 1
+      },
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "name": "Lavasioth Helm Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lavasioth Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "name": "Lavasioth Mail Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lavasioth Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Affinity Sliding",
+        "level": 1
+      },
+      {
+        "name": "Affinity Sliding",
+        "level": 1
+      }
+    ],
+    "name": "Lavasioth Vambraces Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lavasioth Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "name": "Quick Sheath",
+        "level": 2
+      }
+    ],
+    "name": "Lavasioth Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lavasioth Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Spread/Power Shots",
+        "level": 1
+      },
+      {
+        "name": "Spread/Power Shots",
+        "level": 1
+      }
+    ],
+    "name": "Lavasioth Greaves Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lavasioth Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Hunger Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Leather Headgear Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Leather Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Leather Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Leather Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Recovery Speed",
+        "level": 1
+      }
+    ],
+    "name": "Leather Gloves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Leather Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "name": "Leather Belt Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Leather Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Cliffhanger",
+        "level": 1
+      }
+    ],
+    "name": "Leather Trousers Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Leather Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Hunger Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Leather Headgear Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Leather Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [],
+    "name": "Leather Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Leather Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [],
+    "name": "Leather Gloves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Leather Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [],
+    "name": "Leather Belt Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Leather Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [],
+    "name": "Leather Trousers Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Leather Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 2
+      },
+      {
+        "name": "Ice Attack",
+        "level": 1
+      }
+    ],
+    "name": "Legiana Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Legiana Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Evade Window",
+        "level": 2
+      },
+      {
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "name": "Legiana Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Legiana Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Airborne",
+        "level": 1
+      },
+      {
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "name": "Legiana Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Legiana Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Ice Attack",
+        "level": 2
+      },
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Legiana Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Legiana Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Ice Resistance",
+        "level": 2
+      },
+      {
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "name": "Legiana Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Legiana Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "name": "Legiana Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Legiana Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "name": "Legiana Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Legiana Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Airborne",
+        "level": 1
+      }
+    ],
+    "name": "Legiana Vambraces Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Legiana Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Ice Attack",
+        "level": 2
+      }
+    ],
+    "name": "Legiana Coil Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Legiana Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Ice Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Legiana Greaves Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Legiana Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 2
+      }
+    ],
+    "name": "Lumu Hat Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lumu Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Master Mounter",
+        "level": 1
+      },
+      {
+        "name": "Artillery",
+        "level": 1
+      }
+    ],
+    "name": "Lumu Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lumu Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Artillery",
+        "level": 2
+      }
+    ],
+    "name": "Lumu Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lumu Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "name": "Lumu Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lumu Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 1
+      },
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "name": "Lumu Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lumu Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "name": "Lumu Hat Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lumu Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Master Mounter",
+        "level": 1
+      }
+    ],
+    "name": "Lumu Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lumu Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Artillery",
+        "level": 1
+      }
+    ],
+    "name": "Lumu Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lumu Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "name": "Lumu Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lumu Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Lumu Greaves Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Lumu Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Maximum Might",
+        "level": 2
+      },
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "name": "Nergigante Helm Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Nergigante Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 2
+      },
+      {
+        "name": "Agitator",
+        "level": 1
+      }
+    ],
+    "name": "Nergigante Mail Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Nergigante Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Agitator",
+        "level": 2
+      },
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "name": "Nergigante Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Nergigante Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "name": "Nergigante Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Nergigante Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Maximum Might",
+        "level": 1
+      },
+      {
+        "name": "Agitator",
+        "level": 1
+      }
+    ],
+    "name": "Nergigante Greaves Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Nergigante Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Maximum Might",
+        "level": 2
+      }
+    ],
+    "name": "Nergigante Helm Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Nergigante Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 2
+      }
+    ],
+    "name": "Nergigante Mail Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Nergigante Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Agitator",
+        "level": 2
+      }
+    ],
+    "name": "Nergigante Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Nergigante Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "name": "Nergigante Coil Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Nergigante Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
+    "name": "Nergigante Greaves Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Nergigante Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Bleeding Resistance",
+        "level": 2
+      },
+      {
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "name": "Odogaron Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Odogaron Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Speed Sharpening",
+        "level": 2
+      },
+      {
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Odogaron Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Odogaron Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Constitution",
+        "level": 1
+      },
+      {
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "name": "Odogaron Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Odogaron Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Critical Eye",
+        "level": 2
+      },
+      {
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "name": "Odogaron Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Odogaron Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "name": "Odogaron Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Odogaron Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Bleeding Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Odogaron Helm Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Odogaron Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Speed Sharpening",
+        "level": 2
+      }
+    ],
+    "name": "Odogaron Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Odogaron Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
+    "name": "Odogaron Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Odogaron Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "name": "Odogaron Coil Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Odogaron Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "name": "Odogaron Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Odogaron Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Sporepuff Expert",
+        "level": 2
+      }
+    ],
+    "name": "Pukei Hood Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Pukei Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Item Prolonger",
+        "level": 1
+      },
+      {
+        "name": "Botanist",
+        "level": 1
+      }
+    ],
+    "name": "Pukei Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Pukei Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Poison Resistance",
+        "level": 2
+      },
+      {
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "name": "Pukei Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Pukei Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Poison Attack",
+        "level": 2
+      }
+    ],
+    "name": "Pukei Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Pukei Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Botanist",
+        "level": 2
+      },
+      {
+        "name": "Sporepuff Expert",
+        "level": 1
+      }
+    ],
+    "name": "Pukei Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Pukei Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Sporepuff Expert",
+        "level": 1
+      }
+    ],
+    "name": "Pukei Hood Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Pukei Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Item Prolonger",
+        "level": 1
+      }
+    ],
+    "name": "Pukei Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Pukei Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Poison Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Pukei Vambraces Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Pukei Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "name": "Pukei Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Pukei Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Botanist",
+        "level": 1
+      }
+    ],
+    "name": "Pukei Greaves Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Pukei Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "level": 1
+      },
+      {
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "name": "Rath Heart Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Heart Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "level": 2
+      }
+    ],
+    "name": "Rath Heart Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Heart Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "name": "Rath Heart Braces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Heart Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 1
+      },
+      {
+        "name": "Poison Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Rath Heart Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Heart Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "level": 1
+      },
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Rath Heart Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Heart Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "name": "Rath Heart Helm Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Heart Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "name": "Rath Heart Mail Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Heart Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Rath Heart Braces Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Heart Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Rath Heart Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Heart Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "name": "Rath Heart Greaves Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Heart Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Critical Boost",
+        "level": 1
+      },
+      {
+        "name": "Intimidator",
+        "level": 2
+      }
+    ],
+    "name": "Rath Soul Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Soul Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "name": "Intimidator",
+        "level": 1
+      }
+    ],
+    "name": "Rath Soul Mail Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Soul Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 1
+      },
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Rath Soul Braces Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Soul Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 2
+      },
+      {
+        "name": "Piercing Shots",
+        "level": 1
+      }
+    ],
+    "name": "Rath Soul Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Soul Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 1
+      },
+      {
+        "name": "Cliffhanger",
+        "level": 1
+      }
+    ],
+    "name": "Rath Soul Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Soul Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "name": "Rath Soul Helm Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Soul Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "name": "Rath Soul Mail Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Soul Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "name": "Rath Soul Braces Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Soul Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Rath Soul Coil Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Soul Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "name": "Rath Soul Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rath Soul Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
+    "name": "Rathalos Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathalos Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Weakness Exploit",
+        "level": 2
+      },
+      {
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
+    "name": "Rathalos Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathalos Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "level": 2
+      },
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "name": "Rathalos Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathalos Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "name": "Rathalos Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathalos Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Jump Master",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "name": "Rathalos Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathalos Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "name": "Rathalos Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathalos Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
+    "name": "Rathalos Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathalos Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Rathalos Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathalos Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "name": "Rathalos Coil Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathalos Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "name": "Rathalos Greaves Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathalos Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Health Boost",
+        "level": 2
+      },
+      {
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "name": "Rathian Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathian Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Botanist",
+        "level": 2
+      },
+      {
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "name": "Rathian Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathian Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Poison Attack",
+        "level": 2
+      }
+    ],
+    "name": "Rathian Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathian Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Poison Resistance",
+        "level": 2
+      },
+      {
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "name": "Rathian Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathian Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Recovery Up",
+        "level": 2
+      }
+    ],
+    "name": "Rathian Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathian Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Health Boost",
+        "level": 1
+      },
+      {
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "name": "Rathian Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathian Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Botanist",
+        "level": 1
+      },
+      {
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "name": "Rathian Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathian Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "name": "Rathian Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathian Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Poison Resistance",
+        "level": 1
+      },
+      {
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "name": "Rathian Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathian Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "name": "Rathian Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Rathian Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 2
+      }
+    ],
+    "name": "Kaiser Crown Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Teostra Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Special Ammo Boost",
+        "level": 2
+      },
+      {
+        "name": "Latent Power",
+        "level": 1
+      }
+    ],
+    "name": "Kaiser Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Teostra Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
+    "name": "Kaiser Vambraces Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Teostra Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Blast Attack",
+        "level": 2
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "name": "Kaiser Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Teostra Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 2
+      },
+      {
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "name": "Kaiser Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Teostra Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 1
+      }
+    ],
+    "name": "Kaiser Crown Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Teostra Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Special Ammo Boost",
+        "level": 2
+      }
+    ],
+    "name": "Kaiser Mail Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Teostra Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "name": "Kaiser Vambraces Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Teostra Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Blast Attack",
+        "level": 2
+      }
+    ],
+    "name": "Kaiser Coil Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Teostra Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 2
+      }
+    ],
+    "name": "Kaiser Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Teostra Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Blindsider",
+        "level": 1
+      },
+      {
+        "name": "Stun Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Tzitzi Headgear Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Tzitzi Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Constitution",
+        "level": 1
+      },
+      {
+        "name": "Water Attack",
+        "level": 2
+      }
+    ],
+    "name": "Tzitzi Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Tzitzi Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "level": 2
+      },
+      {
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "name": "Tzitzi Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Tzitzi Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "level": 2
+      },
+      {
+        "name": "Water Attack",
+        "level": 1
+      }
+    ],
+    "name": "Tzitzi Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Tzitzi Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Sleep Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Tzitzi Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Tzitzi Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Blindsider",
+        "level": 1
+      }
+    ],
+    "name": "Tzitzi Headgear Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Tzitzi Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
+    "name": "Tzitzi Mail Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Tzitzi Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Tzitzi Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Tzitzi Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "name": "Tzitzi Coil Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Tzitzi Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Sleep Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Tzitzi Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Tzitzi Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Thunder Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Uragaan Helm Alpha",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Uragaan Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Partbreaker",
+        "level": 2
+      }
+    ],
+    "name": "Uragaan Mail Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Uragaan Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 1
+      },
+      {
+        "name": "Defense Boost",
+        "level": 1
+      }
+    ],
+    "name": "Uragaan Vambraces Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Uragaan Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Partbreaker",
+        "level": 1
+      },
+      {
+        "name": "Thunder Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Uragaan Coil Alpha",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Uragaan Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "name": "Uragaan Greaves Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Uragaan Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Thunder Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Uragaan Helm Beta",
+    "slots": [
+      3,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Uragaan Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "name": "Uragaan Mail Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Uragaan Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "name": "Uragaan Vambraces Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Uragaan Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "name": "Uragaan Coil Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Uragaan Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "name": "Uragaan Greaves Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Uragaan Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "name": "Vaal Hazak Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vaal Hazak Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Recovery Speed",
+        "level": 2
+      },
+      {
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "name": "Vaal Hazak Mail Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vaal Hazak Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "name": "Recovery Speed",
+        "level": 1
+      }
+    ],
+    "name": "Vaal Hazak Braces Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vaal Hazak Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "name": "Effluvia Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Vaal Hazak Coil Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vaal Hazak Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Effluvia Resistance",
+        "level": 2
+      },
+      {
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "name": "Vaal Hazak Greaves Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vaal Hazak Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "name": "Vaal Hazak Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vaal Hazak Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Recovery Speed",
+        "level": 2
+      }
+    ],
+    "name": "Vaal Hazak Mail Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vaal Hazak Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "name": "Vaal Hazak Braces Beta",
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "rank": "hr",
+    "set": "Vaal Hazak Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "name": "Vaal Hazak Coil Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vaal Hazak Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Effluvia Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Vaal Hazak Greaves Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vaal Hazak Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "name": "Paralysis Attack",
+        "level": 1
+      }
+    ],
+    "name": "Vespoid Helm Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vespoid Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Vespoid Mail Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vespoid Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Paralysis Attack",
+        "level": 1
+      }
+    ],
+    "name": "Vespoid Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vespoid Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Paralysis Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Vespoid Coil Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vespoid Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Honey Hunter",
+        "level": 1
+      },
+      {
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Vespoid Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vespoid Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "name": "Vespoid Helm Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vespoid Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Vespoid Mail Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vespoid Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Paralysis Attack",
+        "level": 1
+      }
+    ],
+    "name": "Vespoid Vambraces Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vespoid Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Vespoid Coil Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vespoid Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Honey Hunter",
+        "level": 1
+      }
+    ],
+    "name": "Vespoid Greaves Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Vespoid Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "level": 1
+      },
+      {
+        "name": "Special Ammo Boost",
+        "level": 1
+      }
+    ],
+    "name": "Xeno'jiiva Headgear Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Xeno'jiiva Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Power Prolonger",
+        "level": 2
+      },
+      {
+        "name": "Blight Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Xeno'jiiva Hide Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Xeno'jiiva Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "level": 1
+      },
+      {
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "name": "Xeno'jiiva Claws Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Xeno'jiiva Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Blight Resistance",
+        "level": 2
+      },
+      {
+        "name": "Special Ammo Boost",
+        "level": 1
+      }
+    ],
+    "name": "Xeno'jiiva Spine Alpha",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Xeno'jiiva Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "level": 1
+      },
+      {
+        "name": "Power Prolonger",
+        "level": 1
+      }
+    ],
+    "name": "Xeno'jiiva Spurs Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Xeno'jiiva Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "level": 1
+      }
+    ],
+    "name": "Xeno'jiiva Headgear Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Xeno'jiiva Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Power Prolonger",
+        "level": 2
+      }
+    ],
+    "name": "Xeno'jiiva Hide Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Xeno'jiiva Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "level": 1
+      }
+    ],
+    "name": "Xeno'jiiva Claws Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Xeno'jiiva Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Blight Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Xeno'jiiva Spine Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Xeno'jiiva Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "level": 1
+      }
+    ],
+    "name": "Xeno'jiiva Spurs Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Xeno'jiiva Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 1
+      },
+      {
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "name": "Zorah Headgear Apha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Zorah Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Blast Attack",
+        "level": 2
+      },
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "name": "Zorah Hide Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Zorah Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "name": "Bombardier",
+        "level": 1
+      }
+    ],
+    "name": "Zorah Claws Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Zorah Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Fortify",
+        "level": 1
+      },
+      {
+        "name": "Tremor Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Zorah Spine Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Zorah Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Bombardier",
+        "level": 2
+      },
+      {
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
+    "name": "Zorah Spurs Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Zorah Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Zorah Headgear Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Zorah Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Blast Attack",
+        "level": 2
+      }
+    ],
+    "name": "Zorah Hide Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Zorah Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "name": "Zorah Claws Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Zorah Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Fortify",
+        "level": 1
+      }
+    ],
+    "name": "Zorah Spine Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Zorah Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Bombardier",
+        "level": 2
+      }
+    ],
+    "name": "Zorah Spurs Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Zorah Beta Set"
   }
 ]

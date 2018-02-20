@@ -1,0 +1,86 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        }
+      ],
+      "name": "Dober Helm Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 2
+        }
+      ],
+      "name": "Dober Mail Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Stamina Surge",
+          "level": 1
+        },
+        {
+          "name": "Mushroomancer",
+          "level": 1
+        }
+      ],
+      "name": "Dober Vambraces Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Dragon Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Dober Coil Beta",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Attack Boost",
+          "level": 2
+        }
+      ],
+      "name": "Dober Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Dober Beta Set",
+  "rarity": 7
+}

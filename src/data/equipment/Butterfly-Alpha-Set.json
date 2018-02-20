@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 2
+        }
+      ],
+      "name": "Butterfly Vertex Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 1
+        },
+        {
+          "name": "Quick Sheath",
+          "level": 2
+        }
+      ],
+      "name": "Butterfly Thorax Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 2
+        },
+        {
+          "name": "Leap of Faith",
+          "level": 1
+        }
+      ],
+      "name": "Butterfly Brachia Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "level": 1
+        },
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        }
+      ],
+      "name": "Butterfly Elytra Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Forager's Luck",
+          "level": 1
+        },
+        {
+          "name": "Evade Window",
+          "level": 1
+        }
+      ],
+      "name": "Butterfly Crura Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Butterfly Alpha Set",
+  "rarity": 5
+}

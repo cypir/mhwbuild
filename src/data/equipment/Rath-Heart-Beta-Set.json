@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 1
+        }
+      ],
+      "name": "Rath Heart Helm Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "name": "Rath Heart Mail Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1
+        }
+      ],
+      "name": "Rath Heart Braces Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "name": "Rath Heart Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Tool Specialist",
+          "level": 1
+        }
+      ],
+      "name": "Rath Heart Greaves Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Rath Heart Beta Set",
+  "rarity": 6
+}

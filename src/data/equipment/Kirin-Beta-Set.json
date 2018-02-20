@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Marathon Runner",
+          "level": 2
+        }
+      ],
+      "name": "Kirin Horn Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Divine Blessing",
+          "level": 2
+        }
+      ],
+      "name": "Kirin Jacket Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Thunder Attack",
+          "level": 2
+        }
+      ],
+      "name": "Kirin Longarms Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Blight Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Kirin Hoop Beta",
+      "slots": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 2
+        }
+      ],
+      "name": "Kirin Leg Guards Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "set": "Kirin Beta Set",
+  "rarity": 6
+}

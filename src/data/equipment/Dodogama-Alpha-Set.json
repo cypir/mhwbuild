@@ -1,0 +1,90 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Blast Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Dodogama Helm Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "level": 2
+        }
+      ],
+      "name": "Dodogama Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 2
+        }
+      ],
+      "name": "Dodogama Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Artillery",
+          "level": 2
+        },
+        {
+          "name": "Blast Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Dodogama Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Capacity Boost",
+          "level": 1
+        },
+        {
+          "name": "Blast Attack",
+          "level": 1
+        }
+      ],
+      "name": "Dodogame Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Dodogama Alpha Set",
+  "rarity": 5
+}

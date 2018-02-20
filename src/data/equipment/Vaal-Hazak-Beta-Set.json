@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        }
+      ],
+      "name": "Vaal Hazak Helm Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "level": 2
+        }
+      ],
+      "name": "Vaal Hazak Mail Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        }
+      ],
+      "name": "Vaal Hazak Braces Beta",
+      "slots": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Peak Performance",
+          "level": 1
+        }
+      ],
+      "name": "Vaal Hazak Coil Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Effluvia Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Vaal Hazak Greaves Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "set": "Vaal Hazak Beta Set",
+  "rarity": 8
+}

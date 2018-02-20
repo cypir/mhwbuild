@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        },
+        {
+          "name": "Blast Attack",
+          "level": 1
+        }
+      ],
+      "name": "Zorah Headgear Apha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "level": 2
+        },
+        {
+          "name": "Windproof",
+          "level": 1
+        }
+      ],
+      "name": "Zorah Hide Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Bombardier",
+          "level": 1
+        }
+      ],
+      "name": "Zorah Claws Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Fortify",
+          "level": 1
+        },
+        {
+          "name": "Tremor Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Zorah Spine Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 2
+        },
+        {
+          "name": "Earplugs",
+          "level": 1
+        }
+      ],
+      "name": "Zorah Spurs Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Zorah Alpha Set",
+  "rarity": 6
+}

@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 1
+        }
+      ],
+      "name": "Kaiser Crown Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Special Ammo Boost",
+          "level": 2
+        }
+      ],
+      "name": "Kaiser Mail Beta",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        }
+      ],
+      "name": "Kaiser Vambraces Beta",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "level": 2
+        }
+      ],
+      "name": "Kaiser Coil Beta",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Latent Power",
+          "level": 2
+        }
+      ],
+      "name": "Kaiser Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Teostra Beta Set",
+  "rarity": 8
+}

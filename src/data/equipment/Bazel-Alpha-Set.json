@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 2
+        },
+        {
+          "name": "Blast Attack",
+          "level": 1
+        }
+      ],
+      "name": "Bazel Helm Alpha",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Guard",
+          "level": 2
+        },
+        {
+          "name": "Blast Resistance",
+          "level": 2
+        }
+      ],
+      "name": "Bazel Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Critical Draw",
+          "level": 2
+        },
+        {
+          "name": "Earplugs",
+          "level": 1
+        }
+      ],
+      "name": "Bazel Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Earplugs",
+          "level": 2
+        },
+        {
+          "name": "Jump Master",
+          "level": 1
+        }
+      ],
+      "name": "Bazel Coil Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 2
+        },
+        {
+          "name": "Critical Draw",
+          "level": 1
+        }
+      ],
+      "name": "Bazel Greaves Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Bazel Alpha Set",
+  "rarity": 7
+}

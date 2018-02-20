@@ -1,0 +1,94 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Sporepuff Expert",
+          "level": 2
+        }
+      ],
+      "name": "Pukei Hood Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Item Prolonger",
+          "level": 1
+        },
+        {
+          "name": "Botanist",
+          "level": 1
+        }
+      ],
+      "name": "Pukei Mail Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "level": 2
+        },
+        {
+          "name": "Poison Attack",
+          "level": 1
+        }
+      ],
+      "name": "Pukei Vambraces Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Poison Attack",
+          "level": 2
+        }
+      ],
+      "name": "Pukei Coil Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Botanist",
+          "level": 2
+        },
+        {
+          "name": "Sporepuff Expert",
+          "level": 1
+        }
+      ],
+      "name": "Pukei Greaves Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Pukei Alpha Set",
+  "rarity": 5
+}

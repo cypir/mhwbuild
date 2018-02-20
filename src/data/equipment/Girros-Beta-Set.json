@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Horn Maestro",
+          "level": 1
+        }
+      ],
+      "name": "Girros Mask Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Girros Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "level": 1
+        }
+      ],
+      "name": "Girros Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Effluvial Expert",
+          "level": 1
+        }
+      ],
+      "name": "Girros Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Paralysis Attack",
+          "level": 1
+        }
+      ],
+      "name": "Girros Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Girros Beta Set",
+  "rarity": 5
+}

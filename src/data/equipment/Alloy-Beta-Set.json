@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Windproof",
+          "level": 1
+        }
+      ],
+      "name": "Alloy Helm Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Water Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Alloy Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Defense Boost",
+          "level": 1
+        }
+      ],
+      "name": "Alloy Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Poison Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Alloy Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Speed Sharpening",
+          "level": 1
+        }
+      ],
+      "name": "Alloy Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Alloy Beta Set",
+  "rarity": 5
+}

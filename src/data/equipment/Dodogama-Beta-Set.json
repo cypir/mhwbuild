@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Blast Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Dodogama Helm Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Blast Attack",
+          "level": 1
+        }
+      ],
+      "name": "Dodogama Mail Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Bombardier",
+          "level": 1
+        }
+      ],
+      "name": "Dodogama Vambraces Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Artillery",
+          "level": 2
+        }
+      ],
+      "name": "Dodogama Coil Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Capacity Boost",
+          "level": 1
+        }
+      ],
+      "name": "Dodogama Greaves Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Dodogama Beta Set",
+  "rarity": 5
+}

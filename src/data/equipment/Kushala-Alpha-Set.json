@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "level": 2
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "name": "Kushala Glare Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 2
+        },
+        {
+          "name": "Focus",
+          "level": 1
+        }
+      ],
+      "name": "Kushala Cista Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Evade Window",
+          "level": 2
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "name": "Kushala Grip Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Ice Attack",
+          "level": 2
+        },
+        {
+          "name": "Evade Extender",
+          "level": 1
+        }
+      ],
+      "name": "Kushala Cocoon Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Evade Extender",
+          "level": 2
+        },
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "name": "Kushala Crus Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Kushala Alpha Set",
+  "rarity": 8
+}
