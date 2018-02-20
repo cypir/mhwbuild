@@ -36,7 +36,7 @@ class IndexPage extends React.Component {
       <div>
         <SkillsInputForm onFormSave={this.onFormSave} />
         <Typography variant="title" className={classes.listHeader}>
-          {`${this.state.matchingEquipmentSets.length} Results Found`}
+          {`${this.state.matchingEquipmentSets.length} Combinations Found`}
         </Typography>
         <EquipmentSetList
           matchingEquipmentSets={this.state.matchingEquipmentSets}

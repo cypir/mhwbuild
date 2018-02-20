@@ -100,7 +100,7 @@ const SkillAutocompleteField = props => {
             })
           })}
           {isOpen ? (
-            <Paper square>
+            <Paper square style={{ position: "absolute", zIndex: 1050 }}>
               {getSuggestions(inputValue).map((suggestion, index) =>
                 renderSuggestion({
                   suggestion,
