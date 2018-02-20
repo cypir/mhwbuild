@@ -3,9 +3,8 @@ import Link from "gatsby-link";
 import _ from "lodash";
 import skills from "../data/skill_name.json";
 import calculate from "../util/calculate";
-import EquipmentSetCard from "../components/EquipmentSetCard";
 import { withStyles } from "material-ui/styles";
-import Grid from "material-ui/Grid";
+import EquipmentSetList from "../components/EquipmentSetList";
 
 const styles = theme => ({
   container: {
@@ -88,15 +87,9 @@ class IndexPage extends React.Component {
           <button type="submit">Submit</button>
         </form>
         Sets that match your criteria: <br />
-        <Grid container spacing={8}>
-          {this.state.matchingEquipmentSets.map((set, index) => {
-            return (
-              <Grid item xs={12} md={6}>
-                <EquipmentSetCard key={index} set={set} index={index} />
-              </Grid>
-            );
-          })}
-        </Grid>
+        <EquipmentSetList
+          matchingEquipmentSets={this.state.matchingEquipmentSets}
+        />
       </div>
     );
   }
