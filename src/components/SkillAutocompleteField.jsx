@@ -18,6 +18,7 @@ const renderInput = inputProps => {
       {...other}
       fullWidth
       inputRef={ref}
+      label="Search for a skill"
       InputProps={{
         classes: {
           input: classes.input
@@ -95,7 +96,6 @@ const SkillAutocompleteField = props => {
           {renderInput({
             classes,
             InputProps: getInputProps({
-              placeholder: "Search for a skill",
               id: "integration-downshift"
             })
           })}

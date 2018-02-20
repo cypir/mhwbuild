@@ -5,8 +5,19 @@ import Helmet from "react-helmet";
 import "normalize.css";
 import Header from "../components/Header";
 import "typeface-roboto";
+import MainAppBar from "../components/MainAppBar";
 
-const TemplateWrapper = ({ children }) => (
+import { withStyles } from "material-ui/styles";
+
+const styles = {
+  content: {
+    marginTop: "30px",
+    marginLeft: "50px",
+    marginRight: "50px"
+  }
+};
+
+const TemplateWrapper = ({ children, classes }) => (
   <div>
     <Helmet
       title="Monster Hunter World Build Creator"
@@ -21,7 +32,8 @@ const TemplateWrapper = ({ children }) => (
         }
       ]}
     />
-    {children()}
+    <MainAppBar />
+    <div className={classes.content}>{children()}</div>
   </div>
 );
 
@@ -29,4 +41,4 @@ TemplateWrapper.propTypes = {
   children: PropTypes.func
 };
 
-export default TemplateWrapper;
+export default withStyles(styles)(TemplateWrapper);

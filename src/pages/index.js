@@ -6,11 +6,11 @@ import calculate from "../util/calculate";
 import { withStyles } from "material-ui/styles";
 import EquipmentSetList from "../components/EquipmentSetList";
 import SkillsInputForm from "../components/SkillsInputForm";
+import Typography from "material-ui/Typography";
 
 const styles = theme => ({
-  container: {
-    display: "flex",
-    flexWrap: "wrap"
+  listHeader: {
+    marginTop: "24px"
   }
 });
 
@@ -34,7 +34,9 @@ class IndexPage extends React.Component {
     return (
       <div>
         <SkillsInputForm onFormSave={this.onFormSave} />
-        Sets that match your criteria: <br />
+        <Typography variant="title" className={classes.listHeader}>
+          Sets that match your criteria
+        </Typography>
         <EquipmentSetList
           matchingEquipmentSets={this.state.matchingEquipmentSets}
         />

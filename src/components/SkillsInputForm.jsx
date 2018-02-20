@@ -2,8 +2,19 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import skillNamesJson from "../data/skill_name.json";
 import SkillAutocompleteField from "./SkillAutocompleteField";
+import TextField from "material-ui/TextField";
+import Grid from "material-ui/Grid";
+import Button from "material-ui/Button";
+import { withStyles } from "material-ui/styles";
 
 const skillNames = Object.keys(skillNamesJson);
+
+const styles = theme => ({
+  buttonContainer: {
+    display: "flex",
+    justifyContent: "flex-end"
+  }
+});
 
 /**
  * Auto complete, dynamically generated form.
@@ -15,7 +26,7 @@ class SkillsInputForm extends Component {
   constructor() {
     super();
     this.state = {
-      skillsWanted: []
+      skillsWanted: [{ name: "", level: 1 }]
     };
   }
 
@@ -59,30 +70,41 @@ class SkillsInputForm extends Component {
   };
 
   render() {
+    const { classes } = this.props;
     return (
       <div>
-        <button onClick={this.handleAddWantedSkill}>Add Another Skill</button>
         <form onSubmit={this.onSubmit}>
-          {this.state.skillsWanted.map((skill, idx) => {
+          {this.state.skillsWanted.map((skill, index) => {
             return (
-              <div key={idx}>
-                {/* <input
-                  value={skill.name}
-                  onChange={this.handleSkillNameChange(idx)}
-                /> */}
-                <SkillAutocompleteField
-                  handleSkillNameChange={this.handleSkillNameChange}
-                  value={skill.name}
-                  index={idx}
-                />
-                <input
-                  value={skill.level}
-                  onChange={this.handleSkillLevelChange(idx)}
-                />
+              <div key={index}>
+                <Grid container spacing={8}>
+                  <Grid item xs={12} sm={9} key={index}>
+                    <SkillAutocompleteField
+                      handleSkillNameChange={this.handleSkillNameChange}
+                      value={skill.name}
+                      index={index}
+                    />
+                  </Grid>
+                  <Grid item xs={12} sm={3} key={`${index}_level`}>
+                    <TextField
+                      label="Skill Level"
+                      fullWidth
+                      value={skill.level}
+                      onChange={this.handleSkillLevelChange(index)}
+                    />
+                  </Grid>
+                </Grid>
               </div>
             );
           })}
-          <button type="submit">Submit</button>
+          <div className={classes.buttonContainer}>
+            <Button color="primary" onClick={this.handleAddWantedSkill}>
+              Add Another Skill
+            </Button>
+            <Button color="primary" type="submit">
+              Submit
+            </Button>
+          </div>
         </form>
       </div>
     );
@@ -93,4 +115,4 @@ SkillsInputForm.propTypes = {
   onFormSave: PropTypes.func.isRequired
 };
 
-export default SkillsInputForm;
+export default withStyles(styles)(SkillsInputForm);
