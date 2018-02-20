@@ -25,6 +25,12 @@ class IndexPage extends React.Component {
 
   onFormSave = skillsWanted => {
     let sets = calculate.generateSets(skillsWanted);
+
+    //sort sets by fewest pieces of gear required
+    sets.sort((setA, setB) => {
+      return Object.keys(setA).length - Object.keys(setB).length;
+    });
+
     this.setState({
       matchingEquipmentSets: sets
     });

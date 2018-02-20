@@ -11,7 +11,7 @@ import { withStyles } from "material-ui/styles";
 
 const styles = theme => ({
   content: {
-    marginTop: "30px",
+    marginTop: "16px",
     marginLeft: "50px",
     marginRight: "50px",
 

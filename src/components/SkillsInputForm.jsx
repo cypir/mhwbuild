@@ -9,6 +9,16 @@ import { withStyles } from "material-ui/styles";
 import IconButton from "material-ui/IconButton";
 import DeleteIcon from "material-ui-icons/Delete";
 import nanoid from "nanoid";
+import AddIcon from "material-ui-icons/Add";
+
+import ExpansionPanel, {
+  ExpansionPanelSummary,
+  ExpansionPanelDetails
+} from "material-ui/ExpansionPanel";
+import ExpandMoreIcon from "material-ui-icons/ExpandMore";
+
+import Typography from "material-ui/Typography";
+import SearchIcon from "material-ui-icons/Search";
 
 const skillNames = Object.keys(skillNamesJson);
 
@@ -20,6 +30,15 @@ const styles = theme => ({
   },
   fieldContainer: {
     marginTop: "8px"
+  },
+  expansionDetails: {
+    display: "block"
+  },
+  skillsHeader: {
+    display: "flex"
+  },
+  addButton: {
+    marginTop: "-13px"
   }
 });
 
@@ -33,7 +52,14 @@ class SkillsInputForm extends Component {
   constructor() {
     super();
     this.state = {
-      skillsWanted: [{ name: "", level: 1, id: nanoid() }]
+      skillsWanted: [
+        {
+          name: "",
+          level: 1,
+          id: nanoid(),
+          ui: { nameError: "", levelError: "" }
+        }
+      ]
     };
   }
 
@@ -42,7 +68,12 @@ class SkillsInputForm extends Component {
     this.setState({
       skillsWanted: [
         ...this.state.skillsWanted,
-        { name: "", level: 1, id: nanoid() }
+        {
+          name: "",
+          level: 1,
+          id: nanoid(),
+          ui: { nameError: "", levelError: "" }
+        }
       ]
     });
   };
@@ -68,7 +99,10 @@ class SkillsInputForm extends Component {
           return item;
         }
         // Otherwise, this is the one we want - return an updated value
-        return { ...this.state.skillsWanted[idx], level: evt.target.value };
+        return {
+          ...this.state.skillsWanted[idx],
+          level: parseInt(evt.target.value)
+        };
       })
     });
   };
@@ -92,55 +126,103 @@ class SkillsInputForm extends Component {
   onSubmit = e => {
     e.preventDefault();
     console.log(this.state);
-    this.props.onFormSave(this.state.skillsWanted);
+
+    let errorFound = false;
+    var self = this;
+
+    let copy = [...this.state.skillsWanted];
+
+    //iterate through and do validations against the skill names
+    copy.forEach(skill => {
+      //compare name
+      if (!skillNamesJson[skill.name]) {
+        skill.ui.nameError = "Skill name must be valid";
+        return (errorFound = true);
+      } else {
+        skill.ui.nameError = "";
+      }
+
+      console.log(skill.level);
+
+      if (isNaN(skill.level) || skill.level === "" || skill.level < 1) {
+        skill.ui.levelError = "Skill level must be greater than 0";
+        return (errorFound = true);
+      } else {
+        skill.ui.levelError = "";
+      }
+    });
+
+    this.setState({ skillsWanted: copy });
+
+    if (!errorFound) {
+      this.props.onFormSave(this.state.skillsWanted);
+    }
   };
 
   render() {
     const { classes } = this.props;
     return (
       <div>
-        <form onSubmit={this.onSubmit}>
-          {this.state.skillsWanted.map((skill, index) => {
-            return (
-              <div key={skill.id} className={classes.fieldContainer}>
-                <Grid container spacing={8}>
-                  <Grid item xs={12} sm={9}>
-                    <SkillAutocompleteField
-                      handleSkillNameChange={this.handleSkillNameChange}
-                      value={skill.name}
-                      index={index}
-                    />
-                  </Grid>
-                  <Grid item xs={12} sm={2} key={`${index}_level`}>
-                    <TextField
-                      label="Skill Level"
-                      fullWidth
-                      value={skill.level}
-                      onChange={this.handleSkillLevelChange(index)}
-                      type="number"
-                    />
-                  </Grid>
-                  <Grid item xs={12} sm={1} key={`${index}_delete`}>
-                    <IconButton
-                      aria-label="Delete"
-                      onClick={this.handleDeleteWantedSkill(index)}
-                    >
-                      <DeleteIcon />
-                    </IconButton>
-                  </Grid>
-                </Grid>
+        <ExpansionPanel defaultExpanded>
+          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+            <Typography variant="subheading">Search Criteria</Typography>
+          </ExpansionPanelSummary>
+          <ExpansionPanelDetails className={classes.expansionDetails}>
+            <div className={classes.skillsHeader}>
+              <Typography variant="title">Required Skills</Typography>
+              <IconButton
+                color="primary"
+                aria-label="Add"
+                className={classes.addButton}
+                onClick={this.handleAddWantedSkill}
+              >
+                <AddIcon />
+              </IconButton>
+            </div>
+            <form onSubmit={this.onSubmit} style={{ width: "100%" }}>
+              {this.state.skillsWanted.map((skill, index) => {
+                return (
+                  <div key={skill.id} className={classes.fieldContainer}>
+                    <Grid container spacing={8}>
+                      <Grid item xs={6} sm={9}>
+                        <SkillAutocompleteField
+                          handleSkillNameChange={this.handleSkillNameChange}
+                          index={index}
+                          errorText={skill.ui.nameError}
+                        />
+                      </Grid>
+                      <Grid item xs={4} sm={2} key={`${index}_level`}>
+                        <TextField
+                          error={skill.ui.levelError !== ""}
+                          label="Skill Level"
+                          fullWidth
+                          value={skill.level}
+                          onChange={this.handleSkillLevelChange(index)}
+                          type="number"
+                          helperText={skill.ui.levelError}
+                        />
+                      </Grid>
+                      <Grid item xs={2} sm={1} key={`${index}_delete`}>
+                        <IconButton
+                          aria-label="Delete"
+                          onClick={this.handleDeleteWantedSkill(index)}
+                        >
+                          <DeleteIcon />
+                        </IconButton>
+                      </Grid>
+                    </Grid>
+                  </div>
+                );
+              })}
+              <div className={classes.buttonContainer}>
+                <Button color="primary" type="submit">
+                  <SearchIcon />
+                  Search
+                </Button>
               </div>
-            );
-          })}
-          <div className={classes.buttonContainer}>
-            <Button color="primary" onClick={this.handleAddWantedSkill}>
-              Add Another Skill
-            </Button>
-            <Button color="primary" type="submit">
-              Submit
-            </Button>
-          </div>
-        </form>
+            </form>
+          </ExpansionPanelDetails>
+        </ExpansionPanel>
       </div>
     );
   }

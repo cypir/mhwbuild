@@ -115,7 +115,8 @@ module.exports = {
         }
 
         //if the difference in length is 0, then possibleParentSet is
-        //indeed a parent and we should skip it, as it is inefficient.
+        //indeed a parent and we should skip it, as it is inefficient. That is, we could
+        //have achieved a set that achieves the criteria in less pieces.
         //otherwise, the possibleParentSet is not a parent, so we push that in
         if (!isParent) {
           efficientCriteriaSets.push(possibleParentSet);
@@ -132,46 +133,60 @@ module.exports = {
     //some results will not make sense, like possibly two gauntlets. We must throw
     //these sets out
     let categorizedBySkillArray = _.values(setsWithSkillsWanted);
-    let cp = Combinatrics.cartesianProduct(
-      ...categorizedBySkillArray
-    ).toArray();
 
-    //remove any sets that have duplicate parts (two gloves, etc)
+    //if any of the sets are empty, then there are no sets that satisfy the individual
+    //skill requirement, so logically our result set will be empty. We cannot pass an
+    //empty array into the cartesian product, because that will generate an error.
+    let containsEmptySet = categorizedBySkillArray.some(item => {
+      return item.length === 0;
+    });
+
+    //sets that match criteria
     let resultSets = [];
 
-    //we iterate through the armor that satisfies each skill requirement
-    cp.forEach(skillSet => {
-      //we will convert this set back into an object with its individual types.
-      //if there are any duplicates, it will be skipped
-      let mappedSet = {};
-      let duplicate = false;
+    //if each wanted skill level can be created individually, then we begin trying to combine
+    //them. Otherwise, we just return an empty result set, as there is at least one skill
+    //that cannot satisfied. For example, Affinity Sliding at level 3 is not possible from
+    //equipment pieces alone.
+    if (!containsEmptySet) {
+      let cp = Combinatrics.cartesianProduct(
+        ...categorizedBySkillArray
+      ).toArray();
 
-      //continue loop as long as duplicate is not found
-      for (let i = 0; i < skillSet.length; i++) {
-        for (let k = 0; k < skillSet[i].length && !duplicate; k++) {
-          let piece = skillSet[i][k];
-          if (mappedSet[piece.part]) {
-            //if the name is an exact match, then we don't worry about it.
-            //could be the case if one piece has both skills that a user wants.
-            if (
-              piece.name.toLowerCase() !==
-              mappedSet[piece.part].name.toLowerCase()
-            ) {
-              duplicate = true;
+      //we iterate through the armor that satisfies each skill requirement
+      cp.forEach(skillSet => {
+        //we will convert this set back into an object with its individual types.
+        //if there are any duplicates, it will be skipped
+        let mappedSet = {};
+        let duplicate = false;
+
+        //continue loop as long as duplicate is not found
+        for (let i = 0; i < skillSet.length; i++) {
+          for (let k = 0; k < skillSet[i].length && !duplicate; k++) {
+            let piece = skillSet[i][k];
+            if (mappedSet[piece.part]) {
+              //if the name is an exact match, then we don't worry about it.
+              //could be the case if one piece has both skills that a user wants.
+              if (
+                piece.name.toLowerCase() !==
+                mappedSet[piece.part].name.toLowerCase()
+              ) {
+                duplicate = true;
+              }
+            } else {
+              //add this piece to the mapped set
+              mappedSet[piece.part] = piece;
             }
-          } else {
-            //add this piece to the mapped set
-            mappedSet[piece.part] = piece;
           }
         }
-      }
 
-      //if we looked through the set and found no duplicate parts,
-      //then this is a valid set that matches their criteria
-      if (!duplicate) {
-        resultSets.push(mappedSet);
-      }
-    });
+        //if we looked through the set and found no duplicate parts,
+        //then this is a valid set that matches their criteria
+        if (!duplicate) {
+          resultSets.push(mappedSet);
+        }
+      });
+    }
 
     return resultSets;
   }

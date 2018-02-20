@@ -11,13 +11,15 @@ import skillNamesJson from "../data/skill_name.json";
 const skillNames = Object.keys(skillNamesJson);
 
 const renderInput = inputProps => {
-  const { InputProps, classes, ref, ...other } = inputProps;
+  const { InputProps, classes, errorText, ref, ...other } = inputProps;
 
   return (
     <TextField
       {...other}
       fullWidth
       inputRef={ref}
+      error={errorText !== ""}
+      helperText={errorText}
       label="Search for a skill"
       InputProps={{
         classes: {
@@ -79,7 +81,7 @@ const styles = {
 };
 
 const SkillAutocompleteField = props => {
-  const { classes } = props;
+  const { classes, errorText } = props;
 
   return (
     <Downshift onInputValueChange={props.handleSkillNameChange(props.index)}>
@@ -95,6 +97,7 @@ const SkillAutocompleteField = props => {
         <div>
           {renderInput({
             classes,
+            errorText,
             InputProps: getInputProps({
               id: "integration-downshift"
             })
@@ -120,8 +123,8 @@ const SkillAutocompleteField = props => {
 
 SkillAutocompleteField.propTypes = {
   handleSkillNameChange: PropTypes.func.isRequired,
-  value: PropTypes.string.isRequired,
-  index: PropTypes.number.isRequired
+  index: PropTypes.number.isRequired,
+  errorText: PropTypes.string.isRequired
 };
 
 export default withStyles(styles)(SkillAutocompleteField);
