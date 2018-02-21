@@ -168,6 +168,7 @@ class SkillsInputForm extends Component {
             <Typography variant="subheading">Search Criteria</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.expansionDetails}>
+            <Typography variant="title">Slots</Typography>
             <div className={classes.skillsHeader}>
               <Typography variant="title">Required Skills</Typography>
               <IconButton
