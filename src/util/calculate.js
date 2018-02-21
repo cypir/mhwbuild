@@ -137,9 +137,10 @@ module.exports = {
     //if any of the sets are empty, then there are no sets that satisfy the individual
     //skill requirement, so logically our result set will be empty. We cannot pass an
     //empty array into the cartesian product, because that will generate an error.
-    let containsEmptySet = categorizedBySkillArray.some(item => {
-      return item.length === 0;
-    });
+    let containsEmptySet =
+      categorizedBySkillArray.some(item => {
+        return item.length === 0;
+      }) || categorizedBySkillArray.length === 0;
 
     //sets that match criteria
     let resultSets = [];

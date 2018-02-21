@@ -70,13 +70,14 @@ class SkillsInputForm extends Component {
     super();
     this.state = {
       skillsWanted: [
-        // {
-        //   name: "",
-        //   level: 1,
-        //   id: nanoid(),
-        //   ui: { nameError: "", levelError: "" }
-        // }
-      ]
+        {
+          name: "",
+          level: 1,
+          id: nanoid(),
+          ui: { nameError: "", levelError: "" }
+        }
+      ],
+      slotsWanted: [0, 0, 0]
     };
   }
 
@@ -176,6 +177,13 @@ class SkillsInputForm extends Component {
     }
   };
 
+  handleSlotChanged = index => e => {
+    const slotsWanted = this.state.slotsWanted.slice();
+    slotsWanted[index] = parseInt(e.target.value);
+
+    this.setState({ slotsWanted });
+  };
+
   render() {
     const { classes } = this.props;
     return (
@@ -199,15 +207,19 @@ class SkillsInputForm extends Component {
             <div className={classes.slotsSection}>
               <Typography variant="title">Decoration Slots</Typography>
               <Grid container spacing={8}>
-                <Grid item xs={4}>
-                  <TextField label="# Level 1" fullWidth type="number" />
-                </Grid>
-                <Grid item xs={4}>
-                  <TextField label="# Level 2" fullWidth type="number" />
-                </Grid>
-                <Grid item xs={4}>
-                  <TextField label="# Level 3" fullWidth type="number" />
-                </Grid>
+                {this.state.slotsWanted.map((slot, index) => {
+                  return (
+                    <Grid item xs={4} key={index}>
+                      <TextField
+                        label={`# Level ${index}`}
+                        fullWidth
+                        type="number"
+                        onChange={this.handleSlotChanged(index)}
+                        value={this.state.slotsWanted[index]}
+                      />
+                    </Grid>
+                  );
+                })}
               </Grid>
             </div>
             <div className={classes.skillsHeader}>
