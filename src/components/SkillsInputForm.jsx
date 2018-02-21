@@ -9,7 +9,7 @@ import { withStyles } from "material-ui/styles";
 import IconButton from "material-ui/IconButton";
 import DeleteIcon from "material-ui-icons/Delete";
 import nanoid from "nanoid";
-import AddIcon from "material-ui-icons/Add";
+import AddIcon from "material-ui-icons/AddCircleOutline";
 
 import ExpansionPanel, {
   ExpansionPanelSummary,
@@ -74,16 +74,17 @@ class SkillsInputForm extends Component {
     super();
     this.state = {
       skillsWanted: [
-        {
-          name: "",
-          level: 1,
-          id: nanoid(),
-          ui: { nameError: "", levelError: "" }
-        }
+        // {
+        //   name: "",
+        //   level: 1,
+        //   id: nanoid(),
+        //   ui: { nameError: "", levelError: "" }
+        // }
       ],
       slotsWanted: [0, 0, 0],
       slotsMinTotal: 0,
-      slotType: "minTotal"
+      slotType: "minTotal",
+      requireSetBonus: false
     };
   }
 
@@ -166,8 +167,6 @@ class SkillsInputForm extends Component {
         skill.ui.nameError = "";
       }
 
-      console.log(skill.level);
-
       if (isNaN(skill.level) || skill.level === "" || skill.level < 1) {
         skill.ui.levelError = "Skill level must be greater than 0";
         return (errorFound = true);
@@ -205,17 +204,25 @@ class SkillsInputForm extends Component {
             <div>
               <Tooltip
                 placement="top-start"
-                title="Force at least one set bonus to exist in the set."
+                title="Filters for sets that allow possibility of set bonus."
               >
                 <FormGroup row>
                   <FormControlLabel
-                    control={<Checkbox />}
+                    control={
+                      <Checkbox
+                        checked={this.state.requireSetBonus}
+                        onChange={(e, checked) => {
+                          this.setState({ requireSetBonus: checked });
+                        }}
+                      />
+                    }
                     label="Has Set Bonus"
                   />
                 </FormGroup>
               </Tooltip>
             </div>
-            <div className={classes.slotsSection}>
+
+            {/* <div className={classes.slotsSection}>
               <Typography variant="title">Decoration Slots</Typography>
               <FormControl component="fieldset" required>
                 <RadioGroup
@@ -256,7 +263,8 @@ class SkillsInputForm extends Component {
                 <div id="by-level">
                   <Typography variant="caption">
                     Minimum number of decoration slots that a set should have
-                    per decoration level. Leave at 0 to skip this criteria.
+                    per decoration level. Leave at 0 to skip this criteria. The
+                    filter is applied after minimizing on skill critieria.
                   </Typography>
                   <div style={{ marginTop: "8px" }}>
                     <Grid container spacing={8}>
@@ -277,10 +285,16 @@ class SkillsInputForm extends Component {
                   </div>
                 </div>
               )}
-            </div>
+            </div> */}
+
             <div className={classes.skillsHeader}>
-              <Typography variant="title">Skills</Typography>
               <Tooltip
+                placement="top-start"
+                title="Add a new skill and skill level criteria for set results."
+              >
+                <Typography variant="title">Skill Requirements</Typography>
+              </Tooltip>
+              {/* <Tooltip
                 placement="top-start"
                 title="Add a new skill and skill level criteria."
               >
@@ -292,12 +306,8 @@ class SkillsInputForm extends Component {
                 >
                   <AddIcon />
                 </IconButton>
-              </Tooltip>
+              </Tooltip> */}
             </div>
-            <Typography variant="caption">
-              Skills and corresponding skill levels that each set should have at
-              minimum.
-            </Typography>
             <form onSubmit={this.onSubmit} style={{ width: "100%" }}>
               {this.state.skillsWanted.map((skill, index) => {
                 return (
@@ -313,7 +323,7 @@ class SkillsInputForm extends Component {
                       <Grid item xs={4} sm={2} key={`${index}_level`}>
                         <TextField
                           error={skill.ui.levelError !== ""}
-                          label="Skill Level"
+                          label="Level"
                           fullWidth
                           value={skill.level}
                           onChange={this.handleSkillLevelChange(index)}
@@ -333,6 +343,10 @@ class SkillsInputForm extends Component {
                   </div>
                 );
               })}
+              <Button color="primary" onClick={this.handleAddWantedSkill}>
+                <AddIcon />
+                Add Skill Requirement
+              </Button>
               <div className={classes.buttonContainer}>
                 <Button color="primary" type="submit">
                   <SearchIcon />

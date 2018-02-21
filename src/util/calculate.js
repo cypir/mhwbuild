@@ -2,6 +2,7 @@ import equipment from "../data/equipment.json";
 import equipmentParts from "../data/equipment_part.json";
 import Combinatrics from "js-combinatorics";
 import _ from "lodash";
+import setBonuses from "../data/set_bonus.json";
 
 module.exports = {
   generateSets: skillsWanted => {
@@ -96,39 +97,39 @@ module.exports = {
       //are present in all sets. If a set contains a subset that is also valid, then by
       //definition it contains extraneous armor pieces.
 
-      // criteriaSets.forEach((possibleParentSet, index) => {
-      //   var isParent = false;
+      criteriaSets.forEach((possibleParentSet, index) => {
+        var isParent = false;
 
-      //   //we iterate until we figure out whether or not the possibleParentSet is in fact a parent set.
-      //   for (let i = 0; i < criteriaSets.length && !isParent; i++) {
-      //     //we do not compare to self
-      //     if (i !== index) {
-      //       let possibleChildSet = criteriaSets[i];
+        //we iterate until we figure out whether or not the possibleParentSet is in fact a parent set.
+        for (let i = 0; i < criteriaSets.length && !isParent; i++) {
+          //we do not compare to self
+          if (i !== index) {
+            let possibleChildSet = criteriaSets[i];
 
-      //       let diff = _.differenceBy(
-      //         possibleChildSet,
-      //         possibleParentSet,
-      //         "name"
-      //       );
+            let diff = _.differenceBy(
+              possibleChildSet,
+              possibleParentSet,
+              "name"
+            );
 
-      //       if (diff.length === 0) {
-      //         isParent = true;
-      //       }
-      //     }
-      //   }
+            if (diff.length === 0) {
+              isParent = true;
+            }
+          }
+        }
 
-      //   //if the difference in length is 0, then possibleParentSet is
-      //   //indeed a parent and we should skip it, as it is inefficient. That is, we could
-      //   //have achieved a set that achieves the criteria in less pieces.
-      //   //otherwise, the possibleParentSet is not a parent, so we push that in
-      //   if (!isParent) {
-      //     efficientCriteriaSets.push(possibleParentSet);
-      //   }
-      // });
+        //if the difference in length is 0, then possibleParentSet is
+        //indeed a parent and we should skip it, as it is inefficient. That is, we could
+        //have achieved a set that achieves the criteria in less pieces.
+        //otherwise, the possibleParentSet is not a parent, so we push that in
+        if (!isParent) {
+          efficientCriteriaSets.push(possibleParentSet);
+        }
+      });
 
       //now we filter out the sets which don't meet the user's criteria
       //console.log(criteriaSets);
-      setsWithSkillsWanted[skillWanted.name] = criteriaSets;
+      setsWithSkillsWanted[skillWanted.name] = efficientCriteriaSets;
     });
 
     //after we get a list of all armors, we must now do a cartesian product to get
@@ -158,28 +159,80 @@ module.exports = {
       ).toArray();
 
       //we iterate through the armor that satisfies each skill requirement
-      cp.forEach(skillSet => {
+      cp.forEach(setWithSkills => {
         //we will convert this set back into an object with its individual types.
         //if there are any duplicates, it will be skipped
-        let mappedSet = {};
+        let mappedSet = { pieces: {} };
         let duplicate = false;
 
         //continue loop as long as duplicate is not found
-        for (let i = 0; i < skillSet.length; i++) {
-          for (let k = 0; k < skillSet[i].length && !duplicate; k++) {
-            let piece = skillSet[i][k];
-            if (mappedSet[piece.part]) {
+        //by duplicate, we mean that sometimes we will try to form a set with two
+        //helmets for example. We need to remove these, as they are not valid sets.
+        for (let i = 0; i < setWithSkills.length; i++) {
+          //keeps track of how many pieces we have that are contributing to a set
+          let setBonusCount = {};
+
+          //keep track of how many slots are empty. If
+          let emptyPieceSpots = 5;
+
+          for (let k = 0; k < setWithSkills[i].length && !duplicate; k++) {
+            let piece = setWithSkills[i][k];
+            if (mappedSet.pieces[piece.part]) {
               //if the name is an exact match, then we don't worry about it.
               //could be the case if one piece has both skills that a user wants.
+              //for example if we have gear that has both attack and defense boost,
+              //it may try to create a set with two helmets with that piece, so
+              //we just keep that helmet.
               if (
                 piece.name.toLowerCase() !==
-                mappedSet[piece.part].name.toLowerCase()
+                mappedSet.pieces[piece.part].name.toLowerCase()
               ) {
                 duplicate = true;
               }
             } else {
+              //add to set bonus tracking
+              setBonusCount[piece.set]++;
+
+              //reduce the amount of free spots we have
+              emptyPieceSpots--;
+
               //add this piece to the mapped set
-              mappedSet[piece.part] = piece;
+              mappedSet.pieces[piece.part] = piece;
+            }
+          }
+
+          for (let setBonus in setBonuses) {
+            if (setBonuses.hasOwnProperty(setBonus)) {
+              //pieces that count towards the bonus
+              let piecesThatCount = 0;
+
+              //check sets that satisfy set bonus requirements
+              setBonuses[setBonus].sets.forEach(validSet => {
+                //sum up from our existing set count any pieces that count
+                if (setBonusCount[validSet]) {
+                  piecesThatCount += setBonusCount[validSet];
+                }
+              });
+
+              //now check to see if we have enough pieces that count to get a
+              //set bonus only in conjunction with the pieces we already have.
+              //For example, we won't show a set bonus for 2 piece anja if we
+              //only have 1 piece legiana
+              if (piecesThatCount > 0) {
+                //piecesThatCount - 1 because index starts from 0 for number of pieces owned
+                let immediateBonus =
+                  setBonuses[setBonus].requirements[piecesThatCount - 1] !==
+                  null;
+
+                if (immediateBonus) {
+                  mappedSet.bonuses =
+                    setBonuses[setBonus].requirements[piecesThatCount - 1];
+                }
+
+                //mappedSet.bonuses =
+
+                //set.bonuses = ["Anjanath Willpower"];
+              }
             }
           }
         }

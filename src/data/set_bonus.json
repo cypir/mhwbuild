@@ -9,14 +9,25 @@
       ["Adrenaline", "Stamina Cap Up"]
     ]
   },
-  "Bazelgeuse Protection": [null, null, ["Guts"], ["Guts"], ["Guts"]],
-  "Diablos Mastery": [
-    null,
-    ["Bludgeoner"],
-    ["Bludgeoner"],
-    ["Bludgeoner", "Non-elemental Boost"],
-    ["Bludgeoner", "Non-elemental Boost"]
-  ],
+  "Bazelgeuse Protection": {
+    "sets": ["Bazel Alpha Set", "Bazel Beta Set"],
+    "requirements": [null, null, ["Guts"], ["Guts"], ["Guts"]]
+  },
+  "Diablos Mastery": {
+    "sets": [
+      "Diablos Alpha Set",
+      "Diablos Alpha Set",
+      "Diablos Nero Alpha Set",
+      "Diablos Nero Alpha Set"
+    ],
+    "requirements": [
+      null,
+      ["Bludgeoner"],
+      ["Bludgeoner"],
+      ["Bludgeoner", "Non-elemental Boost"],
+      ["Bludgeoner", "Non-elemental Boost"]
+    ]
+  },
   "Kirin Favor": [
     null,
     null,

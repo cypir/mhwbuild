@@ -26,7 +26,7 @@ import Grid from "material-ui/Grid";
 const SkillTotalsList = ({ set }) => {
   let totals = {};
 
-  _.values(set).forEach(piece => {
+  _.values(set.pieces).forEach(piece => {
     piece.skills.forEach(skill => {
       if (!totals[skill.name]) {
         totals[skill.name] = { name: skill.name, total: 0 };
@@ -49,28 +49,28 @@ const SkillTotalsList = ({ set }) => {
   );
 };
 
-const SkillSecondaryDisplay = ({ part, set }) => {
-  const piece = set[part];
-
-  //if this piece exists, then get skills
-  if (piece) {
-    let buffer = "";
-    piece.skills.forEach(skill => {
-      buffer += `${skill.name} +${skill.level} / `;
-    });
-
-    return <div>{buffer.substring(0, buffer.length - 3)}</div>;
-  }
-
-  return <div />;
-};
-
 /**
  * Display the equipment part (arms, chest, etc). If the set does not contain it, display the icon and
  * write in ---
  * @param {} param0
  */
 const EquipmentPartList = ({ set }) => {
+  const skillSecondaryDisplay = (part, set) => {
+    const piece = set.pieces[part];
+
+    //if this piece exists, then get skills
+    if (piece) {
+      let buffer = "";
+      piece.skills.forEach(skill => {
+        buffer += `${skill.name} +${skill.level} / `;
+      });
+
+      return buffer.substring(0, buffer.length - 3);
+    }
+
+    return "";
+  };
+
   return (
     <div>
       <List>
@@ -99,8 +99,8 @@ const EquipmentPartList = ({ set }) => {
                 <img alt="part" src={imageSrc} />
               </ListItemIcon>
               <ListItemText
-                primary={set[part] ? set[part].name : "-----"}
-                secondary={<SkillSecondaryDisplay part={part} set={set} />}
+                primary={set.pieces[part] ? set.pieces[part].name : "-----"}
+                secondary={skillSecondaryDisplay(part, set)}
               />
             </ListItem>
           );
@@ -117,9 +117,9 @@ const EquipmentPartList = ({ set }) => {
 const SlotList = ({ set }) => {
   let levels = [0, 0, 0];
 
-  for (let piece in set) {
-    if (set.hasOwnProperty(piece)) {
-      set[piece].slots.forEach((slot, index) => {
+  for (let piece in set.pieces) {
+    if (set.pieces.hasOwnProperty(piece)) {
+      set.pieces[piece].slots.forEach((slot, index) => {
         switch (index) {
           case 0:
             levels[0]++;

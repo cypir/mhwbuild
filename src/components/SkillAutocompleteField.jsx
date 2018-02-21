@@ -20,7 +20,7 @@ const renderInput = inputProps => {
       inputRef={ref}
       error={errorText !== ""}
       helperText={errorText}
-      label="Search for a skill"
+      label="Name"
       InputProps={{
         classes: {
           input: classes.input
