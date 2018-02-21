@@ -264,7 +264,7 @@ class SkillsInputForm extends Component {
                         return (
                           <Grid item xs={4} key={index}>
                             <TextField
-                              label={`# Level ${index}`}
+                              label={`# Level ${index + 1}`}
                               fullWidth
                               type="number"
                               onChange={this.handleSlotChanged(index)}
@@ -280,7 +280,10 @@ class SkillsInputForm extends Component {
             </div>
             <div className={classes.skillsHeader}>
               <Typography variant="title">Skills</Typography>
-              <Tooltip placement="top-start" title="Add a skill and level.">
+              <Tooltip
+                placement="top-start"
+                title="Add a new skill and skill level criteria."
+              >
                 <IconButton
                   color="primary"
                   aria-label="Add"

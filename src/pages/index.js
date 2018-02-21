@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
   }
 
   onFormSave = formInput => {
-    const { skillsWanted, slotsWanted } = formInput;
+    const { skillsWanted, slotsWanted, slotType, slotsMinTotal } = formInput;
     let sets = calculate.generateSets(skillsWanted);
 
     //sort sets by fewest pieces of gear required
@@ -32,7 +32,45 @@ class IndexPage extends React.Component {
       return Object.keys(setA).length - Object.keys(setB).length;
     });
 
-    //if slot requirements, filter so only those that meet he criteria display
+    //if we have slot criteria, filter so only those that meet the criteria display
+    sets = sets.filter(set => {
+      let levels = [0, 0, 0];
+
+      for (let piece in set) {
+        if (set.hasOwnProperty(piece)) {
+          set[piece].slots.forEach((slot, index) => {
+            switch (index) {
+              case 0:
+                levels[0]++;
+                break;
+              case 1:
+                levels[1]++;
+                break;
+              case 2:
+                levels[2]++;
+                break;
+            }
+          });
+        }
+      }
+
+      if (slotType === "level") {
+        //iterate through and make sure each value is larger
+        let valid = true;
+        for (let i = 0; i < slotsWanted.length && valid === true; i++) {
+          if (slotsWanted[i] > levels[i]) {
+            return false;
+          }
+        }
+
+        return true;
+      } else {
+        //sum up levels and compare with requested sum. Accept if sum from set is greater.
+        let sum = levels[0] + levels[1] + levels[2];
+
+        return sum >= slotsMinTotal;
+      }
+    });
 
     this.setState({
       matchingEquipmentSets: sets
