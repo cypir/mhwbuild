@@ -82,7 +82,8 @@ class SkillsInputForm extends Component {
         }
       ],
       slotsWanted: [0, 0, 0],
-      slotType: "sum"
+      slotsMinTotal: 0,
+      slotType: "minTotal"
     };
   }
 
@@ -227,9 +228,9 @@ class SkillsInputForm extends Component {
                   }}
                 >
                   <FormControlLabel
-                    value="sum"
+                    value="minTotal"
                     control={<Radio />}
-                    label="by sum"
+                    label="by minimum total"
                   />
                   <FormControlLabel
                     value="level"
@@ -238,27 +239,44 @@ class SkillsInputForm extends Component {
                   />
                 </RadioGroup>
               </FormControl>
-              <Typography variant="caption">
-                Number of decoration slots per level that each set should have
-                at minimum. Leave at 0 to skip this criteria.
-              </Typography>
-              <div style={{ marginTop: "8px" }}>
-                <Grid container spacing={8}>
-                  {this.state.slotsWanted.map((slot, index) => {
-                    return (
-                      <Grid item xs={4} key={index}>
-                        <TextField
-                          label={`# Level ${index}`}
-                          fullWidth
-                          type="number"
-                          onChange={this.handleSlotChanged(index)}
-                          value={this.state.slotsWanted[index]}
-                        />
-                      </Grid>
-                    );
-                  })}
-                </Grid>
-              </div>
+              {this.state.slotType === "minTotal" ? (
+                <div id="by-min-total">
+                  <TextField
+                    label="Minimum number of decoration slots that a set should have
+                  total."
+                    fullWidth
+                    type="number"
+                    onChange={e => {
+                      this.setState({ slotsMinTotal: e.target.value });
+                    }}
+                    value={this.state.slotsMinTotal}
+                  />
+                </div>
+              ) : (
+                <div id="by-level">
+                  <Typography variant="caption">
+                    Minimum number of decoration slots that a set should have
+                    per decoration level. Leave at 0 to skip this criteria.
+                  </Typography>
+                  <div style={{ marginTop: "8px" }}>
+                    <Grid container spacing={8}>
+                      {this.state.slotsWanted.map((slot, index) => {
+                        return (
+                          <Grid item xs={4} key={index}>
+                            <TextField
+                              label={`# Level ${index}`}
+                              fullWidth
+                              type="number"
+                              onChange={this.handleSlotChanged(index)}
+                              value={this.state.slotsWanted[index]}
+                            />
+                          </Grid>
+                        );
+                      })}
+                    </Grid>
+                  </div>
+                </div>
+              )}
             </div>
             <div className={classes.skillsHeader}>
               <Typography variant="title">Skills</Typography>
