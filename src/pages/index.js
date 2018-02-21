@@ -32,6 +32,10 @@ class IndexPage extends React.Component {
       return Object.keys(setA).length - Object.keys(setB).length;
     });
 
+    //if we enforce set bonuses, we have to go through each set
+    //and figure out if it contains the right pieces
+    sets.filter(set => {});
+
     //if we have slot criteria, filter so only those that meet the criteria display
     sets = sets.filter(set => {
       let levels = [0, 0, 0];

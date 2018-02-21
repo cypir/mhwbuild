@@ -89,43 +89,46 @@ module.exports = {
 
       const efficientCriteriaSets = [];
 
+      //TODO we can't find efficient sets because it interferes if we want to do slot calculations
+      //since it won't present us with all possible armors
       //now we need to do a check to see if the minimum number of pieces was used
       //to achieve the skill level threshold. To do this, we check to see if any subsets
       //are present in all sets. If a set contains a subset that is also valid, then by
       //definition it contains extraneous armor pieces.
-      criteriaSets.forEach((possibleParentSet, index) => {
-        var isParent = false;
 
-        //we iterate until we figure out whether or not the possibleParentSet is in fact a parent set.
-        for (let i = 0; i < criteriaSets.length && !isParent; i++) {
-          //we do not compare to self
-          if (i !== index) {
-            let possibleChildSet = criteriaSets[i];
+      // criteriaSets.forEach((possibleParentSet, index) => {
+      //   var isParent = false;
 
-            let diff = _.differenceBy(
-              possibleChildSet,
-              possibleParentSet,
-              "name"
-            );
+      //   //we iterate until we figure out whether or not the possibleParentSet is in fact a parent set.
+      //   for (let i = 0; i < criteriaSets.length && !isParent; i++) {
+      //     //we do not compare to self
+      //     if (i !== index) {
+      //       let possibleChildSet = criteriaSets[i];
 
-            if (diff.length === 0) {
-              isParent = true;
-            }
-          }
-        }
+      //       let diff = _.differenceBy(
+      //         possibleChildSet,
+      //         possibleParentSet,
+      //         "name"
+      //       );
 
-        //if the difference in length is 0, then possibleParentSet is
-        //indeed a parent and we should skip it, as it is inefficient. That is, we could
-        //have achieved a set that achieves the criteria in less pieces.
-        //otherwise, the possibleParentSet is not a parent, so we push that in
-        if (!isParent) {
-          efficientCriteriaSets.push(possibleParentSet);
-        }
-      });
+      //       if (diff.length === 0) {
+      //         isParent = true;
+      //       }
+      //     }
+      //   }
+
+      //   //if the difference in length is 0, then possibleParentSet is
+      //   //indeed a parent and we should skip it, as it is inefficient. That is, we could
+      //   //have achieved a set that achieves the criteria in less pieces.
+      //   //otherwise, the possibleParentSet is not a parent, so we push that in
+      //   if (!isParent) {
+      //     efficientCriteriaSets.push(possibleParentSet);
+      //   }
+      // });
 
       //now we filter out the sets which don't meet the user's criteria
       //console.log(criteriaSets);
-      setsWithSkillsWanted[skillWanted.name] = efficientCriteriaSets;
+      setsWithSkillsWanted[skillWanted.name] = criteriaSets;
     });
 
     //after we get a list of all armors, we must now do a cartesian product to get

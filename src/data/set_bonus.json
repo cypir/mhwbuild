@@ -1,11 +1,14 @@
 {
-  "Anjanath Will": [
-    null,
-    ["Adrenaline"],
-    ["Adrenaline"],
-    ["Adrenaline", "Stamina Cap Up"],
-    ["Adrenaline", "Stamina Cap Up"]
-  ],
+  "Anjanath Will": {
+    "sets": ["Anja Alpha Set", "Anja Beta Set"],
+    "requirements": [
+      null,
+      ["Adrenaline"],
+      ["Adrenaline"],
+      ["Adrenaline", "Stamina Cap Up"],
+      ["Adrenaline", "Stamina Cap Up"]
+    ]
+  },
   "Bazelgeuse Protection": [null, null, ["Guts"], ["Guts"], ["Guts"]],
   "Diablos Mastery": [
     null,
