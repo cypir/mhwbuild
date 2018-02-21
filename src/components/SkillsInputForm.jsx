@@ -22,6 +22,10 @@ import SearchIcon from "material-ui-icons/Search";
 
 import { FormGroup, FormControlLabel } from "material-ui/Form";
 import Checkbox from "material-ui/Checkbox";
+import Tooltip from "material-ui/Tooltip";
+
+import Radio, { RadioGroup } from "material-ui/Radio";
+import { FormLabel, FormControl, FormHelperText } from "material-ui/Form";
 
 const skillNames = Object.keys(skillNamesJson);
 
@@ -77,7 +81,8 @@ class SkillsInputForm extends Component {
           ui: { nameError: "", levelError: "" }
         }
       ],
-      slotsWanted: [0, 0, 0]
+      slotsWanted: [0, 0, 0],
+      slotType: "sum"
     };
   }
 
@@ -173,7 +178,7 @@ class SkillsInputForm extends Component {
     this.setState({ skillsWanted: copy });
 
     if (!errorFound) {
-      this.props.onFormSave(this.state.skillsWanted);
+      this.props.onFormSave(this.state);
     }
   };
 
@@ -197,42 +202,81 @@ class SkillsInputForm extends Component {
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.expansionDetails}>
             <div>
-              <FormGroup row>
-                <FormControlLabel
-                  control={<Checkbox />}
-                  label="Has Set Bonus"
-                />
-              </FormGroup>
+              <Tooltip
+                placement="top-start"
+                title="Force at least one set bonus to exist in the set."
+              >
+                <FormGroup row>
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Has Set Bonus"
+                  />
+                </FormGroup>
+              </Tooltip>
             </div>
             <div className={classes.slotsSection}>
               <Typography variant="title">Decoration Slots</Typography>
-              <Grid container spacing={8}>
-                {this.state.slotsWanted.map((slot, index) => {
-                  return (
-                    <Grid item xs={4} key={index}>
-                      <TextField
-                        label={`# Level ${index}`}
-                        fullWidth
-                        type="number"
-                        onChange={this.handleSlotChanged(index)}
-                        value={this.state.slotsWanted[index]}
-                      />
-                    </Grid>
-                  );
-                })}
-              </Grid>
+              <FormControl component="fieldset" required>
+                <RadioGroup
+                  aria-label="slotType"
+                  name="slotType"
+                  row={true}
+                  value={this.state.slotType}
+                  onChange={(event, value) => {
+                    this.setState({ slotType: value });
+                  }}
+                >
+                  <FormControlLabel
+                    value="sum"
+                    control={<Radio />}
+                    label="by sum"
+                  />
+                  <FormControlLabel
+                    value="level"
+                    control={<Radio />}
+                    label="by level"
+                  />
+                </RadioGroup>
+              </FormControl>
+              <Typography variant="caption">
+                Number of decoration slots per level that each set should have
+                at minimum. Leave at 0 to skip this criteria.
+              </Typography>
+              <div style={{ marginTop: "8px" }}>
+                <Grid container spacing={8}>
+                  {this.state.slotsWanted.map((slot, index) => {
+                    return (
+                      <Grid item xs={4} key={index}>
+                        <TextField
+                          label={`# Level ${index}`}
+                          fullWidth
+                          type="number"
+                          onChange={this.handleSlotChanged(index)}
+                          value={this.state.slotsWanted[index]}
+                        />
+                      </Grid>
+                    );
+                  })}
+                </Grid>
+              </div>
             </div>
             <div className={classes.skillsHeader}>
               <Typography variant="title">Skills</Typography>
-              <IconButton
-                color="primary"
-                aria-label="Add"
-                className={classes.addButton}
-                onClick={this.handleAddWantedSkill}
-              >
-                <AddIcon />
-              </IconButton>
+              <Tooltip placement="top-start" title="Add a skill and level.">
+                <IconButton
+                  color="primary"
+                  aria-label="Add"
+                  className={classes.addButton}
+                  onClick={this.handleAddWantedSkill}
+                >
+                  <AddIcon />
+                </IconButton>
+              </Tooltip>
             </div>
+            <Typography variant="caption">
+              Skills and corresponding skill levels that each set should have at
+              minimum.
+            </Typography>
             <form onSubmit={this.onSubmit} style={{ width: "100%" }}>
               {this.state.skillsWanted.map((skill, index) => {
                 return (

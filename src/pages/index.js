@@ -23,13 +23,16 @@ class IndexPage extends React.Component {
     };
   }
 
-  onFormSave = skillsWanted => {
+  onFormSave = formInput => {
+    const { skillsWanted, slotsWanted } = formInput;
     let sets = calculate.generateSets(skillsWanted);
 
     //sort sets by fewest pieces of gear required
     sets.sort((setA, setB) => {
       return Object.keys(setA).length - Object.keys(setB).length;
     });
+
+    //if slot requirements, filter so only those that meet he criteria display
 
     this.setState({
       matchingEquipmentSets: sets
