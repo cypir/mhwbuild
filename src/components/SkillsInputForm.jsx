@@ -20,6 +20,9 @@ import ExpandMoreIcon from "material-ui-icons/ExpandMore";
 import Typography from "material-ui/Typography";
 import SearchIcon from "material-ui-icons/Search";
 
+import { FormGroup, FormControlLabel } from "material-ui/Form";
+import Checkbox from "material-ui/Checkbox";
+
 const skillNames = Object.keys(skillNamesJson);
 
 const styles = theme => ({
@@ -32,13 +35,27 @@ const styles = theme => ({
     marginTop: "8px"
   },
   expansionDetails: {
-    display: "block"
+    display: "block",
+
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: "8px",
+      paddingRight: "8px"
+    }
+  },
+  expansionHeader: {
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: "8px",
+      paddingRight: "8px"
+    }
   },
   skillsHeader: {
     display: "flex"
   },
   addButton: {
     marginTop: "-13px"
+  },
+  slotsSection: {
+    marginBottom: "16px"
   }
 });
 
@@ -53,12 +70,12 @@ class SkillsInputForm extends Component {
     super();
     this.state = {
       skillsWanted: [
-        {
-          name: "",
-          level: 1,
-          id: nanoid(),
-          ui: { nameError: "", levelError: "" }
-        }
+        // {
+        //   name: "",
+        //   level: 1,
+        //   id: nanoid(),
+        //   ui: { nameError: "", levelError: "" }
+        // }
       ]
     };
   }
@@ -164,13 +181,37 @@ class SkillsInputForm extends Component {
     return (
       <div>
         <ExpansionPanel defaultExpanded>
-          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography variant="subheading">Search Criteria</Typography>
+          <ExpansionPanelSummary
+            expandIcon={<ExpandMoreIcon />}
+            className={classes.expansionHeader}
+          >
+            <Typography variant="title">Search Criteria</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.expansionDetails}>
-            <Typography variant="title">Slots</Typography>
+            <div>
+              <FormGroup row>
+                <FormControlLabel
+                  control={<Checkbox />}
+                  label="Has Set Bonus"
+                />
+              </FormGroup>
+            </div>
+            <div className={classes.slotsSection}>
+              <Typography variant="title">Decoration Slots</Typography>
+              <Grid container spacing={8}>
+                <Grid item xs={4}>
+                  <TextField label="# Level 1" fullWidth type="number" />
+                </Grid>
+                <Grid item xs={4}>
+                  <TextField label="# Level 2" fullWidth type="number" />
+                </Grid>
+                <Grid item xs={4}>
+                  <TextField label="# Level 3" fullWidth type="number" />
+                </Grid>
+              </Grid>
+            </div>
             <div className={classes.skillsHeader}>
-              <Typography variant="title">Required Skills</Typography>
+              <Typography variant="title">Skills</Typography>
               <IconButton
                 color="primary"
                 aria-label="Add"

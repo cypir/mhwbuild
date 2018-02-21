@@ -40,7 +40,7 @@ const SkillTotalsList = ({ set }) => {
     <List>
       {_.values(totals).map(skill => {
         return (
-          <ListItem key={`${skill.name}`}>
+          <ListItem key={`${skill.name}`} style={{ padding: "4px" }}>
             <ListItemText primary={`${skill.name} +${skill.total}`} />
           </ListItem>
         );
@@ -110,6 +110,49 @@ const EquipmentPartList = ({ set }) => {
   );
 };
 
+//breakdown by total number of slots and by sum of each level of slot
+//data is stored like [3,2,2] meaning 1 level 3 slot and 2 level 2 slots
+//we convert this to a list of level sums where [3,2,2] means 3 level 1,
+//2 level 2, 2 level 3
+const SlotList = ({ set }) => {
+  let levels = [0, 0, 0];
+
+  for (let piece in set) {
+    if (set.hasOwnProperty(piece)) {
+      set[piece].slots.forEach((slot, index) => {
+        switch (index) {
+          case 0:
+            levels[0]++;
+            break;
+          case 1:
+            levels[1]++;
+            break;
+          case 2:
+            levels[2]++;
+            break;
+        }
+      });
+    }
+  }
+
+  return (
+    <div>
+      <List>
+        {levels.map((numLevel, index) => {
+          return (
+            <ListItem key={index} style={{ padding: "4px" }}>
+              <ListItemText primary={`Level ${index + 1}: ${numLevel}`} />
+            </ListItem>
+          );
+        })}
+        <ListItem>
+          <ListItemText primary={`Total: ${_.sum(levels)}`} />
+        </ListItem>
+      </List>
+    </div>
+  );
+};
+
 /**
  * Component that displays a set
  */
@@ -119,14 +162,18 @@ const EquipmentSetCard = ({ set, index, classes }) => {
       <Card>
         <CardContent>
           <Typography variant="title">Equipment Set {index + 1}</Typography>
-          <Grid container spacing={24}>
-            <Grid item xs={12} sm={6}>
+          <Grid container spacing={8}>
+            <Grid item xs={12} sm={5}>
               <Typography variant="subheading">Equipment Pieces</Typography>
               <EquipmentPartList set={set} />
             </Grid>
-            <Grid item xs={12} sm={6}>
-              <Typography variant="subheading">Totals</Typography>
+            <Grid item xs={6} sm={4}>
+              <Typography variant="subheading">Skill Totals</Typography>
               <SkillTotalsList set={set} />
+            </Grid>
+            <Grid item xs={6} sm={3}>
+              <Typography variant="subheading">Slot Totals</Typography>
+              <SlotList set={set} />
             </Grid>
           </Grid>
         </CardContent>
