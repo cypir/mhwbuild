@@ -45,6 +45,20 @@ const SkillTotalsList = ({ set }) => {
           </ListItem>
         );
       })}
+      {set.bonuses.immediate.map(bonus => {
+        return (
+          <ListItem key={bonus} style={{ padding: "4px" }}>
+            <ListItemText
+              disableTypography
+              primary={
+                <Typography>
+                  <strong>{bonus}</strong>
+                </Typography>
+              }
+            />
+          </ListItem>
+        );
+      })}
     </List>
   );
 };
@@ -119,15 +133,18 @@ const SlotList = ({ set }) => {
 
   for (let piece in set.pieces) {
     if (set.pieces.hasOwnProperty(piece)) {
-      set.pieces[piece].slots.forEach((slot, index) => {
-        switch (index) {
-          case 0:
+      //index is slot, value is level
+      //index is level, value is amount
+      set.pieces[piece].slots.forEach(slot => {
+        //slot is a gem slot that contains a variable level
+        switch (slot) {
+          case 1:
             levels[0]++;
             break;
-          case 1:
+          case 2:
             levels[1]++;
             break;
-          case 2:
+          case 3:
             levels[2]++;
             break;
         }

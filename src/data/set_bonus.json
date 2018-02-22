@@ -132,11 +132,14 @@
       ["Razor Sharp/Spare Shot"]
     ]
   },
-  "Zorah Magdaros Mastery": [
-    null,
-    null,
-    ["Critical Status"],
-    ["Critical Status"],
-    ["Critical Status"]
-  ]
+  "Zorah Magdaros Mastery": {
+    "sets": ["Zorah Alpha Set", "Zorah Beta Set"],
+    "requirements": [
+      null,
+      null,
+      ["Critical Status"],
+      ["Critical Status"],
+      ["Critical Status"]
+    ]
+  }
 }

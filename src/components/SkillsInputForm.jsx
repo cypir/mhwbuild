@@ -59,6 +59,7 @@ const styles = theme => ({
     marginTop: "-13px"
   },
   slotsSection: {
+    marginTop: "16px",
     marginBottom: "16px"
   }
 });
@@ -74,12 +75,12 @@ class SkillsInputForm extends Component {
     super();
     this.state = {
       skillsWanted: [
-        // {
-        //   name: "",
-        //   level: 1,
-        //   id: nanoid(),
-        //   ui: { nameError: "", levelError: "" }
-        // }
+        {
+          name: "",
+          level: 1,
+          id: nanoid(),
+          ui: { nameError: "", levelError: "" }
+        }
       ],
       slotsWanted: [0, 0, 0],
       slotsMinTotal: 0,
@@ -201,92 +202,6 @@ class SkillsInputForm extends Component {
             <Typography variant="title">Search Criteria</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.expansionDetails}>
-            <div>
-              <Tooltip
-                placement="top-start"
-                title="Filters for sets that allow possibility of set bonus."
-              >
-                <FormGroup row>
-                  <FormControlLabel
-                    control={
-                      <Checkbox
-                        checked={this.state.requireSetBonus}
-                        onChange={(e, checked) => {
-                          this.setState({ requireSetBonus: checked });
-                        }}
-                      />
-                    }
-                    label="Has Set Bonus"
-                  />
-                </FormGroup>
-              </Tooltip>
-            </div>
-
-            {/* <div className={classes.slotsSection}>
-              <Typography variant="title">Decoration Slots</Typography>
-              <FormControl component="fieldset" required>
-                <RadioGroup
-                  aria-label="slotType"
-                  name="slotType"
-                  row={true}
-                  value={this.state.slotType}
-                  onChange={(event, value) => {
-                    this.setState({ slotType: value });
-                  }}
-                >
-                  <FormControlLabel
-                    value="minTotal"
-                    control={<Radio />}
-                    label="by minimum total"
-                  />
-                  <FormControlLabel
-                    value="level"
-                    control={<Radio />}
-                    label="by level"
-                  />
-                </RadioGroup>
-              </FormControl>
-              {this.state.slotType === "minTotal" ? (
-                <div id="by-min-total">
-                  <TextField
-                    label="Minimum number of decoration slots that a set should have
-                  total."
-                    fullWidth
-                    type="number"
-                    onChange={e => {
-                      this.setState({ slotsMinTotal: e.target.value });
-                    }}
-                    value={this.state.slotsMinTotal}
-                  />
-                </div>
-              ) : (
-                <div id="by-level">
-                  <Typography variant="caption">
-                    Minimum number of decoration slots that a set should have
-                    per decoration level. Leave at 0 to skip this criteria. The
-                    filter is applied after minimizing on skill critieria.
-                  </Typography>
-                  <div style={{ marginTop: "8px" }}>
-                    <Grid container spacing={8}>
-                      {this.state.slotsWanted.map((slot, index) => {
-                        return (
-                          <Grid item xs={4} key={index}>
-                            <TextField
-                              label={`# Level ${index + 1}`}
-                              fullWidth
-                              type="number"
-                              onChange={this.handleSlotChanged(index)}
-                              value={this.state.slotsWanted[index]}
-                            />
-                          </Grid>
-                        );
-                      })}
-                    </Grid>
-                  </div>
-                </div>
-              )}
-            </div> */}
-
             <div className={classes.skillsHeader}>
               <Tooltip
                 placement="top-start"
@@ -294,19 +209,6 @@ class SkillsInputForm extends Component {
               >
                 <Typography variant="title">Skill Requirements</Typography>
               </Tooltip>
-              {/* <Tooltip
-                placement="top-start"
-                title="Add a new skill and skill level criteria."
-              >
-                <IconButton
-                  color="primary"
-                  aria-label="Add"
-                  className={classes.addButton}
-                  onClick={this.handleAddWantedSkill}
-                >
-                  <AddIcon />
-                </IconButton>
-              </Tooltip> */}
             </div>
             <form onSubmit={this.onSubmit} style={{ width: "100%" }}>
               {this.state.skillsWanted.map((skill, index) => {
@@ -347,6 +249,92 @@ class SkillsInputForm extends Component {
                 <AddIcon />
                 Add Skill Requirement
               </Button>
+
+              <div className={classes.slotsSection}>
+                <Typography variant="title">Decoration Slots</Typography>
+                <FormControl component="fieldset" required>
+                  <RadioGroup
+                    aria-label="slotType"
+                    name="slotType"
+                    row={true}
+                    value={this.state.slotType}
+                    onChange={(event, value) => {
+                      this.setState({ slotType: value });
+                    }}
+                  >
+                    <FormControlLabel
+                      value="minTotal"
+                      control={<Radio />}
+                      label="by minimum total"
+                    />
+                    <FormControlLabel
+                      value="level"
+                      control={<Radio />}
+                      label="by level"
+                    />
+                  </RadioGroup>
+                </FormControl>
+                {this.state.slotType === "minTotal" ? (
+                  <div id="by-min-total">
+                    <TextField
+                      label="Minimum number of decoration slots that a set should have
+                  total."
+                      fullWidth
+                      type="number"
+                      onChange={e => {
+                        this.setState({ slotsMinTotal: e.target.value });
+                      }}
+                      value={this.state.slotsMinTotal}
+                    />
+                  </div>
+                ) : (
+                  <div id="by-level">
+                    <Typography variant="caption">
+                      Minimum number of decoration slots that a set should have
+                      per decoration level. Leave at 0 to skip this criteria.
+                      The filter is applied after minimizing on skill critieria.
+                    </Typography>
+                    <div style={{ marginTop: "8px" }}>
+                      <Grid container spacing={8}>
+                        {this.state.slotsWanted.map((slot, index) => {
+                          return (
+                            <Grid item xs={4} key={index}>
+                              <TextField
+                                label={`# Level ${index + 1}`}
+                                fullWidth
+                                type="number"
+                                onChange={this.handleSlotChanged(index)}
+                                value={this.state.slotsWanted[index]}
+                              />
+                            </Grid>
+                          );
+                        })}
+                      </Grid>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              <div>
+                <Tooltip
+                  placement="top-start"
+                  title="Filters for sets that have one or more set bonuses."
+                >
+                  <FormGroup row>
+                    <FormControlLabel
+                      control={
+                        <Checkbox
+                          checked={this.state.requireSetBonus}
+                          onChange={(e, checked) => {
+                            this.setState({ requireSetBonus: checked });
+                          }}
+                        />
+                      }
+                      label="Has Set Bonus"
+                    />
+                  </FormGroup>
+                </Tooltip>
+              </div>
               <div className={classes.buttonContainer}>
                 <Button color="primary" type="submit">
                   <SearchIcon />

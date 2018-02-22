@@ -172,7 +172,8 @@ module.exports = {
           //keeps track of how many pieces we have that are contributing to a set
           let setBonusCount = {};
 
-          //keep track of how many slots are empty. If
+          //keep track of how many empty are empty. This will be useful for suggestions.
+          //TODO not implemented yet
           let emptyPieceSpots = 5;
 
           for (let k = 0; k < setWithSkills[i].length && !duplicate; k++) {
@@ -190,6 +191,9 @@ module.exports = {
                 duplicate = true;
               }
             } else {
+              if (!setBonusCount[piece.set]) {
+                setBonusCount[piece.set] = 0;
+              }
               //add to set bonus tracking
               setBonusCount[piece.set]++;
 
@@ -200,6 +204,13 @@ module.exports = {
               mappedSet.pieces[piece.part] = piece;
             }
           }
+
+          //bonuses divided into immediate (intrinsic with the minimum) or possible
+          //(with another piece, could have set bonus)
+          mappedSet.bonuses = {
+            immediate: [],
+            possible: []
+          };
 
           for (let setBonus in setBonuses) {
             if (setBonuses.hasOwnProperty(setBonus)) {
@@ -225,8 +236,11 @@ module.exports = {
                   null;
 
                 if (immediateBonus) {
-                  mappedSet.bonuses =
-                    setBonuses[setBonus].requirements[piecesThatCount - 1];
+                  mappedSet.bonuses.immediate.push(
+                    setBonuses[setBonus].requirements[piecesThatCount - 1]
+                  );
+                } else {
+                  //check to see if there could possibly be a set
                 }
 
                 //mappedSet.bonuses =
@@ -244,7 +258,6 @@ module.exports = {
         }
       });
     }
-
     return resultSets;
   }
 };
