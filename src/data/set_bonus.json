@@ -28,77 +28,110 @@
       ["Bludgeoner", "Non-elemental Boost"]
     ]
   },
-  "Kirin Favor": [
-    null,
-    null,
-    ["Kirin Favor"],
-    ["Kirin Favor"],
-    ["Kirin Favor"]
-  ],
-  "Kushala Daora Flight": [
-    null,
-    null,
-    ["Nullify Wind Pressure"],
-    ["Nullify Wind Pressure"],
-    ["Nullify Wind Pressure"]
-  ],
-  "Legiana Favor": [
-    null,
-    ["Good Luck"],
-    ["Good Luck"],
-    ["Good Luck", "Bow Charge Plus"],
-    ["Good Luck", "Bow Charge Plus"]
-  ],
-  "Nergigante Hunger": [
-    null,
-    null,
-    ["Hasten Recovery"],
-    ["Hasten Recovery"],
-    ["Hasten Recovery"]
-  ],
-  "Odogaron Mastery": [
-    null,
-    ["Punishing Draw"],
-    null,
-    ["Punishing Draw", "Protective Polish"],
-    ["Punishing Draw", "Protective Polish"]
-  ],
-  "Pink Rathian Mastery": [
-    null,
-    null,
-    ["Poison Duration Up"],
-    ["Poison Duration Up"],
-    ["Poison Duration Up"]
-  ],
-  "Rathalos Mastery": [
-    null,
-    ["Critical Element"],
-    null,
-    ["Critical Element", "Mind's Eye/Ballistics"],
-    ["Critical Element", "Mind's Eye/Ballistics"]
-  ],
-  "Teostra Technique": [
-    null,
-    null,
-    ["Master's Touch"],
-    ["Master's Touch"],
-    ["Master's Touch"]
-  ],
-  "Uragaan Protection": [null, null, ["Guard Up"], ["Guard Up"], ["Guard Up"]],
-  "Val Hazaak Vitality": [
-    null,
-    null,
-    ["Super Vitality"],
-    ["Super Vitality"],
-    ["Super Vitality"]
-  ],
-  "Xeno'Jiiva Divinity": [
-    null,
-    null,
-    ["Razor Sharp/Spare Shot"],
-    ["Razor Sharp/Spare Shot"],
-    ["Razor Sharp/Spare Shot"]
-  ],
+  "Kirin Favor": {
+    "sets": ["Kirin Alpha Set", "Kirin Beta Set"],
+    "requirements": [
+      null,
+      null,
+      ["Kirin Favor"],
+      ["Kirin Favor"],
+      ["Kirin Favor"]
+    ]
+  },
+  "Kushala Daora Flight": {
+    "sets": ["Kushala Alpha Set", "Kushala Beta Set"],
+    "requirements": [
+      null,
+      null,
+      ["Nullify Wind Pressure"],
+      ["Nullify Wind Pressure"],
+      ["Nullify Wind Pressure"]
+    ]
+  },
+  "Legiana Favor": {
+    "sets": ["Legiana Alpha Set", "Legiana Beta Set"],
+    "requirements": [
+      null,
+      ["Good Luck"],
+      ["Good Luck"],
+      ["Good Luck", "Bow Charge Plus"],
+      ["Good Luck", "Bow Charge Plus"]
+    ]
+  },
+  "Nergigante Hunger": {
+    "sets": ["Nergigante Alpha Set", "Nergigante Beta Set"],
+    "requirements": [
+      null,
+      null,
+      ["Hasten Recovery"],
+      ["Hasten Recovery"],
+      ["Hasten Recovery"]
+    ]
+  },
+  "Odogaron Mastery": {
+    "sets": ["Odogaron Alpha Set", "Odogaron Beta Set"],
+    "requirements": [
+      null,
+      ["Punishing Draw"],
+      ["Punishing Draw"],
+      ["Punishing Draw", "Protective Polish"],
+      ["Punishing Draw", "Protective Polish"]
+    ]
+  },
+  "Pink Rathian Mastery": {
+    "sets": ["Rath Heart Alpha Set", "Rath Heart Beta Set"],
+    "requirements": [
+      null,
+      null,
+      ["Poison Duration Up"],
+      ["Poison Duration Up"],
+      ["Poison Duration Up"]
+    ]
+  },
+  "Rathalos Mastery": {
+    "sets": ["Rath Heart Alpha Set", "Rath Heart Beta Set"],
+    "requirements": [
+      null,
+      ["Critical Element"],
+      ["Critical Element"],
+      ["Critical Element", "Mind's Eye/Ballistics"],
+      ["Critical Element", "Mind's Eye/Ballistics"]
+    ]
+  },
+  "Teostra Technique": {
+    "sets": ["Kaiser Alpha Set", "Kaiser Beta Set"],
+    "requirements": [
+      null,
+      null,
+      ["Master's Touch"],
+      ["Master's Touch"],
+      ["Master's Touch"]
+    ]
+  },
+  "Uragaan Protection": {
+    "sets": ["Uragaan Alpha Set", "Uragaan Beta Set"],
+    "requirements": [null, null, ["Guard Up"], ["Guard Up"], ["Guard Up"]]
+  },
+  "Val Hazaak Vitality": {
+    "sets": ["Vaal Hazak Alpha Set", "Vaal Hazak Beta Set"],
+    "requirements": [
+      null,
+      null,
+      ["Super Vitality"],
+      ["Super Vitality"],
+      ["Super Vitality"]
+    ]
+  },
+  "Xeno'Jiiva Divinity": {
+    "sets": ["Xeno'jiiva Alpha Set", "Xeno'jiiva Beta Set"],
+    "requirements": [
+      null,
+      null,
+      ["Razor Sharp/Spare Shot"],
+      ["Razor Sharp/Spare Shot"],
+      ["Razor Sharp/Spare Shot"]
+    ]
+  },
   "Zorah Magdaros Mastery": [
     null,
     null,
