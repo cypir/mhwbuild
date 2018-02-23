@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: "Monsert Hunter World Build Creator"
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: ["gatsby-plugin-react-helmet"],
+  pathPrefix: `/mhwbuild`
 };

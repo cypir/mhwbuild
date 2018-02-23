@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "mhwbuild",
+  "description": "Monster Hunter World Build Creator",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alex Nguyen <amn77a@gmail.com>",
   "dependencies": {
     "downshift": "^1.28.0",
     "gatsby": "^1.9.199",
@@ -17,18 +17,19 @@
     "react-helmet": "^5.2.0",
     "typeface-roboto": "^0.0.54"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "keywords": ["mhw", "mhw build calculator"],
+  "license": "GPL-3.0",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "prettier": "^1.10.2"
   }
 }
