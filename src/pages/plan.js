@@ -38,6 +38,22 @@ class Planner extends Component {
     });
   };
 
+  handlePieceRemoved = piece => {
+    const pieces = { ...this.state.set.pieces };
+    delete pieces[piece];
+
+    console.log(pieces);
+    console.log(piece);
+
+    this.setState({
+      set: {
+        ...this.state.set,
+        pieces
+      },
+      dialogOpen: false
+    });
+  };
+
   render() {
     return (
       <div>
@@ -54,6 +70,7 @@ class Planner extends Component {
           }}
           selectedPart={this.state.selectedPart}
           handlePieceSelected={this.handlePieceSelected}
+          handlePieceRemoved={this.handlePieceRemoved}
         />
       </div>
     );

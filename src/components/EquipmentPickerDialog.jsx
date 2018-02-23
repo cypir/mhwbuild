@@ -36,7 +36,8 @@ const EquipmentPickerDialog = ({
   onClose,
   classes,
   selectedPart,
-  handlePieceSelected
+  handlePieceSelected,
+  handlePieceRemoved
 }) => {
   return (
     <div>
@@ -53,8 +54,13 @@ const EquipmentPickerDialog = ({
             >
               Select {selectedPart} equipment
             </Typography>
-            <Button color="inherit" onClick={onClose}>
-              save
+            <Button
+              color="inherit"
+              onClick={() => {
+                handlePieceRemoved(selectedPart);
+              }}
+            >
+              Remove
             </Button>
           </Toolbar>
         </AppBar>
