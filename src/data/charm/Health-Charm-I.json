@@ -1,0 +1,9 @@
+{
+  "name": "Health Charm I",
+  "skills": [
+    {
+      "name": "Health Boost",
+      "level": "1"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Hunter's Life Charm",
+  "skills": [
+    {
+      "name": "BBQ Master",
+      "level": "1"
+    },
+    {
+      "name": "Master Fisher",
+      "level": "1"
+    }
+  ]
+}

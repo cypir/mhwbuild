@@ -1,0 +1,13 @@
+{
+  "name": "Surveyor's Charm",
+  "skills": [
+    {
+      "name": "Scoutfly Range Up",
+      "level": "1"
+    },
+    {
+      "name": "Scholar",
+      "level": "1"
+    }
+  ]
+}

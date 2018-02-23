@@ -1,0 +1,9 @@
+{
+  "name": "Speed Heal Charm II",
+  "skills": [
+    {
+      "name": "Recovery Speed",
+      "level": "2"
+    }
+  ]
+}

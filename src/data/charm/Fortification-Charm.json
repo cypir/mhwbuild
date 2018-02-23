@@ -1,0 +1,9 @@
+{
+  "name": "Fortification Charm",
+  "skills": [
+    {
+      "name": "Fortify",
+      "level": "1"
+    }
+  ]
+}

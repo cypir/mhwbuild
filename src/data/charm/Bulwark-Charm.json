@@ -1,0 +1,13 @@
+{
+  "name": "Bulwark Charm",
+  "skills": [
+    {
+      "name": "Guard Up",
+      "level": "1"
+    },
+    {
+      "name": "Resuscitate",
+      "level": "1"
+    }
+  ]
+}

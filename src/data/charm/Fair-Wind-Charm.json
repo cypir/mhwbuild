@@ -1,0 +1,13 @@
+{
+  "name": "Fair Wind Charm",
+  "skills": [
+    {
+      "name": "Attack Boost",
+      "level": "1"
+    },
+    {
+      "name": "Divine Blessing",
+      "level": "1"
+    }
+  ]
+}

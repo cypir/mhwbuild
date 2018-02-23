@@ -1,0 +1,13 @@
+{
+  "name": "Mud Puppy Charm",
+  "skills": [
+    {
+      "name": "Muck Resistance",
+      "level": "1"
+    },
+    {
+      "name": "Leap of Faith",
+      "level": "1"
+    }
+  ]
+}

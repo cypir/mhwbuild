@@ -2,6 +2,18 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import EquipmentSetCard from "../components/EquipmentSetCard";
 import EquipmentPickerDialog from "../components/EquipmentPickerDialog";
+import Button from "material-ui/Button";
+import { withStyles } from "material-ui/styles";
+
+import ShareIcon from "material-ui-icons/Share";
+
+const styles = theme => ({
+  buttonContainer: {
+    display: "flex",
+    justifyContent: "flex-end",
+    marginTop: "16px"
+  }
+});
 
 class Planner extends Component {
   constructor() {
@@ -55,6 +67,7 @@ class Planner extends Component {
   };
 
   render() {
+    const { classes } = this.props;
     return (
       <div>
         <EquipmentSetCard
@@ -63,6 +76,11 @@ class Planner extends Component {
           clickable={true}
           handlePartClick={this.handlePartClick}
         />
+        <div className={classes.buttonContainer}>
+          <Button color="primary">
+            <ShareIcon />Share
+          </Button>
+        </div>
         <EquipmentPickerDialog
           open={this.state.dialogOpen}
           onClose={() => {
@@ -79,4 +97,4 @@ class Planner extends Component {
 
 Planner.propTypes = {};
 
-export default Planner;
+export default withStyles(styles)(Planner);

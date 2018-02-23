@@ -1,0 +1,13 @@
+{
+  "name": "Procurer's Charm",
+  "skills": [
+    {
+      "name": "Pro Transporter",
+      "level": "1"
+    },
+    {
+      "name": "Honey Hunter",
+      "level": "1"
+    }
+  ]
+}

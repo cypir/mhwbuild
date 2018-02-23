@@ -1,0 +1,13 @@
+{
+  "name": "Trickshot Charm",
+  "skills": [
+    {
+      "name": "Dungmaster",
+      "level": "1"
+    },
+    {
+      "name": "Blindsider",
+      "level": "1"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Wyrmslayer Charm",
+  "skills": [
+    {
+      "name": "Elderseal Boost",
+      "level": "1"
+    },
+    {
+      "name": "Dragon Attack",
+      "level": "1"
+    }
+  ]
+}

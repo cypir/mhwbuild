@@ -1,0 +1,13 @@
+{
+  "name": "Gatherer's Charm",
+  "skills": [
+    {
+      "name": "Master Gatherer",
+      "level": "1"
+    },
+    {
+      "name": "Carving Pro",
+      "level": "1"
+    }
+  ]
+}
