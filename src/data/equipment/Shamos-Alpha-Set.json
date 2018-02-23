@@ -1,5 +1,26 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Shamos Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Detector",
+          "level": 1
+        },
+        {
+          "name": "Geologist",
+          "level": 1
+        }
+      ],
+      "name": "Shamos Goggles Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Shamos Alpha Set",
+  "rarity": 5
 }

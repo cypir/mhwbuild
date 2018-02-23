@@ -1,5 +1,22 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Sealed Eyepatch Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Fire Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Sealed Eyepatch Alpha",
+      "slots": [
+        2,
+        1,
+        0
+      ]
+    }
+  ],
+  "set": "Sealed Eyepatch Alpha Set",
+  "rarity": 5
 }

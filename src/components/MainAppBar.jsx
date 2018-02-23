@@ -4,6 +4,7 @@ import Toolbar from "material-ui/Toolbar";
 import Typography from "material-ui/Typography";
 import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
+import { navigateTo } from "gatsby-link";
 
 const styles = {
   root: {
@@ -26,8 +27,24 @@ class MainAppBar extends Component {
               color="inherit"
               className={classes.flex}
             >
-              MHW Build Creator
+              MHW Build
             </Typography>
+            <Button
+              color="inherit"
+              onClick={() => {
+                navigateTo("/plan");
+              }}
+            >
+              Plan
+            </Button>
+            <Button
+              color="inherit"
+              onClick={() => {
+                navigateTo("/");
+              }}
+            >
+              Search
+            </Button>
             <Button
               color="inherit"
               onClick={() => {

@@ -1,5 +1,22 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Barnos Beta Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Heat Guard",
+          "level": 1
+        }
+      ],
+      "name": "Barnos Jacket Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Barnos Beta Set",
+  "rarity": 5
 }

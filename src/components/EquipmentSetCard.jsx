@@ -22,6 +22,7 @@ import ExpandLess from "material-ui-icons/ExpandLess";
 import ExpandMore from "material-ui-icons/ExpandMore";
 
 import Grid from "material-ui/Grid";
+import skillformat from "../util/skillformat";
 
 const SkillTotalsList = ({ set }) => {
   let totals = {};
@@ -68,23 +69,7 @@ const SkillTotalsList = ({ set }) => {
  * write in ---
  * @param {} param0
  */
-const EquipmentPartList = ({ set }) => {
-  const skillSecondaryDisplay = (part, set) => {
-    const piece = set.pieces[part];
-
-    //if this piece exists, then get skills
-    if (piece) {
-      let buffer = "";
-      piece.skills.forEach(skill => {
-        buffer += `${skill.name} +${skill.level} / `;
-      });
-
-      return buffer.substring(0, buffer.length - 3);
-    }
-
-    return "";
-  };
-
+const EquipmentPartList = ({ set, clickable, handlePartClick }) => {
   return (
     <div>
       <List>
@@ -108,13 +93,21 @@ const EquipmentPartList = ({ set }) => {
               break;
           }
           return (
-            <ListItem key={index}>
+            <ListItem
+              key={index}
+              button={clickable ? true : false}
+              onClick={() => {
+                if (clickable) {
+                  handlePartClick(part);
+                }
+              }}
+            >
               <ListItemIcon>
                 <img alt="part" src={imageSrc} />
               </ListItemIcon>
               <ListItemText
                 primary={set.pieces[part] ? set.pieces[part].name : "-----"}
-                secondary={skillSecondaryDisplay(part, set)}
+                secondary={skillformat.skillSecondaryDisplay(part, set)}
               />
             </ListItem>
           );
@@ -171,18 +164,31 @@ const SlotList = ({ set }) => {
 };
 
 /**
- * Component that displays a set
+ * Component that displays a set.
+ *
+ * Is used in both the calculator and the set planner. If clickable is passed in, then
+ * we know it is used for the set planner, so the list items for each piece must be clickable.
  */
-const EquipmentSetCard = ({ set, index, classes }) => {
+const EquipmentSetCard = ({
+  set,
+  title,
+  classes,
+  clickable,
+  handlePartClick
+}) => {
   return (
     <div>
       <Card>
         <CardContent>
-          <Typography variant="title">Equipment Set {index + 1}</Typography>
+          <Typography variant="title">{title}</Typography>
           <Grid container spacing={8}>
             <Grid item xs={12} sm={5}>
               <Typography variant="subheading">Equipment Pieces</Typography>
-              <EquipmentPartList set={set} />
+              <EquipmentPartList
+                set={set}
+                clickable={clickable}
+                handlePartClick={handlePartClick}
+              />
             </Grid>
             <Grid item xs={6} sm={4}>
               <Typography variant="subheading">Skill Totals</Typography>

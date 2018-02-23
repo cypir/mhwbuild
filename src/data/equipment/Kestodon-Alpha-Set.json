@@ -1,5 +1,26 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Kestodon Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "level": 1
+        },
+        {
+          "name": "Focus",
+          "level": 1
+        }
+      ],
+      "name": "Kestodon Guards Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Kestodon Alpha Set",
+  "rarity": 5
 }

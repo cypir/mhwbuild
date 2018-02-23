@@ -48,7 +48,11 @@ class EquipmentSetList extends Component {
           {paginated.map((set, index) => {
             return (
               <Grid item xs={12} key={index}>
-                <EquipmentSetCard key={index} set={set} index={index} />
+                <EquipmentSetCard
+                  key={index}
+                  set={set}
+                  title={`Equipment Set ${index}`}
+                />
               </Grid>
             );
           })}

@@ -1,5 +1,22 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Faux Felyne Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Palico Rally",
+          "level": 3
+        }
+      ],
+      "name": "Faux Felyne Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Faux Felyne Alpha Set",
+  "rarity": 6
 }

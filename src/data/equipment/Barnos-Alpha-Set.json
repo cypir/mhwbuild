@@ -1,5 +1,26 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Barnos Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Heat Guard",
+          "level": 1
+        },
+        {
+          "name": "Iron Skin",
+          "level": 1
+        }
+      ],
+      "name": "Barnos Jacket Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Barnos Alpha Set",
+  "rarity": 5
 }

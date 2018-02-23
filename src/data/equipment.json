@@ -553,6 +553,44 @@
     "part": "head",
     "skills": [
       {
+        "name": "Heat Guard",
+        "level": 1
+      },
+      {
+        "name": "Iron Skin",
+        "level": 1
+      }
+    ],
+    "name": "Barnos Jacket Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barnos Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Heat Guard",
+        "level": 1
+      }
+    ],
+    "name": "Barnos Jacket Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Barnos Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
         "name": "Guard",
         "level": 2
       }
@@ -2951,6 +2989,120 @@
     "part": "head",
     "skills": [
       {
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
+    "name": "Dragonking Eyepatch Alpha",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dragonking Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Palico Rally",
+        "level": 3
+      }
+    ],
+    "name": "Faux Felyne Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Faux Felyne Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Aquatic Expert",
+        "level": 2
+      },
+      {
+        "name": "Water Attack",
+        "level": 1
+      }
+    ],
+    "name": "Gajau Boots Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Gajau Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Aquatic Expert",
+        "level": 1
+      },
+      {
+        "name": "Water Attack",
+        "level": 1
+      }
+    ],
+    "name": "Gajau Boots Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Gajau Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "level": 1
+      },
+      {
+        "name": "Blast Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Gastodon Horn Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Gastodon Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "level": 1
+      }
+    ],
+    "name": "Gastodon Horn Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Gastodon Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
         "name": "Horn Maestro",
         "level": 1
       },
@@ -4410,6 +4562,44 @@
     ],
     "rank": "hr",
     "set": "Kadachi Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Affinity Sliding",
+        "level": 1
+      },
+      {
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "name": "Kestodon Guards Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kestodon Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Affinity Sliding",
+        "level": 1
+      }
+    ],
+    "name": "Kestodon Guards Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kestodon Beta Set"
   },
   {
     "part": "head",
@@ -5883,6 +6073,23 @@
     "part": "head",
     "skills": [
       {
+        "name": "Mushroomancer",
+        "level": 2
+      }
+    ],
+    "name": "Mossswine Mask Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Mosswine Mask Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
         "name": "Maximum Might",
         "level": 2
       },
@@ -7196,6 +7403,95 @@
     ],
     "rank": "hr",
     "set": "Rathian Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Sealed Eyepatch Alpha",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Sealed Eyepatch Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Detector",
+        "level": 1
+      },
+      {
+        "name": "Geologist",
+        "level": 1
+      }
+    ],
+    "name": "Shamos Goggles Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Shamos Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Detector",
+        "level": 1
+      }
+    ],
+    "name": "Shamos Goggles Beta",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Shamos Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Skull Mask Alpha",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Skull Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "name": "Strategist Spectacles Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Strategist Alpha Set"
   },
   {
     "part": "head",

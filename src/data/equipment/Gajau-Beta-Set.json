@@ -1,5 +1,26 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Gajau Beta Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Aquatic Expert",
+          "level": 1
+        },
+        {
+          "name": "Water Attack",
+          "level": 1
+        }
+      ],
+      "name": "Gajau Boots Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Gajau Beta Set",
+  "rarity": 5
 }

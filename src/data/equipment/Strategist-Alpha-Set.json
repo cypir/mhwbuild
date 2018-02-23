@@ -1,5 +1,22 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Strategist Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Critical Eye",
+          "level": 2
+        }
+      ],
+      "name": "Strategist Spectacles Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Strategist Alpha Set",
+  "rarity": 6
 }

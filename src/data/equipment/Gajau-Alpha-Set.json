@@ -1,5 +1,26 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Gajau Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Aquatic Expert",
+          "level": 2
+        },
+        {
+          "name": "Water Attack",
+          "level": 1
+        }
+      ],
+      "name": "Gajau Boots Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Gajau Alpha Set",
+  "rarity": 5
 }

@@ -1,5 +1,22 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Kestodon Beta Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Affinity Sliding",
+          "level": 1
+        }
+      ],
+      "name": "Kestodon Guards Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Kestodon Beta Set",
+  "rarity": 5
 }

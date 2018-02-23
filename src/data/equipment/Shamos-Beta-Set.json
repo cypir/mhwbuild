@@ -1,5 +1,22 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Shamos Beta Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Detector",
+          "level": 1
+        }
+      ],
+      "name": "Shamos Goggles Beta",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Shamos Beta Set",
+  "rarity": 5
 }

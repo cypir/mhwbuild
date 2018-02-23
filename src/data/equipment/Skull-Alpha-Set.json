@@ -1,5 +1,22 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Skull Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Handicraft",
+          "level": 1
+        }
+      ],
+      "name": "Skull Mask Alpha",
+      "slots": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Skull Alpha Set",
+  "rarity": 7
 }

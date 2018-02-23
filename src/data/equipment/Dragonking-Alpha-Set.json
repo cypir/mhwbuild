@@ -1,5 +1,22 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Dragonking Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 2
+        }
+      ],
+      "name": "Dragonking Eyepatch Alpha",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Dragonking Alpha Set",
+  "rarity": 8
 }

@@ -1,5 +1,26 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Gastodon Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Flinch Free",
+          "level": 1
+        },
+        {
+          "name": "Blast Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Gastodon Horn Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Gastodon Alpha Set",
+  "rarity": 5
 }

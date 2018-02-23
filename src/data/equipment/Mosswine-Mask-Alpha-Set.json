@@ -1,5 +1,22 @@
 {
   "rank": "hr",
-  "pieces": [],
-  "set": "Mosswine Mask Alpha Set"
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Mushroomancer",
+          "level": 2
+        }
+      ],
+      "name": "Mossswine Mask Alpha",
+      "slots": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Mosswine Mask Alpha Set",
+  "rarity": 5
 }
