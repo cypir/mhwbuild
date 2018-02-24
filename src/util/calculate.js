@@ -227,8 +227,6 @@ module.exports = {
 
               //now check to see if we have enough pieces that count to get a
               //set bonus only in conjunction with the pieces we already have.
-              //For example, we won't show a set bonus for 2 piece anja if we
-              //only have 1 piece legiana
               if (piecesThatCount > 0) {
                 //piecesThatCount - 1 because index starts from 0 for number of pieces owned
                 let immediateBonus =
@@ -259,5 +257,62 @@ module.exports = {
       });
     }
     return resultSets;
+  },
+  setBonus: set => {
+    const bonuses = {
+      immediate: [],
+      possible: []
+    };
+
+    console.log(set);
+
+    //the count of matching pieces in a given set
+    let setBonusCount = {};
+
+    //count the set bonus numbers
+    _.values(set.pieces).forEach(piece => {
+      if (!setBonusCount[piece.set]) {
+        setBonusCount[piece.set] = 0;
+      }
+      setBonusCount[piece.set]++;
+    });
+
+    for (let setBonus in setBonuses) {
+      if (setBonuses.hasOwnProperty(setBonus)) {
+        //pieces that count towards the bonus
+        let piecesThatCount = 0;
+
+        //check sets that satisfy set bonus requirements
+        setBonuses[setBonus].sets.forEach(validSet => {
+          //sum up from our existing set count any pieces that count
+          if (setBonusCount[validSet]) {
+            piecesThatCount += setBonusCount[validSet];
+          }
+        });
+
+        //now check to see if we have enough pieces that count to get a
+        //set bonus only in conjunction with the pieces we already have.
+        if (piecesThatCount > 0) {
+          //piecesThatCount - 1 because index starts from 0 for number of pieces owned
+          let immediateBonus =
+            setBonuses[setBonus].requirements[piecesThatCount - 1] !== null;
+
+          if (immediateBonus) {
+            //we push because can have bonuses from multiple sets
+            bonuses.immediate.push(
+              setBonuses[setBonus].requirements[piecesThatCount - 1]
+            );
+          } else {
+            //check to see if there could possibly be a set
+          }
+
+          //mappedSet.bonuses =
+
+          //set.bonuses = ["Anjanath Willpower"];
+        }
+      }
+    }
+
+    return bonuses;
   }
 };

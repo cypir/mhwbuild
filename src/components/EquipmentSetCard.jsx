@@ -47,18 +47,21 @@ const SkillTotalsList = ({ set }) => {
         );
       })}
       {set.bonuses.immediate.map(bonus => {
-        return (
-          <ListItem key={bonus} style={{ padding: "4px" }}>
-            <ListItemText
-              disableTypography
-              primary={
-                <Typography>
-                  <strong>{bonus}</strong>
-                </Typography>
-              }
-            />
-          </ListItem>
-        );
+        console.log(bonus);
+        return bonus.map(singleBonus => {
+          return (
+            <ListItem key={singleBonus} style={{ padding: "4px" }}>
+              <ListItemText
+                disableTypography
+                primary={
+                  <Typography>
+                    <strong>{singleBonus}</strong>
+                  </Typography>
+                }
+              />
+            </ListItem>
+          );
+        });
       })}
     </List>
   );

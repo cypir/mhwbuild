@@ -55,4 +55,21 @@ exports.onPreBootstrap = ({ store }, pluginOptions) => {
 
   //write the flattened output to disk
   fs.writeFileSync(`src/data/equipment.json`, JSON.stringify(output, null, 2));
+
+  //now proceed to write charms file
+  const charmFiles = fs.readdirSync(path.resolve(`src/data/charm`));
+
+  const charmsOutput = [];
+
+  charmFiles.forEach(filename => {
+    const file = fs.readFileSync(path.resolve(`src/data/charm/${filename}`));
+
+    const charm = JSON.parse(file);
+    charmsOutput.push(charm);
+  });
+
+  fs.writeFileSync(
+    `src/data/charm.json`,
+    JSON.stringify(charmsOutput, null, 2)
+  );
 };
