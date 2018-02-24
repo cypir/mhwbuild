@@ -10,6 +10,7 @@ import ShareIcon from "material-ui-icons/Share";
 import querystring from "query-string";
 import calculate from "../util/calculate";
 import equipment from "../data/equipment.json";
+import ShareDialog from "../components/ShareDialog";
 
 const styles = theme => ({
   buttonContainer: {
@@ -38,17 +39,18 @@ class Planner extends Component {
       set,
       setName: "Custom Set",
       dialogOpen: false,
-      selectedPart: ""
+      selectedPart: "",
+      shareDialogOpen: false
     };
   }
 
   componentDidMount() {
     //listen to back button presses to close dialog
-    window.onpopstate = () => {
-      if (this.state.dialogOpen) {
-        this.setState({ dialogOpen: false });
-      }
-    };
+    // window.onpopstate = () => {
+    //   if (this.state.dialogOpen) {
+    //     this.setState({ dialogOpen: false });
+    //   }
+    // };
   }
 
   /**
@@ -133,6 +135,13 @@ class Planner extends Component {
     });
   };
 
+  /**
+   * copy build url to clipboard
+   */
+  closeShareDialog = toCopy => {
+    this.setState({ shareDialogOpen: false });
+  };
+
   render() {
     const { classes, location } = this.props;
     console.log(location);
@@ -145,7 +154,12 @@ class Planner extends Component {
           handlePartClick={this.handlePartClick}
         />
         <div className={classes.buttonContainer}>
-          <Button color="primary">
+          <Button
+            color="primary"
+            onClick={() => {
+              this.setState({ shareDialogOpen: true });
+            }}
+          >
             <ShareIcon />Share
           </Button>
         </div>
@@ -157,6 +171,15 @@ class Planner extends Component {
           selectedPart={this.state.selectedPart}
           handlePieceSelected={this.handlePieceSelected}
           handlePieceRemoved={this.handlePieceRemoved}
+        />
+        <ShareDialog
+          open={this.state.shareDialogOpen}
+          onClose={() => {
+            this.closeShareDialog(false);
+          }}
+          onCopyClose={() => {
+            this.closeShareDialog(true);
+          }}
         />
       </div>
     );
