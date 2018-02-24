@@ -35,7 +35,7 @@ class MainAppBar extends Component {
             <Button
               color="inherit"
               onClick={() => {
-                navigateTo("/plan");
+                navigateTo("/");
               }}
             >
               Plan
@@ -43,10 +43,10 @@ class MainAppBar extends Component {
             <Button
               color="inherit"
               onClick={() => {
-                navigateTo("/");
+                navigateTo("/create");
               }}
             >
-              Search
+              Create
             </Button>
             <IconButton
               color="inherit"
