@@ -42,6 +42,15 @@ class Planner extends Component {
     };
   }
 
+  componentDidMount() {
+    //listen to back button presses to close dialog
+    window.onpopstate = () => {
+      if (this.state.dialogOpen) {
+        this.setState({ dialogOpen: false });
+      }
+    };
+  }
+
   /**
    * We save data in the qs but need to load the details
    */
@@ -80,7 +89,7 @@ class Planner extends Component {
     qs[piece.part] = piece.name;
 
     //set qs to the proper route
-    navigateTo(`${this.props.location.pathname}?${querystring.stringify(qs)}`);
+    //navigateTo(`${this.props.location.pathname}?${querystring.stringify(qs)}`);
 
     let newSet = {
       ...this.state.set,

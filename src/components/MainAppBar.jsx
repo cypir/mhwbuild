@@ -6,6 +6,9 @@ import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
 import { navigateTo } from "gatsby-link";
 
+import IconButton from "material-ui/IconButton";
+import GitHubIcon from "./GitHubIcon";
+
 const styles = {
   root: {
     flexGrow: 1
@@ -45,15 +48,16 @@ class MainAppBar extends Component {
             >
               Search
             </Button>
-            <Button
+            <IconButton
               color="inherit"
               onClick={() => {
                 window.location.href =
                   "https://github.com/alexmnguyen/mhwbuild";
               }}
+              aria-label="Close"
             >
-              github
-            </Button>
+              <GitHubIcon />
+            </IconButton>
           </Toolbar>
         </AppBar>
       </div>

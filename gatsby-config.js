@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Monsert Hunter World Build"
+    title: "Monster Hunter World Build"
   },
   plugins: ["gatsby-plugin-react-helmet"]
 };

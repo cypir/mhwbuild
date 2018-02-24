@@ -11,83 +11,122 @@ import IconButton from "material-ui/IconButton";
 import Typography from "material-ui/Typography";
 import CloseIcon from "material-ui-icons/Close";
 import Slide from "material-ui/transitions/Slide";
+import TextField from "material-ui/TextField";
 
 import equipment from "../data/equipment.json";
 import skillformat from "../util/skillformat";
 
-const styles = {
+const styles = theme => ({
   appBar: {
     position: "relative"
   },
   flex: {
     flex: 1
+  },
+  filter: {
+    paddingLeft: theme.spacing.unit * 2,
+    paddingRight: theme.spacing.unit * 2
   }
-};
+});
 
 function Transition(props) {
   return <Slide direction="up" {...props} />;
 }
 
-/**
- * Full screen dialog that provides a filter for users to select equipment
- */
-const EquipmentPickerDialog = ({
-  open,
-  onClose,
-  classes,
-  selectedPart,
-  handlePieceSelected,
-  handlePieceRemoved
-}) => {
-  return (
-    <div>
-      <Dialog fullScreen open={open} onClose={onClose} transition={Transition}>
-        <AppBar className={classes.appBar}>
-          <Toolbar>
-            <IconButton color="inherit" onClick={onClose} aria-label="Close">
-              <CloseIcon />
-            </IconButton>
-            <Typography
-              variant="title"
-              color="inherit"
-              className={classes.flex}
-            >
-              Select {selectedPart} equipment
-            </Typography>
-            <Button
-              color="inherit"
-              onClick={() => {
-                handlePieceRemoved(selectedPart);
-              }}
-            >
-              Remove
-            </Button>
-          </Toolbar>
-        </AppBar>
-        <List>
-          {equipment.filter(equip => equip.part === selectedPart).map(equip => {
-            return (
-              <div key={equip.name}>
-                <ListItem
-                  button
-                  onClick={e => {
-                    handlePieceSelected(equip);
-                  }}
-                >
-                  <ListItemText
-                    primary={`${equip.name}`}
-                    secondary={skillformat.skillSecondaryDisplayPlanner(equip)}
-                  />
-                </ListItem>
-                <Divider />
-              </div>
-            );
-          })}
-        </List>
-      </Dialog>
-    </div>
-  );
-};
+class EquipmentPickerDialog extends Component {
+  constructor() {
+    super();
+    this.state = {
+      filter: ""
+    };
+  }
+
+  handleFilterChange = e => {
+    this.setState({ filter: e.target.value });
+  };
+
+  render() {
+    const {
+      open,
+      onClose,
+      classes,
+      selectedPart,
+      handlePieceSelected,
+      handlePieceRemoved
+    } = this.props;
+    return (
+      <div>
+        <Dialog
+          fullScreen
+          open={open}
+          onClose={onClose}
+          transition={Transition}
+        >
+          <AppBar className={classes.appBar}>
+            <Toolbar>
+              <IconButton color="inherit" onClick={onClose} aria-label="Close">
+                <CloseIcon />
+              </IconButton>
+              <Typography
+                variant="title"
+                color="inherit"
+                className={classes.flex}
+              >
+                Select {selectedPart} equipment
+              </Typography>
+              <Button
+                color="inherit"
+                onClick={() => {
+                  handlePieceRemoved(selectedPart);
+                }}
+              >
+                Remove
+              </Button>
+            </Toolbar>
+          </AppBar>
+          <div className={classes.filter}>
+            <TextField
+              label="Filter"
+              fullWidth
+              value={this.state.filter}
+              onChange={this.handleFilterChange}
+              type="text"
+            />
+          </div>
+          <List>
+            {equipment
+              .filter(equip => equip.part === selectedPart)
+              .filter(equip =>
+                equip.name
+                  .toLowerCase()
+                  .includes(this.state.filter.toLowerCase())
+              )
+              .map(equip => {
+                return (
+                  <div key={equip.name}>
+                    <ListItem
+                      button
+                      onClick={e => {
+                        handlePieceSelected(equip);
+                      }}
+                    >
+                      <ListItemText
+                        primary={`${equip.name}`}
+                        secondary={skillformat.skillSecondaryDisplayPlanner(
+                          equip
+                        )}
+                      />
+                    </ListItem>
+                    <Divider />
+                  </div>
+                );
+              })}
+          </List>
+        </Dialog>
+      </div>
+    );
+  }
+}
 
 EquipmentPickerDialog.propTypes = {
   classes: PropTypes.object.isRequired
