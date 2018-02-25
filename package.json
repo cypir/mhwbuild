@@ -6,6 +6,7 @@
   "dependencies": {
     "downshift": "^1.28.0",
     "gatsby": "^1.9.199",
+    "gatsby-cli": "^1.1.44",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "js-combinatorics": "^0.5.3",
@@ -18,14 +19,16 @@
     "react-helmet": "^5.2.0",
     "typeface-roboto": "^0.0.54"
   },
-  "keywords": ["mhw", "mhw build calculator"],
+  "keywords": [
+    "mhw",
+    "mhw build calculator"
+  ],
   "license": "GPL-3.0",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format":
-      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
