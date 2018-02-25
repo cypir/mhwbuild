@@ -23,14 +23,19 @@ import SkillTotalsList from "../components/SkillTotalsList";
  * Component that displays a set.
  *
  * Is used in both the calculator and the set planner. If clickable is passed in, then
- * we know it is used for the set planner, so the list items for each piece must be clickable.
+ * we know it is used for the set planner, so the list items for each piece must be
+ * clickable.
+ *
+ * We then render children in the event where we'd like to extend this list
+ * (for example, with the creator we need charms)
  */
 const EquipmentSetCard = ({
   set,
   title,
   classes,
   clickable,
-  handlePartClick
+  handlePartClick,
+  children
 }) => {
   return (
     <div>

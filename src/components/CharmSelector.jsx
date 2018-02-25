@@ -3,11 +3,6 @@ import PropTypes from "prop-types";
 import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
 import equipmentParts from "../data/equipment_part.json";
 import armIcon from "../icons/1/arm.png";
-import chestIcon from "../icons/1/chest.png";
-import headIcon from "../icons/1/head.png";
-import waistIcon from "../icons/1/waist.png";
-import legIcon from "../icons/1/leg.png";
-import charmIcon from "../icons/1/leg.png";
 import skillformat from "../util/skillformat";
 
 /**
@@ -15,32 +10,11 @@ import skillformat from "../util/skillformat";
  * write in ---
  * @param {} param0
  */
-const EquipmentPartList = ({ set, clickable, handlePartClick }) => {
+const CharmSelector = ({ set, clickable, handlePartClick }) => {
   return (
     <div>
       <List>
         {equipmentParts.map((part, index) => {
-          let imageSrc = "";
-          switch (part) {
-            case "head":
-              imageSrc = headIcon;
-              break;
-            case "chest":
-              imageSrc = chestIcon;
-              break;
-            case "arm":
-              imageSrc = armIcon;
-              break;
-            case "waist":
-              imageSrc = waistIcon;
-              break;
-            case "leg":
-              imageSrc = legIcon;
-              break;
-            case "charm":
-              imageSrc = charmIcon;
-              break;
-          }
           return (
             <ListItem
               key={index}
@@ -52,7 +26,7 @@ const EquipmentPartList = ({ set, clickable, handlePartClick }) => {
               }}
             >
               <ListItemIcon>
-                <img alt="part" src={imageSrc} />
+                <img alt="part" src={armIcon} />
               </ListItemIcon>
               <ListItemText
                 primary={set.pieces[part] ? set.pieces[part].name : "-----"}

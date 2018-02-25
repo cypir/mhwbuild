@@ -18,6 +18,8 @@ module.exports = {
         });
       });
 
+      console.log(relevantEquips);
+
       //for storing sets that match one skill criteria
       let categorizedByPart = {};
 
@@ -31,6 +33,8 @@ module.exports = {
           categorizedByPart[equipmentPart] = equips;
         }
       });
+
+      console.log(categorizedByPart);
 
       //need to do the cartesian product of each combination of equip parts
       //for example, if two pieces (arms and helmet), we need to do just arm,

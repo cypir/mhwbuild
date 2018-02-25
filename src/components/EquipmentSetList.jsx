@@ -51,7 +51,7 @@ class EquipmentSetList extends Component {
                 <EquipmentSetCard
                   key={index}
                   set={set}
-                  title={`Equipment Set ${index}`}
+                  title={`Equipment Set ${index + 1}`}
                 />
               </Grid>
             );
