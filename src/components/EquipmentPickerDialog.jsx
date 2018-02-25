@@ -59,12 +59,22 @@ class EquipmentPickerDialog extends Component {
         <Dialog
           fullScreen
           open={open}
-          onClose={onClose}
+          onClose={() => {
+            onClose();
+            this.setState({ filter: "" });
+          }}
           transition={Transition}
         >
           <AppBar className={classes.appBar}>
             <Toolbar>
-              <IconButton color="inherit" onClick={onClose} aria-label="Close">
+              <IconButton
+                color="inherit"
+                onClick={() => {
+                  onClose();
+                  this.setState({ filter: "" });
+                }}
+                aria-label="Close"
+              >
                 <CloseIcon />
               </IconButton>
               <Typography
@@ -78,6 +88,7 @@ class EquipmentPickerDialog extends Component {
                 color="inherit"
                 onClick={() => {
                   handlePieceRemoved(selectedPart);
+                  this.setState({ filter: "" });
                 }}
               >
                 Remove
@@ -108,6 +119,7 @@ class EquipmentPickerDialog extends Component {
                       button
                       onClick={e => {
                         handlePieceSelected(equip);
+                        this.setState({ filter: "" });
                       }}
                     >
                       <ListItemText
