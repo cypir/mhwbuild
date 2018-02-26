@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Maximum Might",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

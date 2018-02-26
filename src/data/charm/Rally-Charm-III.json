@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Palico Rally",
-      "level": "3"
+      "level": 3
     }
-  ]
+  ],
+  "part": "charm"
 }

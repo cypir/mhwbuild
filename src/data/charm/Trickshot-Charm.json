@@ -3,11 +3,12 @@
   "skills": [
     {
       "name": "Dungmaster",
-      "level": "1"
+      "level": 1
     },
     {
       "name": "Blindsider",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Item Prolonger",
-      "level": "3"
+      "level": 3
     }
-  ]
+  ],
+  "part": "charm"
 }

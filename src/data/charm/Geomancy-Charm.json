@@ -3,11 +3,12 @@
   "skills": [
     {
       "name": "Forager's Luck",
-      "level": "1"
+      "level": 1
     },
     {
       "name": "Detector",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

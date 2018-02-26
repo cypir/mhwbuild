@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Recovery Speed",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

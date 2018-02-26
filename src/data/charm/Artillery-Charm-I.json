@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Artillery",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

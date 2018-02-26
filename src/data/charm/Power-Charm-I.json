@@ -3,11 +3,12 @@
   "skills": [
     {
       "name": "Latent Power",
-      "level": "1"
+      "level": 1
     },
     {
       "name": "Latent Power",
-      "level": "2"
+      "level": 2
     }
-  ]
+  ],
+  "part": "charm"
 }

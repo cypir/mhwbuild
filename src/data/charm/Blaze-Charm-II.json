@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Fire Attack",
-      "level": "2"
+      "level": 2
     }
-  ]
+  ],
+  "part": "charm"
 }

@@ -3,11 +3,12 @@
   "skills": [
     {
       "name": "Muck Resistance",
-      "level": "1"
+      "level": 1
     },
     {
       "name": "Leap of Faith",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

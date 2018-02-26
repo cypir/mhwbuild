@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Quick Sheath",
-      "level": "3"
+      "level": 3
     }
-  ]
+  ],
+  "part": "charm"
 }
