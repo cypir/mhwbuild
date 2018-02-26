@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Poison Resistance",
-      "level": "3"
+      "level": 3
     }
-  ]
+  ],
+  "part": "charm"
 }

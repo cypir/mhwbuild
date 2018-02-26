@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Speed Eating",
-      "level": "3"
+      "level": 3
     }
-  ]
+  ],
+  "part": "charm"
 }

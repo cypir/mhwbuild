@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Sleep Resistance",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Critical Eye",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

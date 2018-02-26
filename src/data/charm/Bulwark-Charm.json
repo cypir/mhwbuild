@@ -3,11 +3,12 @@
   "skills": [
     {
       "name": "Guard Up",
-      "level": "1"
+      "level": 1
     },
     {
       "name": "Resuscitate",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

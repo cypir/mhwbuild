@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Tool Specialist",
-      "level": "2"
+      "level": 2
     }
-  ]
+  ],
+  "part": "charm"
 }

@@ -3,11 +3,12 @@
   "skills": [
     {
       "name": "Affinity Sliding",
-      "level": "1"
+      "level": 1
     },
     {
       "name": "Airborne",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

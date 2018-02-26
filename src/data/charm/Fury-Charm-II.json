@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Resentment",
-      "level": "2"
+      "level": 2
     }
-  ]
+  ],
+  "part": "charm"
 }

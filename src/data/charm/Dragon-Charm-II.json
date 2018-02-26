@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Dragon Resistance",
-      "level": "2"
+      "level": 2
     }
-  ]
+  ],
+  "part": "charm"
 }

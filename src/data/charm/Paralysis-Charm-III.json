@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Paralysis Resistance",
-      "level": "3"
+      "level": 3
     }
-  ]
+  ],
+  "part": "charm"
 }

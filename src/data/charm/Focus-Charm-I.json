@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Focus",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }

@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Windproof",
-      "level": "3"
+      "level": 3
     }
-  ]
+  ],
+  "part": "charm"
 }

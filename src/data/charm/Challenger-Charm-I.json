@@ -3,7 +3,8 @@
   "skills": [
     {
       "name": "Agitator",
-      "level": "1"
+      "level": 1
     }
-  ]
+  ],
+  "part": "charm"
 }
