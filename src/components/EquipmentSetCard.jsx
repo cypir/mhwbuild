@@ -4,20 +4,29 @@ import { withStyles } from "material-ui/styles";
 import Card, { CardActions, CardContent } from "material-ui/Card";
 import Button from "material-ui/Button";
 import Typography from "material-ui/Typography";
+import ShareIcon from "material-ui-icons/Share";
 
 import _ from "lodash";
-
-import Avatar from "material-ui/Avatar";
-
-import Collapse from "material-ui/transitions/Collapse";
-import ExpandLess from "material-ui-icons/ExpandLess";
-import ExpandMore from "material-ui-icons/ExpandMore";
 
 import Grid from "material-ui/Grid";
 
 import SlotList from "../components/SlotList";
 import EquipmentPartList from "../components/EquipmentPartList";
 import SkillTotalsList from "../components/SkillTotalsList";
+
+const styles = theme => ({
+  flexContainer: {
+    display: "flex"
+  },
+  share: {
+    justifyContent: "flex-end",
+    marginTop: "16px"
+  },
+  header: {
+    justifyContent: "flex-start",
+    marginTop: "16px"
+  }
+});
 
 /**
  * Component that displays a set.
@@ -34,14 +43,25 @@ const EquipmentSetCard = ({
   title,
   classes,
   clickable,
-  handlePartClick,
-  children
+  handlePartClick
 }) => {
   return (
     <div>
       <Card>
         <CardContent>
-          <Typography variant="title">{title}</Typography>
+          <div className={classes.flexContainer}>
+            <Typography variant="title">{title}</Typography>
+            <div className={classes.share}>
+              <Button
+                color="primary"
+                onClick={() => {
+                  this.setState({ shareDialogOpen: true });
+                }}
+              >
+                <ShareIcon />Share
+              </Button>
+            </div>
+          </div>
           <Grid container spacing={8}>
             <Grid item xs={12} sm={5}>
               <Typography variant="subheading">Equipment Pieces</Typography>
@@ -66,4 +86,4 @@ const EquipmentSetCard = ({
   );
 };
 
-export default EquipmentSetCard;
+export default withStyles(styles)(EquipmentSetCard);

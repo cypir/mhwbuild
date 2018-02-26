@@ -6,7 +6,6 @@ import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
 import { navigateTo } from "gatsby-link";
 
-import ShareIcon from "material-ui-icons/Share";
 import querystring from "query-string";
 import calculate from "../util/calculate";
 import equipment from "../data/equipment.json";
@@ -42,15 +41,6 @@ class Planner extends Component {
       selectedPart: "",
       shareDialogOpen: false
     };
-  }
-
-  componentDidMount() {
-    //listen to back button presses to close dialog
-    // window.onpopstate = () => {
-    //   if (this.state.dialogOpen) {
-    //     this.setState({ dialogOpen: false });
-    //   }
-    // };
   }
 
   /**
@@ -153,16 +143,7 @@ class Planner extends Component {
           clickable={true}
           handlePartClick={this.handlePartClick}
         />
-        <div className={classes.buttonContainer}>
-          <Button
-            color="primary"
-            onClick={() => {
-              this.setState({ shareDialogOpen: true });
-            }}
-          >
-            <ShareIcon />Share
-          </Button>
-        </div>
+
         <EquipmentPickerDialog
           open={this.state.dialogOpen}
           onClose={() => {
