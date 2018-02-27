@@ -8792,7 +8792,7 @@
     "skills": [
       {
         "name": "Artillery",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -8804,7 +8804,7 @@
     "skills": [
       {
         "name": "Artillery",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -8816,7 +8816,7 @@
     "skills": [
       {
         "name": "Artillery",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -8828,7 +8828,7 @@
     "skills": [
       {
         "name": "Attack Boost",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -8840,7 +8840,7 @@
     "skills": [
       {
         "name": "Attack Boost",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -8852,7 +8852,7 @@
     "skills": [
       {
         "name": "Attack Boost",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -8864,7 +8864,7 @@
     "skills": [
       {
         "name": "Free Elem/Ammo Up",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -8876,7 +8876,7 @@
     "skills": [
       {
         "name": "Free Elem/Ammo Up",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -8888,7 +8888,7 @@
     "skills": [
       {
         "name": "Blast Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -8900,7 +8900,7 @@
     "skills": [
       {
         "name": "Blast Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -8912,7 +8912,7 @@
     "skills": [
       {
         "name": "Blast Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -8924,7 +8924,7 @@
     "skills": [
       {
         "name": "Blast Functionality",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -8936,7 +8936,7 @@
     "skills": [
       {
         "name": "Fire Attack",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -8948,7 +8948,7 @@
     "skills": [
       {
         "name": "Fire Attack",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -8960,7 +8960,7 @@
     "skills": [
       {
         "name": "Fire Attack",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -8972,7 +8972,7 @@
     "skills": [
       {
         "name": "Bleeding Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -8984,7 +8984,7 @@
     "skills": [
       {
         "name": "Bleeding Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -8996,7 +8996,7 @@
     "skills": [
       {
         "name": "Bleeding Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9008,7 +9008,7 @@
     "skills": [
       {
         "name": "Divine Blessing",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9020,7 +9020,7 @@
     "skills": [
       {
         "name": "Divine Blessing",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9032,7 +9032,7 @@
     "skills": [
       {
         "name": "Divine Blessing",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9044,7 +9044,7 @@
     "skills": [
       {
         "name": "Blight Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9056,7 +9056,7 @@
     "skills": [
       {
         "name": "Blight Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9068,7 +9068,7 @@
     "skills": [
       {
         "name": "Blight Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9080,7 +9080,7 @@
     "skills": [
       {
         "name": "Bombardier",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9092,7 +9092,7 @@
     "skills": [
       {
         "name": "Bombardier",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9104,7 +9104,7 @@
     "skills": [
       {
         "name": "Bombardier",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9116,7 +9116,7 @@
     "skills": [
       {
         "name": "Botanist",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9128,7 +9128,7 @@
     "skills": [
       {
         "name": "Botanist",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9140,7 +9140,7 @@
     "skills": [
       {
         "name": "Botanist",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9152,7 +9152,7 @@
     "skills": [
       {
         "name": "Partbreaker",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9164,7 +9164,7 @@
     "skills": [
       {
         "name": "Partbreaker",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9176,11 +9176,11 @@
     "skills": [
       {
         "name": "Guard Up",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Resuscitate",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9192,7 +9192,7 @@
     "skills": [
       {
         "name": "Capacity Boost",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9204,7 +9204,7 @@
     "skills": [
       {
         "name": "Agitator",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9216,7 +9216,7 @@
     "skills": [
       {
         "name": "Agitator",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9228,11 +9228,11 @@
     "skills": [
       {
         "name": "Heat Guard",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Effluvial Expert",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9244,7 +9244,7 @@
     "skills": [
       {
         "name": "Critical Boost",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9256,7 +9256,7 @@
     "skills": [
       {
         "name": "Defense Boost",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9268,7 +9268,7 @@
     "skills": [
       {
         "name": "Defense Boost",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9280,7 +9280,7 @@
     "skills": [
       {
         "name": "Defense Boost",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9292,7 +9292,7 @@
     "skills": [
       {
         "name": "Blast Attack",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9304,7 +9304,7 @@
     "skills": [
       {
         "name": "Blast Attack",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9316,7 +9316,7 @@
     "skills": [
       {
         "name": "Blast Attack",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9328,7 +9328,7 @@
     "skills": [
       {
         "name": "Spread/Power Shots",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9340,7 +9340,7 @@
     "skills": [
       {
         "name": "Dragon Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9352,7 +9352,7 @@
     "skills": [
       {
         "name": "Dragon Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9364,7 +9364,7 @@
     "skills": [
       {
         "name": "Dragon Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9376,7 +9376,7 @@
     "skills": [
       {
         "name": "Critical Draw",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9388,7 +9388,7 @@
     "skills": [
       {
         "name": "Critical Draw",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9400,7 +9400,7 @@
     "skills": [
       {
         "name": "Earplugs",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9412,7 +9412,7 @@
     "skills": [
       {
         "name": "Earplugs",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9424,7 +9424,7 @@
     "skills": [
       {
         "name": "Earplugs",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9436,7 +9436,7 @@
     "skills": [
       {
         "name": "Stamina Thief",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9448,7 +9448,7 @@
     "skills": [
       {
         "name": "Stamina Thief",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9460,7 +9460,7 @@
     "skills": [
       {
         "name": "Stamina Thief",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9472,7 +9472,7 @@
     "skills": [
       {
         "name": "Evade Window",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9484,7 +9484,7 @@
     "skills": [
       {
         "name": "Evade Window",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9496,7 +9496,7 @@
     "skills": [
       {
         "name": "Evade Window",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9508,7 +9508,7 @@
     "skills": [
       {
         "name": "Weakness Exploit",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9520,7 +9520,7 @@
     "skills": [
       {
         "name": "Weakness Exploit",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9532,7 +9532,7 @@
     "skills": [
       {
         "name": "Item Prolonger",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9544,7 +9544,7 @@
     "skills": [
       {
         "name": "Item Prolonger",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9556,7 +9556,7 @@
     "skills": [
       {
         "name": "Item Prolonger",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9568,11 +9568,11 @@
     "skills": [
       {
         "name": "Attack Boost",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Divine Blessing",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9584,7 +9584,7 @@
     "skills": [
       {
         "name": "Fire Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9596,7 +9596,7 @@
     "skills": [
       {
         "name": "Fire Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9608,7 +9608,7 @@
     "skills": [
       {
         "name": "Fire Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9620,7 +9620,7 @@
     "skills": [
       {
         "name": "Constitution",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9632,7 +9632,7 @@
     "skills": [
       {
         "name": "Constitution",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9644,7 +9644,7 @@
     "skills": [
       {
         "name": "Constitution",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9656,7 +9656,7 @@
     "skills": [
       {
         "name": "Water Attack",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9668,7 +9668,7 @@
     "skills": [
       {
         "name": "Water Attack",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9680,7 +9680,7 @@
     "skills": [
       {
         "name": "Water Attack",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9692,7 +9692,7 @@
     "skills": [
       {
         "name": "Focus",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9704,7 +9704,7 @@
     "skills": [
       {
         "name": "Focus",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9716,7 +9716,7 @@
     "skills": [
       {
         "name": "Fortify",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9728,7 +9728,7 @@
     "skills": [
       {
         "name": "Wide-Range",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9740,7 +9740,7 @@
     "skills": [
       {
         "name": "Wide-Range",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9752,7 +9752,7 @@
     "skills": [
       {
         "name": "Wide-Range",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9764,7 +9764,7 @@
     "skills": [
       {
         "name": "Ice Attack",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9776,7 +9776,7 @@
     "skills": [
       {
         "name": "Ice Attack",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9788,7 +9788,7 @@
     "skills": [
       {
         "name": "Ice Attack",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9800,7 +9800,7 @@
     "skills": [
       {
         "name": "Resentment",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9812,7 +9812,7 @@
     "skills": [
       {
         "name": "Resentment",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9824,11 +9824,11 @@
     "skills": [
       {
         "name": "Affinity Sliding",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Airborne",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9840,11 +9840,11 @@
     "skills": [
       {
         "name": "Master Gatherer",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Carving Pro",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9856,7 +9856,7 @@
     "skills": [
       {
         "name": "Geologist",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9868,7 +9868,7 @@
     "skills": [
       {
         "name": "Geologist",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9880,7 +9880,7 @@
     "skills": [
       {
         "name": "Geologist",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9892,11 +9892,11 @@
     "skills": [
       {
         "name": "Forager's Luck",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Detector",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9908,7 +9908,7 @@
     "skills": [
       {
         "name": "Speed Eating",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9920,7 +9920,7 @@
     "skills": [
       {
         "name": "Speed Eating",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9932,7 +9932,7 @@
     "skills": [
       {
         "name": "Speed Eating",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -9944,7 +9944,7 @@
     "skills": [
       {
         "name": "Heroics",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9956,7 +9956,7 @@
     "skills": [
       {
         "name": "Heroics",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9968,7 +9968,7 @@
     "skills": [
       {
         "name": "Iron Skin",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -9980,7 +9980,7 @@
     "skills": [
       {
         "name": "Iron Skin",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -9992,7 +9992,7 @@
     "skills": [
       {
         "name": "Iron Skin",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10004,7 +10004,7 @@
     "skills": [
       {
         "name": "Handicraft",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10016,7 +10016,7 @@
     "skills": [
       {
         "name": "Handicraft",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10028,7 +10028,7 @@
     "skills": [
       {
         "name": "Handicraft",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10040,7 +10040,7 @@
     "skills": [
       {
         "name": "Health Boost",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10052,7 +10052,7 @@
     "skills": [
       {
         "name": "Health Boost",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10064,7 +10064,7 @@
     "skills": [
       {
         "name": "Health Boost",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10076,7 +10076,7 @@
     "skills": [
       {
         "name": "Heavy Artillery",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10088,7 +10088,7 @@
     "skills": [
       {
         "name": "Heavy Artillery",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10100,7 +10100,7 @@
     "skills": [
       {
         "name": "Hunger Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10112,7 +10112,7 @@
     "skills": [
       {
         "name": "Hunger Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10124,7 +10124,7 @@
     "skills": [
       {
         "name": "Hunger Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10136,11 +10136,11 @@
     "skills": [
       {
         "name": "BBQ Master",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Master Fisher",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10152,7 +10152,7 @@
     "skills": [
       {
         "name": "Ice Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10164,7 +10164,7 @@
     "skills": [
       {
         "name": "Ice Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10176,7 +10176,7 @@
     "skills": [
       {
         "name": "Ice Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10188,7 +10188,7 @@
     "skills": [
       {
         "name": "Paralysis Attack",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10200,7 +10200,7 @@
     "skills": [
       {
         "name": "Paralysis Attack",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10212,7 +10212,7 @@
     "skills": [
       {
         "name": "Paralysis Attack",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10224,7 +10224,7 @@
     "skills": [
       {
         "name": "Flinch Free",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10236,7 +10236,7 @@
     "skills": [
       {
         "name": "Flinch Free",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10248,7 +10248,7 @@
     "skills": [
       {
         "name": "Entomologist",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10260,7 +10260,7 @@
     "skills": [
       {
         "name": "Entomologist",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10272,7 +10272,7 @@
     "skills": [
       {
         "name": "Entomologist",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10284,7 +10284,7 @@
     "skills": [
       {
         "name": "Intimidator",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10296,7 +10296,7 @@
     "skills": [
       {
         "name": "Intimidator",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10308,7 +10308,7 @@
     "skills": [
       {
         "name": "Intimidator",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10320,7 +10320,7 @@
     "skills": [
       {
         "name": "Power Prolonger",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10332,7 +10332,7 @@
     "skills": [
       {
         "name": "Power Prolonger",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10344,7 +10344,7 @@
     "skills": [
       {
         "name": "Guard",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10356,7 +10356,7 @@
     "skills": [
       {
         "name": "Guard",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10368,7 +10368,7 @@
     "skills": [
       {
         "name": "Guard",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10380,7 +10380,7 @@
     "skills": [
       {
         "name": "Slugger",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10392,7 +10392,7 @@
     "skills": [
       {
         "name": "Slugger",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10404,7 +10404,7 @@
     "skills": [
       {
         "name": "Slugger",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10416,7 +10416,7 @@
     "skills": [
       {
         "name": "Evade Extender",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10428,7 +10428,7 @@
     "skills": [
       {
         "name": "Evade Extender",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10440,7 +10440,7 @@
     "skills": [
       {
         "name": "Free Meal",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10452,7 +10452,7 @@
     "skills": [
       {
         "name": "Tool Specialist",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10464,7 +10464,7 @@
     "skills": [
       {
         "name": "Tool Specialist",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10476,7 +10476,7 @@
     "skills": [
       {
         "name": "Tool Specialist",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10488,7 +10488,7 @@
     "skills": [
       {
         "name": "Marathon Runner",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10500,7 +10500,7 @@
     "skills": [
       {
         "name": "Marathon Runner",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10512,7 +10512,7 @@
     "skills": [
       {
         "name": "Critical Eye",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10524,7 +10524,7 @@
     "skills": [
       {
         "name": "Critical Eye",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10536,7 +10536,7 @@
     "skills": [
       {
         "name": "Critical Eye",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10548,7 +10548,7 @@
     "skills": [
       {
         "name": "Effluvia Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10560,7 +10560,7 @@
     "skills": [
       {
         "name": "Effluvia Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10572,7 +10572,7 @@
     "skills": [
       {
         "name": "Effluvia Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10584,7 +10584,7 @@
     "skills": [
       {
         "name": "Maximum Might",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10596,7 +10596,7 @@
     "skills": [
       {
         "name": "Maximum Might",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10608,7 +10608,7 @@
     "skills": [
       {
         "name": "Aquatic Expert",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10620,7 +10620,7 @@
     "skills": [
       {
         "name": "Aquatic Expert",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10632,7 +10632,7 @@
     "skills": [
       {
         "name": "Aquatic Expert",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10644,11 +10644,11 @@
     "skills": [
       {
         "name": "Muck Resistance",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Leap of Faith",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10660,7 +10660,7 @@
     "skills": [
       {
         "name": "Mushroomancer",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10672,7 +10672,7 @@
     "skills": [
       {
         "name": "Mushroomancer",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10684,7 +10684,7 @@
     "skills": [
       {
         "name": "Normal Shots",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10696,7 +10696,7 @@
     "skills": [
       {
         "name": "Para Functionality",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10708,7 +10708,7 @@
     "skills": [
       {
         "name": "Paralysis Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10720,7 +10720,7 @@
     "skills": [
       {
         "name": "Paralysis Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10732,7 +10732,7 @@
     "skills": [
       {
         "name": "Paralysis Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10744,7 +10744,7 @@
     "skills": [
       {
         "name": "Piercing Shots",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10756,7 +10756,7 @@
     "skills": [
       {
         "name": "Horn Maestro",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10768,7 +10768,7 @@
     "skills": [
       {
         "name": "Poison Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10780,7 +10780,7 @@
     "skills": [
       {
         "name": "Poison Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10792,7 +10792,7 @@
     "skills": [
       {
         "name": "Poison Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10804,7 +10804,7 @@
     "skills": [
       {
         "name": "Poison Functionality",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10816,11 +10816,11 @@
     "skills": [
       {
         "name": "Latent Power",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Latent Power",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10832,11 +10832,11 @@
     "skills": [
       {
         "name": "Pro Transporter",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Honey Hunter",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10848,7 +10848,7 @@
     "skills": [
       {
         "name": "Palico Rally",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10860,7 +10860,7 @@
     "skills": [
       {
         "name": "Palico Rally",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10872,7 +10872,7 @@
     "skills": [
       {
         "name": "Palico Rally",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10884,7 +10884,7 @@
     "skills": [
       {
         "name": "Recovery Up",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10896,7 +10896,7 @@
     "skills": [
       {
         "name": "Recovery Up",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10908,7 +10908,7 @@
     "skills": [
       {
         "name": "Recovery Up",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10920,11 +10920,11 @@
     "skills": [
       {
         "name": "Master Mounter",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Jump Master",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10936,7 +10936,7 @@
     "skills": [
       {
         "name": "Quick Sheath",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10948,7 +10948,7 @@
     "skills": [
       {
         "name": "Quick Sheath",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10960,7 +10960,7 @@
     "skills": [
       {
         "name": "Quick Sheath",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -10972,7 +10972,7 @@
     "skills": [
       {
         "name": "Thunder Attack",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -10984,7 +10984,7 @@
     "skills": [
       {
         "name": "Thunder Attack",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -10996,7 +10996,7 @@
     "skills": [
       {
         "name": "Thunder Attack",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11008,7 +11008,7 @@
     "skills": [
       {
         "name": "Sleep Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11020,7 +11020,7 @@
     "skills": [
       {
         "name": "Sleep Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11032,7 +11032,7 @@
     "skills": [
       {
         "name": "Sleep Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11044,7 +11044,7 @@
     "skills": [
       {
         "name": "Sleep Functionality",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11056,7 +11056,7 @@
     "skills": [
       {
         "name": "Slinger Capacity",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11068,7 +11068,7 @@
     "skills": [
       {
         "name": "Slinger Capacity",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11080,7 +11080,7 @@
     "skills": [
       {
         "name": "Slinger Capacity",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11092,7 +11092,7 @@
     "skills": [
       {
         "name": "Sporepuff Expert",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11104,7 +11104,7 @@
     "skills": [
       {
         "name": "Sporepuff Expert",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11116,7 +11116,7 @@
     "skills": [
       {
         "name": "Sporepuff Expert",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11128,7 +11128,7 @@
     "skills": [
       {
         "name": "Recovery Speed",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11140,7 +11140,7 @@
     "skills": [
       {
         "name": "Recovery Speed",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11152,7 +11152,7 @@
     "skills": [
       {
         "name": "Recovery Speed",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11164,7 +11164,7 @@
     "skills": [
       {
         "name": "Stealth",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11176,7 +11176,7 @@
     "skills": [
       {
         "name": "Stealth",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11188,7 +11188,7 @@
     "skills": [
       {
         "name": "Stealth",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11200,7 +11200,7 @@
     "skills": [
       {
         "name": "Stun Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11212,7 +11212,7 @@
     "skills": [
       {
         "name": "Stun Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11224,7 +11224,7 @@
     "skills": [
       {
         "name": "Stun Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11236,7 +11236,7 @@
     "skills": [
       {
         "name": "Stamina Surge",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11248,7 +11248,7 @@
     "skills": [
       {
         "name": "Stamina Surge",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11260,11 +11260,11 @@
     "skills": [
       {
         "name": "Scoutfly Range Up",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Scholar",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11276,7 +11276,7 @@
     "skills": [
       {
         "name": "Thunder Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11288,7 +11288,7 @@
     "skills": [
       {
         "name": "Thunder Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11300,7 +11300,7 @@
     "skills": [
       {
         "name": "Thunder Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11312,7 +11312,7 @@
     "skills": [
       {
         "name": "Scenthound",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11324,7 +11324,7 @@
     "skills": [
       {
         "name": "Sleep Attack",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11336,7 +11336,7 @@
     "skills": [
       {
         "name": "Sleep Attack",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11348,7 +11348,7 @@
     "skills": [
       {
         "name": "Sleep Attack",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11360,7 +11360,7 @@
     "skills": [
       {
         "name": "Tremor Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11372,7 +11372,7 @@
     "skills": [
       {
         "name": "Tremor Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11384,7 +11384,7 @@
     "skills": [
       {
         "name": "Special Ammo Boost",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11396,7 +11396,7 @@
     "skills": [
       {
         "name": "Special Ammo Boost",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11408,11 +11408,11 @@
     "skills": [
       {
         "name": "Dungmaster",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Blindsider",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11424,7 +11424,7 @@
     "skills": [
       {
         "name": "Peak Performance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11436,7 +11436,7 @@
     "skills": [
       {
         "name": "Peak Performance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11448,7 +11448,7 @@
     "skills": [
       {
         "name": "Poison Attack",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11460,7 +11460,7 @@
     "skills": [
       {
         "name": "Poison Attack",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11472,7 +11472,7 @@
     "skills": [
       {
         "name": "Poison Attack",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11484,7 +11484,7 @@
     "skills": [
       {
         "name": "Water Resistance",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11496,7 +11496,7 @@
     "skills": [
       {
         "name": "Water Resistance",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11508,7 +11508,7 @@
     "skills": [
       {
         "name": "Water Resistance",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11520,7 +11520,7 @@
     "skills": [
       {
         "name": "Speed Sharpening",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11532,7 +11532,7 @@
     "skills": [
       {
         "name": "Speed Sharpening",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11544,7 +11544,7 @@
     "skills": [
       {
         "name": "Speed Sharpening",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11556,7 +11556,7 @@
     "skills": [
       {
         "name": "Windproof",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11568,7 +11568,7 @@
     "skills": [
       {
         "name": "Windproof",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11580,7 +11580,7 @@
     "skills": [
       {
         "name": "Windproof",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11592,7 +11592,7 @@
     "skills": [
       {
         "name": "Dragon Attack",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",
@@ -11604,7 +11604,7 @@
     "skills": [
       {
         "name": "Dragon Attack",
-        "level": "2"
+        "level": 2
       }
     ],
     "part": "charm",
@@ -11616,7 +11616,7 @@
     "skills": [
       {
         "name": "Dragon Attack",
-        "level": "3"
+        "level": 3
       }
     ],
     "part": "charm",
@@ -11628,11 +11628,11 @@
     "skills": [
       {
         "name": "Elderseal Boost",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Dragon Attack",
-        "level": "1"
+        "level": 1
       }
     ],
     "part": "charm",

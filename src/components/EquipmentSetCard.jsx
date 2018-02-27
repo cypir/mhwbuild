@@ -16,16 +16,18 @@ import SkillTotalsList from "../components/SkillTotalsList";
 
 const styles = theme => ({
   flexContainer: {
-    display: "flex"
-  },
-  share: {
-    justifyContent: "flex-end",
-    marginTop: "16px"
-  },
-  header: {
-    justifyContent: "flex-start",
+    display: "flex",
+    justifyContent: "space-between",
     marginTop: "16px"
   }
+  // share: {
+  //   justifyContent: "flex-end",
+  //   marginTop: "16px"
+  // },
+  // header: {
+  //   justifyContent: "flex-start",
+  //   marginTop: "16px"
+  // }
 });
 
 /**
@@ -51,7 +53,7 @@ const EquipmentSetCard = ({
         <CardContent>
           <div className={classes.flexContainer}>
             <Typography variant="title">{title}</Typography>
-            <div className={classes.share}>
+            {/* <div className={classes.share}>
               <Button
                 color="primary"
                 onClick={() => {
@@ -60,7 +62,7 @@ const EquipmentSetCard = ({
               >
                 <ShareIcon />Share
               </Button>
-            </div>
+            </div> */}
           </div>
           <Grid container spacing={8}>
             <Grid item xs={12} sm={5}>

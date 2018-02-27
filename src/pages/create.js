@@ -11,6 +11,10 @@ import calculate from "../util/calculate";
 import equipment from "../data/equipment.json";
 import ShareDialog from "../components/ShareDialog";
 
+import ShareIcon from "material-ui-icons/Share";
+
+import axios from "axios";
+
 const styles = theme => ({
   buttonContainer: {
     display: "flex",
@@ -23,24 +27,52 @@ class Planner extends Component {
   constructor(props) {
     super(props);
 
-    //do initial load from query params
-    console.log(this.props);
-
-    //parse qs
-    let qs = querystring.parse(this.props.location.search);
-
-    //convert qs to set
-
-    console.log(qs);
-    let set = this.convertQsToSet(qs);
-
     this.state = {
-      set,
+      set: {
+        bonuses: {
+          immediate: []
+        },
+        pieces: {}
+      },
       setName: "Custom Set",
       dialogOpen: false,
       selectedPart: "",
       shareDialogOpen: false
     };
+  }
+
+  componentDidMount() {
+    //do initial load from query params
+    console.log(this.props);
+
+    //parse qs
+    let { id } = querystring.parse(this.props.location.search);
+
+    var self = this;
+
+    //convert qs to set. We use goo.gl url shortener ids
+    axios
+      .get(
+        `https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyAYTNlLf0WnrtaGuTCTuR8AFF4Xs_fmSnA&shortUrl=http://goo.gl/${id}`
+      )
+      .then(function(response) {
+        //get the last index
+        let longUrl = response.data.longUrl;
+
+        //get query string from long url
+        let qs = querystring.parse(longUrl.substring(longUrl.indexOf("?")));
+
+        console.log(qs);
+        let set = self.convertQsToSet(qs);
+
+        self.setState({
+          set,
+          setName: "Custom Set",
+          dialogOpen: false,
+          selectedPart: "",
+          shareDialogOpen: false
+        });
+      });
   }
 
   /**
@@ -75,10 +107,10 @@ class Planner extends Component {
 
   handlePieceSelected = piece => {
     //get existing qs
-    let qs = querystring.parse(this.props.location.search);
+    //let qs = querystring.parse(this.props.location.search);
 
     //set the piece name in the qs
-    qs[piece.part] = piece.name;
+    //qs[piece.part] = piece.name;
 
     //set qs to the proper route
     //navigateTo(`${this.props.location.pathname}?${querystring.stringify(qs)}`);
@@ -135,6 +167,7 @@ class Planner extends Component {
   render() {
     const { classes, location } = this.props;
     console.log(location);
+    console.log(this.state);
     return (
       <div>
         <EquipmentSetCard
@@ -143,7 +176,6 @@ class Planner extends Component {
           clickable={true}
           handlePartClick={this.handlePartClick}
         />
-
         <EquipmentPickerDialog
           open={this.state.dialogOpen}
           onClose={() => {
@@ -153,14 +185,22 @@ class Planner extends Component {
           handlePieceSelected={this.handlePieceSelected}
           handlePieceRemoved={this.handlePieceRemoved}
         />
+        <div className={classes.buttonContainer}>
+          <Button
+            color="primary"
+            onClick={() => {
+              this.setState({ shareDialogOpen: true });
+            }}
+          >
+            <ShareIcon />Share
+          </Button>
+        </div>
         <ShareDialog
           open={this.state.shareDialogOpen}
           onClose={() => {
             this.closeShareDialog(false);
           }}
-          onCopyClose={() => {
-            this.closeShareDialog(true);
-          }}
+          set={this.state.set}
         />
       </div>
     );

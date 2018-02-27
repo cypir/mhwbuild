@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Alex Nguyen <amn77a@gmail.com>",
   "dependencies": {
+    "axios": "^0.18.0",
     "downshift": "^1.28.0",
     "gatsby": "^1.9.199",
     "gatsby-cli": "^1.1.44",
