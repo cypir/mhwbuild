@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-
 import Button from "material-ui/Button";
 import Dialog, {
   DialogActions,
@@ -8,19 +7,21 @@ import Dialog, {
   DialogContentText,
   DialogTitle
 } from "material-ui/Dialog";
-
 import querystring from "query-string";
-
 import _ from "lodash";
-
 import axios from "axios";
+import Stepper, { Step, StepLabel, StepContent } from "material-ui/Stepper";
+import Typography from "material-ui/Typography/Typography";
+
+import CopyToClipboard from "react-copy-to-clipboard";
 
 class ShareDialog extends Component {
   constructor() {
     super();
     this.state = {
       url: "",
-      qsObj: {}
+      qsObj: {},
+      activeStep: 0
     };
   }
 
@@ -54,31 +55,61 @@ class ShareDialog extends Component {
         //get the last index
         let shortUrl = response.data.id;
         let shortId = shortUrl.substring(shortUrl.lastIndexOf("/") + 1);
-        self.setState({ url: `mhwbuild.com/create?id=${shortId}` });
+        self.setState({
+          url: `mhwbuild.com/create?id=${shortId}`,
+          activeStep: 1
+        });
       });
   };
 
+  onCloseWrapper = () => {
+    const { onClose } = this.props;
+
+    //clear state
+    onClose();
+
+    this.setState({
+      url: "",
+      qsObj: {},
+      activeStep: 0
+    });
+  };
+
   render() {
-    const { onClose, open, onCopyClose, set } = this.props;
+    const { open, onCopyClose, set } = this.props;
     return (
       <div>
         <Dialog
           open={open}
-          onClose={onClose}
+          onClose={this.onCloseWrapper}
           aria-labelledby="alert-dialog-title"
           aria-describedby="alert-dialog-description"
         >
           <DialogTitle id="alert-dialog-title">Share Build</DialogTitle>
           <DialogContent>
-            <Button onClick={this.generateUrl} color="primary" autoFocus>
-              Generate URL
-            </Button>
-            <DialogContentText id="alert-dialog-description">
-              {this.state.url}
-            </DialogContentText>
+            <Stepper activeStep={this.state.activeStep} orientation="vertical">
+              <Step>
+                <StepLabel>Generate URL</StepLabel>
+                <StepContent>
+                  <Button onClick={this.generateUrl} color="primary" autoFocus>
+                    Generate URL
+                  </Button>
+                </StepContent>
+              </Step>
+              <Step>
+                <StepLabel>Click on URL to copy to clipboard</StepLabel>
+                <StepContent>
+                  <CopyToClipboard text={this.state.url}>
+                    <Typography variant="subheading">
+                      {this.state.url}
+                    </Typography>
+                  </CopyToClipboard>
+                </StepContent>
+              </Step>
+            </Stepper>
           </DialogContent>
           <DialogActions>
-            <Button onClick={onClose} color="primary">
+            <Button onClick={this.onCloseWrapper} color="primary">
               Close
             </Button>
           </DialogActions>

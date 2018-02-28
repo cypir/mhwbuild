@@ -17,6 +17,7 @@
     "nanoid": "^1.0.2",
     "prop-types": "^15.6.0",
     "query-string": "^5.1.0",
+    "react-copy-to-clipboard": "^5.0.1",
     "react-helmet": "^5.2.0",
     "typeface-roboto": "^0.0.54"
   },
