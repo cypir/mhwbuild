@@ -268,8 +268,6 @@ module.exports = {
       possible: []
     };
 
-    console.log(set);
-
     //the count of matching pieces in a given set
     let setBonusCount = {};
 
@@ -318,5 +316,31 @@ module.exports = {
     }
 
     return bonuses;
+  },
+  /**
+   * Return the decorations for a set
+   */
+  decorations: set => {
+    let decorations = {};
+    //iterate through the pieces
+    for (let part in set.pieces) {
+      if (set.pieces.hasOwnProperty(part)) {
+        let piece = set.pieces[part];
+
+        decorations[part] = [];
+
+        //iterate through the slots
+        piece.slots.forEach(slotLevel => {
+          //if we have a value, add slot info
+          if (slotLevel > 0) {
+            decorations[part].push({ name: "", level: slotLevel });
+          } else {
+            decorations[part].push({});
+          }
+        });
+      }
+    }
+
+    return decorations;
   }
 };

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import EquipmentSetCard from "../components/EquipmentSetCard";
+import DecorationSetCard from "../components/DecorationSetCard";
 import EquipmentPickerDialog from "../components/EquipmentPickerDialog";
 import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
@@ -20,6 +21,9 @@ const styles = theme => ({
     display: "flex",
     justifyContent: "flex-end",
     marginTop: "16px"
+  },
+  equipmentSetCard: {
+    marginBottom: "24px"
   }
 });
 
@@ -32,9 +36,10 @@ class Planner extends Component {
         bonuses: {
           immediate: []
         },
-        pieces: {}
+        pieces: {},
+        decorations: {}
       },
-      setName: "Custom Set",
+      setName: "Equipment Set",
       dialogOpen: false,
       selectedPart: "",
       shareDialogOpen: false
@@ -47,6 +52,10 @@ class Planner extends Component {
 
     //parse qs
     let { id } = querystring.parse(this.props.location.search);
+
+    if (!id) {
+      return;
+    }
 
     var self = this;
 
@@ -84,7 +93,11 @@ class Planner extends Component {
       bonuses: {
         immediate: []
       },
-      pieces: {}
+      pieces: {},
+      //level 1,2,3
+      decorations: {
+        //head: [{}, {}, {}] we match the structure with the pieces, each index represents the level of the gem -1 (eg. 1 = 0)
+      }
     };
 
     for (let part in qs) {
@@ -106,15 +119,6 @@ class Planner extends Component {
   };
 
   handlePieceSelected = piece => {
-    //get existing qs
-    //let qs = querystring.parse(this.props.location.search);
-
-    //set the piece name in the qs
-    //qs[piece.part] = piece.name;
-
-    //set qs to the proper route
-    //navigateTo(`${this.props.location.pathname}?${querystring.stringify(qs)}`);
-
     let newSet = {
       ...this.state.set,
       pieces: {
@@ -126,6 +130,11 @@ class Planner extends Component {
     //calculate set bonus
     let bonuses = calculate.setBonus(newSet);
     newSet.bonuses = bonuses;
+
+    //calculate new decoration slots
+    newSet.decorations = calculate.decorations(newSet);
+
+    console.log(newSet);
 
     //save a copy to internal state
     this.setState({
@@ -164,17 +173,26 @@ class Planner extends Component {
     this.setState({ shareDialogOpen: false });
   };
 
+  onDecorationChanged = (part, index) => {
+    console.log(decorationchanged);
+  };
+
   render() {
     const { classes, location } = this.props;
-    console.log(location);
-    console.log(this.state);
     return (
       <div>
-        <EquipmentSetCard
+        <div className={classes.equipmentSetCard}>
+          <EquipmentSetCard
+            set={this.state.set}
+            title={this.state.setName}
+            clickable={true}
+            handlePartClick={this.handlePartClick}
+          />
+        </div>
+        <DecorationSetCard
           set={this.state.set}
-          title={this.state.setName}
-          clickable={true}
-          handlePartClick={this.handlePartClick}
+          onDecorationChanged={this.onDecorationChanged}
+          title="Decoration Set"
         />
         <EquipmentPickerDialog
           open={this.state.dialogOpen}

@@ -53,16 +53,6 @@ const EquipmentSetCard = ({
         <CardContent>
           <div className={classes.flexContainer}>
             <Typography variant="title">{title}</Typography>
-            {/* <div className={classes.share}>
-              <Button
-                color="primary"
-                onClick={() => {
-                  this.setState({ shareDialogOpen: true });
-                }}
-              >
-                <ShareIcon />Share
-              </Button>
-            </div> */}
           </div>
           <Grid container spacing={8}>
             <Grid item xs={12} sm={5}>

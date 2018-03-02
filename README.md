@@ -24,3 +24,4 @@ This is a static site generated via [GatsbyJS](https://www.gatsbyjs.org/). To ru
 
 * Inital data set was retrieved from https://mhworld.kiranico.com/
 * Icons were from https://www.reddit.com/r/MonsterHunter/comments/2thxoz/here_i_compiled_a_set_of_higher_resolution_icons/
+* Decoration information retrieved from https://www.reddit.com/r/MonsterHunter/comments/7vhllo/mhworld_decorations_list/

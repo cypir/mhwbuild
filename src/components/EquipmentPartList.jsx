@@ -7,7 +7,7 @@ import chestIcon from "../icons/1/chest.png";
 import headIcon from "../icons/1/head.png";
 import waistIcon from "../icons/1/waist.png";
 import legIcon from "../icons/1/leg.png";
-import charmIcon from "../icons/1/leg.png";
+import charmIcon from "../icons/1/charm.png";
 import skillformat from "../util/skillformat";
 
 /**
