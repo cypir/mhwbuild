@@ -69,4 +69,21 @@ exports.onPreBootstrap = ({ store }, pluginOptions) => {
 
   //write the flattened output to disk
   fs.writeFileSync(`src/data/equipment.json`, JSON.stringify(output, null, 2));
+
+  //now we get decorations
+  const decorations = [];
+  const decorationFiles = fs.readdirSync(path.resolve(`src/data/decoration`));
+  decorationFiles.forEach(filename => {
+    const file = fs.readFileSync(
+      path.resolve(`src/data/decoration/${filename}`)
+    );
+    const decoration = JSON.parse(file);
+
+    decorations.push(decoration);
+  });
+
+  fs.writeFileSync(
+    `src/data/decoration.json`,
+    JSON.stringify(decorations, null, 2)
+  );
 };

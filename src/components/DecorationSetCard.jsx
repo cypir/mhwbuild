@@ -40,9 +40,7 @@ const DecorationSetCard = ({ set, title, classes, onDecorationChanged }) => {
 
           <DecorationPartList
             set={set}
-            handlePartClick={() => {
-              console.log("part clicked");
-            }}
+            onDecorationChanged={onDecorationChanged}
           />
         </CardContent>
       </Card>

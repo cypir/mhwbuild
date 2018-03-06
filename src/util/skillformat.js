@@ -14,10 +14,14 @@ module.exports = {
   },
   skillSecondaryDisplayPlanner: equipment => {
     let buffer = "";
-    equipment.skills.forEach(skill => {
-      buffer += `${skill.name} +${skill.level} / `;
-    });
+    if (equipment.skills) {
+      equipment.skills.forEach(skill => {
+        buffer += `${skill.name} +${skill.level} / `;
+      });
 
-    return buffer.substring(0, buffer.length - 3);
+      return buffer.substring(0, buffer.length - 3);
+    }
+
+    return "";
   }
 };

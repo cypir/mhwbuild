@@ -1,0 +1,492 @@
+[
+  {
+    "name": "Affinity Sliding",
+    "skill": "Affinity Sliding",
+    "level": 2
+  },
+  {
+    "name": "Agitator",
+    "skill": "Agitator",
+    "level": 2
+  },
+  {
+    "name": "Airborne",
+    "skill": "Airborne",
+    "level": 2
+  },
+  {
+    "name": "Aquatic Expert",
+    "skill": "Aquatic Expert",
+    "level": 1
+  },
+  {
+    "name": "Artillery",
+    "skill": "Artillery",
+    "level": 1
+  },
+  {
+    "name": "Attack Boost",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "name": "Blast Attack",
+    "skill": "Blast Attack",
+    "level": 1
+  },
+  {
+    "name": "Blast Functionality",
+    "skill": "Blast Functionality",
+    "level": 3
+  },
+  {
+    "name": "Blast Resistance",
+    "skill": "Blast Resistance",
+    "level": 1
+  },
+  {
+    "name": "Bleeding Resistance",
+    "skill": "Bleeding Resistance",
+    "level": 1
+  },
+  {
+    "name": "Blight Resistance",
+    "skill": "Blight Resistance",
+    "level": 1
+  },
+  {
+    "name": "Bombardier",
+    "skill": "Bombardier",
+    "level": 1
+  },
+  {
+    "name": "Botanist",
+    "skill": "Botanist",
+    "level": 1
+  },
+  {
+    "name": "Bow Charge Plus",
+    "skill": "Bow Charge Plus",
+    "level": 2
+  },
+  {
+    "name": "Capacity Boost",
+    "skill": "Capacity Boost",
+    "level": 2
+  },
+  {
+    "name": "Constitution",
+    "skill": "Constitution",
+    "level": 2
+  },
+  {
+    "name": "Critical Boost",
+    "skill": "Critical Boost",
+    "level": 2
+  },
+  {
+    "name": "Critical Draw",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "name": "Critical Eye",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "name": "Defense Boost",
+    "skill": "Defense Boost",
+    "level": 1
+  },
+  {
+    "name": "Divine Blessing",
+    "skill": "Divine Blessing",
+    "level": 1
+  },
+  {
+    "name": "Dragon Attack",
+    "skill": "Dragon Attack",
+    "level": 1
+  },
+  {
+    "name": "Dragon Resistance",
+    "skill": "Dragon Resistance",
+    "level": 1
+  },
+  {
+    "name": "Earplugs",
+    "skill": "Earplugs",
+    "level": 3
+  },
+  {
+    "name": "Effluvia Resistance",
+    "skill": "Effluvia Resistance",
+    "level": 1
+  },
+  {
+    "name": "Elderseal Boost",
+    "skill": "Elderseal Boost",
+    "level": 3
+  },
+  {
+    "name": "Entomologist",
+    "skill": "Entomologist",
+    "level": 1
+  },
+  {
+    "name": "Evade Extender",
+    "skill": "Evade Extender",
+    "level": 2
+  },
+  {
+    "name": "Evade Window",
+    "skill": "Evade Window",
+    "level": 2
+  },
+  {
+    "name": "Fire Attack",
+    "skill": "Fire Attack",
+    "level": 1
+  },
+  {
+    "name": "Fire Resistance",
+    "skill": "Fire Resistance",
+    "level": 1
+  },
+  {
+    "name": "Flinch Free",
+    "skill": "Flinch Free",
+    "level": 3
+  },
+  {
+    "name": "Focus",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "name": "Fortify",
+    "skill": "Fortify",
+    "level": 1
+  },
+  {
+    "name": "Free Elem/Ammo Up",
+    "skill": "Free Elem/Ammo Up",
+    "level": 3
+  },
+  {
+    "name": "Free Meal",
+    "skill": "Free Meal",
+    "level": 1
+  },
+  {
+    "name": "Geologist",
+    "skill": "Geologist",
+    "level": 1
+  },
+  {
+    "name": "Guard Up",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "name": "Guard",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "name": "Handicraft",
+    "skill": "Handicraft",
+    "level": 3
+  },
+  {
+    "name": "Health Boost",
+    "skill": "Health Boost",
+    "level": 1
+  },
+  {
+    "name": "Heavy Artillery",
+    "skill": "Heavy Artillery",
+    "level": 1
+  },
+  {
+    "name": "Heroics",
+    "skill": "Heroics",
+    "level": 2
+  },
+  {
+    "name": "Horn Maestro",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "name": "Hunger Resistance",
+    "skill": "Hunger Resistance",
+    "level": 1
+  },
+  {
+    "name": "Ice Attack",
+    "skill": "Ice Attack",
+    "level": 1
+  },
+  {
+    "name": "Ice Resistance",
+    "skill": "Ice Resistance",
+    "level": 1
+  },
+  {
+    "name": "Intimidator",
+    "skill": "Intimidator",
+    "level": 1
+  },
+  {
+    "name": "Iron Skin",
+    "skill": "Iron Skin",
+    "level": 1
+  },
+  {
+    "name": "Item Prolonger",
+    "skill": "Item Prolonger",
+    "level": 1
+  },
+  {
+    "name": "Latent Power",
+    "skill": "Latent Power",
+    "level": 2
+  },
+  {
+    "name": "Marathon Runner",
+    "skill": "Marathon Runner",
+    "level": 2
+  },
+  {
+    "name": "Maximum Might",
+    "skill": "Maximum Might",
+    "level": 2
+  },
+  {
+    "name": "Mind Eye/Ballistic",
+    "skill": "Mind Eye/Ballistic",
+    "level": 2
+  },
+  {
+    "name": "Mushroomancer",
+    "skill": "Mushroomancer",
+    "level": 1
+  },
+  {
+    "name": "Non-Elemental Boost",
+    "skill": "Non-Elemental Boost",
+    "level": 2
+  },
+  {
+    "name": "Normal Shots",
+    "skill": "Normal Shots",
+    "level": 3
+  },
+  {
+    "name": "Palico Rally",
+    "skill": "Palico Rally",
+    "level": 1
+  },
+  {
+    "name": "Paralysis Attack",
+    "skill": "Paralysis Attack",
+    "level": 1
+  },
+  {
+    "name": "Paralysis Functionality",
+    "skill": "Paralysis Functionality",
+    "level": 3
+  },
+  {
+    "name": "Paralysis Resistance",
+    "skill": "Paralysis Resistance",
+    "level": 1
+  },
+  {
+    "name": "Partbreaker",
+    "skill": "Partbreaker",
+    "level": 2
+  },
+  {
+    "name": "Peak Performance",
+    "skill": "Peak Performance",
+    "level": 2
+  },
+  {
+    "name": "Piercing Shots",
+    "skill": "Piercing Shots",
+    "level": 3
+  },
+  {
+    "name": "Poison Attack",
+    "skill": "Poison Attack",
+    "level": 1
+  },
+  {
+    "name": "Poison Functionality",
+    "skill": "Poison Functionality",
+    "level": 3
+  },
+  {
+    "name": "Poison Resistance",
+    "skill": "Poison Resistance",
+    "level": 1
+  },
+  {
+    "name": "Power Prolonger",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "name": "Protective Polish",
+    "skill": "Protective Polish",
+    "level": 2
+  },
+  {
+    "name": "Quick Sheath",
+    "skill": "Quick Sheath",
+    "level": 1
+  },
+  {
+    "name": "Recovery Speed",
+    "skill": "Recovery Speed",
+    "level": 1
+  },
+  {
+    "name": "Recovery Up",
+    "skill": "Recovery Up",
+    "level": 1
+  },
+  {
+    "name": "Resentment",
+    "skill": "Resentment",
+    "level": 2
+  },
+  {
+    "name": "Resuscitate",
+    "skill": "Resuscitate",
+    "level": 1
+  },
+  {
+    "name": "Scenthound",
+    "skill": "Scenthound",
+    "level": 1
+  },
+  {
+    "name": "Sleep Attack",
+    "skill": "Sleep Attack",
+    "level": 1
+  },
+  {
+    "name": "Sleep Functionality",
+    "skill": "Sleep Functionality",
+    "level": 3
+  },
+  {
+    "name": "Sleep Resistance",
+    "skill": "Sleep Resistance",
+    "level": 1
+  },
+  {
+    "name": "Slinger Capacity",
+    "skill": "Slinger Capacity",
+    "level": 1
+  },
+  {
+    "name": "Slugger",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "name": "Special Ammo Boost",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "name": "Speed Eating",
+    "skill": "Speed Eating",
+    "level": 1
+  },
+  {
+    "name": "Speed Sharpening",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "name": "Sporepuff Expert",
+    "skill": "Sporepuff Expert",
+    "level": 1
+  },
+  {
+    "name": "Spread/Power Shots",
+    "skill": "Spread/Power Shots",
+    "level": 3
+  },
+  {
+    "name": "Stamina Surge",
+    "skill": "Stamina Surge",
+    "level": 2
+  },
+  {
+    "name": "Stamina Thief",
+    "skill": "Stamina Thief",
+    "level": 1
+  },
+  {
+    "name": "Stealth",
+    "skill": "Stealth",
+    "level": 1
+  },
+  {
+    "name": "Stun Resistance",
+    "skill": "Stun Resistance",
+    "level": 1
+  },
+  {
+    "name": "Thunder Attack",
+    "skill": "Thunder Attack",
+    "level": 1
+  },
+  {
+    "name": "Thunder Resistance",
+    "skill": "Thunder Resistance",
+    "level": 1
+  },
+  {
+    "name": "Tool Specialist",
+    "skill": "Tool Specialist",
+    "level": 1
+  },
+  {
+    "name": "Tremor Resistance",
+    "skill": "Tremor Resistance",
+    "level": 2
+  },
+  {
+    "name": "Water Attack",
+    "skill": "Water Attack",
+    "level": 1
+  },
+  {
+    "name": "Water Resistance",
+    "skill": "Water Resistance",
+    "level": 1
+  },
+  {
+    "name": "Weakness Exploit",
+    "skill": "Weakness Exploit",
+    "level": 2
+  },
+  {
+    "name": "Wide-Range",
+    "skill": "Wide-Range",
+    "level": 1
+  },
+  {
+    "name": "Windproof",
+    "skill": "Windproof",
+    "level": 2
+  }
+]

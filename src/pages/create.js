@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import EquipmentSetCard from "../components/EquipmentSetCard";
 import DecorationSetCard from "../components/DecorationSetCard";
-import EquipmentPickerDialog from "../components/EquipmentPickerDialog";
+import PickerDialog from "../components/PickerDialog";
 import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
 import { navigateTo } from "gatsby-link";
@@ -173,8 +173,8 @@ class Planner extends Component {
     this.setState({ shareDialogOpen: false });
   };
 
-  onDecorationChanged = (part, index) => {
-    console.log(decorationchanged);
+  onDecorationChanged = (part, index, decoration) => {
+    console.log(`Decoration Changed ${part} - ${index} -${decoration.name}`);
   };
 
   render() {
@@ -194,7 +194,7 @@ class Planner extends Component {
           onDecorationChanged={this.onDecorationChanged}
           title="Decoration Set"
         />
-        <EquipmentPickerDialog
+        <PickerDialog
           open={this.state.dialogOpen}
           onClose={() => {
             this.setState({ dialogOpen: false });
@@ -202,6 +202,9 @@ class Planner extends Component {
           selectedPart={this.state.selectedPart}
           handlePieceSelected={this.handlePieceSelected}
           handlePieceRemoved={this.handlePieceRemoved}
+          items={equipment.filter(
+            equip => equip.part === this.state.selectedPart
+          )}
         />
         <div className={classes.buttonContainer}>
           <Button
