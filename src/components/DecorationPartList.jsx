@@ -47,7 +47,6 @@ const DecorationPartList = ({ set, onDecorationChanged }) => {
 
   const baseDecorationInfo = calculate.decorations(set);
   const decorationInfo = set.decorations;
-  console.log(baseDecorationInfo);
   return (
     <div>
       <List>

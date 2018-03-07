@@ -47,9 +47,6 @@ class Planner extends Component {
   }
 
   componentDidMount() {
-    //do initial load from query params
-    console.log(this.props);
-
     //parse qs
     let { id } = querystring.parse(this.props.location.search);
 
@@ -174,11 +171,27 @@ class Planner extends Component {
   };
 
   onDecorationChanged = (part, index, decoration) => {
-    console.log(`Decoration Changed ${part} - ${index} -${decoration.name}`);
+    //clone existing decorations for part
+    let newDeco = [...this.state.set.decorations[part]];
+
+    //update decoration
+    newDeco[index] = decoration;
+
+    //update state with new part
+    this.setState({
+      set: {
+        ...this.state.set,
+        decorations: {
+          ...this.state.decorations,
+          [part]: newDeco
+        }
+      }
+    });
   };
 
   render() {
     const { classes, location } = this.props;
+    console.log(this.state);
     return (
       <div>
         <div className={classes.equipmentSetCard}>

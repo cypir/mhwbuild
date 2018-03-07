@@ -19,8 +19,33 @@ class DecorationPartListItem extends Component {
       selectedIndex: -1
     };
   }
+
+  getSlotDisplay = (piece, decorations) => {
+    let sum = 0;
+
+    //total number possible slots
+    let total = 0;
+    if (!piece) {
+      return "-----";
+    }
+    decorations[piece.part].forEach(decoration => {
+      if (decoration.hasOwnProperty("name")) {
+        total++;
+
+        if (decoration.name !== "") {
+          sum++;
+        }
+      }
+    });
+
+    return `${sum}/${total}`;
+  };
+
   render() {
-    const { icon, onDecorationChanged, piece, decorations, index } = this.props;
+    const { icon, onDecorationChanged, piece, decorations } = this.props;
+    console.log(piece);
+    console.log(decorations);
+
     return (
       <div>
         <ListItem
@@ -34,7 +59,7 @@ class DecorationPartListItem extends Component {
           <ListItemIcon>
             <img alt="part" src={icon} />
           </ListItemIcon>
-          <ListItemText primary={"0/2 Slots"} />
+          <ListItemText primary={this.getSlotDisplay(piece, decorations)} />
         </ListItem>
         {piece ? (
           <Collapse in={this.state.open} timeout="auto" unmountOnExit>
@@ -48,7 +73,9 @@ class DecorationPartListItem extends Component {
                       this.setState({ dialogOpen: true, selectedIndex: index });
                     }}
                   >
-                    Primary
+                    {decorations[piece.part][index].name !== ""
+                      ? decorations[piece.part][index].name
+                      : "Empty Slot"}
                   </Button>
                 </div>
               ) : (
@@ -65,7 +92,13 @@ class DecorationPartListItem extends Component {
             this.setState({ dialogOpen: false });
           }}
           selectedPart="decoration"
-          items={possibleDecorations}
+          //display only the relevant levels for decorations
+          items={possibleDecorations.filter(deco => {
+            if (piece) {
+              return deco.level <= piece.slots[this.state.selectedIndex];
+            }
+            return false;
+          })}
           handlePieceSelected={item => {
             console.log(item);
             console.log(this.state.selectedIndex);
