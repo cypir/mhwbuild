@@ -40,7 +40,11 @@ const getIcon = part => {
  * We take in the set and then derive the decoration form based on the set
  * @param {} param0
  */
-const DecorationPartList = ({ set, onDecorationChanged }) => {
+const DecorationPartList = ({
+  set,
+  onDecorationChanged,
+  onDecorationRemoved
+}) => {
   //we calculate the decoration information based on slots. This is the template
   //that we create the form with. We use set.decorations as the placeholder for
   //our actual decoration input
@@ -62,6 +66,7 @@ const DecorationPartList = ({ set, onDecorationChanged }) => {
                 icon={getIcon(part)}
                 piece={set.pieces[part]}
                 decorations={set.decorations}
+                onDecorationRemoved={onDecorationRemoved}
                 index={index}
               />
             );

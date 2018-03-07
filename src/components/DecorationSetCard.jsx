@@ -29,7 +29,13 @@ const styles = theme => ({
  *
  * Dynamically generate the card based on the set
  */
-const DecorationSetCard = ({ set, title, classes, onDecorationChanged }) => {
+const DecorationSetCard = ({
+  set,
+  title,
+  classes,
+  onDecorationChanged,
+  onDecorationRemoved
+}) => {
   return (
     <div>
       <Card>
@@ -41,6 +47,7 @@ const DecorationSetCard = ({ set, title, classes, onDecorationChanged }) => {
           <DecorationPartList
             set={set}
             onDecorationChanged={onDecorationChanged}
+            onDecorationRemoved={onDecorationRemoved}
           />
         </CardContent>
       </Card>

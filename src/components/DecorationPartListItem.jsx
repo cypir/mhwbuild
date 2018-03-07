@@ -6,6 +6,17 @@ import TextField from "material-ui/TextField";
 import Button from "material-ui/Button";
 import PickerDialog from "./PickerDialog";
 import possibleDecorations from "../data/decoration.json";
+import { withStyles } from "material-ui/styles";
+import Typography from "material-ui/Typography";
+
+const styles = theme => ({
+  flexContainer: {
+    display: "flex"
+  },
+  centerLevel: {
+    marginTop: "6px"
+  }
+});
 
 /**
  * Create the form for listing out the decorations. Iterate through slots and create the form.
@@ -42,10 +53,14 @@ class DecorationPartListItem extends Component {
   };
 
   render() {
-    const { icon, onDecorationChanged, piece, decorations } = this.props;
-    console.log(piece);
-    console.log(decorations);
-
+    const {
+      icon,
+      onDecorationChanged,
+      onDecorationRemoved,
+      piece,
+      decorations,
+      classes
+    } = this.props;
     return (
       <div>
         <ListItem
@@ -65,8 +80,14 @@ class DecorationPartListItem extends Component {
           <Collapse in={this.state.open} timeout="auto" unmountOnExit>
             {piece.slots.map((slot, index) => {
               return slot > 0 ? (
-                <div key={`${piece.part}_${index}`}>
-                  <div>{`Level ${slot}`}</div>
+                <div
+                  key={`${piece.part}_${index}`}
+                  className={classes.flexContainer}
+                >
+                  <Typography
+                    className={classes.centerLevel}
+                    variant="body2"
+                  >{`Level ${slot}`}</Typography>
                   <Button
                     color="primary"
                     onClick={() => {
@@ -100,9 +121,12 @@ class DecorationPartListItem extends Component {
             return false;
           })}
           handlePieceSelected={item => {
-            console.log(item);
-            console.log(this.state.selectedIndex);
+            this.setState({ dialogOpen: false });
             onDecorationChanged(piece.part, this.state.selectedIndex, item);
+          }}
+          handlePieceRemoved={() => {
+            this.setState({ dialogOpen: false });
+            onDecorationRemoved(piece.part, this.state.selectedIndex);
           }}
         />
       </div>
@@ -115,4 +139,4 @@ DecorationPartListItem.propTypes = {
   icon: PropTypes.string
 };
 
-export default DecorationPartListItem;
+export default withStyles(styles)(DecorationPartListItem);

@@ -189,6 +189,27 @@ class Planner extends Component {
     });
   };
 
+  onDecorationRemoved = (part, index) => {
+    console.log(part, index);
+
+    //clone existing decorations for part
+    let newDeco = [...this.state.set.decorations[part]];
+
+    //update decoration
+    newDeco[index] = { name: "", level: 0 };
+
+    //update state with new part
+    this.setState({
+      set: {
+        ...this.state.set,
+        decorations: {
+          ...this.state.decorations,
+          [part]: newDeco
+        }
+      }
+    });
+  };
+
   render() {
     const { classes, location } = this.props;
     console.log(this.state);
@@ -205,6 +226,7 @@ class Planner extends Component {
         <DecorationSetCard
           set={this.state.set}
           onDecorationChanged={this.onDecorationChanged}
+          onDecorationRemoved={this.onDecorationRemoved}
           title="Decoration Set"
         />
         <PickerDialog
