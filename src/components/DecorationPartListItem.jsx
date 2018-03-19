@@ -83,6 +83,7 @@ class DecorationPartListItem extends Component {
                 <div
                   key={`${piece.part}_${index}`}
                   className={classes.flexContainer}
+                  style={{ marginLeft: 32 }}
                 >
                   <Typography
                     className={classes.centerLevel}

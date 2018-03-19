@@ -43,13 +43,20 @@ const DecorationSetCard = ({
             <Typography variant="title">{title}</Typography>
           </div>
 
-          <DecorationPartList
-            set={set}
-            onDecorationChanged={onDecorationChanged}
-            onDecorationRemoved={onDecorationRemoved}
-          />
-
-          <SkillTotalsList decoParts={set.decorations} />
+          <Grid container spacing={8}>
+            <Grid item xs={12} sm={5}>
+              <Typography variant="subheading">Deocrations</Typography>
+              <DecorationPartList
+                set={set}
+                onDecorationChanged={onDecorationChanged}
+                onDecorationRemoved={onDecorationRemoved}
+              />
+            </Grid>
+            <Grid item xs={12} sm={4}>
+              <Typography variant="subheading">Skill Totals</Typography>
+              <SkillTotalsList decoParts={set.decorations} />
+            </Grid>
+          </Grid>
         </CardContent>
       </Card>
     </div>
