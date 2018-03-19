@@ -5,14 +5,13 @@ import Card, { CardActions, CardContent } from "material-ui/Card";
 import Button from "material-ui/Button";
 import Typography from "material-ui/Typography";
 import ShareIcon from "material-ui-icons/Share";
-
+import SkillTotalsList from "../components/SkillTotalsList";
 import _ from "lodash";
 
 import Grid from "material-ui/Grid";
 
-import SlotList from "../components/SlotList";
 import EquipmentPartList from "../components/EquipmentPartList";
-import SkillTotalsList from "../components/SkillTotalsList";
+import SetSkillTotalsList from "../components/SetSkillTotalsList";
 import DecorationPartList from "../components/DecorationPartList";
 
 const styles = theme => ({
@@ -49,6 +48,8 @@ const DecorationSetCard = ({
             onDecorationChanged={onDecorationChanged}
             onDecorationRemoved={onDecorationRemoved}
           />
+
+          <SkillTotalsList decoParts={set.decorations} />
         </CardContent>
       </Card>
     </div>

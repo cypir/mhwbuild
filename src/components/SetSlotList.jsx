@@ -6,7 +6,7 @@ import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
 //data is stored like [3,2,2] meaning 1 level 3 slot and 2 level 2 slots
 //we convert this to a list of level sums where [3,2,2] means 3 level 1,
 //2 level 2, 2 level 3
-const SlotList = ({ set }) => {
+const SetSlotList = ({ set }) => {
   let levels = [0, 0, 0];
 
   for (let piece in set.pieces) {
@@ -48,8 +48,8 @@ const SlotList = ({ set }) => {
   );
 };
 
-SlotList.propTypes = {
+SetSlotList.propTypes = {
   set: PropTypes.object
 };
 
-export default SlotList;
+export default SetSlotList;

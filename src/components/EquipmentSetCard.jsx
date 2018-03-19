@@ -10,9 +10,9 @@ import _ from "lodash";
 
 import Grid from "material-ui/Grid";
 
-import SlotList from "../components/SlotList";
+import SetSlotList from "../components/SetSlotList";
 import EquipmentPartList from "../components/EquipmentPartList";
-import SkillTotalsList from "../components/SkillTotalsList";
+import SetSkillTotalsList from "../components/SetSkillTotalsList";
 
 const styles = theme => ({
   flexContainer: {
@@ -65,11 +65,11 @@ const EquipmentSetCard = ({
             </Grid>
             <Grid item xs={6} sm={4}>
               <Typography variant="subheading">Skill Totals</Typography>
-              <SkillTotalsList set={set} />
+              <SetSkillTotalsList set={set} />
             </Grid>
             <Grid item xs={6} sm={3}>
               <Typography variant="subheading">Slot Totals</Typography>
-              <SlotList set={set} />
+              <SetSlotList set={set} />
             </Grid>
           </Grid>
         </CardContent>

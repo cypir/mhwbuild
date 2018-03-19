@@ -36,9 +36,10 @@ class DecorationPartListItem extends Component {
 
     //total number possible slots
     let total = 0;
-    if (!piece) {
+    if (!piece || !decorations[piece.part]) {
       return "-----";
     }
+
     decorations[piece.part].forEach(decoration => {
       if (decoration.hasOwnProperty("name")) {
         total++;
@@ -66,7 +67,6 @@ class DecorationPartListItem extends Component {
         <ListItem
           button
           onClick={() => {
-            console.log("clicked");
             //toggle the state
             this.setState({ open: !this.state.open });
           }}
@@ -94,7 +94,8 @@ class DecorationPartListItem extends Component {
                       this.setState({ dialogOpen: true, selectedIndex: index });
                     }}
                   >
-                    {decorations[piece.part][index].name !== ""
+                    {decorations[piece.part] &&
+                    decorations[piece.part][index].name !== ""
                       ? decorations[piece.part][index].name
                       : "Empty Slot"}
                   </Button>

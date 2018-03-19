@@ -134,8 +134,6 @@ class SkillsInputForm extends Component {
   };
 
   handleDeleteWantedSkill = index => event => {
-    console.log(index);
-    console.log(this.state);
     this.setState(
       {
         skillsWanted: [
@@ -151,7 +149,6 @@ class SkillsInputForm extends Component {
 
   onSubmit = e => {
     e.preventDefault();
-    console.log(this.state);
 
     let errorFound = false;
     var self = this;

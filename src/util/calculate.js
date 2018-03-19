@@ -18,8 +18,6 @@ module.exports = {
         });
       });
 
-      console.log(relevantEquips);
-
       //for storing sets that match one skill criteria
       let categorizedByPart = {};
 
@@ -33,8 +31,6 @@ module.exports = {
           categorizedByPart[equipmentPart] = equips;
         }
       });
-
-      console.log(categorizedByPart);
 
       //need to do the cartesian product of each combination of equip parts
       //for example, if two pieces (arms and helmet), we need to do just arm,
@@ -318,7 +314,7 @@ module.exports = {
     return bonuses;
   },
   /**
-   * Return the decorations for a set
+   * Return the decorations for a set. Only update a specific part if provided
    */
   decorations: set => {
     let decorations = {};
@@ -342,5 +338,26 @@ module.exports = {
     }
 
     return decorations;
+  },
+
+  singlePartDecoration: (set, piece) => {
+    //let piece = set.pieces[piece.part];
+
+    let newDecos = [];
+
+    //iterate through the slots
+    piece.slots.forEach(slotLevel => {
+      //if we have a value, add slot info
+      if (slotLevel > 0) {
+        newDecos.push({ name: "", level: slotLevel });
+      } else {
+        newDecos.push({});
+      }
+    });
+
+    return {
+      ...set.decorations,
+      [piece.part]: newDecos
+    };
   }
 };

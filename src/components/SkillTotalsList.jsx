@@ -1,52 +1,62 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
 import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
 
-const SkillTotalsList = ({ set }) => {
-  let totals = {};
+/**
+ * Generic skill list not tied to any particular set. Pass in an object of part: skill
+ * and this will calculate the total
+ */
+class SkillTotalsList extends Component {
+  render() {
+    const { decoParts } = this.props;
 
-  _.values(set.pieces).forEach(piece => {
-    piece.skills.forEach(skill => {
-      if (!totals[skill.name]) {
-        totals[skill.name] = { name: skill.name, total: 0 };
-      }
+    let skillSums = {};
 
-      totals[skill.name].total += skill.level;
-    });
-  });
+    for (let part in decoParts) {
+      if (decoParts.hasOwnProperty(part)) {
+        let skills = decoParts[part];
 
-  return (
-    <List>
-      {_.values(totals).map(skill => {
-        return (
-          <ListItem key={`${skill.name}`} style={{ padding: "4px" }}>
-            <ListItemText primary={`${skill.name} +${skill.total}`} />
-          </ListItem>
-        );
-      })}
-      {set.bonuses.immediate.map(bonus => {
-        console.log(bonus);
-        return bonus.map(singleBonus => {
-          return (
-            <ListItem key={singleBonus} style={{ padding: "4px" }}>
-              <ListItemText
-                disableTypography
-                primary={
-                  <Typography>
-                    <strong>{singleBonus}</strong>
-                  </Typography>
-                }
-              />
-            </ListItem>
-          );
+        console.log(skills);
+
+        skills.forEach(skill => {
+          //if no name, then empty
+          if (!skill.name || skill.name === "") {
+            return;
+          }
+
+          if (!skillSums[skill.name]) {
+            skillSums[skill.name] = 0;
+          }
+
+          skillSums[skill.name]++;
         });
-      })}
-    </List>
-  );
-};
+      }
+    }
 
-SkillTotalsList.PropTypes = {
-  set: PropTypes.object
+    let skillSumsArray = Object.keys(skillSums).map(function(skill) {
+      return { name: skill, level: skillSums[skill] };
+    });
+
+    console.log(skillSumsArray);
+
+    return (
+      <div>
+        <List>
+          {skillSumsArray.map(skill => {
+            return (
+              <ListItem key={skill.name} style={{ padding: "4px" }}>
+                <ListItemText primary={`${skill.name} +${skill.level}`} />
+              </ListItem>
+            );
+          })}
+        </List>
+      </div>
+    );
+  }
+}
+
+SkillTotalsList.propTypes = {
+  skills: PropTypes.arrayOf(PropTypes.string)
 };
 
 export default SkillTotalsList;

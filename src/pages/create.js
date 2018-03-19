@@ -68,7 +68,6 @@ class Planner extends Component {
         //get query string from long url
         let qs = querystring.parse(longUrl.substring(longUrl.indexOf("?")));
 
-        console.log(qs);
         let set = self.convertQsToSet(qs);
 
         self.setState({
@@ -85,7 +84,6 @@ class Planner extends Component {
    * We save data in the qs but need to load the details
    */
   convertQsToSet = qs => {
-    console.log(qs);
     let set = {
       bonuses: {
         immediate: []
@@ -98,7 +96,6 @@ class Planner extends Component {
     };
 
     for (let part in qs) {
-      console.log(part);
       let piece = equipment.find(piece => qs[part] === piece.name);
       set.pieces[part] = piece;
     }
@@ -107,7 +104,6 @@ class Planner extends Component {
     let bonuses = calculate.setBonus(set);
     set.bonuses = bonuses;
 
-    console.log(set);
     return set;
   };
 
@@ -128,16 +124,19 @@ class Planner extends Component {
     let bonuses = calculate.setBonus(newSet);
     newSet.bonuses = bonuses;
 
-    //calculate new decoration slots
-    newSet.decorations = calculate.decorations(newSet);
-
-    console.log(newSet);
+    //calculate new decoration slot per piece
+    newSet.decorations = calculate.singlePartDecoration(newSet, piece);
 
     //save a copy to internal state
-    this.setState({
-      set: newSet,
-      dialogOpen: false
-    });
+    this.setState(
+      {
+        set: newSet,
+        dialogOpen: false
+      },
+      () => {
+        console.log(this.state);
+      }
+    );
   };
 
   //piece is just the string of the part (but called piece because its equipped)
@@ -182,16 +181,16 @@ class Planner extends Component {
       set: {
         ...this.state.set,
         decorations: {
-          ...this.state.decorations,
+          ...this.state.set.decorations,
           [part]: newDeco
         }
       }
     });
+
+    console.log(this.state);
   };
 
   onDecorationRemoved = (part, index) => {
-    console.log(part, index);
-
     //clone existing decorations for part
     let newDeco = [...this.state.set.decorations[part]];
 
@@ -212,7 +211,6 @@ class Planner extends Component {
 
   render() {
     const { classes, location } = this.props;
-    console.log(this.state);
     return (
       <div>
         <div className={classes.equipmentSetCard}>
