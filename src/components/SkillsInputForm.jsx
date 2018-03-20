@@ -90,7 +90,6 @@ class SkillsInputForm extends Component {
   }
 
   handleAddWantedSkill = e => {
-    //console.log(this.state);
     this.setState({
       skillsWanted: [
         ...this.state.skillsWanted,
@@ -134,17 +133,12 @@ class SkillsInputForm extends Component {
   };
 
   handleDeleteWantedSkill = index => event => {
-    this.setState(
-      {
-        skillsWanted: [
-          ...this.state.skillsWanted.slice(0, index),
-          ...this.state.skillsWanted.slice(index + 1)
-        ]
-      },
-      () => {
-        console.log(this.state);
-      }
-    );
+    this.setState({
+      skillsWanted: [
+        ...this.state.skillsWanted.slice(0, index),
+        ...this.state.skillsWanted.slice(index + 1)
+      ]
+    });
   };
 
   onSubmit = e => {

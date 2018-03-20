@@ -43,8 +43,6 @@ class CreateGrandTotalCard extends Component {
       }
     }
 
-    console.log(totals);
-
     let totalsArray = Object.keys(totals).map(function(skill) {
       return { name: skill, level: totals[skill] };
     });

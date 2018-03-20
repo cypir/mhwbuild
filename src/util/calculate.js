@@ -37,7 +37,6 @@ module.exports = {
       //just helmet and arm and helmet
 
       let categorizedByPartArray = _.values(categorizedByPart);
-      //console.log(categorizedByPartArray);
 
       let indices = [];
       for (var i = 0; i < categorizedByPartArray.length; i++) {
@@ -128,7 +127,6 @@ module.exports = {
       });
 
       //now we filter out the sets which don't meet the user's criteria
-      //console.log(criteriaSets);
       setsWithSkillsWanted[skillWanted.name] = efficientCriteriaSets;
     });
 

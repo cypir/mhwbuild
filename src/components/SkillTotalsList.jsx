@@ -16,8 +16,6 @@ class SkillTotalsList extends Component {
       if (decoParts.hasOwnProperty(part)) {
         let skills = decoParts[part];
 
-        console.log(skills);
-
         skills.forEach(skill => {
           //if no name, then empty
           if (!skill.name || skill.name === "") {
@@ -36,8 +34,6 @@ class SkillTotalsList extends Component {
     let skillSumsArray = Object.keys(skillSums).map(function(skill) {
       return { name: skill, level: skillSums[skill] };
     });
-
-    console.log(skillSumsArray);
 
     return (
       <div>

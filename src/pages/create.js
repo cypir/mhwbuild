@@ -52,9 +52,6 @@ class Planner extends Component {
     //parse qs. Skip first character which is the question mark
     let { id } = qs.parse(this.props.location.search.substring(1));
 
-    console.log(this.props.location.search);
-    console.log(id);
-
     if (!id) {
       return;
     }
@@ -139,15 +136,10 @@ class Planner extends Component {
     newSet.decorations = calculate.singlePartDecoration(newSet, piece);
 
     //save a copy to internal state
-    this.setState(
-      {
-        set: newSet,
-        dialogOpen: false
-      },
-      () => {
-        console.log(this.state);
-      }
-    );
+    this.setState({
+      set: newSet,
+      dialogOpen: false
+    });
   };
 
   //piece is just the string of the part (but called piece because its equipped)
@@ -197,8 +189,6 @@ class Planner extends Component {
         }
       }
     });
-
-    console.log(this.state);
   };
 
   onDecorationRemoved = (part, index) => {
