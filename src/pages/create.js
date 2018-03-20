@@ -213,7 +213,7 @@ class Planner extends Component {
       set: {
         ...this.state.set,
         decorations: {
-          ...this.state.decorations,
+          ...this.state.set.decorations,
           [part]: newDeco
         }
       }
