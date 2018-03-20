@@ -214,7 +214,7 @@ class Planner extends Component {
   render() {
     const { classes, location } = this.props;
     return (
-      <div>
+      <div style={{ marginBottom: 24 }}>
         <div className={classes.buttonContainer}>
           <Button
             color="primary"
