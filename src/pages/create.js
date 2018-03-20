@@ -70,16 +70,14 @@ class Planner extends Component {
         //get the last index
         let longUrl = response.data.longUrl;
 
-        //get query string from long url
         let set = qs.parse(longUrl.substring(longUrl.indexOf("?") + 1), {
-          decoder: function(str) {
+          decoder: function(str, defaultDecoder) {
             //if not the empty string and is a number
             if (str !== "" && !isNaN(str)) {
               return parseInt(str);
             }
-
             //otherwise return the string
-            return str;
+            return defaultDecoder(str);
           }
         });
 
