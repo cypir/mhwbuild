@@ -2,7 +2,7 @@
   "rank": "hr",
   "pieces": [
     {
-      "part": "head",
+      "part": "chest",
       "skills": [
         {
           "name": "Heat Guard",
@@ -10,11 +10,7 @@
         }
       ],
       "name": "Barnos Jacket Beta",
-      "slots": [
-        1,
-        0,
-        0
-      ]
+      "slots": [1, 0, 0]
     }
   ],
   "set": "Barnos Beta Set",
