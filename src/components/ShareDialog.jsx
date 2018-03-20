@@ -24,21 +24,6 @@ class ShareDialog extends Component {
     };
   }
 
-  // componentWillReceiveProps(nextProps) {
-  //   const { set } = nextProps;
-  //   let qsObj = {};
-  //   for (let piece in set.pieces) {
-  //     if (set.pieces.hasOwnProperty(piece)) {
-  //       //convert set into a qs
-  //       qsObj[piece] = set.pieces[piece].name;
-  //     }
-  //   }
-
-  //   //iterate through all decorations
-
-  //   this.setState({ qsObj });
-  // }
-
   generateUrl = () => {
     let equipsQs = qs.stringify(this.props.set);
     let longUrl = "mhwbuild.com/create?" + equipsQs;

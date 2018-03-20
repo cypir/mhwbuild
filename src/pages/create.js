@@ -49,8 +49,11 @@ class Planner extends Component {
   }
 
   componentDidMount() {
-    //parse qs
-    let { id } = querystring.parse(this.props.location.search);
+    //parse qs. Skip first character which is the question mark
+    let { id } = qs.parse(this.props.location.search.substring(1));
+
+    console.log(this.props.location.search);
+    console.log(id);
 
     if (!id) {
       return;
@@ -68,9 +71,7 @@ class Planner extends Component {
         let longUrl = response.data.longUrl;
 
         //get query string from long url
-        let qs = qs.parse(longUrl.substring(longUrl.indexOf("?")));
-
-        //let set = self.convertQsToSet(qs);
+        let set = qs.parse(longUrl.substring(longUrl.indexOf("?") + 1));
 
         self.setState({
           set,
