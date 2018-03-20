@@ -45,7 +45,9 @@ const DecorationSetCard = ({
 
           <Grid container spacing={8}>
             <Grid item xs={12} sm={5}>
-              <Typography variant="subheading">Deocrations</Typography>
+              <Typography variant="subheading">
+                <strong>Deocrations</strong>
+              </Typography>
               <DecorationPartList
                 set={set}
                 onDecorationChanged={onDecorationChanged}
@@ -53,7 +55,9 @@ const DecorationSetCard = ({
               />
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Typography variant="subheading">Skill Totals</Typography>
+              <Typography variant="subheading">
+                <strong>Decoration Skill Totals</strong>
+              </Typography>
               <SkillTotalsList decoParts={set.decorations} />
             </Grid>
           </Grid>

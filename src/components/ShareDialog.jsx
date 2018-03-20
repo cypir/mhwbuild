@@ -7,7 +7,7 @@ import Dialog, {
   DialogContentText,
   DialogTitle
 } from "material-ui/Dialog";
-import querystring from "query-string";
+import qs from "qs";
 import _ from "lodash";
 import axios from "axios";
 import Stepper, { Step, StepLabel, StepContent } from "material-ui/Stepper";
@@ -20,25 +20,27 @@ class ShareDialog extends Component {
     super();
     this.state = {
       url: "",
-      qsObj: {},
       activeStep: 0
     };
   }
 
-  componentWillReceiveProps(nextProps) {
-    const { set } = nextProps;
-    let qsObj = {};
-    for (let piece in set.pieces) {
-      if (set.pieces.hasOwnProperty(piece)) {
-        //convert set into a qs
-        qsObj[piece] = set.pieces[piece].name;
-      }
-    }
-    this.setState({ qsObj });
-  }
+  // componentWillReceiveProps(nextProps) {
+  //   const { set } = nextProps;
+  //   let qsObj = {};
+  //   for (let piece in set.pieces) {
+  //     if (set.pieces.hasOwnProperty(piece)) {
+  //       //convert set into a qs
+  //       qsObj[piece] = set.pieces[piece].name;
+  //     }
+  //   }
+
+  //   //iterate through all decorations
+
+  //   this.setState({ qsObj });
+  // }
 
   generateUrl = () => {
-    let equipsQs = querystring.stringify(this.state.qsObj);
+    let equipsQs = qs.stringify(this.props.set);
     let longUrl = "mhwbuild.com/create?" + equipsQs;
 
     var self = this;

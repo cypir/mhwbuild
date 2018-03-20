@@ -15,6 +15,8 @@ import ShareDialog from "../components/ShareDialog";
 import ShareIcon from "material-ui-icons/Share";
 
 import axios from "axios";
+import CreateGrandTotalCard from "../components/CreateGrandTotalCard";
+import qs from "qs";
 
 const styles = theme => ({
   buttonContainer: {
@@ -66,9 +68,9 @@ class Planner extends Component {
         let longUrl = response.data.longUrl;
 
         //get query string from long url
-        let qs = querystring.parse(longUrl.substring(longUrl.indexOf("?")));
+        let qs = qs.parse(longUrl.substring(longUrl.indexOf("?")));
 
-        let set = self.convertQsToSet(qs);
+        //let set = self.convertQsToSet(qs);
 
         self.setState({
           set,
@@ -213,6 +215,16 @@ class Planner extends Component {
     const { classes, location } = this.props;
     return (
       <div>
+        <div className={classes.buttonContainer}>
+          <Button
+            color="primary"
+            onClick={() => {
+              this.setState({ shareDialogOpen: true });
+            }}
+          >
+            <ShareIcon />Share this build
+          </Button>
+        </div>
         <div className={classes.equipmentSetCard}>
           <EquipmentSetCard
             set={this.state.set}
@@ -227,6 +239,7 @@ class Planner extends Component {
           onDecorationRemoved={this.onDecorationRemoved}
           title="Decoration Set"
         />
+        <CreateGrandTotalCard set={this.state.set} />
         <PickerDialog
           open={this.state.dialogOpen}
           onClose={() => {
@@ -239,16 +252,6 @@ class Planner extends Component {
             equip => equip.part === this.state.selectedPart
           )}
         />
-        <div className={classes.buttonContainer}>
-          <Button
-            color="primary"
-            onClick={() => {
-              this.setState({ shareDialogOpen: true });
-            }}
-          >
-            <ShareIcon />Share
-          </Button>
-        </div>
         <ShareDialog
           open={this.state.shareDialogOpen}
           onClose={() => {

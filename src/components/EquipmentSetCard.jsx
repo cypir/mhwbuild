@@ -56,7 +56,9 @@ const EquipmentSetCard = ({
           </div>
           <Grid container spacing={8}>
             <Grid item xs={12} sm={5}>
-              <Typography variant="subheading">Equipment Pieces</Typography>
+              <Typography variant="subheading">
+                <strong>Equipment Pieces</strong>
+              </Typography>
               <EquipmentPartList
                 set={set}
                 clickable={clickable}
@@ -64,11 +66,15 @@ const EquipmentSetCard = ({
               />
             </Grid>
             <Grid item xs={6} sm={4}>
-              <Typography variant="subheading">Skill Totals</Typography>
+              <Typography variant="subheading">
+                <strong>Equipment Skill Totals</strong>
+              </Typography>
               <SetSkillTotalsList set={set} />
             </Grid>
             <Grid item xs={6} sm={3}>
-              <Typography variant="subheading">Slot Totals</Typography>
+              <Typography variant="subheading">
+                <strong>Slot Totals</strong>
+              </Typography>
               <SetSlotList set={set} />
             </Grid>
           </Grid>
