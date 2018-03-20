@@ -71,7 +71,17 @@ class Planner extends Component {
         let longUrl = response.data.longUrl;
 
         //get query string from long url
-        let set = qs.parse(longUrl.substring(longUrl.indexOf("?") + 1));
+        let set = qs.parse(longUrl.substring(longUrl.indexOf("?") + 1), {
+          decoder: function(str) {
+            //if not the empty string and is a number
+            if (str !== "" && !isNaN(str)) {
+              return parseInt(str);
+            }
+
+            //otherwise return the string
+            return str;
+          }
+        });
 
         self.setState({
           set,
