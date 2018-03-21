@@ -13,20 +13,23 @@ const SetSlotList = ({ set }) => {
     if (set.pieces.hasOwnProperty(piece)) {
       //index is slot, value is level
       //index is level, value is amount
-      set.pieces[piece].slots.forEach(slot => {
-        //slot is a gem slot that contains a variable level
-        switch (slot) {
-          case 1:
-            levels[0]++;
-            break;
-          case 2:
-            levels[1]++;
-            break;
-          case 3:
-            levels[2]++;
-            break;
-        }
-      });
+      //possible that slot doesn't exist (charm)
+      if (set.pieces[piece].slots) {
+        set.pieces[piece].slots.forEach(slot => {
+          //slot is a gem slot that contains a variable level
+          switch (slot) {
+            case 1:
+              levels[0]++;
+              break;
+            case 2:
+              levels[1]++;
+              break;
+            case 3:
+              levels[2]++;
+              break;
+          }
+        });
+      }
     }
   }
 

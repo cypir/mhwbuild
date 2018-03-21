@@ -324,14 +324,16 @@ module.exports = {
         decorations[part] = [];
 
         //iterate through the slots
-        piece.slots.forEach(slotLevel => {
-          //if we have a value, add slot info
-          if (slotLevel > 0) {
-            decorations[part].push({ name: "", level: slotLevel });
-          } else {
-            decorations[part].push({});
-          }
-        });
+        if (piece.slots) {
+          piece.slots.forEach(slotLevel => {
+            //if we have a value, add slot info
+            if (slotLevel > 0) {
+              decorations[part].push({ name: "", level: slotLevel });
+            } else {
+              decorations[part].push({});
+            }
+          });
+        }
       }
     }
 
