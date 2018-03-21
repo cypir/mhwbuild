@@ -14,7 +14,12 @@
     "requirements": [null, null, ["Guts"], ["Guts"], ["Guts"]]
   },
   "Diablos Mastery": {
-    "sets": ["Diablos Alpha Set", "Diablos Nero Alpha Set"],
+    "sets": [
+      "Diablos Alpha Set",
+      "Diablos Nero Alpha Set",
+      "Diablos Beta Set",
+      "Diablos Nero Beta Set"
+    ],
     "requirements": [
       null,
       ["Bludgeoner"],
