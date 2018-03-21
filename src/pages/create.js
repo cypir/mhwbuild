@@ -94,7 +94,7 @@ class Planner extends Component {
         }
 
         self.setState({
-          parsedSet,
+          set: parsedSet,
           setName: "Custom Set",
           dialogOpen: false,
           selectedPart: "",
