@@ -67,7 +67,7 @@ class Planner extends Component {
         //get the last index
         let longUrl = response.data.longUrl;
 
-        let set = qs.parse(longUrl.substring(longUrl.indexOf("?") + 1), {
+        let parsedSet = qs.parse(longUrl.substring(longUrl.indexOf("?") + 1), {
           decoder: function(str, defaultDecoder) {
             //if not the empty string and is a number
             if (str !== "" && !isNaN(str)) {
@@ -78,8 +78,23 @@ class Planner extends Component {
           }
         });
 
+        //when we recreate the state, make sure to restore any empty arrays (qs removes empty arrays)
+        if (!parsedSet.bonuses) {
+          parsedSet.bonuses = {
+            immediate: []
+          };
+        }
+
+        if (!parsedSet.pieces) {
+          parsedSet.pieces = {};
+        }
+
+        if (!parsedSet.decorations) {
+          parsedSet.decorations = {};
+        }
+
         self.setState({
-          set,
+          parsedSet,
           setName: "Custom Set",
           dialogOpen: false,
           selectedPart: "",
@@ -87,33 +102,6 @@ class Planner extends Component {
         });
       });
   }
-
-  /**
-   * We save data in the qs but need to load the details
-   */
-  convertQsToSet = qs => {
-    let set = {
-      bonuses: {
-        immediate: []
-      },
-      pieces: {},
-      //level 1,2,3
-      decorations: {
-        //head: [{}, {}, {}] we match the structure with the pieces, each index represents the level of the gem -1 (eg. 1 = 0)
-      }
-    };
-
-    for (let part in qs) {
-      let piece = equipment.find(piece => qs[part] === piece.name);
-      set.pieces[part] = piece;
-    }
-
-    //then get set bonuses
-    let bonuses = calculate.setBonus(set);
-    set.bonuses = bonuses;
-
-    return set;
-  };
 
   handlePartClick = part => {
     this.setState({ selectedPart: part, dialogOpen: true });
