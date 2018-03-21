@@ -144,11 +144,16 @@ class Planner extends Component {
     const pieces = { ...this.state.set.pieces };
     delete pieces[piece];
 
+    let newSet = {
+      ...this.state.set,
+      pieces
+    };
+
+    let bonuses = calculate.setBonus(newSet);
+    newSet.bonuses = bonuses;
+
     this.setState({
-      set: {
-        ...this.state.set,
-        pieces
-      },
+      set: newSet,
       dialogOpen: false
     });
   };

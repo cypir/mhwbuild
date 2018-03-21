@@ -14,12 +14,7 @@
     "requirements": [null, null, ["Guts"], ["Guts"], ["Guts"]]
   },
   "Diablos Mastery": {
-    "sets": [
-      "Diablos Alpha Set",
-      "Diablos Alpha Set",
-      "Diablos Nero Alpha Set",
-      "Diablos Nero Alpha Set"
-    ],
+    "sets": ["Diablos Alpha Set", "Diablos Nero Alpha Set"],
     "requirements": [
       null,
       ["Bludgeoner"],
@@ -89,7 +84,7 @@
     ]
   },
   "Rathalos Mastery": {
-    "sets": ["Rath Heart Alpha Set", "Rath Heart Beta Set"],
+    "sets": ["Rathalos Alpha Set", "Rathalos Beta Set"],
     "requirements": [
       null,
       ["Critical Element"],
