@@ -9,6 +9,8 @@ import SkillsInputForm from "../components/SkillsInputForm";
 import Typography from "material-ui/Typography";
 import setBonuses from "../data/set_bonus.json";
 
+//import Worker from "worker-loader!./util/file.worker.js";
+
 const styles = theme => ({
   listHeader: {
     marginTop: "24px",
@@ -32,6 +34,17 @@ class IndexPage extends React.Component {
       slotsMinTotal,
       requireSetBonus
     } = formInput;
+
+    // const worker = new Worker();
+
+    // worker.postMessage({ a: 1 });
+    // worker.onmessage = function(event) {
+    //   console.log(event);
+    // };
+
+    // worker.addEventListener("message", function(event) {
+    //   console.log(event);
+    // });
 
     let sets = calculate.generateSets(skillsWanted);
 

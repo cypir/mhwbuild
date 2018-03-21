@@ -12,15 +12,17 @@ import _ from "lodash";
 import axios from "axios";
 import Stepper, { Step, StepLabel, StepContent } from "material-ui/Stepper";
 import Typography from "material-ui/Typography/Typography";
-
+import Snackbar from "material-ui/Snackbar";
 import CopyToClipboard from "react-copy-to-clipboard";
+import IconButton from "material-ui/IconButton";
 
 class ShareDialog extends Component {
   constructor() {
     super();
     this.state = {
       url: "",
-      activeStep: 0
+      activeStep: 0,
+      snackbarOpen: false
     };
   }
 
@@ -43,7 +45,7 @@ class ShareDialog extends Component {
         let shortUrl = response.data.id;
         let shortId = shortUrl.substring(shortUrl.lastIndexOf("/") + 1);
         self.setState({
-          url: `mhwbuild.com/create?id=${shortId}`,
+          url: `https://www.mhwbuild.com/create?id=${shortId}`,
           activeStep: 1
         });
       });
@@ -58,7 +60,8 @@ class ShareDialog extends Component {
     this.setState({
       url: "",
       qsObj: {},
-      activeStep: 0
+      activeStep: 0,
+      snackbarOpen: false
     });
   };
 
@@ -86,7 +89,10 @@ class ShareDialog extends Component {
               <Step>
                 <StepLabel>Click on URL to copy to clipboard</StepLabel>
                 <StepContent>
-                  <CopyToClipboard text={this.state.url}>
+                  <CopyToClipboard
+                    text={this.state.url}
+                    onCopy={() => this.setState({ snackbarOpen: true })}
+                  >
                     <Typography variant="subheading">
                       {this.state.url}
                     </Typography>
@@ -101,6 +107,21 @@ class ShareDialog extends Component {
             </Button>
           </DialogActions>
         </Dialog>
+        <Snackbar
+          anchorOrigin={{
+            vertical: "bottom",
+            horizontal: "right"
+          }}
+          open={this.state.snackbarOpen}
+          autoHideDuration={6000}
+          onClose={() => {
+            this.setState({ snackbarOpen: false });
+          }}
+          SnackbarContentProps={{
+            "aria-describedby": "message-id"
+          }}
+          message={<span id="message-id">URL Copied to Clipboard!</span>}
+        />
       </div>
     );
   }

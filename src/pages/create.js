@@ -133,13 +133,13 @@ class Planner extends Component {
   //piece is just the string of the part (but called piece because its equipped)
   handlePieceRemoved = piece => {
     //get existing qs
-    let qs = querystring.parse(this.props.location.search);
+    //let qs = querystring.parse(this.props.location.search);
 
     //set the piece name in the qs
-    delete qs[piece];
+    //delete qs[piece];
 
     //set qs to the proper route
-    navigateTo(`${this.props.location.pathname}?${querystring.stringify(qs)}`);
+    //navigateTo(`${this.props.location.pathname}?${querystring.stringify(qs)}`);
 
     const pieces = { ...this.state.set.pieces };
     delete pieces[piece];
