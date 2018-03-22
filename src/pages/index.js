@@ -35,17 +35,6 @@ class IndexPage extends React.Component {
       requireSetBonus
     } = formInput;
 
-    // const worker = new Worker();
-
-    // worker.postMessage({ a: 1 });
-    // worker.onmessage = function(event) {
-    //   console.log(event);
-    // };
-
-    // worker.addEventListener("message", function(event) {
-    //   console.log(event);
-    // });
-
     let sets = calculate.generateSets(skillsWanted);
 
     //sort sets by fewest pieces of gear required
