@@ -1,44 +1,28 @@
 {
   "name": "mhwbuild",
-  "description": "Monster Hunter World Build",
-  "version": "1.0.0",
-  "author": "Alex Nguyen <amn77a@gmail.com>",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "axios": "^0.18.0",
-    "downshift": "^1.28.0",
-    "gatsby": "^1.9.199",
-    "gatsby-cli": "^1.1.44",
-    "gatsby-link": "^1.6.37",
-    "gatsby-plugin-react-helmet": "^2.0.5",
+    "downshift": "^1.31.2",
     "js-combinatorics": "^0.5.3",
     "lodash": "^4.17.5",
-    "material-ui": "^1.0.0-beta.34",
-    "material-ui-icons": "^1.0.0-beta.17",
-    "nanoid": "^1.0.2",
-    "prop-types": "^15.6.0",
+    "material-ui": "^1.0.0-beta.38",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "prop-types": "^15.6.1",
     "qs": "^6.5.1",
-    "query-string": "^5.1.0",
+    "react": "^16.2.0",
     "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0",
+    "react-scripts": "1.1.1",
     "typeface-roboto": "^0.0.54"
   },
-  "keywords": [
-    "mhw",
-    "mhw build calculator"
-  ],
-  "license": "GPL-3.0",
-  "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "gh-pages": "^1.1.0",
-    "prettier": "^1.10.2",
-    "worker-loader": "^1.1.1",
-    "workerize-loader": "^1.0.2"
-  }
+  "license": "GPL-3.0"
 }
