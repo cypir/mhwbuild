@@ -9,12 +9,17 @@
     "lodash": "^4.17.5",
     "material-ui": "^1.0.0-beta.38",
     "material-ui-icons": "^1.0.0-beta.36",
+    "mobx": "^4.1.0",
+    "mobx-react": "^5.0.0",
+    "mobx-react-devtools": "^5.0.1",
+    "nanoid": "^1.0.2",
     "prop-types": "^15.6.1",
     "qs": "^6.5.1",
     "react": "^16.2.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
     "typeface-roboto": "^0.0.54"
   },
@@ -22,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-data": "node builddata.js"
   },
   "license": "GPL-3.0"
 }

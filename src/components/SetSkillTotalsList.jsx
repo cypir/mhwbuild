@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
 import Typography from "material-ui/Typography";
+import _ from "lodash";
 
 /**
  * TODO Break down into generic skill totals list and a separate set bonus component

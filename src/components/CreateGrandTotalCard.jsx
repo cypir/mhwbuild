@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
 import Card, { CardActions, CardContent } from "material-ui/Card";
 import Typography from "material-ui/Typography";
+import _ from "lodash";
 
 class CreateGrandTotalCard extends Component {
   render() {

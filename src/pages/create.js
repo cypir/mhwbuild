@@ -5,7 +5,6 @@ import DecorationSetCard from "../components/DecorationSetCard";
 import PickerDialog from "../components/PickerDialog";
 import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
-import { navigateTo } from "gatsby-link";
 
 import querystring from "query-string";
 import calculate from "../util/calculate";
@@ -29,7 +28,7 @@ const styles = theme => ({
   }
 });
 
-class Planner extends Component {
+class Create extends Component {
   constructor(props) {
     super(props);
 
@@ -256,6 +255,6 @@ class Planner extends Component {
   }
 }
 
-Planner.propTypes = {};
+Create.propTypes = {};
 
-export default withStyles(styles)(Planner);
+export default withStyles(styles)(Create);

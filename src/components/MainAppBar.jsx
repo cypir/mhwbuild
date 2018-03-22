@@ -4,7 +4,6 @@ import Toolbar from "material-ui/Toolbar";
 import Typography from "material-ui/Typography";
 import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
-import { navigateTo } from "gatsby-link";
 
 import IconButton from "material-ui/IconButton";
 import GitHubIcon from "./GitHubIcon";
@@ -35,7 +34,7 @@ class MainAppBar extends Component {
             <Button
               color="inherit"
               onClick={() => {
-                navigateTo("/");
+                //navigateTo("/");
               }}
             >
               Plan
@@ -43,7 +42,7 @@ class MainAppBar extends Component {
             <Button
               color="inherit"
               onClick={() => {
-                navigateTo("/create");
+                //navigateTo("/create");
               }}
             >
               Create

@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
+import _ from "lodash";
 
 //breakdown by total number of slots and by sum of each level of slot
 //data is stored like [3,2,2] meaning 1 level 3 slot and 2 level 2 slots

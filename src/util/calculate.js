@@ -4,7 +4,7 @@ import Combinatrics from "js-combinatorics";
 import _ from "lodash";
 import setBonuses from "../data/set_bonus.json";
 
-module.exports = {
+export default {
   generateSets: skillsWanted => {
     let setsWithSkillsWanted = {};
 
