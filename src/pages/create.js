@@ -17,6 +17,8 @@ import axios from "axios";
 import CreateGrandTotalCard from "../components/CreateGrandTotalCard";
 import qs from "qs";
 
+import { withRouter } from "react-router-dom";
+
 const styles = theme => ({
   buttonContainer: {
     display: "flex",
@@ -131,15 +133,6 @@ class Create extends Component {
 
   //piece is just the string of the part (but called piece because its equipped)
   handlePieceRemoved = piece => {
-    //get existing qs
-    //let qs = querystring.parse(this.props.location.search);
-
-    //set the piece name in the qs
-    //delete qs[piece];
-
-    //set qs to the proper route
-    //navigateTo(`${this.props.location.pathname}?${querystring.stringify(qs)}`);
-
     const pieces = { ...this.state.set.pieces };
     delete pieces[piece];
 
@@ -257,4 +250,4 @@ class Create extends Component {
 
 Create.propTypes = {};
 
-export default withStyles(styles)(Create);
+export default withRouter(withStyles(styles)(Create));

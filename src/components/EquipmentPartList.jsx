@@ -66,7 +66,7 @@ const EquipmentPartList = ({ set, clickable, handlePartClick }) => {
   );
 };
 
-EquipmentPartList.PropTypes = {
+EquipmentPartList.propTypes = {
   set: PropTypes.object,
   clickable: PropTypes.bool,
   handlePartClick: PropTypes.func

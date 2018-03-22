@@ -50,7 +50,7 @@ const SetSkillTotalsList = ({ set }) => {
   );
 };
 
-SetSkillTotalsList.PropTypes = {
+SetSkillTotalsList.propTypes = {
   set: PropTypes.object
 };
 

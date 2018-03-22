@@ -7,6 +7,7 @@ import { withStyles } from "material-ui/styles";
 
 import IconButton from "material-ui/IconButton";
 import GitHubIcon from "./GitHubIcon";
+import { withRouter } from "react-router-dom";
 
 const styles = {
   root: {
@@ -19,7 +20,7 @@ const styles = {
 
 class MainAppBar extends Component {
   render() {
-    const { classes } = this.props;
+    const { classes, history } = this.props;
     return (
       <div>
         <AppBar position="static" className={classes.root}>
@@ -34,7 +35,7 @@ class MainAppBar extends Component {
             <Button
               color="inherit"
               onClick={() => {
-                //navigateTo("/");
+                history.push("/plan");
               }}
             >
               Plan
@@ -42,7 +43,7 @@ class MainAppBar extends Component {
             <Button
               color="inherit"
               onClick={() => {
-                //navigateTo("/create");
+                history.push("/create");
               }}
             >
               Create
@@ -64,4 +65,4 @@ class MainAppBar extends Component {
   }
 }
 
-export default withStyles(styles)(MainAppBar);
+export default withRouter(withStyles(styles)(MainAppBar));

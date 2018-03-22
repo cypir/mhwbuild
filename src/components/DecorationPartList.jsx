@@ -76,7 +76,7 @@ const DecorationPartList = ({
   );
 };
 
-DecorationPartList.PropTypes = {
+DecorationPartList.propTypes = {
   decorations: PropTypes.object,
   handlePartClick: PropTypes.func
 };
