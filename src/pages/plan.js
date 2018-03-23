@@ -9,11 +9,17 @@ import Typography from "material-ui/Typography";
 import setBonuses from "../data/set_bonus.json";
 import Worker from "../util/file.worker.js";
 import PromiseWorker from "promise-worker";
+import { CircularProgress } from "material-ui/Progress";
 
 const styles = theme => ({
   listHeader: {
     marginTop: "24px",
     marginBottom: "24px"
+  },
+  inProgress: {
+    marginTop: 24,
+    display: "flex",
+    justifyContent: "center"
   }
 });
 
@@ -21,7 +27,11 @@ class Plan extends React.Component {
   constructor() {
     super();
     this.state = {
-      matchingEquipmentSets: []
+      matchingEquipmentSets: [],
+      loading: false,
+      worker: null,
+      //we want to hide this text before any search. But after, we should display it (0 results possible)
+      didSearch: false
     };
   }
 
@@ -34,18 +44,29 @@ class Plan extends React.Component {
       requireSetBonus
     } = formInput;
 
+    this.setState({
+      loading: true,
+      matchingEquipmentSets: [],
+      didSearch: true
+    });
+
+    //if we do another search before the other worker finishes, then terminate it.
+    if (this.state.worker) {
+      console.log("terminated");
+      this.state.worker.terminate();
+    }
+
     const worker = new Worker();
     const promiseWorker = new PromiseWorker(worker);
 
+    //set the worker
+    this.setState({ worker });
+
+    //we use a webworker to perform the set generation, as it is very intensive
     let sets = await promiseWorker.postMessage(skillsWanted);
+    worker.terminate();
 
-    // promiseWorker.postMessage(skillsWanted).then(res => {
-    //   console.log(res);
-    // });
-
-    //worker.addEventListener("message", function(event) {});
-
-    //let sets = calculate.generateSets(skillsWanted);
+    this.setState({ worker: null });
 
     //sort sets by fewest pieces of gear required
     sets.sort((setA, setB) => {
@@ -104,7 +125,8 @@ class Plan extends React.Component {
     });
 
     this.setState({
-      matchingEquipmentSets: sets
+      matchingEquipmentSets: sets,
+      loading: false
     });
   };
 
@@ -113,9 +135,16 @@ class Plan extends React.Component {
     return (
       <div>
         <SkillsInputForm onFormSave={this.onFormSave} />
-        <Typography variant="title" className={classes.listHeader}>
-          {`${this.state.matchingEquipmentSets.length} Combinations Found`}
-        </Typography>
+        {this.state.loading ? (
+          <div className={classes.inProgress}>
+            <CircularProgress className={classes.progress} size={50} />
+          </div>
+        ) : (
+          <Typography variant="title" className={classes.listHeader}>
+            {`${this.state.matchingEquipmentSets.length} Combinations Found`}
+          </Typography>
+        )}
+
         <EquipmentSetList
           matchingEquipmentSets={this.state.matchingEquipmentSets}
         />

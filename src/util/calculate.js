@@ -12,6 +12,10 @@ export default {
     skillsWanted.forEach(skillWanted => {
       //filter down equipment to only equipment that has the particular skill
       const relevantEquips = equipment.filter(equip => {
+        //skip charms, they add a significant number of combinations and imho provide little utility
+        if (equip.part === "charm") {
+          return;
+        }
         //make sure at least one skill from this equipment piece has what the user wants
         return equip.skills.some(element => {
           return element.name.toLowerCase() === skillWanted.name.toLowerCase();
@@ -31,6 +35,8 @@ export default {
           categorizedByPart[equipmentPart] = equips;
         }
       });
+
+      console.log(categorizedByPart);
 
       //need to do the cartesian product of each combination of equip parts
       //for example, if two pieces (arms and helmet), we need to do just arm,
