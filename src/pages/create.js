@@ -32,13 +32,6 @@ class Create extends Component {
     super(props);
 
     this.state = {
-      set: {
-        bonuses: {
-          immediate: []
-        },
-        pieces: {},
-        decorations: {}
-      },
       setName: "Equipment Set",
       dialogOpen: false,
       selectedPart: "",
@@ -77,22 +70,9 @@ class Create extends Component {
         });
 
         //when we recreate the state, make sure to restore any empty arrays (qs removes empty arrays)
-        if (!parsedSet.bonuses) {
-          parsedSet.bonuses = {
-            immediate: []
-          };
-        }
-
-        if (!parsedSet.pieces) {
-          parsedSet.pieces = {};
-        }
-
-        if (!parsedSet.decorations) {
-          parsedSet.decorations = {};
-        }
+        self.props.customEquipmentSetStore.setAll(parsedSet);
 
         self.setState({
-          set: parsedSet,
           setName: "Custom Set",
           dialogOpen: false,
           selectedPart: "",
@@ -106,43 +86,16 @@ class Create extends Component {
   };
 
   handlePieceSelected = piece => {
-    let newSet = {
-      ...this.state.set,
-      pieces: {
-        ...this.state.set.pieces,
-        [piece.part]: piece
-      }
-    };
-
-    //calculate set bonus
-    let bonuses = calculate.setBonus(newSet);
-    newSet.bonuses = bonuses;
-
-    //calculate new decoration slot per piece
-    newSet.decorations = calculate.singlePartDecoration(newSet, piece);
-
-    //save a copy to internal state
+    this.props.customEquipmentSetStore.setPiece(piece);
     this.setState({
-      set: newSet,
       dialogOpen: false
     });
   };
 
   //piece is just the string of the part (but called piece because its equipped)
   handlePieceRemoved = piece => {
-    const pieces = { ...this.state.set.pieces };
-    delete pieces[piece];
-
-    let newSet = {
-      ...this.state.set,
-      pieces
-    };
-
-    let bonuses = calculate.setBonus(newSet);
-    newSet.bonuses = bonuses;
-
+    this.props.customEquipmentSetStore.removePiece(piece);
     this.setState({
-      set: newSet,
       dialogOpen: false
     });
   };
@@ -155,45 +108,15 @@ class Create extends Component {
   };
 
   onDecorationChanged = (part, index, decoration) => {
-    //clone existing decorations for part
-    let newDeco = [...this.state.set.decorations[part]];
-
-    //update decoration
-    newDeco[index] = decoration;
-
-    //update state with new part
-    this.setState({
-      set: {
-        ...this.state.set,
-        decorations: {
-          ...this.state.set.decorations,
-          [part]: newDeco
-        }
-      }
-    });
+    this.props.customEquipmentSetStore.setDecoration(part, index, decoration);
   };
 
   onDecorationRemoved = (part, index) => {
-    //clone existing decorations for part
-    let newDeco = [...this.state.set.decorations[part]];
-
-    //update decoration
-    newDeco[index] = { name: "", level: 0 };
-
-    //update state with new part
-    this.setState({
-      set: {
-        ...this.state.set,
-        decorations: {
-          ...this.state.set.decorations,
-          [part]: newDeco
-        }
-      }
-    });
+    this.props.customEquipmentSetStore.removeDecoration(part, index);
   };
 
   render() {
-    const { classes } = this.props;
+    const { classes, customEquipmentSetStore } = this.props;
     return (
       <div style={{ marginBottom: 24 }}>
         <div className={classes.buttonContainer}>
@@ -208,19 +131,19 @@ class Create extends Component {
         </div>
         <div className={classes.equipmentSetCard}>
           <EquipmentSetCard
-            set={this.state.set}
+            set={customEquipmentSetStore}
             title={this.state.setName}
             clickable={true}
             handlePartClick={this.handlePartClick}
           />
         </div>
         <DecorationSetCard
-          set={this.state.set}
+          set={customEquipmentSetStore}
           onDecorationChanged={this.onDecorationChanged}
           onDecorationRemoved={this.onDecorationRemoved}
           title="Decoration Set"
         />
-        <CreateGrandTotalCard set={this.state.set} />
+        <CreateGrandTotalCard set={customEquipmentSetStore} />
         <PickerDialog
           open={this.state.dialogOpen}
           onClose={() => {
@@ -238,7 +161,7 @@ class Create extends Component {
           onClose={() => {
             this.closeShareDialog(false);
           }}
-          set={this.state.set}
+          set={customEquipmentSetStore}
         />
       </div>
     );

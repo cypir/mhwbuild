@@ -7,7 +7,6 @@ import chestIcon from "../icons/1/chest.png";
 import headIcon from "../icons/1/head.png";
 import waistIcon from "../icons/1/waist.png";
 import legIcon from "../icons/1/leg.png";
-import calculate from "../util/calculate";
 import DecorationPartListItem from "./DecorationPartListItem";
 
 const getIcon = part => {

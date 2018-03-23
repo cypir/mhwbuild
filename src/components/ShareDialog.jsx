@@ -11,6 +11,7 @@ import Stepper, { Step, StepLabel, StepContent } from "material-ui/Stepper";
 import Typography from "material-ui/Typography/Typography";
 import Snackbar from "material-ui/Snackbar";
 import CopyToClipboard from "react-copy-to-clipboard";
+import { toJS } from "mobx";
 
 class ShareDialog extends Component {
   constructor() {
@@ -23,7 +24,9 @@ class ShareDialog extends Component {
   }
 
   generateUrl = () => {
-    let equipsQs = qs.stringify(this.props.set);
+    //convert set to POJO
+    let set = toJS(this.props.set);
+    let equipsQs = qs.stringify(set);
     let longUrl = "mhwbuild.com/create?" + equipsQs;
 
     var self = this;

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { decorate, observable } from "mobx";
 import { Route } from "react-router-dom";
 import MainAppBar from "./components/MainAppBar";
 import Create from "./pages/create";
@@ -7,7 +6,10 @@ import Plan from "./pages/plan";
 import Index from "./pages/index";
 import CssBaseline from "material-ui/CssBaseline";
 import { withStyles } from "material-ui/styles";
+import DevTools from "mobx-react-devtools";
 import "typeface-roboto";
+
+import CustomEquipmentSetStore from "./stores/CustomEquipmentSetStore";
 
 //css base config
 const styles = theme => ({
@@ -23,24 +25,7 @@ const styles = theme => ({
   }
 });
 
-/**
- * Manages the changes to the equipment set that we are focusing on
- */
-
-class CustomEquipmentSet {
-  bonuses = {
-    immediate: []
-  };
-
-  pieces = {};
-  decorations = {};
-}
-
-decorate(CustomEquipmentSet, {
-  bonuses: observable,
-  pieces: observable,
-  decorations: observable
-});
+const customEquipmentSetStore = new CustomEquipmentSetStore();
 
 class App extends Component {
   render() {
@@ -50,9 +35,20 @@ class App extends Component {
         <CssBaseline />
         <Route path="/" component={() => <MainAppBar />} />
         <div className={classes.content}>
+          <DevTools />
           <Route exact path="/" component={() => <Index />} />
-          <Route path="/plan" component={() => <Plan />} />
-          <Route path="/create" component={() => <Create />} />
+          <Route
+            path="/plan"
+            component={() => (
+              <Plan customEquipmentSetStore={customEquipmentSetStore} />
+            )}
+          />
+          <Route
+            path="/create"
+            component={() => (
+              <Create customEquipmentSetStore={customEquipmentSetStore} />
+            )}
+          />
         </div>
       </div>
     );

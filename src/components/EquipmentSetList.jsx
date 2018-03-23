@@ -3,6 +3,7 @@ import Grid from "material-ui/Grid";
 import EquipmentSetCard from "./EquipmentSetCard";
 import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
+import { withRouter } from "react-router-dom";
 
 const styles = theme => ({
   showMoreContainer: {
@@ -32,7 +33,11 @@ class EquipmentSetList extends Component {
   };
 
   render() {
-    const { matchingEquipmentSets, classes } = this.props;
+    const {
+      matchingEquipmentSets,
+      classes,
+      customEquipmentSetStore
+    } = this.props;
     //to paginate, first we slice into pages of 30
     //keep track of the page number and enable show more.
     const paginated = matchingEquipmentSets.slice(
@@ -51,6 +56,12 @@ class EquipmentSetList extends Component {
                   key={index}
                   set={set}
                   title={`Equipment Set ${index + 1}`}
+                  customizeFn={() => {
+                    //first we set the custom equipment set
+                    customEquipmentSetStore.setAll(set);
+                    //then we navigate to customize
+                    this.props.history.push("/create");
+                  }}
                 />
               </Grid>
             );
@@ -72,4 +83,4 @@ class EquipmentSetList extends Component {
 
 EquipmentSetList.propTypes = {};
 
-export default withStyles(styles)(EquipmentSetList);
+export default withRouter(withStyles(styles)(EquipmentSetList));

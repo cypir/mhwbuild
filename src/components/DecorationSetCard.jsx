@@ -5,6 +5,7 @@ import Typography from "material-ui/Typography";
 import SkillTotalsList from "../components/SkillTotalsList";
 import Grid from "material-ui/Grid";
 import DecorationPartList from "../components/DecorationPartList";
+import { observer } from "mobx-react";
 
 const styles = theme => ({
   flexContainer: {

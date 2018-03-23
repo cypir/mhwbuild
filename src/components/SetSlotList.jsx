@@ -29,7 +29,7 @@ const SetSlotList = ({ set }) => {
               levels[2]++;
               break;
             default:
-              console.error("invalid slot");
+              //level 0 slot
               break;
           }
         });

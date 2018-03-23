@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import List, { ListItem, ListItemText } from "material-ui/List";
+import { observer } from "mobx-react";
 
 /**
  * Generic skill list not tied to any particular set. Pass in an object of part: skill
@@ -55,4 +56,4 @@ SkillTotalsList.propTypes = {
   skills: PropTypes.arrayOf(PropTypes.string)
 };
 
-export default SkillTotalsList;
+export default observer(SkillTotalsList);

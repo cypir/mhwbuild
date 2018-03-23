@@ -124,7 +124,7 @@ class SkillsInputForm extends Component {
         // Otherwise, this is the one we want - return an updated value
         return {
           ...this.state.skillsWanted[idx],
-          level: parseInt(evt.target.value)
+          level: parseInt(evt.target.value, 10)
         };
       })
     });
@@ -173,7 +173,7 @@ class SkillsInputForm extends Component {
 
   handleSlotChanged = index => e => {
     const slotsWanted = this.state.slotsWanted.slice();
-    slotsWanted[index] = parseInt(e.target.value);
+    slotsWanted[index] = parseInt(e.target.value, 10);
 
     this.setState({ slotsWanted });
   };

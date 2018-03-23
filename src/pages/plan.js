@@ -48,7 +48,6 @@ class Plan extends React.Component {
 
     //if we do another search before the other worker finishes, then terminate it.
     if (this.state.worker) {
-      console.log("terminated");
       this.state.worker.terminate();
     }
 
@@ -129,7 +128,7 @@ class Plan extends React.Component {
   };
 
   render() {
-    const { classes } = this.props;
+    const { classes, customEquipmentSetStore } = this.props;
     return (
       <div>
         <SkillsInputForm onFormSave={this.onFormSave} />
@@ -145,6 +144,7 @@ class Plan extends React.Component {
 
         <EquipmentSetList
           matchingEquipmentSets={this.state.matchingEquipmentSets}
+          customEquipmentSetStore={customEquipmentSetStore}
         />
       </div>
     );

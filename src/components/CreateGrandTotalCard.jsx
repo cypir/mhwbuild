@@ -4,6 +4,7 @@ import List, { ListItem, ListItemText } from "material-ui/List";
 import Card, { CardContent } from "material-ui/Card";
 import Typography from "material-ui/Typography";
 import _ from "lodash";
+import { observer } from "mobx-react";
 
 class CreateGrandTotalCard extends Component {
   render() {
@@ -74,4 +75,4 @@ CreateGrandTotalCard.propTypes = {
   set: PropTypes.object
 };
 
-export default CreateGrandTotalCard;
+export default observer(CreateGrandTotalCard);

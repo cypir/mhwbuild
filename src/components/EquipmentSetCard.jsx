@@ -12,15 +12,13 @@ const styles = theme => ({
     display: "flex",
     justifyContent: "space-between",
     marginTop: "16px"
+  },
+  flexContainerClickable: {
+    display: "flex",
+    justifyContent: "space-between",
+    marginTop: "16px",
+    cursor: "pointer"
   }
-  // share: {
-  //   justifyContent: "flex-end",
-  //   marginTop: "16px"
-  // },
-  // header: {
-  //   justifyContent: "flex-start",
-  //   marginTop: "16px"
-  // }
 });
 
 /**
@@ -32,20 +30,37 @@ const styles = theme => ({
  *
  * We then render children in the event where we'd like to extend this list
  * (for example, with the creator we need charms)
+ *
+ * customizeable = enable link to customize
  */
 const EquipmentSetCard = ({
   set,
   title,
   classes,
   clickable,
-  handlePartClick
+  handlePartClick,
+  customizeFn
 }) => {
   return (
     <div>
       <Card>
         <CardContent>
-          <div className={classes.flexContainer}>
-            <Typography variant="title">{title}</Typography>
+          <div
+            className={
+              customizeFn
+                ? classes.flexContainerClickable
+                : classes.flexContainer
+            }
+            onClick={() => {
+              customizeFn ? customizeFn(set) : "";
+            }}
+          >
+            <Typography
+              variant="title"
+              color={customizeFn ? "primary" : "default"}
+            >
+              {title}
+            </Typography>
           </div>
           <Grid container spacing={8}>
             <Grid item xs={12} sm={5}>
