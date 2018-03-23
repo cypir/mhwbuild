@@ -12,8 +12,6 @@ import Typography from "material-ui/Typography";
 import CloseIcon from "material-ui-icons/Close";
 import Slide from "material-ui/transitions/Slide";
 import TextField from "material-ui/TextField";
-
-import equipment from "../data/equipment.json";
 import skillformat from "../util/skillformat";
 
 const styles = theme => ({

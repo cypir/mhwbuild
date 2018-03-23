@@ -36,8 +36,6 @@ export default {
         }
       });
 
-      console.log(categorizedByPart);
-
       //need to do the cartesian product of each combination of equip parts
       //for example, if two pieces (arms and helmet), we need to do just arm,
       //just helmet and arm and helmet
@@ -178,7 +176,7 @@ export default {
 
           //keep track of how many empty are empty. This will be useful for suggestions.
           //TODO not implemented yet
-          let emptyPieceSpots = 5;
+          //let emptyPieceSpots = 5;
 
           for (let k = 0; k < setWithSkills[i].length && !duplicate; k++) {
             let piece = setWithSkills[i][k];
@@ -202,7 +200,7 @@ export default {
               setBonusCount[piece.set]++;
 
               //reduce the amount of free spots we have
-              emptyPieceSpots--;
+              //emptyPieceSpots--;
 
               //add this piece to the mapped set
               mappedSet.pieces[piece.part] = piece;

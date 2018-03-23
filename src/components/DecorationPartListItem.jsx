@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
 import Collapse from "material-ui/transitions/Collapse";
-import TextField from "material-ui/TextField";
 import Button from "material-ui/Button";
 import PickerDialog from "./PickerDialog";
 import possibleDecorations from "../data/decoration.json";

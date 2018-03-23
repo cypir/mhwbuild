@@ -1,12 +1,8 @@
 import React from "react";
-import _ from "lodash";
-import skills from "../data/skill_name.json";
-import calculate from "../util/calculate";
 import { withStyles } from "material-ui/styles";
 import EquipmentSetList from "../components/EquipmentSetList";
 import SkillsInputForm from "../components/SkillsInputForm";
 import Typography from "material-ui/Typography";
-import setBonuses from "../data/set_bonus.json";
 import Worker from "../util/file.worker.js";
 import PromiseWorker from "promise-worker";
 import { CircularProgress } from "material-ui/Progress";
@@ -100,6 +96,8 @@ class Plan extends React.Component {
                 break;
               case 3:
                 levels[2]++;
+                break;
+              default:
                 break;
             }
           });

@@ -1,13 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
+import List from "material-ui/List";
 import equipmentParts from "../data/equipment_part.json";
 import armIcon from "../icons/1/arm.png";
 import chestIcon from "../icons/1/chest.png";
 import headIcon from "../icons/1/head.png";
 import waistIcon from "../icons/1/waist.png";
 import legIcon from "../icons/1/leg.png";
-import charmIcon from "../icons/1/charm.png";
 import calculate from "../util/calculate";
 import DecorationPartListItem from "./DecorationPartListItem";
 
@@ -29,6 +28,8 @@ const getIcon = part => {
     case "leg":
       imageSrc = legIcon;
       break;
+    default:
+      break;
   }
 
   return imageSrc;
@@ -48,9 +49,6 @@ const DecorationPartList = ({
   //we calculate the decoration information based on slots. This is the template
   //that we create the form with. We use set.decorations as the placeholder for
   //our actual decoration input
-
-  const baseDecorationInfo = calculate.decorations(set);
-  const decorationInfo = set.decorations;
   return (
     <div>
       <List>

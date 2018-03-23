@@ -1,15 +1,8 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { withStyles } from "material-ui/styles";
-import Card, { CardActions, CardContent } from "material-ui/Card";
-import Button from "material-ui/Button";
+import Card, { CardContent } from "material-ui/Card";
 import Typography from "material-ui/Typography";
-import ShareIcon from "material-ui-icons/Share";
-
-import _ from "lodash";
-
 import Grid from "material-ui/Grid";
-
 import SetSlotList from "../components/SetSlotList";
 import EquipmentPartList from "../components/EquipmentPartList";
 import SetSkillTotalsList from "../components/SetSkillTotalsList";

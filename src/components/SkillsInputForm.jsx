@@ -25,9 +25,7 @@ import Checkbox from "material-ui/Checkbox";
 import Tooltip from "material-ui/Tooltip";
 
 import Radio, { RadioGroup } from "material-ui/Radio";
-import { FormLabel, FormControl, FormHelperText } from "material-ui/Form";
-
-const skillNames = Object.keys(skillNamesJson);
+import { FormControl } from "material-ui/Form";
 
 const styles = theme => ({
   buttonContainer: {
@@ -145,7 +143,6 @@ class SkillsInputForm extends Component {
     e.preventDefault();
 
     let errorFound = false;
-    var self = this;
 
     let copy = [...this.state.skillsWanted];
 

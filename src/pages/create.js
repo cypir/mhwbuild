@@ -1,12 +1,9 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import EquipmentSetCard from "../components/EquipmentSetCard";
 import DecorationSetCard from "../components/DecorationSetCard";
 import PickerDialog from "../components/PickerDialog";
 import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
-
-import querystring from "query-string";
 import calculate from "../util/calculate";
 import equipment from "../data/equipment.json";
 import ShareDialog from "../components/ShareDialog";
@@ -72,7 +69,7 @@ class Create extends Component {
           decoder: function(str, defaultDecoder) {
             //if not the empty string and is a number
             if (str !== "" && !isNaN(str)) {
-              return parseInt(str);
+              return parseInt(str, 10);
             }
             //otherwise return the string
             return defaultDecoder(str);
@@ -196,7 +193,7 @@ class Create extends Component {
   };
 
   render() {
-    const { classes, location } = this.props;
+    const { classes } = this.props;
     return (
       <div style={{ marginBottom: 24 }}>
         <div className={classes.buttonContainer}>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
-import Card, { CardActions, CardContent } from "material-ui/Card";
+import List, { ListItem, ListItemText } from "material-ui/List";
+import Card, { CardContent } from "material-ui/Card";
 import Typography from "material-ui/Typography";
 import _ from "lodash";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
+import List, { ListItem, ListItemText } from "material-ui/List";
 import _ from "lodash";
 
 //breakdown by total number of slots and by sum of each level of slot
@@ -27,6 +27,9 @@ const SetSlotList = ({ set }) => {
               break;
             case 3:
               levels[2]++;
+              break;
+            default:
+              console.error("invalid slot");
               break;
           }
         });

@@ -1,17 +1,9 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { withStyles } from "material-ui/styles";
-import Card, { CardActions, CardContent } from "material-ui/Card";
-import Button from "material-ui/Button";
+import Card, { CardContent } from "material-ui/Card";
 import Typography from "material-ui/Typography";
-import ShareIcon from "material-ui-icons/Share";
 import SkillTotalsList from "../components/SkillTotalsList";
-import _ from "lodash";
-
 import Grid from "material-ui/Grid";
-
-import EquipmentPartList from "../components/EquipmentPartList";
-import SetSkillTotalsList from "../components/SetSkillTotalsList";
 import DecorationPartList from "../components/DecorationPartList";
 
 const styles = theme => ({

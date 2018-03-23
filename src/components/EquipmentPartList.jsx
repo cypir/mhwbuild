@@ -40,6 +40,8 @@ const EquipmentPartList = ({ set, clickable, handlePartClick }) => {
             case "charm":
               imageSrc = charmIcon;
               break;
+            default:
+              break;
           }
           return (
             <ListItem

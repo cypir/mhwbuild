@@ -1,6 +1,6 @@
 {
   "name": "mhwbuild",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
@@ -20,6 +20,7 @@
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0",
+    "react-markdown": "^3.3.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
     "typeface-roboto": "^0.0.54"
