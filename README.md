@@ -16,7 +16,7 @@ This is built with create-react-app. To run a dev instance:
 
 1.  Clone the project
 2.  cd mhwbuild
-3.  npm install --global gatsby-cli
+3.  npm install --global create-react-app
 4.  npm install
 5.  yarn start
 
