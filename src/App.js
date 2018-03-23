@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import MainAppBar from "./components/MainAppBar";
 import Create from "./pages/create";
 import Plan from "./pages/plan";
+import Index from "./pages/index";
 import CssBaseline from "material-ui/CssBaseline";
 import { withStyles } from "material-ui/styles";
 import "typeface-roboto";
@@ -49,7 +50,7 @@ class App extends Component {
         <CssBaseline />
         <Route path="/" component={() => <MainAppBar />} />
         <div className={classes.content}>
-          <Route exact path="/" component={() => <div>Landing Page</div>} />
+          <Route exact path="/" component={() => <Index />} />
           <Route path="/plan" component={() => <Plan />} />
           <Route path="/create" component={() => <Create />} />
         </div>
