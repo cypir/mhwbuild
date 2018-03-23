@@ -1,11 +1,16 @@
-import _ from "lodash";
+import calculate from "./calculate";
 
-const obj = { foo: "foo" };
+// // Respond to message from parent thread
+// self.addEventListener("message", event => {
+//   let sets = calculate.generateSets(event.data);
 
-_.has(obj, "foo");
+//   // Post data to parent thread
+//   self.postMessage(sets);
+// });
 
-// Post data to parent thread
-self.postMessage({ foo: "foo" });
+// worker.js
+var registerPromiseWorker = require("promise-worker/register");
 
-// Respond to message from parent thread
-self.addEventListener("message", event => console.log(event));
+registerPromiseWorker(function(message) {
+  return calculate.generateSets(message);
+});

@@ -7,6 +7,8 @@ import EquipmentSetList from "../components/EquipmentSetList";
 import SkillsInputForm from "../components/SkillsInputForm";
 import Typography from "material-ui/Typography";
 import setBonuses from "../data/set_bonus.json";
+import Worker from "../util/file.worker.js";
+import PromiseWorker from "promise-worker";
 
 const styles = theme => ({
   listHeader: {
@@ -23,7 +25,7 @@ class Plan extends React.Component {
     };
   }
 
-  onFormSave = formInput => {
+  onFormSave = async formInput => {
     const {
       skillsWanted,
       slotsWanted,
@@ -32,7 +34,18 @@ class Plan extends React.Component {
       requireSetBonus
     } = formInput;
 
-    let sets = calculate.generateSets(skillsWanted);
+    const worker = new Worker();
+    const promiseWorker = new PromiseWorker(worker);
+
+    let sets = await promiseWorker.postMessage(skillsWanted);
+
+    // promiseWorker.postMessage(skillsWanted).then(res => {
+    //   console.log(res);
+    // });
+
+    //worker.addEventListener("message", function(event) {});
+
+    //let sets = calculate.generateSets(skillsWanted);
 
     //sort sets by fewest pieces of gear required
     sets.sort((setA, setB) => {

@@ -236,14 +236,7 @@ class SkillsInputForm extends Component {
                   </div>
                 );
               })}
-              <Button
-                color="primary"
-                onClick={this.handleAddWantedSkill}
-                style={{
-                  visibility:
-                    this.state.skillsWanted.length > 2 ? "hidden" : "visible"
-                }}
-              >
+              <Button color="primary" onClick={this.handleAddWantedSkill}>
                 <AddIcon />
                 Add Skill Requirement
               </Button>
