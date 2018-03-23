@@ -20,17 +20,16 @@ class CustomEquipmentSetStore {
 
     //initialize if incoming set doesn't have proper structure
     if (!set.bonuses) {
-      this.bonuses = {
-        immediate: []
-      };
+      this.bonuses = calculate.setBonus(this.completeSet);
     }
 
     if (!set.pieces) {
       this.pieces = {};
     }
 
+    //initialize decorations if none
     if (!set.decorations) {
-      this.decorations = {};
+      this.decorations = calculate.decorations(this.completeSet);
     }
   }
 
