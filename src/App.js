@@ -35,7 +35,6 @@ class App extends Component {
         <CssBaseline />
         <Route path="/" component={() => <MainAppBar />} />
         <div className={classes.content}>
-          <DevTools />
           <Route exact path="/" component={() => <Index />} />
           <Route
             path="/plan"
