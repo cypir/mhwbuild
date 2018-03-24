@@ -4,6 +4,8 @@
 
 This build creator minimizes the amount of gear that you need to equip in order to achieve desired skills with corresponding levels. From there, you can set filters such as the minimum number of total decorations, minimum number of decorations by level and having a set bonus requirement.
 
+You can also use it to customize the build or create your own from scratch and share it with others.
+
 ## Contributing
 
 The data set is stored in the src/data/equipment [directory](https://github.com/cypir/mhwbuild/tree/master/src/data/equipment). Additions, updates and corrections are welcome. Simply follow the format of the other equipment JSON files and submit a pull request. If you are unable to do this, raising an issue and putting the data in the issue is acceptable. There is an automated build process that validates the equipment and adds them to a single json file that is used as the database for the build creator.
