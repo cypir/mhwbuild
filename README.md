@@ -20,7 +20,7 @@ This is built with create-react-app. To run a dev instance:
 2.  cd mhwbuild
 3.  npm install --global create-react-app
 4.  npm install
-5.  yarn start
+5.  npm run start
 
 ## Resources
 
