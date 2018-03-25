@@ -7,6 +7,7 @@ import PickerDialog from "./PickerDialog";
 import possibleDecorations from "../data/decoration.json";
 import { withStyles } from "material-ui/styles";
 import Typography from "material-ui/Typography";
+import List from "material-ui/List";
 
 const styles = theme => ({
   flexContainer: {
@@ -61,6 +62,7 @@ class DecorationPartListItem extends Component {
       decorations,
       classes
     } = this.props;
+    console.log(piece);
     return (
       <div>
         <ListItem
@@ -78,30 +80,35 @@ class DecorationPartListItem extends Component {
         {piece ? (
           <Collapse in={this.state.open} timeout="auto" unmountOnExit>
             {piece.slots.map((slot, index) => {
-              return slot > 0 ? (
-                <div
-                  key={`${piece.part}_${index}`}
-                  className={classes.flexContainer}
-                  style={{ marginLeft: 32 }}
-                >
-                  <Typography
-                    className={classes.centerLevel}
-                    variant="body2"
-                  >{`Level ${slot}`}</Typography>
-                  <Button
-                    color="primary"
+              if (slot === 0) {
+                return;
+              }
+              return (
+                <List key={index} style={{ marginLeft: 32 }}>
+                  <ListItem
+                    button={true}
                     onClick={() => {
                       this.setState({ dialogOpen: true, selectedIndex: index });
                     }}
+                    style={{ padding: 0 }}
                   >
-                    {decorations[piece.part] &&
-                    decorations[piece.part][index].name !== ""
-                      ? decorations[piece.part][index].name
-                      : "Empty Slot"}
-                  </Button>
-                </div>
-              ) : (
-                ""
+                    <Typography variant="body2">{`Level ${slot}`}</Typography>
+                    <ListItemText
+                      primary={
+                        decorations[piece.part] &&
+                        decorations[piece.part][index].name !== ""
+                          ? decorations[piece.part][index].name
+                          : "Empty Slot"
+                      }
+                      secondary={
+                        decorations[piece.part] &&
+                        decorations[piece.part][index].name !== ""
+                          ? decorations[piece.part][index].skill
+                          : ""
+                      }
+                    />
+                  </ListItem>
+                </List>
               );
             })}
           </Collapse>
@@ -129,6 +136,7 @@ class DecorationPartListItem extends Component {
             this.setState({ dialogOpen: false });
             onDecorationRemoved(piece.part, this.state.selectedIndex);
           }}
+          secondaryTextProp="skill"
         />
       </div>
     );

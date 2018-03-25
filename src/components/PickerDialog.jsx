@@ -57,7 +57,6 @@ class PickerDialog extends Component {
       handlePieceSelected,
       handlePieceRemoved,
       items,
-      primaryTextProp,
       secondaryTextProp
     } = this.props;
     return (
@@ -129,9 +128,12 @@ class PickerDialog extends Component {
                     >
                       <ListItemText
                         primary={item.name}
-                        secondary={skillformat.skillSecondaryDisplayPlanner(
-                          item
-                        )}
+                        secondary={
+                          //if we have a secondary prop derived from data, use it. Otherwise, use format function.
+                          secondaryTextProp
+                            ? item[secondaryTextProp]
+                            : skillformat.skillSecondaryDisplayPlanner(item)
+                        }
                       />
                     </ListItem>
                     <Divider />
