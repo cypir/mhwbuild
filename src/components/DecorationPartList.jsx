@@ -32,7 +32,7 @@ const getIcon = (part, weapon) => {
       break;
     case "weapon":
       if (weapon) {
-        imageSrc = weaponmeta.getWeapon(weapon.type);
+        imageSrc = weaponmeta.getWeapon(weapon.type).imageSrc;
       } else {
         imageSrc = greatswordIcon;
       }
