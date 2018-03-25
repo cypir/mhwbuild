@@ -62,7 +62,6 @@ class DecorationPartListItem extends Component {
       decorations,
       classes
     } = this.props;
-    console.log(piece);
     return (
       <div>
         <ListItem

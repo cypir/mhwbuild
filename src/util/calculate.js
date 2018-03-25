@@ -5,15 +5,15 @@ import _ from "lodash";
 import setBonuses from "../data/set_bonus.json";
 
 export default {
-  generateSets: skillsWanted => {
+  generateSets: (skillsWanted, includeCharms) => {
     let setsWithSkillsWanted = {};
 
     //iterate through all skills that the user wants
     skillsWanted.forEach(skillWanted => {
       //filter down equipment to only equipment that has the particular skill
       const relevantEquips = equipment.filter(equip => {
-        //skip charms, they add a significant number of combinations and imho provide little utility
-        if (equip.part === "charm") {
+        //skip charms if disabled, they add a significant number of combinations generally provide little utility
+        if (equip.part === "charm" && !includeCharms) {
           return;
         }
         //make sure at least one skill from this equipment piece has what the user wants

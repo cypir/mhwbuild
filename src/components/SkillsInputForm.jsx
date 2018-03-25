@@ -59,6 +59,9 @@ const styles = theme => ({
   slotsSection: {
     marginTop: "16px",
     marginBottom: "16px"
+  },
+  flexContainer: {
+    display: "flex"
   }
 });
 
@@ -83,7 +86,8 @@ class SkillsInputForm extends Component {
       slotsWanted: [0, 0, 0],
       slotsMinTotal: 0,
       slotType: "minTotal",
-      requireSetBonus: false
+      requireSetBonus: false,
+      includeCharms: false
     };
   }
 
@@ -303,7 +307,7 @@ class SkillsInputForm extends Component {
                 )}
               </div>
 
-              <div>
+              <div className={classes.flexContainer}>
                 <Tooltip
                   placement="top-start"
                   title="Filters for sets that have one or more set bonuses."
@@ -319,6 +323,24 @@ class SkillsInputForm extends Component {
                         />
                       }
                       label="Has Set Bonus"
+                    />
+                  </FormGroup>
+                </Tooltip>
+                <Tooltip
+                  placement="top-start"
+                  title="Includes charms in search. This may significantly increase search times."
+                >
+                  <FormGroup row>
+                    <FormControlLabel
+                      control={
+                        <Checkbox
+                          checked={this.state.includeCharms}
+                          onChange={(e, checked) => {
+                            this.setState({ includeCharms: checked });
+                          }}
+                        />
+                      }
+                      label="Include charms"
                     />
                   </FormGroup>
                 </Tooltip>

@@ -37,7 +37,8 @@ class Plan extends React.Component {
       slotsWanted,
       slotType,
       slotsMinTotal,
-      requireSetBonus
+      requireSetBonus,
+      includeCharms
     } = formInput;
 
     this.setState({
@@ -58,7 +59,7 @@ class Plan extends React.Component {
     this.setState({ worker });
 
     //we use a webworker to perform the set generation, as it is very intensive
-    let sets = await promiseWorker.postMessage(skillsWanted);
+    let sets = await promiseWorker.postMessage({ skillsWanted, includeCharms });
     worker.terminate();
 
     this.setState({ worker: null });

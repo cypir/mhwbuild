@@ -1,5 +1,11 @@
 module.exports = `# Changelog
 
+## Version 0.2.1
+
+* ***New Feature*** Ability to toggle charm inclusion on and off when planning a set. **Warning** Including a charm increases the
+number of possibilities dramatically, significantly increasing the amount of time required to generate sets.
+* Decoration selector now displays the name of the jewel rather than the skill.
+
 ## Version 0.2.0
 
 * ***New Feature*** Clicking on the equipment set title on one of the planner results will automatically
