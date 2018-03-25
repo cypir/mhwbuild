@@ -69,7 +69,8 @@ const EquipmentSetCard = ({
               <Typography variant="subheading">
                 <strong>Equipment Pieces</strong>
               </Typography>
-              <WeaponListItem set={set} />
+              {//do not display weapon on planner page (which has customizeFn)
+              !customizeFn ? <WeaponListItem set={set} /> : ""}
               <EquipmentPartList
                 set={set}
                 clickable={clickable}

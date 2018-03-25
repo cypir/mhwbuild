@@ -7,6 +7,7 @@ import Index from "./pages/index";
 import CssBaseline from "material-ui/CssBaseline";
 import { withStyles } from "material-ui/styles";
 import "typeface-roboto";
+import DevTools from "mobx-react-devtools";
 
 import CustomEquipmentSetStore from "./stores/CustomEquipmentSetStore";
 
@@ -32,6 +33,7 @@ class App extends Component {
     return (
       <div>
         <CssBaseline />
+        <DevTools />
         <Route path="/" component={() => <MainAppBar />} />
         <div className={classes.content}>
           <Route exact path="/" component={() => <Index />} />

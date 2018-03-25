@@ -151,6 +151,7 @@ class WeaponPickerDialog extends Component {
           <PickerDialogList
             items={weapons[this.state.selectedWeaponType]}
             handlePieceSelected={piece => {
+              console.log(set);
               //update set and close dialog
               set.setPiece(piece);
               onClose();

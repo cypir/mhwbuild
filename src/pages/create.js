@@ -107,16 +107,9 @@ class Create extends Component {
     this.setState({ shareDialogOpen: false });
   };
 
-  onDecorationChanged = (part, index, decoration) => {
-    this.props.customEquipmentSetStore.setDecoration(part, index, decoration);
-  };
-
-  onDecorationRemoved = (part, index) => {
-    this.props.customEquipmentSetStore.removeDecoration(part, index);
-  };
-
   render() {
     const { classes, customEquipmentSetStore } = this.props;
+    console.log(customEquipmentSetStore);
     return (
       <div style={{ marginBottom: 24 }}>
         <div className={classes.buttonContainer}>

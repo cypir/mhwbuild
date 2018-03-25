@@ -24,10 +24,11 @@ const styles = theme => ({
 const DecorationSetCard = ({
   set,
   title,
-  classes,
-  onDecorationChanged,
-  onDecorationRemoved
+  classes
+  //onDecorationChanged,
+  //onDecorationRemoved
 }) => {
+  console.log(set);
   return (
     <div>
       <Card>
@@ -43,8 +44,8 @@ const DecorationSetCard = ({
               </Typography>
               <DecorationPartList
                 set={set}
-                onDecorationChanged={onDecorationChanged}
-                onDecorationRemoved={onDecorationRemoved}
+                //onDecorationChanged={onDecorationChanged}
+                //onDecorationRemoved={onDecorationRemoved}
               />
             </Grid>
             <Grid item xs={12} sm={4}>
@@ -60,4 +61,4 @@ const DecorationSetCard = ({
   );
 };
 
-export default withStyles(styles)(DecorationSetCard);
+export default withStyles(styles)(observer(DecorationSetCard));

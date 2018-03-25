@@ -9,6 +9,8 @@ import { withStyles } from "material-ui/styles";
 import Typography from "material-ui/Typography";
 import List from "material-ui/List";
 
+import { observer } from "mobx-react";
+
 const styles = theme => ({
   flexContainer: {
     display: "flex"
@@ -34,6 +36,8 @@ class DecorationPartListItem extends Component {
   getSlotDisplay = (piece, decorations) => {
     let sum = 0;
 
+    console.log(piece);
+
     //total number possible slots
     let total = 0;
     if (!piece || !decorations[piece.part]) {
@@ -54,14 +58,10 @@ class DecorationPartListItem extends Component {
   };
 
   render() {
-    const {
-      icon,
-      onDecorationChanged,
-      onDecorationRemoved,
-      piece,
-      decorations,
-      classes
-    } = this.props;
+    const { icon, set, part, classes } = this.props;
+    const { decorations } = set;
+    const piece = set.pieces[part];
+
     return (
       <div>
         <ListItem
@@ -129,11 +129,11 @@ class DecorationPartListItem extends Component {
           })}
           handlePieceSelected={item => {
             this.setState({ dialogOpen: false });
-            onDecorationChanged(piece.part, this.state.selectedIndex, item);
+            set.setDecoration(part, this.state.selectedIndex, item);
           }}
           handlePieceRemoved={() => {
             this.setState({ dialogOpen: false });
-            onDecorationRemoved(piece.part, this.state.selectedIndex);
+            set.removeDecoration(part, this.state.selectedIndex);
           }}
           secondaryTextProp="skill"
         />
