@@ -5,8 +5,26 @@ import Card, { CardContent } from "material-ui/Card";
 import Typography from "material-ui/Typography";
 import _ from "lodash";
 import { observer } from "mobx-react";
+import possibleSkills from "../data/skill";
 
-class CreateGrandTotalCard extends Component {
+const displaySkillTotal = skill => {
+  let range = skill.level - possibleSkills[skill.name].levels.length;
+  let style = {};
+  if (range === 0) {
+    style = { color: "#43A047" };
+  } else if (range > 0) {
+    style = { color: "#E53935" };
+  } else {
+    style = { color: "black" };
+  }
+  return (
+    <div style={style}>{`${skill.name} ${skill.level}/${
+      possibleSkills[skill.name].levels.length
+    }`}</div>
+  );
+};
+
+class SummaryCard extends Component {
   render() {
     const { set } = this.props;
 
@@ -54,13 +72,16 @@ class CreateGrandTotalCard extends Component {
       <div style={{ marginTop: 24 }}>
         <Card>
           <CardContent>
-            <Typography variant="title">Grand Totals</Typography>
-
+            <Typography variant="title">Summary</Typography>
+            <Typography variant="subheading">
+              <strong>Skill Totals</strong>
+            </Typography>
             <List>
               {totalsArray.map(skill => {
+                console.log(skill.name);
                 return (
                   <ListItem key={skill.name} style={{ padding: "4px" }}>
-                    <ListItemText primary={`${skill.name} +${skill.level}`} />
+                    <ListItemText primary={displaySkillTotal(skill)} />
                   </ListItem>
                 );
               })}
@@ -72,8 +93,8 @@ class CreateGrandTotalCard extends Component {
   }
 }
 
-CreateGrandTotalCard.propTypes = {
+SummaryCard.propTypes = {
   set: PropTypes.object
 };
 
-export default observer(CreateGrandTotalCard);
+export default observer(SummaryCard);

@@ -11,7 +11,7 @@ import ShareDialog from "../components/ShareDialog";
 import ShareIcon from "material-ui-icons/Share";
 
 import axios from "axios";
-import CreateGrandTotalCard from "../components/CreateGrandTotalCard";
+import SummaryCard from "../components/SummaryCard";
 import qs from "qs";
 
 import { withRouter } from "react-router-dom";
@@ -143,7 +143,7 @@ class Create extends Component {
           onDecorationRemoved={this.onDecorationRemoved}
           title="Decoration Set"
         />
-        <CreateGrandTotalCard set={customEquipmentSetStore} />
+        <SummaryCard set={customEquipmentSetStore} />
         <PickerDialog
           open={this.state.dialogOpen}
           onClose={() => {

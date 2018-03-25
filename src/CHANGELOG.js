@@ -5,6 +5,7 @@ module.exports = `# Changelog
 * ***New Feature*** Ability to toggle charm inclusion on and off when planning a set. **Warning** Including a charm increases the
 number of possibilities dramatically, significantly increasing the amount of time required to generate sets.
 * Decoration selector now displays the name of the jewel rather than the skill.
+* Max level now shows on summary card in creator.
 
 ## Version 0.2.0
 
