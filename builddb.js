@@ -89,3 +89,21 @@ fs.writeFileSync(
   `src/data/decoration.json`,
   JSON.stringify(decorations, null, 2)
 );
+
+//generate weapon db. Split into weapon types.
+const weapons = {};
+const weaponFiles = fs.readdirSync(path.resolve(`src/data/weapon`));
+
+weaponFiles.forEach(filename => {
+  const file = fs.readFileSync(path.resolve(`src/data/weapon/${filename}`));
+  const weapon = JSON.parse(file);
+
+  //initialize weapon type
+  if (!weapons[weapon.type]) {
+    weapons[weapon.type] = [];
+  }
+
+  weapons[weapon.type].push(weapon);
+});
+
+fs.writeFileSync(`src/data/weapon.json`, JSON.stringify(weapons, null, 2));

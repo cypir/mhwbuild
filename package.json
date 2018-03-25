@@ -27,9 +27,9 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "node builddb.js && react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
-    "build-db": "node builddata.js"
+    "build-db": "node builddb.js"
   },
   "license": "GPL-3.0",
   "devDependencies": {

@@ -7,6 +7,7 @@ import SetSlotList from "../components/SetSlotList";
 import EquipmentPartList from "../components/EquipmentPartList";
 import SetSkillTotalsList from "../components/SetSkillTotalsList";
 import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
+import WeaponListItem from "./WeaponListItem";
 
 const styles = theme => ({
   flexContainer: {
@@ -68,13 +69,7 @@ const EquipmentSetCard = ({
               <Typography variant="subheading">
                 <strong>Equipment Pieces</strong>
               </Typography>
-              <ListItem>
-                <ListItemText
-                  inset={true}
-                  primary={"Hello"}
-                  secondary={"SomeSecondary"}
-                />
-              </ListItem>
+              <WeaponListItem set={set} />
               <EquipmentPartList
                 set={set}
                 clickable={clickable}
