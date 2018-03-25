@@ -2,23 +2,10 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
 import Collapse from "material-ui/transitions/Collapse";
-import Button from "material-ui/Button";
 import PickerDialog from "./PickerDialog";
 import possibleDecorations from "../data/decoration.json";
-import { withStyles } from "material-ui/styles";
 import Typography from "material-ui/Typography";
 import List from "material-ui/List";
-
-import { observer } from "mobx-react";
-
-const styles = theme => ({
-  flexContainer: {
-    display: "flex"
-  },
-  centerLevel: {
-    marginTop: "6px"
-  }
-});
 
 /**
  * Create the form for listing out the decorations. Iterate through slots and create the form.
@@ -58,7 +45,7 @@ class DecorationPartListItem extends Component {
   };
 
   render() {
-    const { icon, set, part, classes } = this.props;
+    const { icon, set, part } = this.props;
     const { decorations } = set;
     const piece = set.pieces[part];
 
@@ -147,4 +134,4 @@ DecorationPartListItem.propTypes = {
   icon: PropTypes.string
 };
 
-export default withStyles(styles)(DecorationPartListItem);
+export default DecorationPartListItem;

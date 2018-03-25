@@ -8,7 +8,6 @@ import headIcon from "../icons/1/head.png";
 import waistIcon from "../icons/1/waist.png";
 import legIcon from "../icons/1/leg.png";
 import DecorationPartListItem from "./DecorationPartListItem";
-import { observer } from "mobx-react";
 import weaponmeta from "../util/weaponmeta";
 import greatswordIcon from "../icons/1/weapons/greatsword.png";
 

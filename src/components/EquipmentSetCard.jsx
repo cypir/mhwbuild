@@ -6,7 +6,6 @@ import Grid from "material-ui/Grid";
 import SetSlotList from "../components/SetSlotList";
 import EquipmentPartList from "../components/EquipmentPartList";
 import SetSkillTotalsList from "../components/SetSkillTotalsList";
-import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
 import WeaponListItem from "./WeaponListItem";
 
 const styles = theme => ({

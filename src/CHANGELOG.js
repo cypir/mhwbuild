@@ -1,5 +1,8 @@
 module.exports = `# Changelog
 
+## Version 0.3.0
+* ***New Feature*** Build creator now allows selecting a weapon so you can further customize your build.
+
 ## Version 0.2.1
 
 * ***New Feature*** Ability to toggle charm inclusion on and off when planning a set. **Warning** Including a charm increases the

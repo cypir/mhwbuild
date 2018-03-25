@@ -75,6 +75,10 @@ export default {
         imageSrc = chargebladeIcon;
         eng = "Charge Blade";
         break;
+      default:
+        imageSrc = greatswordIcon;
+        eng = "Invalid Weapon";
+        break;
     }
 
     return { imageSrc, eng };
