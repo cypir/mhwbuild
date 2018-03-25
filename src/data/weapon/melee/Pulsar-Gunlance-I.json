@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Pulsar Gunlance I",
+  "attack": 230,
+  "baseAttack": 100,
+  "element": "Thunder",
+  "elementDamage": 120,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "gunlance"
+}

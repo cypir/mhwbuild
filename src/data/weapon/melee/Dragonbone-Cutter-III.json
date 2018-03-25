@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Dragonbone Cutter III",
+  "attack": 576,
+  "baseAttack": 160,
+  "element": "Dragon",
+  "elementDamage": 360,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "chargeblade"
+}

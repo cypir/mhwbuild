@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Blooming Knife I",
+  "attack": 154,
+  "baseAttack": 110,
+  "element": "Poison",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "swordandshield"
+}

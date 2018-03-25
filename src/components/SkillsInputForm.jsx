@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import skillNamesJson from "../data/skill_name.json";
+import skills from "../data/skill.json";
 import SkillAutocompleteField from "./SkillAutocompleteField";
 import TextField from "material-ui/TextField";
 import Grid from "material-ui/Grid";
@@ -149,7 +149,7 @@ class SkillsInputForm extends Component {
     //iterate through and do validations against the skill names
     copy.forEach(skill => {
       //compare name
-      if (!skillNamesJson[skill.name]) {
+      if (!skills[skill.name]) {
         skill.ui.nameError = "Skill name must be valid";
         return (errorFound = true);
       } else {

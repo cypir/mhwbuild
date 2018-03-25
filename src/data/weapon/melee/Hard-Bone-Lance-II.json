@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Hard Bone Lance II",
+  "attack": 345,
+  "baseAttack": 150,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "lance"
+}

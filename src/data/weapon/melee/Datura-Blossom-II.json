@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Datura Blossom II",
+  "attack": 224,
+  "baseAttack": 160,
+  "element": "Poison",
+  "elementDamage": 360,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield"
+}

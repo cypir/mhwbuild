@@ -1,0 +1,8 @@
+{
+  "name": "Poison Attack",
+  "levels": [
+    "Poison buildup +5% Bonus: +10",
+    "Poison buildup +10% Bonus: +10",
+    "Poison buildup +20% Bonus: +10"
+  ]
+}

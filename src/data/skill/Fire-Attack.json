@@ -1,0 +1,10 @@
+{
+  "name": "Fire Attack",
+  "levels": [
+    "Fire attack +30",
+    "Fire attack +60",
+    "Fire attack +100",
+    "Fire attack +5% Bonus: +100",
+    "Fire attack +10% Bonus: +100"
+  ]
+}

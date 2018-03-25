@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Heat Edge",
+  "attack": 224,
+  "baseAttack": 160,
+  "element": "Fire",
+  "elementDamage": 150,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield"
+}

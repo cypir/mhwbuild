@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Iron Gospel I",
+  "attack": 528,
+  "baseAttack": 160,
+  "element": "Water",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "longsword"
+}

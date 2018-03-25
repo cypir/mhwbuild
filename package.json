@@ -29,7 +29,7 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
-    "build-data": "node builddata.js"
+    "build-db": "node builddata.js"
   },
   "license": "GPL-3.0",
   "devDependencies": {

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Anja Cyclone III",
+  "attack": 294,
+  "baseAttack": 210,
+  "element": "Fire",
+  "elementDamage": 210,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "dualblades"
+}

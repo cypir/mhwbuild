@@ -1,20 +1,28 @@
 /**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
+ * This does basic validation of data along with flattening the data into
+ * single objects.
  */
-
 const fs = require("fs");
 const path = require(`path`);
-const possibleSkillNames = require("./src/data/skill_name.json");
 const setBonus = require("./src/data/set_bonus.json");
 const possibleEquipmentParts = require("./src/data/equipment_part.json");
 
-//before build, we need to parse through all the json files
-//and generate a single database of equipment
-const equipmentFiles = fs.readdirSync(path.resolve(`src/data/equipment`));
+//generate skills json db
+const skills = {};
+const skillFiles = fs.readdirSync(path.resolve(`src/data/skill`));
+skillFiles.forEach(filename => {
+  const file = fs.readFileSync(path.resolve(`src/data/skill/${filename}`));
+  const skill = JSON.parse(file);
+
+  skills[skill.name] = skill;
+});
+
+fs.writeFileSync(`src/data/skill.json`, JSON.stringify(skills, null, 2));
 
 const output = [];
+
+//generate equipment json db
+const equipmentFiles = fs.readdirSync(path.resolve(`src/data/equipment`));
 
 //go through each registered piece of equipment
 equipmentFiles.forEach(filename => {
@@ -24,7 +32,7 @@ equipmentFiles.forEach(filename => {
   equipment.pieces.forEach(piece => {
     //check the piece's skills to see if they're all valid skill names
     piece.skills.forEach(skill => {
-      if (!possibleSkillNames[skill.name]) {
+      if (!skills[skill.name]) {
         throw Error(`${skill.name} is an invalid skill name in ${filename}`);
       }
     });

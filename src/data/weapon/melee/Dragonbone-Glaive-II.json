@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Dragonbone Glaive II",
+  "attack": 341,
+  "baseAttack": 110,
+  "element": "Dragon",
+  "elementDamage": 330,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "insectglaive"
+}

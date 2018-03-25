@@ -1,0 +1,8 @@
+{
+  "name": "Tremor Resistance",
+  "levels": [
+    "Nullifies minor ground tremors.",
+    "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
+    "Nullifies minor and major ground tremors."
+  ]
+}

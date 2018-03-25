@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Malady's Kiss III",
+  "attack": 768,
+  "baseAttack": 160,
+  "element": "Paralysis",
+  "elementDamage": 450,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword"
+}

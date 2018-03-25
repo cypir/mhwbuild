@@ -1,0 +1,8 @@
+{
+  "name": "Free Elem/Ammo Up",
+  "levels": [
+    "Draws out 33% of hidden element and expands clip size for some ammo.",
+    "Draws out 66% of hidden element and expands clip size for some ammo.",
+    "Draws out 100% of hidden element and expands clip size for some ammo."
+  ]
+}

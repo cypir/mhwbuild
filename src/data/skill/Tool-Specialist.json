@@ -1,0 +1,8 @@
+{
+  "name": "Tool Specialist",
+  "levels": [
+    "Shortens time until reuse by 5%.",
+    "Shortens time until reuse by 10%.",
+    "Shortens time until reuse by 20%."
+  ]
+}

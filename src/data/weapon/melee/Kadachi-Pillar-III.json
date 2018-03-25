@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Kadachi Pillar III",
+  "attack": 558,
+  "baseAttack": 180,
+  "element": "Thunder",
+  "elementDamage": 240,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "insectglaive"
+}

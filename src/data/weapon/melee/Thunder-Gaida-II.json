@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Thunder Gaida II",
+  "attack": 546,
+  "baseAttack": 130,
+  "element": "Thunder",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "huntinghorn"
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Water Basher III",
+  "attack": 936,
+  "baseAttack": 180,
+  "element": "Water",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "hammer"
+}

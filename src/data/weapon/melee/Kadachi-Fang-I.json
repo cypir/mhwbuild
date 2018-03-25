@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Kadachi Fang I",
+  "attack": 528,
+  "baseAttack": 160,
+  "element": "Thunder",
+  "elementDamage": 210,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "longsword"
+}

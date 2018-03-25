@@ -1,0 +1,10 @@
+{
+  "name": "Water Attack",
+  "levels": [
+    "Water attack +30",
+    "Water attack +60",
+    "Water attack +100",
+    "Water attack +5% Bonus: +100",
+    "Water attack +10% Bonus: +100"
+  ]
+}

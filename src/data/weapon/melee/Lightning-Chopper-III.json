@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Lightning Chopper III",
+  "attack": 630,
+  "baseAttack": 180,
+  "element": "Thunder",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "switchaxe"
+}

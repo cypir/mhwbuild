@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Glacial Lance I",
+  "attack": 299,
+  "baseAttack": 130,
+  "element": "Ice",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "lance"
+}

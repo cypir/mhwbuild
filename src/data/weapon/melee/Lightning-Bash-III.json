@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Lightning Bash III",
+  "attack": 988,
+  "baseAttack": 190,
+  "element": "Thunder",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "hammer"
+}

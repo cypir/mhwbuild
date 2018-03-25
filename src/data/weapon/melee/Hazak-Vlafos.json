@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Hazak Vlafos",
+  "attack": 988,
+  "baseAttack": 190,
+  "element": "Dragon",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "hammer"
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Frost Blade I",
+  "attack": 434,
+  "baseAttack": 140,
+  "element": "Ice",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "insectglaive"
+}

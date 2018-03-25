@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Freeze Blade II",
+  "attack": 624,
+  "baseAttack": 130,
+  "element": "Ice",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "greatsword"
+}

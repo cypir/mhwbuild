@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Daora's Fang",
+  "attack": 414,
+  "baseAttack": 180,
+  "element": "Ice",
+  "elementDamage": 240,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "lance"
+}

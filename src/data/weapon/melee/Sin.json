@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Sin",
+  "attack": 224,
+  "baseAttack": 160,
+  "element": "Fire",
+  "elementDamage": 180,
+  "affinity": 20,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "dualblades"
+}

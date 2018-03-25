@@ -36,15 +36,16 @@ class CreateGrandTotalCard extends Component {
             return;
           }
 
-          if (!totals[skill.name]) {
-            totals[skill.name] = 0;
+          if (!totals[skill.skill]) {
+            totals[skill.skill] = 0;
           }
 
-          totals[skill.name]++;
+          totals[skill.skill]++;
         });
       }
     }
 
+    //skill.name for equipment, skill.skill for decoration
     let totalsArray = Object.keys(totals).map(function(skill) {
       return { name: skill, level: totals[skill] };
     });

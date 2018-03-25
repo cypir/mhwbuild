@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Bone Slasher III",
+  "attack": 768,
+  "baseAttack": 160,
+  "element": "Ice",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "greatsword"
+}

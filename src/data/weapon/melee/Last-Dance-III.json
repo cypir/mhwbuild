@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Last Dance III",
+  "attack": 561,
+  "baseAttack": 170,
+  "element": "Sleep",
+  "elementDamage": 270,
+  "affinity": 20,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "longsword"
+}

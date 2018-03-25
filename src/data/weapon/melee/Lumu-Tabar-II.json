@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Lumu Tabar II",
+  "attack": 224,
+  "baseAttack": 160,
+  "element": "Blast",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield"
+}

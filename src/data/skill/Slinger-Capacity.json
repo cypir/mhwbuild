@@ -1,0 +1,8 @@
+{
+  "name": "Slinger Capacity",
+  "levels": [
+    "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+    "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
+    "In addition, increases the loading capacity for all slinger ammo dropped by monsters."
+  ]
+}

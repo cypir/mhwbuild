@@ -1,0 +1,10 @@
+{
+  "name": "Windproof",
+  "levels": [
+    "Slightly reduces the effects of minor wind pressure.",
+    "Reduces the effects of minor wind pressure.",
+    "Negates minor wind pressure.",
+    "Negates minor wind pressure and reduces the effects of major wind pressure.",
+    "Negates minor and major wind pressure."
+  ]
+}

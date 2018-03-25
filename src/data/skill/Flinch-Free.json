@@ -1,0 +1,8 @@
+{
+  "name": "Flinch Free",
+  "levels": [
+    "Prevents knockbacks.",
+    "Prevents standard knockbacks. Tripping is reduced to a knockback instead.",
+    "Prevents knockbacks and tripping."
+  ]
+}

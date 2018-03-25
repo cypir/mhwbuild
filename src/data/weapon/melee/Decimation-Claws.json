@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Decimation Claws",
+  "attack": 294,
+  "baseAttack": 210,
+  "element": "Dragon",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "dualblades"
+}

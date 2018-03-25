@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Datura Pike II",
+  "attack": 368,
+  "baseAttack": 160,
+  "element": "Poison",
+  "elementDamage": 480,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "lance"
+}

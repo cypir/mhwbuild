@@ -1,0 +1,12 @@
+{
+  "name": "Attack Boost",
+  "levels": [
+    "Attack +3",
+    "Attack +6",
+    "Attack +9",
+    "Attack +12 Affinity +5%",
+    "Attack +15 Affinity +5%",
+    "Attack +18 Affinity +5%",
+    "Attack +21 Affinity +5%"
+  ]
+}

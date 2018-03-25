@@ -1,0 +1,6 @@
+{
+  "name": "Critical Status",
+  "levels": [
+    "Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits."
+  ]
+}

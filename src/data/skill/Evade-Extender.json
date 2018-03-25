@@ -1,0 +1,8 @@
+{
+  "name": "Evade Extender",
+  "levels": [
+    "Slightly extends evasion distance.",
+    "Extends evasion distance.",
+    "Greatly extends evasion distance."
+  ]
+}

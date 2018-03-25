@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Jagras Blade II",
+  "attack": 576,
+  "baseAttack": 120,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "greatsword"
+}

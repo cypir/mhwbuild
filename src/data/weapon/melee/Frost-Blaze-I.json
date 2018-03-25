@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Frost Blaze I",
+  "attack": 720,
+  "baseAttack": 150,
+  "element": "Ice",
+  "elementDamage": 330,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword"
+}

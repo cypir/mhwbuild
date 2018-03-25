@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Lightning Spire I",
+  "attack": 368,
+  "baseAttack": 160,
+  "element": "Thunder",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "lance"
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Dark Ripper I",
+  "attack": 196,
+  "baseAttack": 140,
+  "element": "Paralysis",
+  "elementDamage": 90,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "dualblades"
+}

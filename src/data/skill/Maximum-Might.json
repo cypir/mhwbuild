@@ -1,0 +1,8 @@
+{
+  "name": "Maximum Might",
+  "levels": [
+    "While active, increases affinity by 10%.",
+    "While active, increases affinity by 20%.",
+    "While active, increases affinity by 30%."
+  ]
+}

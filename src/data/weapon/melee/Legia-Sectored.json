@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Legia Sectored",
+  "attack": 672,
+  "baseAttack": 160,
+  "element": "Ice",
+  "elementDamage": 360,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "huntinghorn"
+}

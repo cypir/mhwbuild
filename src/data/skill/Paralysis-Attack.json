@@ -1,0 +1,8 @@
+{
+  "name": "Paralysis Attack",
+  "levels": [
+    "Paralysis buildup +5% Bonus: +10",
+    "Paralysis buildup +10% Bonus: +10",
+    "Paralysis buildup +20% Bonus: +10"
+  ]
+}

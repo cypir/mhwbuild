@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Lightning Nemesis III",
+  "attack": 266,
+  "baseAttack": 190,
+  "element": "Thunder",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield"
+}

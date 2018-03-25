@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Pulsar Hachets III",
+  "attack": 196,
+  "baseAttack": 140,
+  "element": "Thunder",
+  "elementDamage": 60,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "dualblades"
+}

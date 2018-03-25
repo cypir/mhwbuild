@@ -1,0 +1,8 @@
+{
+  "name": "Paralysis Resistance",
+  "levels": [
+    "Reduces the duration of paralysis by 30%.",
+    "Reduces the duration of paralysis by 60%.",
+    "Prevents paralysis."
+  ]
+}

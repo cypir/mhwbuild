@@ -1,0 +1,10 @@
+{
+  "name": "Evade Window",
+  "levels": [
+    "Very slightly increases invulnerability window.",
+    "Slightly increases invulnerability window.",
+    "Increases invulnerability window.",
+    "Greatly increases invulnerability window.",
+    "Massively increases invulnerability window."
+  ]
+}

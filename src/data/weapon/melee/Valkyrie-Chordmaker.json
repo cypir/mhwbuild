@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Valkyrie Chordmaker",
+  "attack": 462,
+  "baseAttack": 110,
+  "element": "Fire",
+  "elementDamage": 150,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "huntinghorn"
+}

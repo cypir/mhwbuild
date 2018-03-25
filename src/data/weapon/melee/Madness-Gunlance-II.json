@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Madness Gunlance II",
+  "attack": 276,
+  "baseAttack": 120,
+  "element": "Water",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "gunlance"
+}

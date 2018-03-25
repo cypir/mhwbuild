@@ -1,0 +1,10 @@
+{
+  "name": "Wide-Range",
+  "levels": [
+    "Items affect nearby allies with 33% of their efficacy.",
+    "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+    "Items affect nearby allies in a wider radius with 66% of their efficacy.",
+    "Items affect nearby allies in a much wider radius with 66% of their efficacy.",
+    "Items affect nearby allies in a wider radius with full efficacy."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Iron Skin",
+  "levels": [
+    "Reduces the duration of Defense Down by 30%.",
+    "Reduces the duration of Defense Down by 60%.",
+    "Prevents Defense Down."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Rathbringer Axe II",
+  "attack": 665,
+  "baseAttack": 190,
+  "element": "Fire",
+  "elementDamage": 150,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "switchaxe"
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Barroth Blaster II",
+  "attack": 437,
+  "baseAttack": 190,
+  "element": "Paralysis",
+  "elementDamage": 330,
+  "affinity": 10,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "gunlance"
+}

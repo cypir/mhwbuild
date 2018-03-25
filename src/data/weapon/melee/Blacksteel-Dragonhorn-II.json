@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Blacksteel Dragonhorn II",
+  "attack": 462,
+  "baseAttack": 110,
+  "element": "Dragon",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "huntinghorn"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Intimidator",
+  "levels": [
+    "Discourages monsters from engaging you even if you've been spotted.",
+    "Highly discourages monsters from engaging you even if you've been spotted.",
+    "Prevents monsters from engaging you even if you've been spotted."
+  ]
+}

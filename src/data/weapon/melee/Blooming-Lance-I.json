@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Blooming Lance I",
+  "attack": 230,
+  "baseAttack": 100,
+  "element": "Poison",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "lance"
+}

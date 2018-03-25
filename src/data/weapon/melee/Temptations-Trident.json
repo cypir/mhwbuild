@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Temptation's Trident",
+  "attack": 465,
+  "baseAttack": 150,
+  "element": "Fire",
+  "elementDamage": 120,
+  "affinity": 20,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "insectglaive"
+}

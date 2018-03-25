@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Fulminator",
+  "attack": 154,
+  "baseAttack": 110,
+  "element": "Thunder",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "swordandshield"
+}

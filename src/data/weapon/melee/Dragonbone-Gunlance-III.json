@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Dragonbone Gunlance III",
+  "attack": 368,
+  "baseAttack": 160,
+  "element": "Dragon",
+  "elementDamage": 420,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "gunlance"
+}

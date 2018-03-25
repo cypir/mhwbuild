@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Rath Gunlance I",
+  "attack": 276,
+  "baseAttack": 120,
+  "element": "Fire",
+  "elementDamage": 120,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "gunlance"
+}

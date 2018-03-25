@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Flame Blade I",
+  "attack": 672,
+  "baseAttack": 140,
+  "element": "Fire",
+  "elementDamage": 120,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "greatsword"
+}

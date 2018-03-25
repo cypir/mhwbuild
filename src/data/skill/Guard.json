@@ -1,0 +1,10 @@
+{
+  "name": "Guard",
+  "levels": [
+    "Very slightly decreases the impact of attacks.",
+    "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+    "Greatly decreases the impact of attacks and redcues stamina depletion by 15%.",
+    "Greatly decreases the impact of attacks and redcues stamina depletion by 30%.",
+    "Greatly decreases the impact of attacks and redcues stamina depletion by 50%."
+  ]
+}

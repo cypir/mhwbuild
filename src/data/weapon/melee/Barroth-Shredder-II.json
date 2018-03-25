@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Barroth Shredder II",
+  "attack": 864,
+  "baseAttack": 180,
+  "element": "Paralysis",
+  "elementDamage": 330,
+  "affinity": 20,
+  "hidden": true,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword"
+}

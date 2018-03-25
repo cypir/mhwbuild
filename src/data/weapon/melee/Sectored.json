@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Sectored",
+  "attack": 630,
+  "baseAttack": 150,
+  "element": "Ice",
+  "elementDamage": 330,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "huntinghorn"
+}

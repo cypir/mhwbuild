@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Gama Silt II",
+  "attack": 612,
+  "baseAttack": 170,
+  "element": "Blast",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 7,
+  "type": "chargeblade"
+}

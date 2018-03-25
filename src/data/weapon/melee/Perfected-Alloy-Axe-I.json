@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Perfected Alloy Axe I",
+  "attack": 560,
+  "baseAttack": 160,
+  "element": "Poison",
+  "elementDamage": 360,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "switchaxe"
+}

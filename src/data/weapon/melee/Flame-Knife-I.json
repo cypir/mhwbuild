@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Flame Knife I",
+  "attack": 182,
+  "baseAttack": 130,
+  "element": "Fire",
+  "elementDamage": 120,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "swordandshield"
+}

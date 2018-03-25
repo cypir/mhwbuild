@@ -1,0 +1,8 @@
+{
+  "name": "Stamina Surge",
+  "levels": [
+    "Stamina recovery speed +10%",
+    "Stamina recovery speed +20%",
+    "Stamina recovery speed +30%"
+  ]
+}

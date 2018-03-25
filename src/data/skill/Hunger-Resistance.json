@@ -1,0 +1,8 @@
+{
+  "name": "Hunger Resistance",
+  "levels": [
+    "Extends the time until your stamina cap decreases by 30%.",
+    "Extends the time until your stamina cap decreases by 60%.",
+    "Prevents your stamina cap from decreasing."
+  ]
+}

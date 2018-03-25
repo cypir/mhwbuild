@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Aerial Rod I",
+  "attack": 527,
+  "baseAttack": 170,
+  "element": "Paralysis",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "insectglaive"
+}

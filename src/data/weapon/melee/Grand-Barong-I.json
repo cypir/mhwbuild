@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Grand Barong I",
+  "attack": 238,
+  "baseAttack": 170,
+  "element": "Paralysis",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield"
+}

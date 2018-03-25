@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Blooming Glaive I",
+  "attack": 310,
+  "baseAttack": 100,
+  "element": "Poison",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "insectglaive"
+}

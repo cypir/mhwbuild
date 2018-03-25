@@ -24,10 +24,10 @@ class SkillTotalsList extends Component {
           }
 
           if (!skillSums[skill.name]) {
-            skillSums[skill.name] = 0;
+            skillSums[skill.skill] = 0;
           }
 
-          skillSums[skill.name]++;
+          skillSums[skill.skill]++;
         });
       }
     }

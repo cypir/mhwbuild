@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Rookslayer Handaxes",
+  "attack": 252,
+  "baseAttack": 180,
+  "element": "Blast",
+  "elementDamage": 120,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "dualblades"
+}

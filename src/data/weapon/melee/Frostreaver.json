@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Frostreaver",
+  "attack": 525,
+  "baseAttack": 150,
+  "element": "Ice",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "switchaxe"
+}

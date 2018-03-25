@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Anja Barone II",
+  "attack": 798,
+  "baseAttack": 190,
+  "element": "Fire",
+  "elementDamage": 330,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "huntinghorn"
+}

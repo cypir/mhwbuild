@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Rookslayer Long Sword",
+  "attack": 561,
+  "baseAttack": 170,
+  "element": "Blast",
+  "elementDamage": 150,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "longsword"
+}

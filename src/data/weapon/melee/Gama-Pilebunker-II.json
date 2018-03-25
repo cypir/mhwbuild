@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Gama Pilebunker II",
+  "attack": 391,
+  "baseAttack": 170,
+  "element": "Blast",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 7,
+  "type": "lance"
+}

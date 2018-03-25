@@ -1,0 +1,12 @@
+{
+  "name": "Defense Boost",
+  "levels": [
+    "Defense +5",
+    "Defense +10",
+    "Defense +15",
+    "Defense +20 All Elemental Resistances +3",
+    "Defense +25 All Elemental Resistances +3",
+    "Defense +30 All Elemental Resistances +3",
+    "Defense +35 All Elemental Resistances +3"
+  ]
+}

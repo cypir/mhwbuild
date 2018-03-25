@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Diablos Clubs I",
+  "attack": 294,
+  "baseAttack": 210,
+  "element": "Ice",
+  "elementDamage": 90,
+  "affinity": 10,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "dualblades"
+}

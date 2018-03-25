@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Dazzling Flash I",
+  "attack": 528,
+  "baseAttack": 160,
+  "element": "Thunder",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "longsword"
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Blazing Edge I",
+  "attack": 196,
+  "baseAttack": 140,
+  "element": "Fire",
+  "elementDamage": 150,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "swordandshield"
+}

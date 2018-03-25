@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Ya-Ku Wrath II",
+  "attack": 496,
+  "baseAttack": 160,
+  "element": "Sleep",
+  "elementDamage": 180,
+  "affinity": 20,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "insectglaive"
+}

@@ -7,8 +7,8 @@ import Paper from "material-ui/Paper";
 import { MenuItem } from "material-ui/Menu";
 import Downshift from "downshift";
 
-import skillNamesJson from "../data/skill_name.json";
-const skillNames = Object.keys(skillNamesJson);
+import skills from "../data/skill.json";
+const skillNames = Object.keys(skills);
 
 const renderInput = inputProps => {
   const { InputProps, classes, errorText, ref, ...other } = inputProps;

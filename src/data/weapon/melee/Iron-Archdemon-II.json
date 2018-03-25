@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Iron Archdemon II",
+  "attack": 936,
+  "baseAttack": 180,
+  "element": "Blast",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "hammer"
+}

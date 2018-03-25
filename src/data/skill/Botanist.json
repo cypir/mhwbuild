@@ -1,0 +1,9 @@
+{
+  "name": "Botanist",
+  "levels": [
+    "One extra consumable herb item per gather.",
+    "One extra consumable herb, fruit, nut, or seed item per gather.",
+    "One extra consumable herb, fruit, nut, seed, or insect item per gather.",
+    "One extra consumable herb, fruit, nut, seed, insect or mushroom item per gather."
+  ]
+}

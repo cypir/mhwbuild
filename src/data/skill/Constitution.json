@@ -1,0 +1,10 @@
+{
+  "name": "Constitution",
+  "levels": [
+    "Reduces fixed stamina depletion by 10%.",
+    "Reduces fixed stamina depletion by 20%.",
+    "Reduces fixed stamina depletion by 30%.",
+    "Reduces fixed stamina depletion by 40%.",
+    "Reduces fixed stamina depletion by 50%."
+  ]
+}

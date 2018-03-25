@@ -1,0 +1,8 @@
+{
+  "name": "Divine Blessing",
+  "levels": [
+    "While active, reduces damage taken by 15%.",
+    "While active, reduces damage taken by 30%.",
+    "While active, reduces damage taken by 50%."
+  ]
+}

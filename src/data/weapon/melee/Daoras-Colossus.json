@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Daora's Colossus",
+  "attack": 1040,
+  "baseAttack": 200,
+  "element": "Ice",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "hammer"
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Fossil Bludgeon III",
+  "attack": 832,
+  "baseAttack": 160,
+  "element": "Thunder",
+  "elementDamage": 360,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "hammer"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Speed Sharpening",
+  "levels": [
+    "Removes one cycle from the sharpening process.",
+    "Removes two cycles from the sharpening process.",
+    "Removes three cycles from the sharpening process."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Resentment",
+  "levels": [
+    "While active, grants attack +5.",
+    "While active, grants attack +10.",
+    "While active, grants attack +15.",
+    "While active, grants attack +20.",
+    "While active, grants attack +25."
+  ]
+}

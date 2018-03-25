@@ -1,0 +1,10 @@
+{
+  "name": "Palico Rally",
+  "levels": [
+    "Increases Palico attack power and defense by 5%.",
+    "Increases Palico attack power and defense by 10%.",
+    "Increases Palico attack power and defense by 15%.",
+    "Increases Palico attack power and defense by 20%.",
+    "Increases Palico attack power and defense by 25%."
+  ]
+}

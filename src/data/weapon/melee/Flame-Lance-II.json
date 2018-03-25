@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Flame Lance II",
+  "attack": 322,
+  "baseAttack": 140,
+  "element": "Fire",
+  "elementDamage": 210,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "lance"
+}

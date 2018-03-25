@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Stealer",
+  "attack": 495,
+  "baseAttack": 150,
+  "element": "Ice",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "longsword"
+}

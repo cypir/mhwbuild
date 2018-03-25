@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Queen Vespoid Horn",
+  "attack": 672,
+  "baseAttack": 160,
+  "element": "Paralysis",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 7,
+  "type": "huntinghorn"
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Pulsar Strongarm II",
+  "attack": 432,
+  "baseAttack": 120,
+  "element": "Thunder",
+  "elementDamage": 120,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "chargeblade"
+}

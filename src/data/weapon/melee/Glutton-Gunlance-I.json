@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Glutton Gunlance I",
+  "attack": 345,
+  "baseAttack": 150,
+  "element": "Sleep",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    1,
+    0
+  ],
+  "rarity": 5,
+  "type": "gunlance"
+}

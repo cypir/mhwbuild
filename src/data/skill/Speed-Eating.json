@@ -1,0 +1,8 @@
+{
+  "name": "Speed Eating",
+  "levels": [
+    "Slightly increases item use speed.",
+    "Moderately increases item use speed.",
+    "Greatly increases item use speed."
+  ]
+}

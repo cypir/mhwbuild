@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Deathfang Gunlance III",
+  "attack": 368,
+  "baseAttack": 160,
+  "element": "Paralysis",
+  "elementDamage": 450,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "gunlance"
+}

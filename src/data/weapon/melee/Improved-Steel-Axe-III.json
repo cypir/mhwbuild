@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Improved Steel Axe III",
+  "attack": 490,
+  "baseAttack": 140,
+  "element": "Poison",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "switchaxe"
+}

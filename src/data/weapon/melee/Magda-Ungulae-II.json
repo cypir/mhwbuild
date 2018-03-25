@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Magda Ungulae II",
+  "attack": 308,
+  "baseAttack": 220,
+  "element": "Blast",
+  "elementDamage": 210,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "dualblades"
+}

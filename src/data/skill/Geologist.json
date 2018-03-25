@@ -1,0 +1,8 @@
+{
+  "name": "Geologist",
+  "levels": [
+    "Allows you to gather one extra time from bonepiles.",
+    "Allows you to gather one extra time from bonepiles and special item gathering points.",
+    "Allows you to gather one extra time from bonepiles, gathering points, and mining outcrops."
+  ]
+}

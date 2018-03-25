@@ -1,0 +1,8 @@
+{
+  "name": "Stun Resistance",
+  "levels": [
+    "Reduces the duration of stun by 30%.",
+    "Reduces the duration of stun by 60%.",
+    "Prevents stun."
+  ]
+}

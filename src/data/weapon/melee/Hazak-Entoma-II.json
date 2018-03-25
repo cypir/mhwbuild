@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Hazak Entoma II",
+  "attack": 620,
+  "baseAttack": 200,
+  "element": "Dragon",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "insectglaive"
+}

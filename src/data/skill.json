@@ -1,0 +1,993 @@
+{
+  "Adrenaline": {
+    "name": "Adrenaline",
+    "levels": [
+      "Temporarily reduces stamina depletion when health is at 40% or lower."
+    ]
+  },
+  "Affinity Sliding": {
+    "name": "Affinity Sliding",
+    "levels": [
+      "Increases affinity by 30% for a short time after sliding."
+    ]
+  },
+  "Agitator": {
+    "name": "Agitator",
+    "levels": [
+      "While active, grants attack +4 and increases affinity by 3%.",
+      "While active, grants attack +8 and increases affinity by 6%.",
+      "While active, grants attack +12 and increases affinity by 9%.",
+      "While active, grants attack +16 and increases affinity by 12%.",
+      "While active, grants attack +20 and increases affinity by 15%."
+    ]
+  },
+  "Airborne": {
+    "name": "Airborne",
+    "levels": [
+      "Jumping attack power +10%"
+    ]
+  },
+  "Aquatic Expert": {
+    "name": "Aquatic Expert",
+    "levels": [
+      "Prevents water from slowing movement.",
+      "Prevents water from slowing movement and improves evasion while in water.",
+      "Prevents water from slowing movement and greatly improves evasion while in water."
+    ]
+  },
+  "Artillery": {
+    "name": "Artillery",
+    "levels": [
+      "Increases power of each attack by 10% and reduces Wyvern's Fire cooldown by 15%.",
+      "Increases power of each attack by 20% and reduces Wyvern's Fire cooldown by 30%.",
+      "Increases power of each attack by 30% and reduces Wyvern's Fire cooldown by 50%."
+    ]
+  },
+  "Attack Boost": {
+    "name": "Attack Boost",
+    "levels": [
+      "Attack +3",
+      "Attack +6",
+      "Attack +9",
+      "Attack +12 Affinity +5%",
+      "Attack +15 Affinity +5%",
+      "Attack +18 Affinity +5%",
+      "Attack +21 Affinity +5%"
+    ]
+  },
+  "BBQ Master": {
+    "name": "BBQ Master",
+    "levels": [
+      "Makes it easier to cook well-done steaks."
+    ]
+  },
+  "Blast Attack": {
+    "name": "Blast Attack",
+    "levels": [
+      "Blast buildup +5% Bonus: +10",
+      "Blast buildup +10% Bonus: +10",
+      "Blast buildup +20% Bonus: +10"
+    ]
+  },
+  "Blast Functionality": {
+    "name": "Blast Functionality",
+    "levels": [
+      "Lets you use blast coating."
+    ]
+  },
+  "Blast Resistance": {
+    "name": "Blast Resistance",
+    "levels": [
+      "Delays blastblight and reduces blast damage.",
+      "Greatly delays blastblight and greatly reduces blast damage.",
+      "Prevents blastblight."
+    ]
+  },
+  "Bleeding Resistance": {
+    "name": "Bleeding Resistance",
+    "levels": [
+      "Reduces damage while bleeding.",
+      "Greatly reduces damage while bleeding.",
+      "Prevents bleeding."
+    ]
+  },
+  "Blight Resistance": {
+    "name": "Blight Resistance",
+    "levels": [
+      "Reduces the duration of all elemental blights by 30%.",
+      "Reduces the duration of all elemental blights by 60%.",
+      "Nullifies all elemental blights."
+    ]
+  },
+  "Blindsider": {
+    "name": "Blindsider",
+    "levels": [
+      "Increases the success rate of flash effects."
+    ]
+  },
+  "Bludgeoner": {
+    "name": "Bludgeoner",
+    "levels": [
+      "Raises attack as your weapon loses sharpness. Also boosts ranged weapon melee attacks and odds of stunning."
+    ]
+  },
+  "Bombardier": {
+    "name": "Bombardier",
+    "levels": [
+      "Explosive power +10%",
+      "Explosive power +20%",
+      "Explosive power +30%"
+    ]
+  },
+  "Botanist": {
+    "name": "Botanist",
+    "levels": [
+      "One extra consumable herb item per gather.",
+      "One extra consumable herb, fruit, nut, or seed item per gather.",
+      "One extra consumable herb, fruit, nut, seed, or insect item per gather.",
+      "One extra consumable herb, fruit, nut, seed, insect or mushroom item per gather."
+    ]
+  },
+  "Bow Charge Plus": {
+    "name": "Bow Charge Plus",
+    "levels": [
+      "Increases max bow charge level by one."
+    ]
+  },
+  "Capacity Boost": {
+    "name": "Capacity Boost",
+    "levels": [
+      "Loading capacity +1"
+    ]
+  },
+  "Capture Master": {
+    "name": "Capture Master",
+    "levels": [
+      "High chance of increased capture rewards. (No effect when joining mid-quest.)"
+    ]
+  },
+  "Carving Pro": {
+    "name": "Carving Pro",
+    "levels": [
+      "Prevents knockback while carving."
+    ]
+  },
+  "Cliffhanger": {
+    "name": "Cliffhanger",
+    "levels": [
+      "Reduces stamina depletion while climbing by 25%."
+    ]
+  },
+  "Constitution": {
+    "name": "Constitution",
+    "levels": [
+      "Reduces fixed stamina depletion by 10%.",
+      "Reduces fixed stamina depletion by 20%.",
+      "Reduces fixed stamina depletion by 30%.",
+      "Reduces fixed stamina depletion by 40%.",
+      "Reduces fixed stamina depletion by 50%."
+    ]
+  },
+  "Critical Boost": {
+    "name": "Critical Boost",
+    "levels": [
+      "Increases damage dealt by critical hits by 30%.",
+      "Increases damage dealt by critical hits by 35%.",
+      "Increases damage dealt by critical hits by 40%."
+    ]
+  },
+  "Critical Draw": {
+    "name": "Critical Draw",
+    "levels": [
+      "Draw attack affinity +30%",
+      "Draw attack affinity +60%",
+      "Draw attack affinity +100%"
+    ]
+  },
+  "Critical Element": {
+    "name": "Critical Element",
+    "levels": [
+      "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits."
+    ]
+  },
+  "Critical Eye": {
+    "name": "Critical Eye",
+    "levels": [
+      "Affinity +3%",
+      "Affinity +6%",
+      "Affinity +10%",
+      "Affinity +15%",
+      "Affinity +20%",
+      "Affinity +25%",
+      "Affinity +30%"
+    ]
+  },
+  "Critical Status": {
+    "name": "Critical Status",
+    "levels": [
+      "Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits."
+    ]
+  },
+  "Defense Boost": {
+    "name": "Defense Boost",
+    "levels": [
+      "Defense +5",
+      "Defense +10",
+      "Defense +15",
+      "Defense +20 All Elemental Resistances +3",
+      "Defense +25 All Elemental Resistances +3",
+      "Defense +30 All Elemental Resistances +3",
+      "Defense +35 All Elemental Resistances +3"
+    ]
+  },
+  "Detector": {
+    "name": "Detector",
+    "levels": [
+      "Marks rare sites on the wildlife map."
+    ]
+  },
+  "Divine Blessing": {
+    "name": "Divine Blessing",
+    "levels": [
+      "While active, reduces damage taken by 15%.",
+      "While active, reduces damage taken by 30%.",
+      "While active, reduces damage taken by 50%."
+    ]
+  },
+  "Dragon Attack": {
+    "name": "Dragon Attack",
+    "levels": [
+      "Dragon attack +30",
+      "Dragon attack +60",
+      "Dragon attack +100",
+      "Dragon attack +5% Bonus: +100",
+      "Dragon attack +10% Bonus: +100"
+    ]
+  },
+  "Dragon Resistance": {
+    "name": "Dragon Resistance",
+    "levels": [
+      "Dragon resistance +6",
+      "Dragon resistance +12",
+      "Dragon resistance +20 Defense +10"
+    ]
+  },
+  "Dungmaster": {
+    "name": "Dungmaster",
+    "levels": [
+      "Makes slinger dung pods more effective at making monsters run away."
+    ]
+  },
+  "Earplugs": {
+    "name": "Earplugs",
+    "levels": [
+      "Slightly reduces the effects of weak monster roars.",
+      "Reduces the effects of weak monster roars.",
+      "Nullifies weak monster roars.",
+      "Nullifies weak monster roars and reduces the effects of strong monster roars.",
+      "Nullifies weak and strong monster roars."
+    ]
+  },
+  "Effluvia Resistance": {
+    "name": "Effluvia Resistance",
+    "levels": [
+      "Reduces effluvial buildup.",
+      "Greatly reduces effluvial buildup.",
+      "Prevents effluvial buildup."
+    ]
+  },
+  "Effluvial Expert": {
+    "name": "Effluvial Expert",
+    "levels": [
+      "Nullifies damage from effluvia and reduces damage from acids."
+    ]
+  },
+  "Entomologist": {
+    "name": "Entomologist",
+    "levels": [
+      "Increases the chances of a corpse being left behind.",
+      "Greatly increases the chances of a corpse being left behind.",
+      "Makes it so corpses will always be left behind."
+    ]
+  },
+  "Evade Extender": {
+    "name": "Evade Extender",
+    "levels": [
+      "Slightly extends evasion distance.",
+      "Extends evasion distance.",
+      "Greatly extends evasion distance."
+    ]
+  },
+  "Evade Window": {
+    "name": "Evade Window",
+    "levels": [
+      "Very slightly increases invulnerability window.",
+      "Slightly increases invulnerability window.",
+      "Increases invulnerability window.",
+      "Greatly increases invulnerability window.",
+      "Massively increases invulnerability window."
+    ]
+  },
+  "Fire Attack": {
+    "name": "Fire Attack",
+    "levels": [
+      "Fire attack +30",
+      "Fire attack +60",
+      "Fire attack +100",
+      "Fire attack +5% Bonus: +100",
+      "Fire attack +10% Bonus: +100"
+    ]
+  },
+  "Fire Resistance": {
+    "name": "Fire Resistance",
+    "levels": [
+      "Fire resistance +6",
+      "Fire resistance +12",
+      "Fire resistance +20 Defense +10"
+    ]
+  },
+  "Flinch Free": {
+    "name": "Flinch Free",
+    "levels": [
+      "Prevents knockbacks.",
+      "Prevents standard knockbacks. Tripping is reduced to a knockback instead.",
+      "Prevents knockbacks and tripping."
+    ]
+  },
+  "Focus": {
+    "name": "Focus",
+    "levels": [
+      "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+      "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+      "Increases gauge fill rate by 20% and reduces charge times by 20%."
+    ]
+  },
+  "Forager's Luck": {
+    "name": "Forager's Luck",
+    "levels": [
+      "Increases the likelihood of rare gathering points respawning."
+    ]
+  },
+  "Fortify": {
+    "name": "Fortify",
+    "levels": [
+      "Increases attack by 10% and defense by 15% with each use."
+    ]
+  },
+  "Free Elem/Ammo Up": {
+    "name": "Free Elem/Ammo Up",
+    "levels": [
+      "Draws out 33% of hidden element and expands clip size for some ammo.",
+      "Draws out 66% of hidden element and expands clip size for some ammo.",
+      "Draws out 100% of hidden element and expands clip size for some ammo."
+    ]
+  },
+  "Free Meal": {
+    "name": "Free Meal",
+    "levels": [
+      "Activates 25% of the time."
+    ]
+  },
+  "Geologist": {
+    "name": "Geologist",
+    "levels": [
+      "Allows you to gather one extra time from bonepiles.",
+      "Allows you to gather one extra time from bonepiles and special item gathering points.",
+      "Allows you to gather one extra time from bonepiles, gathering points, and mining outcrops."
+    ]
+  },
+  "Good Luck": {
+    "name": "Good Luck",
+    "levels": [
+      "Good chance of increased quest rewards. (No effect when joining mid-quest.)"
+    ]
+  },
+  "Guard Up": {
+    "name": "Guard Up",
+    "levels": [
+      "Allows you to guard against ordinarily unblockable attacks."
+    ]
+  },
+  "Guard": {
+    "name": "Guard",
+    "levels": [
+      "Very slightly decreases the impact of attacks.",
+      "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "Greatly decreases the impact of attacks and redcues stamina depletion by 15%.",
+      "Greatly decreases the impact of attacks and redcues stamina depletion by 30%.",
+      "Greatly decreases the impact of attacks and redcues stamina depletion by 50%."
+    ]
+  },
+  "Guts": {
+    "name": "Guts",
+    "levels": [
+      "Above a certain health threshold, you withstand an attack that would normally cart you (once only)."
+    ]
+  },
+  "Handicraft": {
+    "name": "Handicraft",
+    "levels": [
+      "Weapon sharpness +10",
+      "Weapon sharpness +20",
+      "Weapon sharpness +30",
+      "Weapon sharpness +40",
+      "Weapon sharpness +50"
+    ]
+  },
+  "Hasten Recovery": {
+    "name": "Hasten Recovery",
+    "levels": [
+      "Regenerates your health as you continually attack a monster. Recovery varies by weapon."
+    ]
+  },
+  "Health Boost": {
+    "name": "Health Boost",
+    "levels": [
+      "Health +15",
+      "Health +30",
+      "Health +50"
+    ]
+  },
+  "Heat Guard": {
+    "name": "Heat Guard",
+    "levels": [
+      "Nullfies heat damage."
+    ]
+  },
+  "Heavy Artillery": {
+    "name": "Heavy Artillery",
+    "levels": [
+      "Firepower +10%",
+      "Firepower +20%"
+    ]
+  },
+  "Heroics": {
+    "name": "Heroics",
+    "levels": [
+      "While active, increases attack power by 5% and increases defense by 15 points.",
+      "While active, increases attack power by 10% and increases defense by 20 points.",
+      "While active, increases attack power by 15% and increases defense by 25 points.",
+      "While active, increases attack power by 20% and increases defense by 30 points.",
+      "While active, increases attack power by 30% and increases defense by 40 points."
+    ]
+  },
+  "Honey Hunter": {
+    "name": "Honey Hunter",
+    "levels": [
+      "One extra honey per gather."
+    ]
+  },
+  "Horn Maestro": {
+    "name": "Horn Maestro",
+    "levels": [
+      "Extends melody effect duration and increases health recovery."
+    ]
+  },
+  "Hunger Resistance": {
+    "name": "Hunger Resistance",
+    "levels": [
+      "Extends the time until your stamina cap decreases by 30%.",
+      "Extends the time until your stamina cap decreases by 60%.",
+      "Prevents your stamina cap from decreasing."
+    ]
+  },
+  "Ice Attack": {
+    "name": "Ice Attack",
+    "levels": [
+      "Ice attack +30",
+      "Ice attack +60",
+      "Ice attack +100",
+      "Ice attack +5% Bonus: +100",
+      "Ice attack +10% Bonus: +100"
+    ]
+  },
+  "Ice Resistance": {
+    "name": "Ice Resistance",
+    "levels": [
+      "Ice resistance +6",
+      "Ice resistance +12",
+      "Ice resistance +20 Defense +10"
+    ]
+  },
+  "Intimidator": {
+    "name": "Intimidator",
+    "levels": [
+      "Discourages monsters from engaging you even if you've been spotted.",
+      "Highly discourages monsters from engaging you even if you've been spotted.",
+      "Prevents monsters from engaging you even if you've been spotted."
+    ]
+  },
+  "Iron Skin": {
+    "name": "Iron Skin",
+    "levels": [
+      "Reduces the duration of Defense Down by 30%.",
+      "Reduces the duration of Defense Down by 60%.",
+      "Prevents Defense Down."
+    ]
+  },
+  "Item Prolonger": {
+    "name": "Item Prolonger",
+    "levels": [
+      "Item effect duration +10%",
+      "Item effect duration +25%",
+      "Item effect duration +50%"
+    ]
+  },
+  "Jump Master": {
+    "name": "Jump Master",
+    "levels": [
+      "Negates knockback during jumps."
+    ]
+  },
+  "Latent Power": {
+    "name": "Latent Power",
+    "levels": [
+      "While active, increases affinity by 10% and reduces stamina depletion by 10%.",
+      "While active, increases affinity by 20% and reduces stamina depletion by 10%.",
+      "While active, increases affinity by 30% and reduces stamina depletion by 30%.",
+      "While active, increases affinity by 40% and reduces stamina depletion by 30%.",
+      "While active, increases affinity by 50% and reduces stamina depletion by 50%."
+    ]
+  },
+  "Leap of Faith": {
+    "name": "Leap of Faith",
+    "levels": [
+      "Enables Leap of Faith."
+    ]
+  },
+  "Marathon Runner": {
+    "name": "Marathon Runner",
+    "levels": [
+      "Reduces continuous stamina depletion by 15%.",
+      "Reduces continuous stamina depletion by 30%.",
+      "Reduces continuous stamina depletion by 50%."
+    ]
+  },
+  "Master Fisher": {
+    "name": "Master Fisher",
+    "levels": [
+      "Increases the time window for reeling in fish, and makes it easier to catch large fish."
+    ]
+  },
+  "Master Gatherer": {
+    "name": "Master Gatherer",
+    "levels": [
+      "Speeds up gathering and prevents knockbacks while gathering."
+    ]
+  },
+  "Master Mounter": {
+    "name": "Master Mounter",
+    "levels": [
+      "Makes it easier to mount monsters and down mounted monsters."
+    ]
+  },
+  "Master's Touch": {
+    "name": "Master's Touch",
+    "levels": [
+      "Prevents your weapon from losing sharpness during critical hits."
+    ]
+  },
+  "Maximum Might": {
+    "name": "Maximum Might",
+    "levels": [
+      "While active, increases affinity by 10%.",
+      "While active, increases affinity by 20%.",
+      "While active, increases affinity by 30%."
+    ]
+  },
+  "Mind's Eye/Ballistics": {
+    "name": "Mind's Eye/Ballistics",
+    "levels": [
+      "Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power."
+    ]
+  },
+  "Muck Resistance": {
+    "name": "Muck Resistance",
+    "levels": [
+      "Reduces limits on movement speed and evasion."
+    ]
+  },
+  "Mushroomancer": {
+    "name": "Mushroomancer",
+    "levels": [
+      "Lets you digest blue mushrooms and toadstools.",
+      "Additionally lets you digest nitroshrooms and parashrooms.",
+      "Additionally lets you digest mandragoras, devil's blight, and exciteshrooms."
+    ]
+  },
+  "Non-elemental Boost": {
+    "name": "Non-elemental Boost",
+    "levels": [
+      "Powers up non-elemental weapons you have equipped."
+    ]
+  },
+  "Normal Shots": {
+    "name": "Normal Shots",
+    "levels": [
+      "Increases the power of normal ammo and normal arrows."
+    ]
+  },
+  "Nullify Wind Pressure": {
+    "name": "Nullify Wind Pressure",
+    "levels": [
+      "Negates all wind pressure."
+    ]
+  },
+  "Palico Rally": {
+    "name": "Palico Rally",
+    "levels": [
+      "Increases Palico attack power and defense by 5%.",
+      "Increases Palico attack power and defense by 10%.",
+      "Increases Palico attack power and defense by 15%.",
+      "Increases Palico attack power and defense by 20%.",
+      "Increases Palico attack power and defense by 25%."
+    ]
+  },
+  "Para Functionality": {
+    "name": "Para Functionality",
+    "levels": [
+      "Lets you use paralysis coating."
+    ]
+  },
+  "Paralysis Attack": {
+    "name": "Paralysis Attack",
+    "levels": [
+      "Paralysis buildup +5% Bonus: +10",
+      "Paralysis buildup +10% Bonus: +10",
+      "Paralysis buildup +20% Bonus: +10"
+    ]
+  },
+  "Paralysis Resistance": {
+    "name": "Paralysis Resistance",
+    "levels": [
+      "Reduces the duration of paralysis by 30%.",
+      "Reduces the duration of paralysis by 60%.",
+      "Prevents paralysis."
+    ]
+  },
+  "Partbreaker": {
+    "name": "Partbreaker",
+    "levels": [
+      "Part damage +10%",
+      "Part damage +20%",
+      "Part damage +30%"
+    ]
+  },
+  "Peak Performance": {
+    "name": "Peak Performance",
+    "levels": [
+      "While active, grants attack +5.",
+      "While active, grants attack +10.",
+      "While active, grants attack +20."
+    ]
+  },
+  "Piercing Shots": {
+    "name": "Piercing Shots",
+    "levels": [
+      "Increases the power of piercing ammo and Dragon Piercer."
+    ]
+  },
+  "Poison Attack": {
+    "name": "Poison Attack",
+    "levels": [
+      "Poison buildup +5% Bonus: +10",
+      "Poison buildup +10% Bonus: +10",
+      "Poison buildup +20% Bonus: +10"
+    ]
+  },
+  "Poison Duration Up": {
+    "name": "Poison Duration Up",
+    "levels": [
+      "Extends the duration of your poison's effect on monsters."
+    ]
+  },
+  "Poison Functionality": {
+    "name": "Poison Functionality",
+    "levels": [
+      "Lets you use poison coating."
+    ]
+  },
+  "Poison Resistance": {
+    "name": "Poison Resistance",
+    "levels": [
+      "Reduces the duration of poison by 30%.",
+      "Reduces the duration of poison by 60%.",
+      "Prevents poison."
+    ]
+  },
+  "Power Prolonger": {
+    "name": "Power Prolonger",
+    "levels": [
+      "Bonus duration +10%",
+      "Bonus duration +20%",
+      "Bonus duration +30%"
+    ]
+  },
+  "Pro Transporter": {
+    "name": "Pro Transporter",
+    "levels": [
+      "Increases movement speed while transporting and reduces downtime on landings."
+    ]
+  },
+  "Protective Polish": {
+    "name": "Protective Polish",
+    "levels": [
+      "Weapon sharpness does not decrease for a set time after sharpening."
+    ]
+  },
+  "Punishing Draw": {
+    "name": "Punishing Draw",
+    "levels": [
+      "Adds a stun effect to draw attacks and slightly increases attack power."
+    ]
+  },
+  "Quick Sheath": {
+    "name": "Quick Sheath",
+    "levels": [
+      "Slightly increases sheathing speed.",
+      "Moderately increases sheathing speed.",
+      "Greatly increases sheathing speed."
+    ]
+  },
+  "Razor Sharp/Spare Shot": {
+    "name": "Razor Sharp/Spare Shot",
+    "levels": [
+      "Halves sharpness loss. For bows and bowguns, shots have a chance not to expend coatings or ammo."
+    ]
+  },
+  "Recovery Speed": {
+    "name": "Recovery Speed",
+    "levels": [
+      "Doubles the speed at which you heal recoverable damage.",
+      "Triples the speed at which you heal recoverable damage.",
+      "Quadruples the speed at which you heal recoverable damage."
+    ]
+  },
+  "Recovery Up": {
+    "name": "Recovery Up",
+    "levels": [
+      "Recovery +10%",
+      "Recovery +20%",
+      "Recovery +30%"
+    ]
+  },
+  "Resentment": {
+    "name": "Resentment",
+    "levels": [
+      "While active, grants attack +5.",
+      "While active, grants attack +10.",
+      "While active, grants attack +15.",
+      "While active, grants attack +20.",
+      "While active, grants attack +25."
+    ]
+  },
+  "Resuscitate": {
+    "name": "Resuscitate",
+    "levels": [
+      "While active, greatly improves evasion invulnerability time and reduces stamina depletion."
+    ]
+  },
+  "Scenthound": {
+    "name": "Scenthound",
+    "levels": [
+      "Increases gauge fill rate by 50%."
+    ]
+  },
+  "Scholar": {
+    "name": "Scholar",
+    "levels": [
+      "Speeds up progress on research levels and special investigations."
+    ]
+  },
+  "Scoutfly Range Up": {
+    "name": "Scoutfly Range Up",
+    "levels": [
+      "Expands your scoutflies' detection range."
+    ]
+  },
+  "Sleep Attack": {
+    "name": "Sleep Attack",
+    "levels": [
+      "Sleep buildup +5% Bonus: +10",
+      "Sleep buildup +10% Bonus: +10",
+      "Sleep buildup +20% Bonus: +10"
+    ]
+  },
+  "Sleep Functionality": {
+    "name": "Sleep Functionality",
+    "levels": [
+      "Lets you use sleep coating."
+    ]
+  },
+  "Sleep Resistance": {
+    "name": "Sleep Resistance",
+    "levels": [
+      "Reduces the duration of sleep by 30%.",
+      "Reduces the duration of sleep by 60%.",
+      "Prevents sleep."
+    ]
+  },
+  "Slinger Capacity": {
+    "name": "Slinger Capacity",
+    "levels": [
+      "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+      "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
+      "In addition, increases the loading capacity for all slinger ammo dropped by monsters."
+    ]
+  },
+  "Slugger": {
+    "name": "Slugger",
+    "levels": [
+      "Stun power +10%",
+      "Stun power +20%",
+      "Stun power +30%"
+    ]
+  },
+  "Special Ammo Boost": {
+    "name": "Special Ammo Boost",
+    "levels": [
+      "Increases the power of bowgun special ammo and Dragon Piercer by 10%.",
+      "Increases the power of bowgun special ammo and Dragon Piercer by 20%."
+    ]
+  },
+  "Speed Crawler": {
+    "name": "Speed Crawler",
+    "levels": [
+      "Increases movement speed while crouching."
+    ]
+  },
+  "Speed Eating": {
+    "name": "Speed Eating",
+    "levels": [
+      "Slightly increases item use speed.",
+      "Moderately increases item use speed.",
+      "Greatly increases item use speed."
+    ]
+  },
+  "Speed Sharpening": {
+    "name": "Speed Sharpening",
+    "levels": [
+      "Removes one cycle from the sharpening process.",
+      "Removes two cycles from the sharpening process.",
+      "Removes three cycles from the sharpening process."
+    ]
+  },
+  "Sporepuff Expert": {
+    "name": "Sporepuff Expert",
+    "levels": [
+      "Sporepuffs restore 20 health.",
+      "Sporepuffs restore 35 health.",
+      "Sporepuffs restore 60 health."
+    ]
+  },
+  "Spread/Power Shots": {
+    "name": "Spread/Power Shots",
+    "levels": [
+      "Increases the power of spread ammo and power shot arrows."
+    ]
+  },
+  "Stamina Cap Up": {
+    "name": "Stamina Cap Up",
+    "levels": [
+      "Increases stamina cap."
+    ]
+  },
+  "Stamina Surge": {
+    "name": "Stamina Surge",
+    "levels": [
+      "Stamina recovery speed +10%",
+      "Stamina recovery speed +20%",
+      "Stamina recovery speed +30%"
+    ]
+  },
+  "Stamina Thief": {
+    "name": "Stamina Thief",
+    "levels": [
+      "Exhaust power +10%",
+      "Exhaust power +20%",
+      "Exhaust power +30%"
+    ]
+  },
+  "Stealth": {
+    "name": "Stealth",
+    "levels": [
+      "Makes it slightly easier for monsters to lose sight of you.",
+      "Makes it moderately easier for monsters to lose sight of you.",
+      "Makes it much easier for monsters to lose sight of you."
+    ]
+  },
+  "Stun Resistance": {
+    "name": "Stun Resistance",
+    "levels": [
+      "Reduces the duration of stun by 30%.",
+      "Reduces the duration of stun by 60%.",
+      "Prevents stun."
+    ]
+  },
+  "Super Recovery": {
+    "name": "Super Recovery",
+    "levels": [
+      "Allows recovery to exceed the red portion of the health gauge."
+    ]
+  },
+  "Thunder Attack": {
+    "name": "Thunder Attack",
+    "levels": [
+      "Thunder attack +30",
+      "Thunder attack +60",
+      "Thunder attack +100",
+      "Thunder attack +5% Bonus: +100",
+      "Thunder attack +10% Bonus: +100"
+    ]
+  },
+  "Thunder Resistance": {
+    "name": "Thunder Resistance",
+    "levels": [
+      "Thunder resistance +6",
+      "Thunder resistance +12",
+      "Thunder resistance +20 Defense +10"
+    ]
+  },
+  "Tool Specialist": {
+    "name": "Tool Specialist",
+    "levels": [
+      "Shortens time until reuse by 5%.",
+      "Shortens time until reuse by 10%.",
+      "Shortens time until reuse by 20%."
+    ]
+  },
+  "Tremor Resistance": {
+    "name": "Tremor Resistance",
+    "levels": [
+      "Nullifies minor ground tremors.",
+      "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
+      "Nullifies minor and major ground tremors."
+    ]
+  },
+  "Water Attack": {
+    "name": "Water Attack",
+    "levels": [
+      "Water attack +30",
+      "Water attack +60",
+      "Water attack +100",
+      "Water attack +5% Bonus: +100",
+      "Water attack +10% Bonus: +100"
+    ]
+  },
+  "Water Resistance": {
+    "name": "Water Resistance",
+    "levels": [
+      "Water resistance +6",
+      "Water resistance +12",
+      "Water resistance +20 Defense +10"
+    ]
+  },
+  "Weakness Exploit": {
+    "name": "Weakness Exploit",
+    "levels": [
+      "Attacks that hit weak spots have 15% increased affinity.",
+      "Attacks that hit weak spots have 30% increased affinity.",
+      "Attacks that hit weak spots have 50% increased affinity."
+    ]
+  },
+  "Wide-Range": {
+    "name": "Wide-Range",
+    "levels": [
+      "Items affect nearby allies with 33% of their efficacy.",
+      "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "Items affect nearby allies in a wider radius with 66% of their efficacy.",
+      "Items affect nearby allies in a much wider radius with 66% of their efficacy.",
+      "Items affect nearby allies in a wider radius with full efficacy."
+    ]
+  },
+  "Windproof": {
+    "name": "Windproof",
+    "levels": [
+      "Slightly reduces the effects of minor wind pressure.",
+      "Reduces the effects of minor wind pressure.",
+      "Negates minor wind pressure.",
+      "Negates minor wind pressure and reduces the effects of major wind pressure.",
+      "Negates minor and major wind pressure."
+    ]
+  }
+}

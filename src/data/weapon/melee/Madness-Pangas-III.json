@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Madness Pangas III",
+  "attack": 210,
+  "baseAttack": 150,
+  "element": "Water",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "dualblades"
+}

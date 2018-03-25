@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Thundercry Horn ",
+  "attack": 504,
+  "baseAttack": 120,
+  "element": "Thunder",
+  "elementDamage": 390,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "huntinghorn"
+}

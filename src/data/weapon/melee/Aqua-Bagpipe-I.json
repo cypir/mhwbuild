@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Aqua Bagpipe I",
+  "attack": 420,
+  "baseAttack": 100,
+  "element": "Water",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "huntinghorn"
+}

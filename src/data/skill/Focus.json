@@ -1,0 +1,8 @@
+{
+  "name": "Focus",
+  "levels": [
+    "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+    "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+    "Increases gauge fill rate by 20% and reduces charge times by 20%."
+  ]
+}

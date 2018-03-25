@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Baan Strike III",
+  "attack": 988,
+  "baseAttack": 190,
+  "element": "Sleep",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "hammer"
+}

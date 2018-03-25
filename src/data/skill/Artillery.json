@@ -1,0 +1,8 @@
+{
+  "name": "Artillery",
+  "levels": [
+    "Increases power of each attack by 10% and reduces Wyvern's Fire cooldown by 15%.",
+    "Increases power of each attack by 20% and reduces Wyvern's Fire cooldown by 30%.",
+    "Increases power of each attack by 30% and reduces Wyvern's Fire cooldown by 50%."
+  ]
+}

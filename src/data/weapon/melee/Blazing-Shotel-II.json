@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Blazing Shotel II",
+  "attack": 528,
+  "baseAttack": 160,
+  "element": "Fire",
+  "elementDamage": 210,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "longsword"
+}

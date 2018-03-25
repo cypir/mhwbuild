@@ -1,0 +1,8 @@
+{
+  "name": "Blast Resistance",
+  "levels": [
+    "Delays blastblight and reduces blast damage.",
+    "Greatly delays blastblight and greatly reduces blast damage.",
+    "Prevents blastblight."
+  ]
+}

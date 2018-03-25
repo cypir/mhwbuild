@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Heavy Bone Horn I",
+  "attack": 714,
+  "baseAttack": 170,
+  "element": "Ice",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "huntinghorn"
+}

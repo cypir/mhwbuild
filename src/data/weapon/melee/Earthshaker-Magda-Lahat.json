@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Earthshaker Magda Lahat",
+  "attack": 460,
+  "baseAttack": 200,
+  "element": "Blast",
+  "elementDamage": 420,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "gunlance"
+}

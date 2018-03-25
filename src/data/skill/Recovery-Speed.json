@@ -1,0 +1,8 @@
+{
+  "name": "Recovery Speed",
+  "levels": [
+    "Doubles the speed at which you heal recoverable damage.",
+    "Triples the speed at which you heal recoverable damage.",
+    "Quadruples the speed at which you heal recoverable damage."
+  ]
+}

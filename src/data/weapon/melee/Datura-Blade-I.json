@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Datura Blade I",
+  "attack": 465,
+  "baseAttack": 150,
+  "element": "Poison",
+  "elementDamage": 330,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "insectglaive"
+}

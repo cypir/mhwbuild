@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Blazing Hammer I",
+  "attack": 780,
+  "baseAttack": 150,
+  "element": "Fire",
+  "elementDamage": 210,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "hammer"
+}

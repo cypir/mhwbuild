@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Enduring Schism",
+  "attack": 196,
+  "baseAttack": 140,
+  "element": "Dragon",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 7,
+  "type": "dualblades"
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Chrome Guardian I",
+  "attack": 576,
+  "baseAttack": 160,
+  "element": "Thunder",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "chargeblade"
+}

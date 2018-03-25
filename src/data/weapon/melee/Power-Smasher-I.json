@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Power Smasher I",
+  "attack": 595,
+  "baseAttack": 170,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "switchaxe"
+}

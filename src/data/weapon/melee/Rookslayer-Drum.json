@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Rookslayer Drum",
+  "attack": 756,
+  "baseAttack": 180,
+  "element": "Blast",
+  "elementDamage": 180,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 6,
+  "type": "huntinghorn"
+}

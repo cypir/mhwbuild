@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Lightning Drum II",
+  "attack": 714,
+  "baseAttack": 170,
+  "element": "Thunder",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "huntinghorn"
+}

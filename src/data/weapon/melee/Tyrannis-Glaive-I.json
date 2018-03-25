@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Tyrannis Glaive I",
+  "attack": 682,
+  "baseAttack": 220,
+  "element": "Ice",
+  "elementDamage": 150,
+  "affinity": 30,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "insectglaive"
+}

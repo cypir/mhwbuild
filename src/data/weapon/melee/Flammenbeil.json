@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Flammenbeil+",
+  "attack": 560,
+  "baseAttack": 160,
+  "element": "Fire",
+  "elementDamage": 240,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "switchaxe"
+}

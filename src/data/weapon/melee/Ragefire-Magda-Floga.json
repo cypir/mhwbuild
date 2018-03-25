@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Ragefire Magda Floga",
+  "attack": 1144,
+  "baseAttack": 220,
+  "element": "Blast",
+  "elementDamage": 420,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "hammer"
+}

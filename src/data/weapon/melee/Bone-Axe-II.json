@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Bone Axe II",
+  "attack": 350,
+  "baseAttack": 100,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 1,
+  "type": "switchaxe"
+}

@@ -1,492 +1,487 @@
 [
   {
-    "name": "Affinity Sliding",
-    "skill": "Affinity Sliding",
-    "level": 2
-  },
-  {
-    "name": "Agitator",
-    "skill": "Agitator",
-    "level": 2
-  },
-  {
-    "name": "Airborne",
-    "skill": "Airborne",
-    "level": 2
-  },
-  {
-    "name": "Aquatic Expert",
-    "skill": "Aquatic Expert",
-    "level": 1
-  },
-  {
-    "name": "Artillery",
-    "skill": "Artillery",
-    "level": 1
-  },
-  {
-    "name": "Attack Boost",
-    "skill": "Attack Boost",
-    "level": 1
-  },
-  {
-    "name": "Blast Attack",
-    "skill": "Blast Attack",
-    "level": 1
-  },
-  {
-    "name": "Blast Functionality",
-    "skill": "Blast Functionality",
-    "level": 3
-  },
-  {
-    "name": "Blast Resistance",
+    "name": "Antiblast Jewel 1",
     "skill": "Blast Resistance",
-    "level": 1
+    "level": "1"
   },
   {
-    "name": "Bleeding Resistance",
-    "skill": "Bleeding Resistance",
-    "level": 1
-  },
-  {
-    "name": "Blight Resistance",
-    "skill": "Blight Resistance",
-    "level": 1
-  },
-  {
-    "name": "Bombardier",
-    "skill": "Bombardier",
-    "level": 1
-  },
-  {
-    "name": "Botanist",
-    "skill": "Botanist",
-    "level": 1
-  },
-  {
-    "name": "Bow Charge Plus",
-    "skill": "Bow Charge Plus",
-    "level": 2
-  },
-  {
-    "name": "Capacity Boost",
-    "skill": "Capacity Boost",
-    "level": 2
-  },
-  {
-    "name": "Constitution",
-    "skill": "Constitution",
-    "level": 2
-  },
-  {
-    "name": "Critical Boost",
-    "skill": "Critical Boost",
-    "level": 2
-  },
-  {
-    "name": "Critical Draw",
-    "skill": "Critical Draw",
-    "level": 2
-  },
-  {
-    "name": "Critical Eye",
-    "skill": "Critical Eye",
-    "level": 1
-  },
-  {
-    "name": "Defense Boost",
-    "skill": "Defense Boost",
-    "level": 1
-  },
-  {
-    "name": "Divine Blessing",
-    "skill": "Divine Blessing",
-    "level": 1
-  },
-  {
-    "name": "Dragon Attack",
-    "skill": "Dragon Attack",
-    "level": 1
-  },
-  {
-    "name": "Dragon Resistance",
-    "skill": "Dragon Resistance",
-    "level": 1
-  },
-  {
-    "name": "Earplugs",
-    "skill": "Earplugs",
-    "level": 3
-  },
-  {
-    "name": "Effluvia Resistance",
-    "skill": "Effluvia Resistance",
-    "level": 1
-  },
-  {
-    "name": "Elderseal Boost",
-    "skill": "Elderseal Boost",
-    "level": 3
-  },
-  {
-    "name": "Entomologist",
-    "skill": "Entomologist",
-    "level": 1
-  },
-  {
-    "name": "Evade Extender",
-    "skill": "Evade Extender",
-    "level": 2
-  },
-  {
-    "name": "Evade Window",
-    "skill": "Evade Window",
-    "level": 2
-  },
-  {
-    "name": "Fire Attack",
-    "skill": "Fire Attack",
-    "level": 1
-  },
-  {
-    "name": "Fire Resistance",
-    "skill": "Fire Resistance",
-    "level": 1
-  },
-  {
-    "name": "Flinch Free",
-    "skill": "Flinch Free",
-    "level": 3
-  },
-  {
-    "name": "Focus",
-    "skill": "Focus",
-    "level": 2
-  },
-  {
-    "name": "Fortify",
-    "skill": "Fortify",
-    "level": 1
-  },
-  {
-    "name": "Free Elem/Ammo Up",
-    "skill": "Free Elem/Ammo Up",
-    "level": 3
-  },
-  {
-    "name": "Free Meal",
-    "skill": "Free Meal",
-    "level": 1
-  },
-  {
-    "name": "Geologist",
-    "skill": "Geologist",
-    "level": 1
-  },
-  {
-    "name": "Guard Up",
-    "skill": "Guard Up",
-    "level": 2
-  },
-  {
-    "name": "Guard",
-    "skill": "Guard",
-    "level": 1
-  },
-  {
-    "name": "Handicraft",
-    "skill": "Handicraft",
-    "level": 3
-  },
-  {
-    "name": "Health Boost",
-    "skill": "Health Boost",
-    "level": 1
-  },
-  {
-    "name": "Heavy Artillery",
-    "skill": "Heavy Artillery",
-    "level": 1
-  },
-  {
-    "name": "Heroics",
-    "skill": "Heroics",
-    "level": 2
-  },
-  {
-    "name": "Horn Maestro",
-    "skill": "Horn Maestro",
-    "level": 1
-  },
-  {
-    "name": "Hunger Resistance",
-    "skill": "Hunger Resistance",
-    "level": 1
-  },
-  {
-    "name": "Ice Attack",
-    "skill": "Ice Attack",
-    "level": 1
-  },
-  {
-    "name": "Ice Resistance",
-    "skill": "Ice Resistance",
-    "level": 1
-  },
-  {
-    "name": "Intimidator",
-    "skill": "Intimidator",
-    "level": 1
-  },
-  {
-    "name": "Iron Skin",
-    "skill": "Iron Skin",
-    "level": 1
-  },
-  {
-    "name": "Item Prolonger",
-    "skill": "Item Prolonger",
-    "level": 1
-  },
-  {
-    "name": "Latent Power",
-    "skill": "Latent Power",
-    "level": 2
-  },
-  {
-    "name": "Marathon Runner",
-    "skill": "Marathon Runner",
-    "level": 2
-  },
-  {
-    "name": "Maximum Might",
-    "skill": "Maximum Might",
-    "level": 2
-  },
-  {
-    "name": "Mind Eye/Ballistic",
-    "skill": "Mind Eye/Ballistic",
-    "level": 2
-  },
-  {
-    "name": "Mushroomancer",
-    "skill": "Mushroomancer",
-    "level": 1
-  },
-  {
-    "name": "Non-Elemental Boost",
-    "skill": "Non-Elemental Boost",
-    "level": 2
-  },
-  {
-    "name": "Normal Shots",
-    "skill": "Normal Shots",
-    "level": 3
-  },
-  {
-    "name": "Palico Rally",
-    "skill": "Palico Rally",
-    "level": 1
-  },
-  {
-    "name": "Paralysis Attack",
-    "skill": "Paralysis Attack",
-    "level": 1
-  },
-  {
-    "name": "Paralysis Functionality",
-    "skill": "Paralysis Functionality",
-    "level": 3
-  },
-  {
-    "name": "Paralysis Resistance",
-    "skill": "Paralysis Resistance",
-    "level": 1
-  },
-  {
-    "name": "Partbreaker",
-    "skill": "Partbreaker",
-    "level": 2
-  },
-  {
-    "name": "Peak Performance",
-    "skill": "Peak Performance",
-    "level": 2
-  },
-  {
-    "name": "Piercing Shots",
-    "skill": "Piercing Shots",
-    "level": 3
-  },
-  {
-    "name": "Poison Attack",
-    "skill": "Poison Attack",
-    "level": 1
-  },
-  {
-    "name": "Poison Functionality",
-    "skill": "Poison Functionality",
-    "level": 3
-  },
-  {
-    "name": "Poison Resistance",
+    "name": "Antidote Jewel 1",
     "skill": "Poison Resistance",
-    "level": 1
+    "level": "1"
   },
   {
-    "name": "Power Prolonger",
-    "skill": "Power Prolonger",
-    "level": 2
+    "name": "Antipara Jewel 1",
+    "skill": "Paralysis Resistance",
+    "level": "1"
   },
   {
-    "name": "Protective Polish",
-    "skill": "Protective Polish",
-    "level": 2
+    "name": "Artillery Jewel 1",
+    "skill": "Artillery",
+    "level": "1"
   },
   {
-    "name": "Quick Sheath",
-    "skill": "Quick Sheath",
-    "level": 1
+    "name": "Attack Jewel 1",
+    "skill": "Attack Boost",
+    "level": "1"
   },
   {
-    "name": "Recovery Speed",
-    "skill": "Recovery Speed",
-    "level": 1
+    "name": "Blast Jewel 1",
+    "skill": "Blast Attack",
+    "level": "1"
   },
   {
-    "name": "Recovery Up",
-    "skill": "Recovery Up",
-    "level": 1
+    "name": "Blastcoat Jewel 3",
+    "skill": "Blast Functionality",
+    "level": "3"
   },
   {
-    "name": "Resentment",
-    "skill": "Resentment",
-    "level": 2
+    "name": "Blaze Jewel 1",
+    "skill": "Fire Attack",
+    "level": "1"
   },
   {
-    "name": "Resuscitate",
-    "skill": "Resuscitate",
-    "level": 1
-  },
-  {
-    "name": "Scenthound",
-    "skill": "Scenthound",
-    "level": 1
-  },
-  {
-    "name": "Sleep Attack",
-    "skill": "Sleep Attack",
-    "level": 1
-  },
-  {
-    "name": "Sleep Functionality",
-    "skill": "Sleep Functionality",
-    "level": 3
-  },
-  {
-    "name": "Sleep Resistance",
-    "skill": "Sleep Resistance",
-    "level": 1
-  },
-  {
-    "name": "Slinger Capacity",
-    "skill": "Slinger Capacity",
-    "level": 1
-  },
-  {
-    "name": "Slugger",
-    "skill": "Slugger",
-    "level": 2
-  },
-  {
-    "name": "Special Ammo Boost",
-    "skill": "Special Ammo Boost",
-    "level": 1
-  },
-  {
-    "name": "Speed Eating",
-    "skill": "Speed Eating",
-    "level": 1
-  },
-  {
-    "name": "Speed Sharpening",
-    "skill": "Speed Sharpening",
-    "level": 1
-  },
-  {
-    "name": "Sporepuff Expert",
-    "skill": "Sporepuff Expert",
-    "level": 1
-  },
-  {
-    "name": "Spread/Power Shots",
-    "skill": "Spread/Power Shots",
-    "level": 3
-  },
-  {
-    "name": "Stamina Surge",
-    "skill": "Stamina Surge",
-    "level": 2
-  },
-  {
-    "name": "Stamina Thief",
-    "skill": "Stamina Thief",
-    "level": 1
-  },
-  {
-    "name": "Stealth",
-    "skill": "Stealth",
-    "level": 1
-  },
-  {
-    "name": "Stun Resistance",
-    "skill": "Stun Resistance",
-    "level": 1
-  },
-  {
-    "name": "Thunder Attack",
+    "name": "Bolt Jewel 1",
     "skill": "Thunder Attack",
-    "level": 1
+    "level": "1"
   },
   {
-    "name": "Thunder Resistance",
-    "skill": "Thunder Resistance",
-    "level": 1
+    "name": "Bomber Jewel 1",
+    "skill": "Bombardier",
+    "level": "1"
   },
   {
-    "name": "Tool Specialist",
-    "skill": "Tool Specialist",
-    "level": 1
+    "name": "Botany Jewel 1",
+    "skill": "Botanist",
+    "level": "1"
   },
   {
-    "name": "Tremor Resistance",
+    "name": "Brace Jewel 3",
+    "skill": "Flinch Free",
+    "level": "3"
+  },
+  {
+    "name": "Challenger Jewel 2",
+    "skill": "Agitator",
+    "level": "2"
+  },
+  {
+    "name": "Charger Jewel 2",
+    "skill": "Focus",
+    "level": "2"
+  },
+  {
+    "name": "Crisis Jewel 1",
+    "skill": "Resuscitate",
+    "level": "1"
+  },
+  {
+    "name": "Critical Jewel 2",
+    "skill": "Critical Boost",
+    "level": "2"
+  },
+  {
+    "name": "Def Lock Jewel 1",
+    "skill": "Iron Skin",
+    "level": "1"
+  },
+  {
+    "name": "Defense Jewel 1",
+    "skill": "Defense Boost",
+    "level": "1"
+  },
+  {
+    "name": "Destroyer Jewel 2",
+    "skill": "Partbreaker",
+    "level": "2"
+  },
+  {
+    "name": "Dragon Jewel 1",
+    "skill": "Dragon Attack",
+    "level": "1"
+  },
+  {
+    "name": "Dragon Res Jewel 1",
+    "skill": "Dragon Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Dragonseal Jewel 3",
+    "skill": "Elderseal Boost",
+    "level": "3"
+  },
+  {
+    "name": "Drain Jewel 1",
+    "skill": "Stamina Thief",
+    "level": "1"
+  },
+  {
+    "name": "Draw Jewel 2",
+    "skill": "Critical Draw",
+    "level": "2"
+  },
+  {
+    "name": "Earplug Jewel 3",
+    "skill": "Earplugs",
+    "level": "3"
+  },
+  {
+    "name": "Elementless Jewel 2",
+    "skill": "Non-elemental Boost",
+    "level": "2"
+  },
+  {
+    "name": "Enduring Jewel 1",
+    "skill": "Item Prolonger",
+    "level": "1"
+  },
+  {
+    "name": "Enhancer Jewel 2",
+    "skill": "Power Prolonger",
+    "level": "2"
+  },
+  {
+    "name": "Evasion Jewel 2",
+    "skill": "Evade Window",
+    "level": "2"
+  },
+  {
+    "name": "Expert Jewel 1",
+    "skill": "Critical Eye",
+    "level": "1"
+  },
+  {
+    "name": "Fire Res Jewel 1",
+    "skill": "Fire Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Flawless Jewel 2",
+    "skill": "Peak Performance",
+    "level": "2"
+  },
+  {
+    "name": "Flight Jewel 2",
+    "skill": "Airborne",
+    "level": "2"
+  },
+  {
+    "name": "Footing Jewel 2",
     "skill": "Tremor Resistance",
-    "level": 2
+    "level": "2"
   },
   {
-    "name": "Water Attack",
-    "skill": "Water Attack",
-    "level": 1
+    "name": "Forceshot Jewel 3",
+    "skill": "Normal Shots",
+    "level": "3"
   },
   {
-    "name": "Water Resistance",
-    "skill": "Water Resistance",
-    "level": 1
+    "name": "Fortitude Jewel 1",
+    "skill": "Fortify",
+    "level": "1"
   },
   {
-    "name": "Weakness Exploit",
-    "skill": "Weakness Exploit",
-    "level": 2
-  },
-  {
-    "name": "Wide-Range",
+    "name": "Friendship Jewel 1",
     "skill": "Wide-Range",
-    "level": 1
+    "level": "1"
   },
   {
-    "name": "Windproof",
+    "name": "Frost Jewel 1",
+    "skill": "Ice Attack",
+    "level": "1"
+  },
+  {
+    "name": "Fungiform Jewel 1",
+    "skill": "Mushroomancer",
+    "level": "1"
+  },
+  {
+    "name": "Furor Jewel 2",
+    "skill": "Resentment",
+    "level": "2"
+  },
+  {
+    "name": "Geology Jewel 1",
+    "skill": "Geologist",
+    "level": "1"
+  },
+  {
+    "name": "Gobbler Jewel 1",
+    "skill": "Speed Eating",
+    "level": "1"
+  },
+  {
+    "name": "Grinder Jewel 1",
+    "skill": "Speed Sharpening",
+    "level": "1"
+  },
+  {
+    "name": "Handicraft Jewel 3",
+    "skill": "Handicraft",
+    "level": "3"
+  },
+  {
+    "name": "Heavy Artillery Jewel 1",
+    "skill": "Heavy Artillery",
+    "level": "1"
+  },
+  {
+    "name": "Hungerless Jewel 1",
+    "skill": "Hunger Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Ice Res Jewel 1",
+    "skill": "Ice Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Intimidator Jewel 1",
+    "skill": "Intimidator",
+    "level": "1"
+  },
+  {
+    "name": "Ironwall Jewel 1",
+    "skill": "Guard",
+    "level": "1"
+  },
+  {
+    "name": "Jumping Jewel 2",
+    "skill": "Evade Extender",
+    "level": "2"
+  },
+  {
+    "name": "KO Jewel 2",
+    "skill": "Slugger",
+    "level": "2"
+  },
+  {
+    "name": "Magazine Jewel 2",
+    "skill": "Capacity Boost",
+    "level": "2"
+  },
+  {
+    "name": "Medicine Jewel 1",
+    "skill": "Recovery Up",
+    "level": "1"
+  },
+  {
+    "name": "Meowster Jewel 1",
+    "skill": "Palico Rally",
+    "level": "1"
+  },
+  {
+    "name": "Miasma Jewel 1",
+    "skill": "Effluvia Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Mighty Bow Jewel 2",
+    "skill": "Bow Charge Plus",
+    "level": "2"
+  },
+  {
+    "name": "Mighty Jewel 2",
+    "skill": "Maximum Might",
+    "level": "2"
+  },
+  {
+    "name": "Mind's Eye Jewel 2",
+    "skill": "Mind's Eye/Ballistics",
+    "level": "2"
+  },
+  {
+    "name": "Mirewalker Jewel 1",
+    "skill": "Aquatic Expert",
+    "level": "1"
+  },
+  {
+    "name": "Paracoat Jewel 3",
+    "skill": "Para Functionality",
+    "level": "3"
+  },
+  {
+    "name": "Paralyzer Jewel 1",
+    "skill": "Paralysis Attack",
+    "level": "1"
+  },
+  {
+    "name": "Pep Jewel 1",
+    "skill": "Sleep Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Physique Jewel 2",
+    "skill": "Constitution",
+    "level": "2"
+  },
+  {
+    "name": "Pierce Jewel 3",
+    "skill": "Piercing Shots",
+    "level": "3"
+  },
+  {
+    "name": "Poisoncoat Jewel 3",
+    "skill": "Poison Functionality",
+    "level": "3"
+  },
+  {
+    "name": "Potential Jewel 2",
+    "skill": "Heroics",
+    "level": "2"
+  },
+  {
+    "name": "Protection Jewel 1",
+    "skill": "Divine Blessing",
+    "level": "1"
+  },
+  {
+    "name": "Recovery Jewel 1",
+    "skill": "Recovery Speed",
+    "level": "1"
+  },
+  {
+    "name": "Refresh Jewel 2",
+    "skill": "Stamina Surge",
+    "level": "2"
+  },
+  {
+    "name": "Release Jewel 3",
+    "skill": "Free Elem/Ammo Up",
+    "level": "3"
+  },
+  {
+    "name": "Resistor Jewel 1",
+    "skill": "Blight Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Satiated Jewel 1",
+    "skill": "Free Meal",
+    "level": "1"
+  },
+  {
+    "name": "Scent Jewel 1",
+    "skill": "Scenthound",
+    "level": "1"
+  },
+  {
+    "name": "Sharp Jewel 2",
+    "skill": "Protective Polish",
+    "level": "2"
+  },
+  {
+    "name": "Sheath Jewel 1",
+    "skill": "Quick Sheath",
+    "level": "1"
+  },
+  {
+    "name": "Shield Jewel 2",
+    "skill": "Guard Up",
+    "level": "2"
+  },
+  {
+    "name": "Sleep Jewel 1",
+    "skill": "Sleep Attack",
+    "level": "1"
+  },
+  {
+    "name": "Sleepcoat Jewel 3",
+    "skill": "Sleep Functionality",
+    "level": "3"
+  },
+  {
+    "name": "Slider Jewel 2",
+    "skill": "Affinity Sliding",
+    "level": "2"
+  },
+  {
+    "name": "Smoke Jewel 1",
+    "skill": "Sporepuff Expert",
+    "level": "1"
+  },
+  {
+    "name": "Sonorous Jewel 1",
+    "skill": "Horn Maestro",
+    "level": "1"
+  },
+  {
+    "name": "Specimen Jewel 1",
+    "skill": "Entomologist",
+    "level": "1"
+  },
+  {
+    "name": "Spread Jewel 3",
+    "skill": "Spread/Power Shots",
+    "level": "3"
+  },
+  {
+    "name": "Sprinter Jewel 2",
+    "skill": "Marathon Runner",
+    "level": "2"
+  },
+  {
+    "name": "Steadfast Jewel 1",
+    "skill": "Stun Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Stonethrower Jewel 1",
+    "skill": "Slinger Capacity",
+    "level": "1"
+  },
+  {
+    "name": "Stream Jewel 1",
+    "skill": "Water Attack",
+    "level": "1"
+  },
+  {
+    "name": "Suture Jewel 1",
+    "skill": "Bleeding Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Tenderizer Jewel 2",
+    "skill": "Weakness Exploit",
+    "level": "2"
+  },
+  {
+    "name": "Throttle Jewel 2",
+    "skill": "Latent Power",
+    "level": "2"
+  },
+  {
+    "name": "Thunder Res Jewel 1",
+    "skill": "Thunder Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Tip Toe Jewel 1",
+    "skill": "Stealth",
+    "level": "1"
+  },
+  {
+    "name": "Trueshot Jewel 1",
+    "skill": "Special Ammo Boost",
+    "level": "1"
+  },
+  {
+    "name": "Venom Jewel 1",
+    "skill": "Poison Attack",
+    "level": "1"
+  },
+  {
+    "name": "Vitality Jewel 1",
+    "skill": "Health Boost",
+    "level": "1"
+  },
+  {
+    "name": "Water Res Jewel 1",
+    "skill": "Water Resistance",
+    "level": "1"
+  },
+  {
+    "name": "Wind Resist Jewel 2",
     "skill": "Windproof",
-    "level": 2
+    "level": "2"
   }
 ]

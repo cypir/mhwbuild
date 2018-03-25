@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Jyura Drought I",
+  "attack": 560,
+  "baseAttack": 160,
+  "element": "Water",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "switchaxe"
+}

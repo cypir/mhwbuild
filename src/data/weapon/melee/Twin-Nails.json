@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Twin Nails",
+  "attack": 238,
+  "baseAttack": 170,
+  "element": "Ice",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "dualblades"
+}

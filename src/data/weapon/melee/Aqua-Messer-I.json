@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Aqua Messer I",
+  "attack": 140,
+  "baseAttack": 100,
+  "element": "Water",
+  "elementDamage": 90,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "swordandshield"
+}

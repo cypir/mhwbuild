@@ -1,0 +1,8 @@
+{
+  "name": "Sleep Resistance",
+  "levels": [
+    "Reduces the duration of sleep by 30%.",
+    "Reduces the duration of sleep by 60%.",
+    "Prevents sleep."
+  ]
+}

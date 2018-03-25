@@ -1,0 +1,8 @@
+{
+  "name": "Item Prolonger",
+  "levels": [
+    "Item effect duration +10%",
+    "Item effect duration +25%",
+    "Item effect duration +50%"
+  ]
+}

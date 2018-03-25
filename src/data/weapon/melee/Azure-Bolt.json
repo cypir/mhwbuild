@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Azure Bolt",
+  "attack": 434,
+  "baseAttack": 140,
+  "element": "Thunder",
+  "elementDamage": 330,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "insectglaive"
+}

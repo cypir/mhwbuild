@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Brazenbreak I",
+  "attack": 988,
+  "baseAttack": 190,
+  "element": "Fire",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "hammer"
+}

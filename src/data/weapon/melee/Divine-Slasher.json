@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Divine Slasher",
+  "attack": 693,
+  "baseAttack": 210,
+  "element": "Dragon",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "longsword"
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Malady's Fist II",
+  "attack": 780,
+  "baseAttack": 150,
+  "element": "Paralysis",
+  "elementDamage": 360,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "hammer"
+}

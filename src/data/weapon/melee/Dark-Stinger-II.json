@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Dark Stinger II",
+  "attack": 345,
+  "baseAttack": 150,
+  "element": "Blast",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "lance"
+}

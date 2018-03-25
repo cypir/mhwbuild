@@ -56,7 +56,9 @@ class PickerDialog extends Component {
       selectedPart,
       handlePieceSelected,
       handlePieceRemoved,
-      items
+      items,
+      primaryTextProp,
+      secondaryTextProp
     } = this.props;
     return (
       <div>
@@ -126,7 +128,7 @@ class PickerDialog extends Component {
                       }}
                     >
                       <ListItemText
-                        primary={`${item.name}`}
+                        primary={item.name}
                         secondary={skillformat.skillSecondaryDisplayPlanner(
                           item
                         )}

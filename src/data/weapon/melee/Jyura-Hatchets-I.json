@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Jyura Hatchets I",
+  "attack": 238,
+  "baseAttack": 170,
+  "element": "Water",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "dualblades"
+}

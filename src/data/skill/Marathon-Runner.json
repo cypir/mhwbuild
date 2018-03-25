@@ -1,0 +1,8 @@
+{
+  "name": "Marathon Runner",
+  "levels": [
+    "Reduces continuous stamina depletion by 15%.",
+    "Reduces continuous stamina depletion by 30%.",
+    "Reduces continuous stamina depletion by 50%."
+  ]
+}

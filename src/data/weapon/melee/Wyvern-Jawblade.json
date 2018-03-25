@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Wyvern Jawblade",
+  "attack": 864,
+  "baseAttack": 180,
+  "element": "Blast",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword"
+}

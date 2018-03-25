@@ -1,0 +1,8 @@
+{
+  "name": "Critical Boost",
+  "levels": [
+    "Increases damage dealt by critical hits by 30%.",
+    "Increases damage dealt by critical hits by 35%.",
+    "Increases damage dealt by critical hits by 40%."
+  ]
+}

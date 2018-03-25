@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Daora's Casca",
+  "attack": 612,
+  "baseAttack": 170,
+  "element": "Ice",
+  "elementDamage": 150,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "chargeblade"
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Lightning Chopper I",
+  "attack": 560,
+  "baseAttack": 160,
+  "element": "Thunder",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "switchaxe"
+}

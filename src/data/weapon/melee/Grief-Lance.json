@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Grief Lance",
+  "attack": 483,
+  "baseAttack": 210,
+  "element": "Dragon",
+  "elementDamage": 150,
+  "affinity": 25,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "lance"
+}

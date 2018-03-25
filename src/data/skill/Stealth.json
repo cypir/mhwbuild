@@ -1,0 +1,8 @@
+{
+  "name": "Stealth",
+  "levels": [
+    "Makes it slightly easier for monsters to lose sight of you.",
+    "Makes it moderately easier for monsters to lose sight of you.",
+    "Makes it much easier for monsters to lose sight of you."
+  ]
+}

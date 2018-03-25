@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Blacksteel Glaive I",
+  "attack": 310,
+  "baseAttack": 100,
+  "element": "Dragon",
+  "elementDamage": 60,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "insectglaive"
+}

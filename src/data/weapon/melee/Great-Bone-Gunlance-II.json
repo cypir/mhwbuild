@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Great Bone Gunlance II",
+  "attack": 437,
+  "baseAttack": 190,
+  "element": "Thunder",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "gunlance"
+}

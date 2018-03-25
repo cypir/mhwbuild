@@ -1,0 +1,10 @@
+{
+  "name": "Agitator",
+  "levels": [
+    "While active, grants attack +4 and increases affinity by 3%.",
+    "While active, grants attack +8 and increases affinity by 6%.",
+    "While active, grants attack +12 and increases affinity by 9%.",
+    "While active, grants attack +16 and increases affinity by 12%.",
+    "While active, grants attack +20 and increases affinity by 15%."
+  ]
+}

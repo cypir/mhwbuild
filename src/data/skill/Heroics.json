@@ -1,0 +1,10 @@
+{
+  "name": "Heroics",
+  "levels": [
+    "While active, increases attack power by 5% and increases defense by 15 points.",
+    "While active, increases attack power by 10% and increases defense by 20 points.",
+    "While active, increases attack power by 15% and increases defense by 25 points.",
+    "While active, increases attack power by 20% and increases defense by 30 points.",
+    "While active, increases attack power by 30% and increases defense by 40 points."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Dancing Davul I",
+  "attack": 630,
+  "baseAttack": 150,
+  "element": "Sleep",
+  "elementDamage": 240,
+  "affinity": 25,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "huntinghorn"
+}

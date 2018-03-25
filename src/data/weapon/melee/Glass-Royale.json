@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Glass Royale+",
+  "attack": 630,
+  "baseAttack": 150,
+  "element": "Paralysis",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "huntinghorn"
+}

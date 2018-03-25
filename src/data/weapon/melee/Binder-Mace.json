@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Binder Mace",
+  "attack": 936,
+  "baseAttack": 180,
+  "element": "Paralysis",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "hammer"
+}

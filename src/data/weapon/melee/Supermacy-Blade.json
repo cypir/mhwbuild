@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Supermacy Blade",
+  "attack": 561,
+  "baseAttack": 170,
+  "element": "Dragon",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "longsword"
+}

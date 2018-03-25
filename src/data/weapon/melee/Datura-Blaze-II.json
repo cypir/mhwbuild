@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Datura Blaze II",
+  "attack": 768,
+  "baseAttack": 160,
+  "element": "Poison",
+  "elementDamage": 480,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword"
+}

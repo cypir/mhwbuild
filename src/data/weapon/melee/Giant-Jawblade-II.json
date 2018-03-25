@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Giant Jawblade II",
+  "attack": 912,
+  "baseAttack": 190,
+  "element": "Ice",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword"
+}

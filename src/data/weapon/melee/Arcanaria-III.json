@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Arcanaria III",
+  "attack": 238,
+  "baseAttack": 170,
+  "element": "Sleep",
+  "elementDamage": 120,
+  "affinity": 20,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "dualblades"
+}

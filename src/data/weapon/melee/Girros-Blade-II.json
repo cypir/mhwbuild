@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Girros Blade II",
+  "attack": 624,
+  "baseAttack": 130,
+  "element": "Paralysis",
+  "elementDamage": 240,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "greatsword"
+}

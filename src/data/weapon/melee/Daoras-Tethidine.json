@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Daora's Tethidine",
+  "attack": 558,
+  "baseAttack": 180,
+  "element": "Ice",
+  "elementDamage": 180,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "insectglaive"
+}

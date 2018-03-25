@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Brazenridge I",
+  "attack": 594,
+  "baseAttack": 180,
+  "element": "Fire",
+  "elementDamage": 90,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "longsword"
+}

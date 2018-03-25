@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Malady's Tabar II",
+  "attack": 210,
+  "baseAttack": 150,
+  "element": "Paralysis",
+  "elementDamage": 210,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield"
+}

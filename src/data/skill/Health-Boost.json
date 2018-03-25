@@ -1,0 +1,8 @@
+{
+  "name": "Health Boost",
+  "levels": [
+    "Health +15",
+    "Health +30",
+    "Health +50"
+  ]
+}

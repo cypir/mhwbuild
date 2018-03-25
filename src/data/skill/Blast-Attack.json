@@ -1,0 +1,8 @@
+{
+  "name": "Blast Attack",
+  "levels": [
+    "Blast buildup +5% Bonus: +10",
+    "Blast buildup +10% Bonus: +10",
+    "Blast buildup +20% Bonus: +10"
+  ]
+}

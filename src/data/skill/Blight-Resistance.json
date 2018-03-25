@@ -1,0 +1,8 @@
+{
+  "name": "Blight Resistance",
+  "levels": [
+    "Reduces the duration of all elemental blights by 30%.",
+    "Reduces the duration of all elemental blights by 60%.",
+    "Nullifies all elemental blights."
+  ]
+}

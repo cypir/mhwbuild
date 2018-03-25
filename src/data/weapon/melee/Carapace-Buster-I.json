@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Carapace Buster I",
+  "attack": 624,
+  "baseAttack": 130,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "greatsword"
+}

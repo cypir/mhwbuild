@@ -1,0 +1,17 @@
+{
+  "parent": "",
+  "name": "Thunderspear",
+  "attack": 345,
+  "baseAttack": 150,
+  "element": "Thunder",
+  "elementDamage": 480,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "lance"
+}

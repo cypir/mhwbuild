@@ -1,0 +1,10 @@
+{
+  "name": "Earplugs",
+  "levels": [
+    "Slightly reduces the effects of weak monster roars.",
+    "Reduces the effects of weak monster roars.",
+    "Nullifies weak monster roars.",
+    "Nullifies weak monster roars and reduces the effects of strong monster roars.",
+    "Nullifies weak and strong monster roars."
+  ]
+}
