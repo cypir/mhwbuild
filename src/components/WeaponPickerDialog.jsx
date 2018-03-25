@@ -126,6 +126,11 @@ class WeaponPickerDialog extends Component {
                 set.removePiece("weapon");
                 this.setState({ filter: "" });
                 onClose();
+                this.setState({
+                  filter: "",
+                  activeStep: 0,
+                  selectedWeaponType: ""
+                });
               }}
             >
               Remove
@@ -149,6 +154,11 @@ class WeaponPickerDialog extends Component {
               //update set and close dialog
               set.setPiece(piece);
               onClose();
+              this.setState({
+                filter: "",
+                activeStep: 0,
+                selectedWeaponType: ""
+              });
             }}
           />
         )}
