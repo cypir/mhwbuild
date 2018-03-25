@@ -5,7 +5,7 @@
   "baseAttack": 210,
   "element": null,
   "elementDamage": 0,
-  "affinity": 20,
+  "affinity": -20,
   "hidden": false,
   "slots": [
     2,

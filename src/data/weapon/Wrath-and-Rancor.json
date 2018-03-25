@@ -5,7 +5,7 @@
   "baseAttack": 200,
   "element": "Dragon",
   "elementDamage": 120,
-  "affinity": 20,
+  "affinity": -20,
   "hidden": false,
   "slots": [
     0,

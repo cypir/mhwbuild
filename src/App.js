@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <div>
         <CssBaseline />
-        <DevTools />
+        {process.env.NODE_ENV === "development" ? <DevTools /> : null}
         <Route path="/" component={() => <MainAppBar />} />
         <div className={classes.content}>
           <Route exact path="/" component={() => <Index />} />

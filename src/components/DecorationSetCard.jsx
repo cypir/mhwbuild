@@ -42,11 +42,7 @@ const DecorationSetCard = ({
               <Typography variant="subheading">
                 <strong>Deocrations</strong>
               </Typography>
-              <DecorationPartList
-                set={set}
-                //onDecorationChanged={onDecorationChanged}
-                //onDecorationRemoved={onDecorationRemoved}
-              />
+              <DecorationPartList set={set} />
             </Grid>
             <Grid item xs={12} sm={4}>
               <Typography variant="subheading">

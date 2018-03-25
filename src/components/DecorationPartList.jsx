@@ -9,8 +9,10 @@ import waistIcon from "../icons/1/waist.png";
 import legIcon from "../icons/1/leg.png";
 import DecorationPartListItem from "./DecorationPartListItem";
 import { observer } from "mobx-react";
+import weaponmeta from "../util/weaponmeta";
+import greatswordIcon from "../icons/1/weapons/greatsword.png";
 
-const getIcon = part => {
+const getIcon = (part, weapon) => {
   let imageSrc = "";
   switch (part) {
     case "head":
@@ -27,6 +29,13 @@ const getIcon = part => {
       break;
     case "leg":
       imageSrc = legIcon;
+      break;
+    case "weapon":
+      if (weapon) {
+        imageSrc = weaponmeta.getWeapon(weapon.type);
+      } else {
+        imageSrc = greatswordIcon;
+      }
       break;
     default:
       break;
@@ -58,7 +67,7 @@ const DecorationPartList = ({ set }) => {
             return (
               <DecorationPartListItem
                 key={part}
-                icon={getIcon(part)}
+                icon={getIcon(part, set.pieces["weapon"])}
                 set={set}
                 part={part}
               />

@@ -5,7 +5,7 @@
   "baseAttack": 220,
   "element": "Ice",
   "elementDamage": 150,
-  "affinity": 30,
+  "affinity": -30,
   "hidden": true,
   "slots": [
     2,

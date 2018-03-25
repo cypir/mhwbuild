@@ -5,7 +5,7 @@
   "baseAttack": 210,
   "element": "Fire",
   "elementDamage": 360,
-  "affinity": 30,
+  "affinity": -30,
   "hidden": false,
   "slots": [
     0,

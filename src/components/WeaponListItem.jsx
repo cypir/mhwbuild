@@ -4,6 +4,7 @@ import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
 import WeaponPickerDialog from "./WeaponPickerDialog";
 import { observer } from "mobx-react";
 import weaponmeta from "../util/weaponmeta";
+import greatswordIcon from "../icons/1/weapons/greatsword.png";
 
 const SecondaryTextDisplay = weapon => {
   //get weapon info
@@ -30,7 +31,7 @@ class WeaponListItem extends Component {
     const { set } = this.props;
     let weapon = set.pieces.weapon;
 
-    let imageSrc = null;
+    let imageSrc = greatswordIcon;
 
     if (weapon) {
       imageSrc = weaponmeta.getWeapon(weapon.type).imageSrc;
@@ -44,13 +45,10 @@ class WeaponListItem extends Component {
             this.setState({ dialogOpen: !this.state.dialogOpen });
           }}
         >
-          {imageSrc ? (
-            <ListItemIcon>
-              <img alt="weapon" src={imageSrc} />
-            </ListItemIcon>
-          ) : (
-            ""
-          )}
+          <ListItemIcon>
+            <img alt="weapon" src={imageSrc} />
+          </ListItemIcon>
+
           <ListItemText
             inset={imageSrc === null}
             primary={set.pieces.weapon ? set.pieces.weapon.name : "-----"}

@@ -5,7 +5,7 @@
   "baseAttack": 200,
   "element": "Blast",
   "elementDamage": 210,
-  "affinity": 10,
+  "affinity": -10,
   "hidden": false,
   "slots": [
     2,

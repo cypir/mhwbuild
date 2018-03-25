@@ -5,7 +5,7 @@
   "baseAttack": 200,
   "element": "Paralysis",
   "elementDamage": 390,
-  "affinity": 10,
+  "affinity": -10,
   "hidden": true,
   "slots": [
     0,
