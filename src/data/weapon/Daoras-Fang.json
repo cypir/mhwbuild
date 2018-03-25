@@ -14,5 +14,6 @@
   ],
   "rarity": 8,
   "type": "lance",
+  "part": "weapon",
   "range": "melee"
 }

@@ -12,6 +12,10 @@ const SetSkillTotalsList = ({ set }) => {
   let totals = {};
 
   _.values(set.pieces).forEach(piece => {
+    //skip any pieces without skills
+    if (!piece.skills) {
+      return;
+    }
     piece.skills.forEach(skill => {
       if (!totals[skill.name]) {
         totals[skill.name] = { name: skill.name, total: 0 };

@@ -14,5 +14,6 @@
   ],
   "rarity": 8,
   "type": "insectglaive",
+  "part": "weapon",
   "range": "melee"
 }

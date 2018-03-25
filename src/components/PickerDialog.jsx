@@ -13,6 +13,7 @@ import CloseIcon from "material-ui-icons/Close";
 import Slide from "material-ui/transitions/Slide";
 import TextField from "material-ui/TextField";
 import skillformat from "../util/skillformat";
+import PickerDialogList from "./PickerDialogList";
 
 const styles = theme => ({
   appBar: {
@@ -43,10 +44,6 @@ class PickerDialog extends Component {
       filter: ""
     };
   }
-
-  handleFilterChange = e => {
-    this.setState({ filter: e.target.value });
-  };
 
   render() {
     const {
@@ -100,47 +97,11 @@ class PickerDialog extends Component {
               </Button>
             </Toolbar>
           </AppBar>
-          <div className={classes.filter}>
-            <TextField
-              label="Filter"
-              fullWidth
-              value={this.state.filter}
-              onChange={this.handleFilterChange}
-              type="text"
-            />
-          </div>
-          <List>
-            {items
-              .filter(item =>
-                item.name
-                  .toLowerCase()
-                  .includes(this.state.filter.toLowerCase())
-              )
-              .map(item => {
-                return (
-                  <div key={item.name}>
-                    <ListItem
-                      button
-                      onClick={e => {
-                        handlePieceSelected(item);
-                        this.setState({ filter: "" });
-                      }}
-                    >
-                      <ListItemText
-                        primary={item.name}
-                        secondary={
-                          //if we have a secondary prop derived from data, use it. Otherwise, use format function.
-                          secondaryTextProp
-                            ? item[secondaryTextProp]
-                            : skillformat.skillSecondaryDisplayPlanner(item)
-                        }
-                      />
-                    </ListItem>
-                    <Divider />
-                  </div>
-                );
-              })}
-          </List>
+          <PickerDialogList
+            items={items}
+            handlePieceSelected={handlePieceSelected}
+            secondaryTextProp={secondaryTextProp}
+          />
         </Dialog>
       </div>
     );

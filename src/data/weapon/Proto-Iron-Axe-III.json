@@ -14,5 +14,6 @@
   ],
   "rarity": 2,
   "type": "switchaxe",
+  "part": "weapon",
   "range": "melee"
 }

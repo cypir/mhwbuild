@@ -14,5 +14,6 @@
   ],
   "rarity": 2,
   "type": "swordandshield",
+  "part": "weapon",
   "range": "melee"
 }

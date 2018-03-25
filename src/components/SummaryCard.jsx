@@ -32,6 +32,11 @@ class SummaryCard extends Component {
     let totals = {};
 
     _.values(set.pieces).forEach(piece => {
+      //if equipment piece does not have any skills (weapons), then do nothing
+      if (!piece.skills) {
+        return;
+      }
+
       piece.skills.forEach(skill => {
         if (!totals[skill.name]) {
           totals[skill.name] = 0;

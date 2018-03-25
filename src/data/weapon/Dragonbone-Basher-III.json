@@ -14,5 +14,6 @@
   ],
   "rarity": 6,
   "type": "hammer",
+  "part": "weapon",
   "range": "melee"
 }

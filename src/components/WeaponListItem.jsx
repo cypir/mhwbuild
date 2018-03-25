@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
 import WeaponPickerDialog from "./WeaponPickerDialog";
-//import
+import { observer } from "mobx-react";
+import weaponmeta from "../util/weaponmeta";
 
 const SecondaryTextDisplay = weapon => {
   //get weapon info
@@ -28,35 +29,34 @@ class WeaponListItem extends Component {
   render() {
     const { set } = this.props;
     let weapon = set.pieces.weapon;
+
     let imageSrc = null;
 
     if (weapon) {
-      imageSrc = require(`../icons/1/weapons/${weapon.type}.png`);
+      imageSrc = weaponmeta.getWeapon(weapon.type).imageSrc;
     }
 
     return (
       <div>
-        <List>
-          <ListItem
-            button
-            onClick={() => {
-              this.setState({ dialogOpen: !this.state.dialogOpen });
-            }}
-          >
-            {imageSrc ? (
-              <ListItemIcon>
-                <img alt="weapon" src={""} />
-              </ListItemIcon>
-            ) : (
-              ""
-            )}
-            <ListItemText
-              inset={imageSrc === null}
-              primary={set.pieces.weapon ? set.pieces.weapon.name : "-----"}
-              secondary={SecondaryTextDisplay(set.pieces.weapon)}
-            />
-          </ListItem>
-        </List>
+        <ListItem
+          button
+          onClick={() => {
+            this.setState({ dialogOpen: !this.state.dialogOpen });
+          }}
+        >
+          {imageSrc ? (
+            <ListItemIcon>
+              <img alt="weapon" src={imageSrc} />
+            </ListItemIcon>
+          ) : (
+            ""
+          )}
+          <ListItemText
+            inset={imageSrc === null}
+            primary={set.pieces.weapon ? set.pieces.weapon.name : "-----"}
+            secondary={SecondaryTextDisplay(set.pieces.weapon)}
+          />
+        </ListItem>
         <WeaponPickerDialog
           open={this.state.dialogOpen}
           onClose={() => {
@@ -73,4 +73,4 @@ WeaponListItem.propTypes = {
   set: PropTypes.object
 };
 
-export default WeaponListItem;
+export default observer(WeaponListItem);

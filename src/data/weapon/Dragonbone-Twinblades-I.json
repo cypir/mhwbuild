@@ -14,5 +14,6 @@
   ],
   "rarity": 3,
   "type": "dualblades",
+  "part": "weapon",
   "range": "melee"
 }

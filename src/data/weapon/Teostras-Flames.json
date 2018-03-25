@@ -14,5 +14,6 @@
   ],
   "rarity": 8,
   "type": "heavybowgun",
+  "part": "weapon",
   "range": "ranged"
 }

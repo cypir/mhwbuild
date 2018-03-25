@@ -14,5 +14,6 @@
   ],
   "rarity": 2,
   "type": "lightbowgun",
+  "part": "weapon",
   "range": "ranged"
 }

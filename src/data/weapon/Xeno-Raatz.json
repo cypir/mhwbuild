@@ -14,5 +14,6 @@
   ],
   "rarity": 8,
   "type": "chargeblade",
+  "part": "weapon",
   "range": "melee"
 }

@@ -14,5 +14,6 @@
   ],
   "rarity": 7,
   "type": "bow",
+  "part": "weapon",
   "range": "ranged"
 }

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { withStyles } from "material-ui/styles";
 import Button from "material-ui/Button";
 import Dialog, { DialogContent } from "material-ui/Dialog";
-import List, { ListItem, ListItemText } from "material-ui/List";
+import List, { ListItem, ListItemText, ListItemIcon } from "material-ui/List";
 import Divider from "material-ui/Divider";
 import AppBar from "material-ui/AppBar";
 import Toolbar from "material-ui/Toolbar";
@@ -17,6 +17,8 @@ import TextField from "material-ui/TextField";
 import Stepper, { Step, StepLabel, StepContent } from "material-ui/Stepper";
 
 import weapons from "../data/weapon.json";
+import PickerDialogList from "./PickerDialogList";
+import weaponmeta from "../util/weaponmeta";
 
 const styles = theme => ({
   appBar: {
@@ -35,13 +37,53 @@ function Transition(props) {
   return <Slide direction="up" {...props} />;
 }
 
+const WeaponList = ({ weaponTypeSelected }) => {
+  let weaponTypes = Object.keys(weapons);
+
+  return (
+    <List>
+      {weaponTypes.sort().map(weaponType => {
+        let { imageSrc, eng } = weaponmeta.getWeapon(weaponType);
+
+        return (
+          <ListItem
+            key={weaponType}
+            button
+            onClick={() => {
+              //move to next step
+              weaponTypeSelected(weaponType);
+            }}
+          >
+            {imageSrc ? (
+              <ListItemIcon>
+                <img alt="part" src={imageSrc} />
+              </ListItemIcon>
+            ) : (
+              ""
+            )}
+            <ListItemText inset={imageSrc ? false : true} primary={eng} />
+          </ListItem>
+        );
+      })}
+    </List>
+  );
+};
+
 class WeaponPickerDialog extends Component {
   constructor() {
     super();
     this.state = {
-      activeStep: 0
+      activeStep: 0,
+      selectedWeaponType: ""
     };
   }
+
+  weaponTypeSelected = selectedWeaponType => {
+    this.setState({
+      activeStep: 1,
+      selectedWeaponType
+    });
+  };
 
   render() {
     const { set, open, onClose, classes } = this.props;
@@ -61,7 +103,11 @@ class WeaponPickerDialog extends Component {
               color="inherit"
               onClick={() => {
                 onClose();
-                this.setState({ filter: "" });
+                this.setState({
+                  filter: "",
+                  activeStep: 0,
+                  selectedWeaponType: ""
+                });
               }}
               aria-label="Close"
             >
@@ -94,7 +140,18 @@ class WeaponPickerDialog extends Component {
             <StepLabel>Select Weapon</StepLabel>
           </Step>
         </Stepper>
-        <DialogContent>I am a content</DialogContent>
+        {this.state.activeStep === 0 ? (
+          <WeaponList weaponTypeSelected={this.weaponTypeSelected} />
+        ) : (
+          <PickerDialogList
+            items={weapons[this.state.selectedWeaponType]}
+            handlePieceSelected={piece => {
+              //update set and close dialog
+              set.setPiece(piece);
+              onClose();
+            }}
+          />
+        )}
       </Dialog>
     );
   }
