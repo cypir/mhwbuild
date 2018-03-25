@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Gigafrost II",
+  "attack": 612,
+  "baseAttack": 170,
+  "element": "Ice",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 6,
+  "type": "chargeblade",
+  "range": "melee"
+}

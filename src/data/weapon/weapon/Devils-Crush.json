@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Devil's Crush",
+  "attack": 1196,
+  "baseAttack": 230,
+  "element": "Dragon",
+  "elementDamage": 210,
+  "affinity": 30,
+  "hidden": false,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "hammer",
+  "range": "melee"
+}

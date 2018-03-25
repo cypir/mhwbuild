@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Bazel Typhoon I",
+  "attack": 247,
+  "baseAttack": 190,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

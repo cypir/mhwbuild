@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Deathfang Gunlance II",
+  "attack": 345,
+  "baseAttack": 150,
+  "element": "Paralysis",
+  "elementDamage": 390,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "gunlance",
+  "range": "melee"
+}

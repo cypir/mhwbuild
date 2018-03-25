@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Blacksteel Chopper II",
+  "attack": 576,
+  "baseAttack": 120,
+  "element": "Dragon",
+  "elementDamage": 120,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword",
+  "range": "melee"
+}

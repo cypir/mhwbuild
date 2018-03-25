@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Blacksteel Bow I",
+  "attack": 120,
+  "baseAttack": 100,
+  "element": "Dragon",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "bow",
+  "range": "ranged"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Kadachi Kaina II",
+  "attack": 576,
+  "baseAttack": 160,
+  "element": "Thunder",
+  "elementDamage": 180,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "chargeblade",
+  "range": "melee"
+}

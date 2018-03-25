@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Barroth Breaker II",
+  "attack": 988,
+  "baseAttack": 190,
+  "element": "Paralysis",
+  "elementDamage": 330,
+  "affinity": 10,
+  "hidden": true,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "hammer",
+  "range": "melee"
+}

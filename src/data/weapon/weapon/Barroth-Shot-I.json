@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Barroth Shot I",
+  "attack": 234,
+  "baseAttack": 180,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

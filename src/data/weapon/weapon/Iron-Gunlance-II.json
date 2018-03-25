@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Iron Gunlance II",
+  "attack": 207,
+  "baseAttack": 90,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 1,
+  "type": "gunlance",
+  "range": "melee"
+}

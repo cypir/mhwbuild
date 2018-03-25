@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dragonbone Lance II",
+  "attack": 253,
+  "baseAttack": 110,
+  "element": "Dragon",
+  "elementDamage": 360,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "lance",
+  "range": "melee"
+}

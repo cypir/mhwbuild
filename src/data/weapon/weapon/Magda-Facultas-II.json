@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Magda Facultas II",
+  "attack": 726,
+  "baseAttack": 220,
+  "element": "Blast",
+  "elementDamage": 360,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "longsword",
+  "range": "melee"
+}

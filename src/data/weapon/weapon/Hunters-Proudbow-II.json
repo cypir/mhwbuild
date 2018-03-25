@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Hunter's Proudbow II",
+  "attack": 216,
+  "baseAttack": 180,
+  "element": "Water",
+  "elementDamage": 360,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "bow",
+  "range": "ranged"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Archer's Dance III",
+  "attack": 204,
+  "baseAttack": 170,
+  "element": "Blast",
+  "elementDamage": 270,
+  "affinity": 20,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "bow",
+  "range": "ranged"
+}

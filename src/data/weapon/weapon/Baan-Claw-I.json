@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Baan Claw I",
+  "attack": 238,
+  "baseAttack": 170,
+  "element": "Sleep",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "swordandshield",
+  "range": "melee"
+}

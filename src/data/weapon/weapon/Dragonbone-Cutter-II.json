@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dragonbone Cutter II",
+  "attack": 396,
+  "baseAttack": 110,
+  "element": "Dragon",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "chargeblade",
+  "range": "melee"
+}

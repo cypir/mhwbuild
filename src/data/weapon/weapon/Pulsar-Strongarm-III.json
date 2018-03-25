@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Pulsar Strongarm III",
+  "attack": 468,
+  "baseAttack": 130,
+  "element": "Thunder",
+  "elementDamage": 120,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "chargeblade",
+  "range": "melee"
+}

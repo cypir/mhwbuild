@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Jyura Depth II",
+  "attack": 648,
+  "baseAttack": 180,
+  "element": "Water",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "chargeblade",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Berseker Sword",
+  "attack": 1008,
+  "baseAttack": 210,
+  "element": "Dragon",
+  "elementDamage": 180,
+  "affinity": 30,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword",
+  "range": "melee"
+}

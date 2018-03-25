@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Anguish",
+  "attack": 1104,
+  "baseAttack": 230,
+  "element": "Dragon",
+  "elementDamage": 240,
+  "affinity": 30,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "greatsword",
+  "range": "melee"
+}

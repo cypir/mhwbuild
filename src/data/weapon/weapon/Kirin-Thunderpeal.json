@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Kirin Thunderpeal",
+  "attack": 560,
+  "baseAttack": 160,
+  "element": "Thunder",
+  "elementDamage": 420,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "switchaxe",
+  "range": "melee"
+}

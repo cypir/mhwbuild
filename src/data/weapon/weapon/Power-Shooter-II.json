@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Power Shooter II",
+  "attack": 270,
+  "baseAttack": 180,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "heavybowgun",
+  "range": "ranged"
+}

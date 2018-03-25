@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Iron Archdemon I",
+  "attack": 832,
+  "baseAttack": 160,
+  "element": "Blast",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "hammer",
+  "range": "melee"
+}

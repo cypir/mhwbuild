@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Carapace Cannon II",
+  "attack": 299,
+  "baseAttack": 130,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "gunlance",
+  "range": "melee"
+}

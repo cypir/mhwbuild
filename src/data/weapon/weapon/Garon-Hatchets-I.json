@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Garon Hatchets I",
+  "attack": 182,
+  "baseAttack": 130,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "dualblades",
+  "range": "melee"
+}

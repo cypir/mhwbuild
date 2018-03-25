@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Frozen Core+",
+  "attack": 832,
+  "baseAttack": 160,
+  "element": "Ice",
+  "elementDamage": 390,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "hammer",
+  "range": "melee"
+}

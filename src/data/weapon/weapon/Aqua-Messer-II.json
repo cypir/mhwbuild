@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Aqua Messer II",
+  "attack": 168,
+  "baseAttack": 120,
+  "element": "Water",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "swordandshield",
+  "range": "melee"
+}

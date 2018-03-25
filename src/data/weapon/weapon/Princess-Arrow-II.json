@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Princess Arrow II",
+  "attack": 192,
+  "baseAttack": 160,
+  "element": "Dragon",
+  "elementDamage": 180,
+  "affinity": 10,
+  "hidden": true,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 5,
+  "type": "bow",
+  "range": "ranged"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Gnashing Flammensucher",
+  "attack": 294,
+  "baseAttack": 210,
+  "element": "Fire",
+  "elementDamage": 240,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "swordandshield",
+  "range": "melee"
+}

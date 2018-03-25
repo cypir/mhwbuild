@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Glacial Grace I",
+  "attack": 182,
+  "baseAttack": 130,
+  "element": "Ice",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "swordandshield",
+  "range": "melee"
+}

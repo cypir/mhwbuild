@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "First Dance II",
+  "attack": 363,
+  "baseAttack": 110,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "longsword",
+  "range": "melee"
+}

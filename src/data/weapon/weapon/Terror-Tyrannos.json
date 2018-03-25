@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Terror Tyrannos",
+  "attack": 770,
+  "baseAttack": 220,
+  "element": "Dragon",
+  "elementDamage": 180,
+  "affinity": 25,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "switchaxe",
+  "range": "melee"
+}

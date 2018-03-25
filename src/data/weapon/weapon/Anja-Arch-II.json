@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Anja Arch II",
+  "attack": 216,
+  "baseAttack": 180,
+  "element": "Fire",
+  "elementDamage": 360,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "bow",
+  "range": "ranged"
+}

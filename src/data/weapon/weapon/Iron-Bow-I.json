@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Iron Bow I",
+  "attack": 96,
+  "baseAttack": 80,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 1,
+  "type": "bow",
+  "range": "ranged"
+}

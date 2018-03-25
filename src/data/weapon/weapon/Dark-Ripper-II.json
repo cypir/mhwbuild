@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dark Ripper II",
+  "attack": 210,
+  "baseAttack": 150,
+  "element": "Paralysis",
+  "elementDamage": 90,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "dualblades",
+  "range": "melee"
+}

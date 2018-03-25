@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Pulsar Bow III",
+  "attack": 168,
+  "baseAttack": 140,
+  "element": "Thunder",
+  "elementDamage": 210,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "bow",
+  "range": "ranged"
+}

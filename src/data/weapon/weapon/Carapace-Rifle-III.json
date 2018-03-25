@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Carapace Rifle III",
+  "attack": 208,
+  "baseAttack": 160,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

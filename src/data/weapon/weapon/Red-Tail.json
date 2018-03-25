@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Red Tail",
+  "attack": 391,
+  "baseAttack": 170,
+  "element": "Fire",
+  "elementDamage": 240,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "lance",
+  "range": "melee"
+}

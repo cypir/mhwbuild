@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Aqua Bagpipe II",
+  "attack": 504,
+  "baseAttack": 120,
+  "element": "Water",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "huntinghorn",
+  "range": "melee"
+}

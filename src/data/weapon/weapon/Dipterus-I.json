@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dipterus I",
+  "attack": 495,
+  "baseAttack": 150,
+  "element": "Water",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "longsword",
+  "range": "melee"
+}

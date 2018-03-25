@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Kulu Blade II",
+  "attack": 341,
+  "baseAttack": 110,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "insectglaive",
+  "range": "melee"
+}

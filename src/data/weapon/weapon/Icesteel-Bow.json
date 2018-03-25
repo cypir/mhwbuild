@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Icesteel Bow ",
+  "attack": 192,
+  "baseAttack": 160,
+  "element": "Ice",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    1,
+    0
+  ],
+  "rarity": 7,
+  "type": "bow",
+  "range": "ranged"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Baan Horn I",
+  "attack": 672,
+  "baseAttack": 160,
+  "element": "Sleep",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "huntinghorn",
+  "range": "melee"
+}

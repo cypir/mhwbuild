@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Daora's Thwartoise",
+  "attack": 648,
+  "baseAttack": 180,
+  "element": "Ice",
+  "elementDamage": 180,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    2,
+    1,
+    0
+  ],
+  "rarity": 8,
+  "type": "chargeblade",
+  "range": "melee"
+}

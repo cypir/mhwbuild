@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Great Hunter's Bow",
+  "attack": 228,
+  "baseAttack": 190,
+  "element": "Blast",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "bow",
+  "range": "ranged"
+}

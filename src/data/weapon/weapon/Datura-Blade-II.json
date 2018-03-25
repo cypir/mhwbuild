@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Datura Blade II",
+  "attack": 496,
+  "baseAttack": 160,
+  "element": "Poison",
+  "elementDamage": 360,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "insectglaive",
+  "range": "melee"
+}

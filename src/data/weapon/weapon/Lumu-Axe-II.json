@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Lumu Axe II",
+  "attack": 490,
+  "baseAttack": 140,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "switchaxe",
+  "range": "melee"
+}

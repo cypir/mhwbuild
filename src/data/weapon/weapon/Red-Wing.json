@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Red Wing",
+  "attack": 768,
+  "baseAttack": 160,
+  "element": "Fire",
+  "elementDamage": 180,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword",
+  "range": "melee"
+}

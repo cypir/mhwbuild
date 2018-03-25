@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Diablos Tyrannis I",
+  "attack": 756,
+  "baseAttack": 210,
+  "element": "Ice",
+  "elementDamage": 120,
+  "affinity": 30,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "chargeblade",
+  "range": "melee"
+}

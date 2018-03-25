@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Blacksteel Long Sword I",
+  "attack": 330,
+  "baseAttack": 100,
+  "element": "Dragon",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "longsword",
+  "range": "melee"
+}

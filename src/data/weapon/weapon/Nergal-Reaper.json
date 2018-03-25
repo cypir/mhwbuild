@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Nergal Reaper",
+  "attack": 620,
+  "baseAttack": 200,
+  "element": "Dragon",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "insectglaive",
+  "range": "melee"
+}

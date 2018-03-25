@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Garon Dhara I",
+  "attack": 345,
+  "baseAttack": 150,
+  "element": "Fire",
+  "elementDamage": 180,
+  "affinity": 30,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "lance",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Fatal Bite",
+  "attack": 308,
+  "baseAttack": 220,
+  "element": "Dragon",
+  "elementDamage": 210,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "swordandshield",
+  "range": "melee"
+}

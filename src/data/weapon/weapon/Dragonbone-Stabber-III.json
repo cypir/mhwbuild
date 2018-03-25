@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dragonbone Stabber III",
+  "attack": 528,
+  "baseAttack": 160,
+  "element": "Dragon",
+  "elementDamage": 420,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "longsword",
+  "range": "melee"
+}

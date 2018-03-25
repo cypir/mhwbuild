@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Xeno Hemta",
+  "attack": 391,
+  "baseAttack": 170,
+  "element": "Dragon",
+  "elementDamage": 180,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    3,
+    3,
+    0
+  ],
+  "rarity": 8,
+  "type": "gunlance",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Kadachi Fang II",
+  "attack": 561,
+  "baseAttack": 170,
+  "element": "Thunder",
+  "elementDamage": 240,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "longsword",
+  "range": "melee"
+}

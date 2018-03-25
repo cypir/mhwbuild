@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Gnashing Flammenkaefer",
+  "attack": 651,
+  "baseAttack": 210,
+  "element": "Fire",
+  "elementDamage": 270,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "insectglaive",
+  "range": "melee"
+}

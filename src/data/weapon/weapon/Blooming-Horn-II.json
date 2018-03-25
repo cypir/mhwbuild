@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Blooming Horn II",
+  "attack": 546,
+  "baseAttack": 130,
+  "element": "Poison",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "huntinghorn",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Jagras Escudo II",
+  "attack": 648,
+  "baseAttack": 180,
+  "element": "Sleep",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 6,
+  "type": "chargeblade",
+  "range": "melee"
+}

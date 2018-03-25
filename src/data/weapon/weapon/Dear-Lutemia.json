@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dear Lutemia",
+  "attack": 540,
+  "baseAttack": 150,
+  "element": "Poison",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 5,
+  "type": "chargeblade",
+  "range": "melee"
+}

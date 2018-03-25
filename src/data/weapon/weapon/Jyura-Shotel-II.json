@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Jyura Shotel II",
+  "attack": 429,
+  "baseAttack": 130,
+  "element": "Water",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "longsword",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Spiked Edge I",
+  "attack": 182,
+  "baseAttack": 130,
+  "element": "Sleep",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "swordandshield",
+  "range": "melee"
+}

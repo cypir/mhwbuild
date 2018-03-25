@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Aqua Rod II",
+  "attack": 372,
+  "baseAttack": 120,
+  "element": "Water",
+  "elementDamage": 90,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "insectglaive",
+  "range": "melee"
+}

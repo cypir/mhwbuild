@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Water Shot III",
+  "attack": 204,
+  "baseAttack": 170,
+  "element": "Water",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "bow",
+  "range": "ranged"
+}

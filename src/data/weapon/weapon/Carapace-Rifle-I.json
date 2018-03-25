@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Carapace Rifle I",
+  "attack": 169,
+  "baseAttack": 130,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

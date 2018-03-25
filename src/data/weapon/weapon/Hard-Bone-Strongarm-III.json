@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Hard Bone Strongarm III",
+  "attack": 576,
+  "baseAttack": 160,
+  "element": "Blast",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "chargeblade",
+  "range": "melee"
+}

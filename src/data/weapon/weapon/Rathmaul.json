@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Rathmaul",
+  "attack": 527,
+  "baseAttack": 170,
+  "element": "Fire",
+  "elementDamage": 150,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "insectglaive",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Nergal Lacerator",
+  "attack": 720,
+  "baseAttack": 200,
+  "element": "Dragon",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "chargeblade",
+  "range": "melee"
+}

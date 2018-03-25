@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Princess Rapier",
+  "attack": 168,
+  "baseAttack": 120,
+  "element": "Poison",
+  "elementDamage": 150,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "swordandshield",
+  "range": "melee"
+}

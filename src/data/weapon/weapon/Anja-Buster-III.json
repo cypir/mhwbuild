@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Anja Buster III",
+  "attack": 273,
+  "baseAttack": 210,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 30,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

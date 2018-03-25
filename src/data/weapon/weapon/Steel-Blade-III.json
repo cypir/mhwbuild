@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Steel Blade III",
+  "attack": 434,
+  "baseAttack": 140,
+  "element": "Blast",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "insectglaive",
+  "range": "melee"
+}

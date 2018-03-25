@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Kulu Lance III",
+  "attack": 299,
+  "baseAttack": 130,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "lance",
+  "range": "melee"
+}

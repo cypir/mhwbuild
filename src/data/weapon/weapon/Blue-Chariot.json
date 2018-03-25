@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Blue Chariot",
+  "attack": 437,
+  "baseAttack": 190,
+  "element": "Fire",
+  "elementDamage": 240,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "gunlance",
+  "range": "melee"
+}

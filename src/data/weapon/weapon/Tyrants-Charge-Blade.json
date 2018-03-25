@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Tyrant's Charge Blade",
+  "attack": 720,
+  "baseAttack": 200,
+  "element": "Dragon",
+  "elementDamage": 150,
+  "affinity": 25,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "chargeblade",
+  "range": "melee"
+}

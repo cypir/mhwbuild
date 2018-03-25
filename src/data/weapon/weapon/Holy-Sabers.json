@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Holy Sabers",
+  "attack": 252,
+  "baseAttack": 180,
+  "element": "Water",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "dualblades",
+  "range": "melee"
+}

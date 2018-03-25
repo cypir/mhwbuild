@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Cross Hunter's Bow",
+  "attack": 216,
+  "baseAttack": 180,
+  "element": "Blast",
+  "elementDamage": 120,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "bow",
+  "range": "ranged"
+}

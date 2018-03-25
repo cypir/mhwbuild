@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Blazing Hachets I",
+  "attack": 196,
+  "baseAttack": 140,
+  "element": "Fire",
+  "elementDamage": 90,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "dualblades",
+  "range": "melee"
+}

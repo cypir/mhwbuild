@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Pulsar Shooter I",
+  "attack": 180,
+  "baseAttack": 120,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "heavybowgun",
+  "range": "ranged"
+}

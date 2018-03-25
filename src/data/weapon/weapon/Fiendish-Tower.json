@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Fiendish Tower",
+  "attack": 529,
+  "baseAttack": 230,
+  "element": "Dragon",
+  "elementDamage": 210,
+  "affinity": 25,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "lance",
+  "range": "melee"
+}

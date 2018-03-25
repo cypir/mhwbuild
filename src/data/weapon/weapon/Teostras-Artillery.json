@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Teostra's Artillery",
+  "attack": 255,
+  "baseAttack": 170,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "heavybowgun",
+  "range": "ranged"
+}

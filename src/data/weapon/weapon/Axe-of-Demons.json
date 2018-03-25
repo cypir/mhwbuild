@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Axe of Demons",
+  "attack": 805,
+  "baseAttack": 230,
+  "element": "Ice",
+  "elementDamage": 180,
+  "affinity": 30,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "switchaxe",
+  "range": "melee"
+}

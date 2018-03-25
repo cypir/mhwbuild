@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Strong Hatchets II",
+  "attack": 266,
+  "baseAttack": 190,
+  "element": "Blast",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "dualblades",
+  "range": "melee"
+}

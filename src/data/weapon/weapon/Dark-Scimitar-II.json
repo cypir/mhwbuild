@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dark Scimitar II",
+  "attack": 495,
+  "baseAttack": 150,
+  "element": "Paralysis",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "longsword",
+  "range": "melee"
+}

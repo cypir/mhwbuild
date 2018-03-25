@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Avenging Magda Manus",
+  "attack": 756,
+  "baseAttack": 210,
+  "element": "Blast",
+  "elementDamage": 210,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "chargeblade",
+  "range": "melee"
+}

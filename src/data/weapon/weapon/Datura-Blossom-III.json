@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Datura Blossom III",
+  "attack": 238,
+  "baseAttack": 170,
+  "element": "Poison",
+  "elementDamage": 390,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield",
+  "range": "melee"
+}

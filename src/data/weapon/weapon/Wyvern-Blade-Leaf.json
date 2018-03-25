@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Wyvern Blade \"Leaf\"",
+  "attack": 363,
+  "baseAttack": 110,
+  "element": "Poison",
+  "elementDamage": 240,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "longsword",
+  "range": "melee"
+}

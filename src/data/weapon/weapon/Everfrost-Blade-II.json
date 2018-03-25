@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Everfrost Blade II",
+  "attack": 540,
+  "baseAttack": 150,
+  "element": "Ice",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 5,
+  "type": "chargeblade",
+  "range": "melee"
+}

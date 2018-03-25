@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Devil's Grin",
+  "attack": 273,
+  "baseAttack": 210,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 25,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

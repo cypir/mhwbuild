@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Garon Rod I",
+  "attack": 403,
+  "baseAttack": 130,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "insectglaive",
+  "range": "melee"
+}

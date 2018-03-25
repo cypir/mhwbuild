@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Diablos Shatterer II",
+  "attack": 1196,
+  "baseAttack": 230,
+  "element": "Ice",
+  "elementDamage": 150,
+  "affinity": 25,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "hammer",
+  "range": "melee"
+}

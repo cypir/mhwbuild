@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Fate's Ember",
+  "attack": 221,
+  "baseAttack": 170,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 30,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

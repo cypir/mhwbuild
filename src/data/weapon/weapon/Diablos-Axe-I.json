@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Diablos Axe I",
+  "attack": 595,
+  "baseAttack": 170,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 30,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "switchaxe",
+  "range": "melee"
+}

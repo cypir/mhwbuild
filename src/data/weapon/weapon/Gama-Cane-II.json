@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Gama Cane II",
+  "attack": 527,
+  "baseAttack": 170,
+  "element": "Blast",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 7,
+  "type": "insectglaive",
+  "range": "melee"
+}

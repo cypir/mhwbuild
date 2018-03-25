@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Chrome Slicer I",
+  "attack": 224,
+  "baseAttack": 160,
+  "element": "Sleep",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield",
+  "range": "melee"
+}

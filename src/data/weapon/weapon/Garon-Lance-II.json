@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Garon Lance II",
+  "attack": 322,
+  "baseAttack": 140,
+  "element": "Fire",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "lance",
+  "range": "melee"
+}

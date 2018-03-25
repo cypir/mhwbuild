@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Datura Horn I",
+  "attack": 630,
+  "baseAttack": 150,
+  "element": "Poison",
+  "elementDamage": 420,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 5,
+  "type": "huntinghorn",
+  "range": "melee"
+}

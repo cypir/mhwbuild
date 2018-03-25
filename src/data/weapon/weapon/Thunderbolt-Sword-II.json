@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Thunderbolt Sword II",
+  "attack": 224,
+  "baseAttack": 160,
+  "element": "Thunder",
+  "elementDamage": 360,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "swordandshield",
+  "range": "melee"
+}

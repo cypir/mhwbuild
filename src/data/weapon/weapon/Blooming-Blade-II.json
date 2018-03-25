@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Blooming Blade II",
+  "attack": 576,
+  "baseAttack": 120,
+  "element": "Poison",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "greatsword",
+  "range": "melee"
+}

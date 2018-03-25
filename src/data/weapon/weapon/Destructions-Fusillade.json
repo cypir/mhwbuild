@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Destruction's Fusillade",
+  "attack": 285,
+  "baseAttack": 190,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "heavybowgun",
+  "range": "ranged"
+}

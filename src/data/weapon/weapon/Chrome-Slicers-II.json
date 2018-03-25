@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Chrome Slicers II",
+  "attack": 252,
+  "baseAttack": 180,
+  "element": "Poison",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "dualblades",
+  "range": "melee"
+}

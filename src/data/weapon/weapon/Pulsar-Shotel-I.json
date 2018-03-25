@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Pulsar Shotel I",
+  "attack": 363,
+  "baseAttack": 110,
+  "element": "Thunder",
+  "elementDamage": 120,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "longsword",
+  "range": "melee"
+}

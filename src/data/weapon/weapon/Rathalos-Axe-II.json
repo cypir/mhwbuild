@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Rathalos Axe II",
+  "attack": 490,
+  "baseAttack": 140,
+  "element": "Fire",
+  "elementDamage": 120,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "switchaxe",
+  "range": "melee"
+}

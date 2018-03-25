@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Pulsar Gunlance III",
+  "attack": 299,
+  "baseAttack": 130,
+  "element": "Thunder",
+  "elementDamage": 180,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "gunlance",
+  "range": "melee"
+}

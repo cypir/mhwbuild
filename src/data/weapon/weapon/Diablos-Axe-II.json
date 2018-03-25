@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Diablos Axe II",
+  "attack": 630,
+  "baseAttack": 180,
+  "element": "Ice",
+  "elementDamage": 90,
+  "affinity": 30,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "switchaxe",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Buona Flora",
+  "attack": 936,
+  "baseAttack": 180,
+  "element": "Poison",
+  "elementDamage": 540,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 7,
+  "type": "hammer",
+  "range": "melee"
+}

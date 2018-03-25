@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Glacial Bagpipe II",
+  "attack": 588,
+  "baseAttack": 140,
+  "element": "Ice",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "huntinghorn",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Barroth Grinder I",
+  "attack": 595,
+  "baseAttack": 170,
+  "element": "Paralysis",
+  "elementDamage": 240,
+  "affinity": 20,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "switchaxe",
+  "range": "melee"
+}

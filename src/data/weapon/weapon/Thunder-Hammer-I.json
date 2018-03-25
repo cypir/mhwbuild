@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Thunder Hammer I",
+  "attack": 676,
+  "baseAttack": 130,
+  "element": "Thunder",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "hammer",
+  "range": "melee"
+}

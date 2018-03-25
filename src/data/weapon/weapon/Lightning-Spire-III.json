@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Lightning Spire III",
+  "attack": 414,
+  "baseAttack": 180,
+  "element": "Thunder",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "lance",
+  "range": "melee"
+}

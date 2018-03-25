@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Purgation's Atrocity",
+  "attack": 1008,
+  "baseAttack": 210,
+  "element": "Dragon",
+  "elementDamage": 150,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "greatsword",
+  "range": "melee"
+}

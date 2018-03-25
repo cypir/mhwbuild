@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Water Golum II",
+  "attack": 816,
+  "baseAttack": 170,
+  "element": "Water",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword",
+  "range": "melee"
+}

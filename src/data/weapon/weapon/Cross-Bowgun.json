@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Cross Bowgun",
+  "attack": 234,
+  "baseAttack": 180,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

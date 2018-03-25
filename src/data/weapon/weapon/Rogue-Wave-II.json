@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Rogue Wave II",
+  "attack": 224,
+  "baseAttack": 160,
+  "element": "Water",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield",
+  "range": "melee"
+}

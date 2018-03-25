@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Kadachi Claws III",
+  "attack": 252,
+  "baseAttack": 180,
+  "element": "Thunder",
+  "elementDamage": 150,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "dualblades",
+  "range": "melee"
+}

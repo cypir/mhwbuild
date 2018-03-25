@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Thunderpiercer",
+  "attack": 368,
+  "baseAttack": 160,
+  "element": "Thunder",
+  "elementDamage": 540,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "lance",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Chrome Razor I",
+  "attack": 720,
+  "baseAttack": 150,
+  "element": "Poison",
+  "elementDamage": 330,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword",
+  "range": "melee"
+}

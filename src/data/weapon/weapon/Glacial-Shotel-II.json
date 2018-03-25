@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Glacial Shotel II",
+  "attack": 462,
+  "baseAttack": 140,
+  "element": "Ice",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "longsword",
+  "range": "melee"
+}

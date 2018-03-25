@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Madness Pangas I",
+  "attack": 154,
+  "baseAttack": 110,
+  "element": "Water",
+  "elementDamage": 90,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "dualblades",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Blue Wing",
+  "attack": 816,
+  "baseAttack": 170,
+  "element": "Fire",
+  "elementDamage": 210,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "greatsword",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Kulu Beak III",
+  "attack": 728,
+  "baseAttack": 140,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "hammer",
+  "range": "melee"
+}

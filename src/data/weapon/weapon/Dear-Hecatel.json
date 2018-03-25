@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dear Hecatel",
+  "attack": 612,
+  "baseAttack": 170,
+  "element": "Poison",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 6,
+  "type": "chargeblade",
+  "range": "melee"
+}

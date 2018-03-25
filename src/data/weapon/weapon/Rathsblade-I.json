@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Rathsblade I",
+  "attack": 432,
+  "baseAttack": 120,
+  "element": "Fire",
+  "elementDamage": 150,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "chargeblade",
+  "range": "melee"
+}

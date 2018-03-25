@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Teostra's Tiple",
+  "attack": 756,
+  "baseAttack": 180,
+  "element": "Blast",
+  "elementDamage": 330,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "huntinghorn",
+  "range": "melee"
+}

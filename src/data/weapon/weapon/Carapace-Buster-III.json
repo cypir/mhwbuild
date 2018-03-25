@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Carapace Buster III",
+  "attack": 720,
+  "baseAttack": 150,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "greatsword",
+  "range": "melee"
+}

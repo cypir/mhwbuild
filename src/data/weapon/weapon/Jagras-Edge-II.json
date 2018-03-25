@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Jagras Edge II",
+  "attack": 196,
+  "baseAttack": 140,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "swordandshield",
+  "range": "melee"
+}

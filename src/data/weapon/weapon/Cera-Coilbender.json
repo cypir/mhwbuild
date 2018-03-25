@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Cera Coilbender",
+  "attack": 264,
+  "baseAttack": 220,
+  "element": "Ice",
+  "elementDamage": 150,
+  "affinity": 30,
+  "hidden": true,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 8,
+  "type": "bow",
+  "range": "ranged"
+}

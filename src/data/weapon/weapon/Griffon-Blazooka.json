@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Griffon Blazooka",
+  "attack": 330,
+  "baseAttack": 220,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "heavybowgun",
+  "range": "ranged"
+}

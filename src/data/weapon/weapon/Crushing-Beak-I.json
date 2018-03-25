@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Crushing Beak I",
+  "attack": 780,
+  "baseAttack": 150,
+  "element": "Sleep",
+  "elementDamage": 240,
+  "affinity": 25,
+  "hidden": true,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "hammer",
+  "range": "melee"
+}

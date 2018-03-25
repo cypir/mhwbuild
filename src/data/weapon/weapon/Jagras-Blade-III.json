@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Jagras Blade III",
+  "attack": 672,
+  "baseAttack": 140,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "greatsword",
+  "range": "melee"
+}

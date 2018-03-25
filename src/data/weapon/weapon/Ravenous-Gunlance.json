@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Ravenous Gunlance",
+  "attack": 483,
+  "baseAttack": 210,
+  "element": "Dragon",
+  "elementDamage": 180,
+  "affinity": 30,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "gunlance",
+  "range": "melee"
+}

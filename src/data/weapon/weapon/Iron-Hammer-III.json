@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Iron Hammer III",
+  "attack": 520,
+  "baseAttack": 100,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "hammer",
+  "range": "melee"
+}

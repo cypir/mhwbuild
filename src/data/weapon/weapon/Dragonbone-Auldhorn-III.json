@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dragonbone Auldhorn III",
+  "attack": 672,
+  "baseAttack": 160,
+  "element": "Dragon",
+  "elementDamage": 420,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "huntinghorn",
+  "range": "melee"
+}

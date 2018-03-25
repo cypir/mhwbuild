@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Bone Smasher III",
+  "attack": 560,
+  "baseAttack": 160,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "switchaxe",
+  "range": "melee"
+}

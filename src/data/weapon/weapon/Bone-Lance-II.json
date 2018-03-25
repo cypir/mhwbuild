@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Bone Lance II",
+  "attack": 230,
+  "baseAttack": 100,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 1,
+  "type": "lance",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Freeze Daggers I",
+  "attack": 182,
+  "baseAttack": 130,
+  "element": "Ice",
+  "elementDamage": 60,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "dualblades",
+  "range": "melee"
+}

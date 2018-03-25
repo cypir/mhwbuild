@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Imperial Saber",
+  "attack": 561,
+  "baseAttack": 170,
+  "element": "Blast",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "longsword",
+  "range": "melee"
+}

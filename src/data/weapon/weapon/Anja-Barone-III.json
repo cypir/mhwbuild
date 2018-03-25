@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Anja Barone III",
+  "attack": 882,
+  "baseAttack": 210,
+  "element": "Fire",
+  "elementDamage": 450,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "huntinghorn",
+  "range": "melee"
+}

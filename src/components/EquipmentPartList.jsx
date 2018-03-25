@@ -20,6 +20,10 @@ const EquipmentPartList = ({ set, clickable, handlePartClick }) => {
     <div>
       <List>
         {equipmentParts.map((part, index) => {
+          //skip weapon, this is handled as a special case
+          if (part === "weapon") {
+            return "";
+          }
           let imageSrc = "";
           switch (part) {
             case "head":

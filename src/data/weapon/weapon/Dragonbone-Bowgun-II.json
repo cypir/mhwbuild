@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dragonbone Bowgun II",
+  "attack": 143,
+  "baseAttack": 110,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

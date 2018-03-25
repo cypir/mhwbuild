@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Diablos Sledge I",
+  "attack": 884,
+  "baseAttack": 170,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 25,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "hammer",
+  "range": "melee"
+}

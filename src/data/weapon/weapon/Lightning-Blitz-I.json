@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Lightning Blitz I",
+  "attack": 208,
+  "baseAttack": 160,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

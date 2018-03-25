@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Halberion Blade",
+  "attack": 684,
+  "baseAttack": 190,
+  "element": "Fire",
+  "elementDamage": 240,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "chargeblade",
+  "range": "melee"
+}

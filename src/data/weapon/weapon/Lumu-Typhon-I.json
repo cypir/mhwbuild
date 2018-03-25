@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Lumu Typhon I",
+  "attack": 195,
+  "baseAttack": 150,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

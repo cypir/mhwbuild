@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Great Bagpipe III",
+  "attack": 588,
+  "baseAttack": 140,
+  "element": "Paralysis",
+  "elementDamage": 210,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "huntinghorn",
+  "range": "melee"
+}

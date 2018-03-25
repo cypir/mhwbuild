@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Flame Knife II",
+  "attack": 196,
+  "baseAttack": 140,
+  "element": "Fire",
+  "elementDamage": 120,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "swordandshield",
+  "range": "melee"
+}

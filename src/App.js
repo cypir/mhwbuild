@@ -6,7 +6,6 @@ import Plan from "./pages/plan";
 import Index from "./pages/index";
 import CssBaseline from "material-ui/CssBaseline";
 import { withStyles } from "material-ui/styles";
-import DevTools from "mobx-react-devtools";
 import "typeface-roboto";
 
 import CustomEquipmentSetStore from "./stores/CustomEquipmentSetStore";

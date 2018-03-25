@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Lava Blaze II",
+  "attack": 864,
+  "baseAttack": 180,
+  "element": "Fire",
+  "elementDamage": 330,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 7,
+  "type": "greatsword",
+  "range": "melee"
+}

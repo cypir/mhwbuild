@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dual Threat",
+  "attack": 300,
+  "baseAttack": 200,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "heavybowgun",
+  "range": "ranged"
+}

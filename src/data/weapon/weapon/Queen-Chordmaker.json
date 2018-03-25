@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Queen Chordmaker",
+  "attack": 630,
+  "baseAttack": 150,
+  "element": "Fire",
+  "elementDamage": 180,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "huntinghorn",
+  "range": "melee"
+}

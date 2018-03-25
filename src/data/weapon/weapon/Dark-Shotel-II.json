@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dark Shotel II",
+  "attack": 429,
+  "baseAttack": 130,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "longsword",
+  "range": "melee"
+}

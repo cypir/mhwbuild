@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Teostra's Orphée",
+  "attack": 798,
+  "baseAttack": 190,
+  "element": "Blast",
+  "elementDamage": 390,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "huntinghorn",
+  "range": "melee"
+}

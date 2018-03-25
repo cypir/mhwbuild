@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Glacial Arrow I",
+  "attack": 144,
+  "baseAttack": 120,
+  "element": "Ice",
+  "elementDamage": 270,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "bow",
+  "range": "ranged"
+}

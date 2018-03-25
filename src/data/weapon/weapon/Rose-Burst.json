@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Rose Burst",
+  "attack": 391,
+  "baseAttack": 170,
+  "element": "Poison",
+  "elementDamage": 300,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "gunlance",
+  "range": "melee"
+}

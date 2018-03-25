@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Snowfletcher",
+  "attack": 168,
+  "baseAttack": 140,
+  "element": "Ice",
+  "elementDamage": 360,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "bow",
+  "range": "ranged"
+}

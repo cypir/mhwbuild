@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Leviathan's Fury",
+  "attack": 960,
+  "baseAttack": 200,
+  "element": "Dragon",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 8,
+  "type": "greatsword",
+  "range": "melee"
+}

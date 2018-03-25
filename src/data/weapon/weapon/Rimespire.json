@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Rimespire ",
+  "attack": 210,
+  "baseAttack": 150,
+  "element": "Ice",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield",
+  "range": "melee"
+}

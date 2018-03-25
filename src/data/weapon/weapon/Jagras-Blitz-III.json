@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Jagras Blitz III",
+  "attack": 195,
+  "baseAttack": 150,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

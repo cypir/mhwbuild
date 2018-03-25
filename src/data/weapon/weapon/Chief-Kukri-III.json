@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Chief Kukri III",
+  "attack": 224,
+  "baseAttack": 160,
+  "element": "Paralysis",
+  "elementDamage": 180,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "swordandshield",
+  "range": "melee"
+}

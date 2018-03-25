@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Hazak Ereipia",
+  "attack": 247,
+  "baseAttack": 190,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    2,
+    0,
+    0
+  ],
+  "rarity": 7,
+  "type": "lightbowgun",
+  "range": "ranged"
+}

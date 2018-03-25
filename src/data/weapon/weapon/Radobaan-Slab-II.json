@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Radobaan Slab II",
+  "attack": 816,
+  "baseAttack": 170,
+  "element": "Sleep",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "greatsword",
+  "range": "melee"
+}

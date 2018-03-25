@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Red Rook",
+  "attack": 345,
+  "baseAttack": 150,
+  "element": "Fire",
+  "elementDamage": 180,
+  "affinity": 20,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "gunlance",
+  "range": "melee"
+}

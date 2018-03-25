@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Kulu Arrow I",
+  "attack": 120,
+  "baseAttack": 100,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 15,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 2,
+  "type": "bow",
+  "range": "ranged"
+}

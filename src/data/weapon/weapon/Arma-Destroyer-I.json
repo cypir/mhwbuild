@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Arma Destroyer I",
+  "attack": 225,
+  "baseAttack": 150,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "heavybowgun",
+  "range": "ranged"
+}

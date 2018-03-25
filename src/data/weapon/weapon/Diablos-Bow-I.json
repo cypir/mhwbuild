@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Diablos Bow I",
+  "attack": 192,
+  "baseAttack": 160,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 30,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "bow",
+  "range": "ranged"
+}

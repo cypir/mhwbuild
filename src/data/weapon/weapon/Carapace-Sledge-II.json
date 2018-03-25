@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Carapace Sledge II",
+  "attack": 728,
+  "baseAttack": 140,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 10,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "hammer",
+  "range": "melee"
+}

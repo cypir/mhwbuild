@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Thunder Edge I",
+  "attack": 182,
+  "baseAttack": 130,
+  "element": "Thunder",
+  "elementDamage": 90,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 3,
+  "type": "swordandshield",
+  "range": "melee"
+}

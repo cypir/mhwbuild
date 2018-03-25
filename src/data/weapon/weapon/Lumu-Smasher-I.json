@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Lumu Smasher I",
+  "attack": 525,
+  "baseAttack": 150,
+  "element": "Blast",
+  "elementDamage": 360,
+  "affinity": 20,
+  "hidden": true,
+  "slots": [
+    1,
+    0,
+    0
+  ],
+  "rarity": 5,
+  "type": "switchaxe",
+  "range": "melee"
+}

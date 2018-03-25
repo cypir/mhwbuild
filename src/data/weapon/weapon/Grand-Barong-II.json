@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Grand Barong II",
+  "attack": 266,
+  "baseAttack": 190,
+  "element": "Paralysis",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield",
+  "range": "melee"
+}

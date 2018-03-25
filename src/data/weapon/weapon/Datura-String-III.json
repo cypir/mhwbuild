@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Datura String III",
+  "attack": 204,
+  "baseAttack": 170,
+  "element": "Blast",
+  "elementDamage": 240,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    1,
+    0
+  ],
+  "rarity": 6,
+  "type": "bow",
+  "range": "ranged"
+}

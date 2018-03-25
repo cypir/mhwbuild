@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Galebender",
+  "attack": 252,
+  "baseAttack": 210,
+  "element": "Ice",
+  "elementDamage": 120,
+  "affinity": 30,
+  "hidden": true,
+  "slots": [
+    1,
+    1,
+    0
+  ],
+  "rarity": 7,
+  "type": "bow",
+  "range": "ranged"
+}

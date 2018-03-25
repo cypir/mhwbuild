@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Dazzling Flash II",
+  "attack": 561,
+  "baseAttack": 170,
+  "element": "Thunder",
+  "elementDamage": 300,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    3,
+    0,
+    0
+  ],
+  "rarity": 6,
+  "type": "longsword",
+  "range": "melee"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Hard Bone Shotel II",
+  "attack": 495,
+  "baseAttack": 150,
+  "element": null,
+  "elementDamage": 0,
+  "affinity": 0,
+  "hidden": false,
+  "slots": [
+    0,
+    0,
+    0
+  ],
+  "rarity": 4,
+  "type": "longsword",
+  "range": "melee"
+}

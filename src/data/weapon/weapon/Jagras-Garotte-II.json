@@ -1,0 +1,18 @@
+{
+  "parent": "",
+  "name": "Jagras Garotte II",
+  "attack": 252,
+  "baseAttack": 180,
+  "element": "Water",
+  "elementDamage": 330,
+  "affinity": 0,
+  "hidden": true,
+  "slots": [
+    2,
+    2,
+    0
+  ],
+  "rarity": 6,
+  "type": "swordandshield",
+  "range": "melee"
+}
