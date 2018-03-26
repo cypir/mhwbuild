@@ -12,8 +12,6 @@ import { observer } from "mobx-react";
 const SetSkillTotalsList = ({ set }) => {
   let totals = {};
 
-  console.log(set);
-
   _.values(set.pieces).forEach(piece => {
     //skip any pieces without skills
     if (!piece) {

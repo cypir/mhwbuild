@@ -29,9 +29,6 @@ class CustomEquipmentSetStore {
   };
 
   setAll(set) {
-    console.log(this.bonuses);
-    console.log(set.bonuses);
-
     if (!set.bonuses) {
       this.bonuses = calculate.setBonus(this.completeSet);
     } else {
@@ -50,12 +47,6 @@ class CustomEquipmentSetStore {
     } else {
       this.decorations = set.decorations;
     }
-
-    console.log(this.bonuses);
-
-    //initialize if incoming set doesn't have proper structure
-
-    console.log(this.bonuses);
   }
 
   get completeSet() {
@@ -84,15 +75,12 @@ class CustomEquipmentSetStore {
 
     //calculate new decoration slot per piece
     this.decorations = calculate.singlePartDecoration(this.completeSet, piece);
-    //console.log(this.pieces);
   }
 
   removePiece(piece) {
     //instead of delete, make a clone of the object without that key
     this.pieces[piece] = undefined;
     this.decorations[piece] = undefined;
-
-    console.log(this.completeSet);
 
     //TODO make calculation part of a computed function
     this.bonuses = calculate.setBonus(this.completeSet);

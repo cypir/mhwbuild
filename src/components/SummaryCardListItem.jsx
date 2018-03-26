@@ -33,6 +33,45 @@ class SummaryCardListItem extends Component {
     };
   }
 
+  /**
+   * index = which description we are looking at currently
+   * skill = our skill object, with current level
+   * skillLevelDesc = description in text form
+   */
+  displayDescription = (index, skill, skillLevelDesc) => {
+    //get max for skill
+    const maxLevel = possibleSkills[skill.name].levels.length;
+    console.log(skill.level);
+    console.log(maxLevel);
+    console.log(index);
+
+    //if we have allocated over the max level for skill and we are currently on the max description,
+    //bold that one
+    if (skill.level > maxLevel && index === maxLevel - 1) {
+      return (
+        <div
+          style={{
+            fontWeight: "bold"
+          }}
+        >
+          {skillLevelDesc}
+        </div>
+      );
+    }
+
+    //otherwise bold when it matches what we are reading
+    return (
+      <div
+        style={{
+          fontWeight: index === skill.level - 1 ? "bold" : "normal",
+          color: index === skill.level - 1 ? "black" : "#0000008a"
+        }}
+      >
+        {skillLevelDesc}
+      </div>
+    );
+  };
+
   render() {
     const { skill } = this.props;
     return (
@@ -54,25 +93,18 @@ class SummaryCardListItem extends Component {
               //calculate if is achieved
               return (
                 <ListItem
-                  key={skill.name}
+                  key={`skill.name_${index}`}
                   style={{
                     paddingTop: 0,
                     paddingBottom: 0
                   }}
                 >
                   <ListItemText
-                    primary={
-                      <div
-                        style={{
-                          fontWeight:
-                            index === skill.level - 1 ? "bold" : "normal",
-                          color:
-                            index === skill.level - 1 ? "black" : "#0000008a"
-                        }}
-                      >
-                        {skillLevelDesc}
-                      </div>
-                    }
+                    primary={this.displayDescription(
+                      index,
+                      skill,
+                      skillLevelDesc
+                    )}
                   />
                 </ListItem>
               );

@@ -35,8 +35,6 @@ class SkillTotalsList extends Component {
       }
     }
 
-    console.log(skillSums);
-
     let skillSumsArray = Object.keys(skillSums).map(function(skill) {
       return { name: skill, level: skillSums[skill] };
     });
