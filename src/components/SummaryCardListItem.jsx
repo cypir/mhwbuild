@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { ListItem, ListItemText } from "material-ui/List";
+import List, { ListItem, ListItemText } from "material-ui/List";
 import possibleSkills from "../data/skill";
+import Collapse from "material-ui/transitions/Collapse";
+
+import ExpandLess from "material-ui-icons/ExpandLess";
+import ExpandMore from "material-ui-icons/ExpandMore";
 
 const displaySkillTotal = skill => {
   let range = skill.level - possibleSkills[skill.name].levels.length;
@@ -21,13 +25,59 @@ const displaySkillTotal = skill => {
 };
 
 class SummaryCardListItem extends Component {
+  constructor() {
+    super();
+    this.state = {
+      open: false
+    };
+  }
+
   render() {
     const { skill } = this.props;
+    console.log(skill);
     return (
       <div>
-        <ListItem style={{ padding: "4px" }}>
+        <ListItem
+          style={{ padding: "4px" }}
+          button
+          onClick={() => {
+            //toggle the state
+            this.setState({ open: !this.state.open });
+          }}
+        >
           <ListItemText primary={displaySkillTotal(skill)} />
+          {this.state.open ? <ExpandLess /> : <ExpandMore />}
         </ListItem>
+        <Collapse in={this.state.open} timeout="auto" unmountOnExit>
+          <List>
+            {possibleSkills[skill.name].levels.map((skillLevelDesc, index) => {
+              //calculate if is achieved
+              return (
+                <ListItem
+                  style={{
+                    paddingTop: 0,
+                    paddingBottom: 0
+                  }}
+                >
+                  <ListItemText
+                    primary={
+                      <div
+                        style={{
+                          fontWeight:
+                            index === skill.level - 1 ? "bold" : "normal",
+                          color:
+                            index === skill.level - 1 ? "black" : "#0000008a"
+                        }}
+                      >
+                        {skillLevelDesc}
+                      </div>
+                    }
+                  />
+                </ListItem>
+              );
+            })}
+          </List>
+        </Collapse>
       </div>
     );
   }
