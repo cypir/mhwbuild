@@ -51,7 +51,6 @@ const getIcon = (part, weapon) => {
  */
 const DecorationPartList = ({ set }) => {
   //let { set } = props;
-  console.log(set);
   //we calculate the decoration information based on slots. This is the template
   //that we create the form with. We use set.decorations as the placeholder for
   //our actual decoration input

@@ -23,8 +23,6 @@ class DecorationPartListItem extends Component {
   getSlotDisplay = (piece, decorations) => {
     let sum = 0;
 
-    console.log(piece);
-
     //total number possible slots
     let total = 0;
     if (!piece || !decorations[piece.part]) {

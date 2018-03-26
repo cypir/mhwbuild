@@ -109,7 +109,6 @@ class Create extends Component {
 
   render() {
     const { classes, customEquipmentSetStore } = this.props;
-    console.log(customEquipmentSetStore);
     return (
       <div style={{ marginBottom: 24 }}>
         <div className={classes.buttonContainer}>

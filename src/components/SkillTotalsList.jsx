@@ -9,7 +9,8 @@ import { observer } from "mobx-react";
  */
 class SkillTotalsList extends Component {
   render() {
-    const { decoParts } = this.props;
+    const { decorations } = this.props;
+    let decoParts = decorations;
 
     let skillSums = {};
 

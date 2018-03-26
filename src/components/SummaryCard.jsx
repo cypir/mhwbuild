@@ -83,7 +83,6 @@ class SummaryCard extends Component {
             </Typography>
             <List>
               {totalsArray.map(skill => {
-                console.log(skill.name);
                 return (
                   <ListItem key={skill.name} style={{ padding: "4px" }}>
                     <ListItemText primary={displaySkillTotal(skill)} />
