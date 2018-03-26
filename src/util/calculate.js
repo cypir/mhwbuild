@@ -331,7 +331,7 @@ export default {
         decorations[part] = [];
 
         //iterate through the slots
-        if (piece.slots) {
+        if (piece && piece.slots) {
           piece.slots.forEach(slotLevel => {
             //if we have a value, add slot info
             if (slotLevel > 0) {

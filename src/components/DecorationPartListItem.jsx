@@ -108,12 +108,14 @@ class DecorationPartListItem extends Component {
                     <ListItemText
                       primary={
                         decorations[piece.part] &&
+                        decorations[piece.part][index] &&
                         decorations[piece.part][index].name !== ""
                           ? decorations[piece.part][index].name
                           : "Empty Slot"
                       }
                       secondary={
                         decorations[piece.part] &&
+                        decorations[piece.part][index] &&
                         decorations[piece.part][index].name !== ""
                           ? decorations[piece.part][index].skill
                           : ""

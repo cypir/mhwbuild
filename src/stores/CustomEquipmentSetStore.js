@@ -38,7 +38,18 @@ class CustomEquipmentSetStore {
     if (!set.pieces) {
       this.pieces = {};
     } else {
-      this.pieces = Object.assign(this.pieces, set.pieces);
+      this.pieces = Object.assign(
+        {
+          weapon: undefined,
+          head: undefined,
+          chest: undefined,
+          arm: undefined,
+          waist: undefined,
+          leg: undefined,
+          charm: undefined
+        },
+        set.pieces
+      );
     }
 
     //initialize decorations if none
