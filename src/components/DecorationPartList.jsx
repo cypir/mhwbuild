@@ -11,9 +11,6 @@ import DecorationPartListItem from "./DecorationPartListItem";
 import weaponmeta from "../util/weaponmeta";
 import greatswordIcon from "../icons/1/weapons/greatsword.png";
 
-import ExpandLess from "material-ui-icons/ExpandLess";
-import ExpandMore from "material-ui-icons/ExpandMore";
-
 const getIcon = (part, weapon) => {
   let imageSrc = "";
   switch (part) {
