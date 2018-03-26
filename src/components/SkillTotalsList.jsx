@@ -18,13 +18,15 @@ class SkillTotalsList extends Component {
       if (decoParts.hasOwnProperty(part)) {
         let skills = decoParts[part];
 
+        //console.log(skills);
+
         skills.forEach(skill => {
           //if no name, then empty
           if (!skill.name || skill.name === "") {
             return;
           }
 
-          if (!skillSums[skill.name]) {
+          if (!skillSums[skill.skill]) {
             skillSums[skill.skill] = 0;
           }
 
