@@ -33,9 +33,10 @@ class DecorationPartListItem extends Component {
     }
 
     //if we have at least one slot available, we display the marker
-    for (let index in piece.slots) {
+    for (let index = 0; index < piece.slots.length; index++) {
       if (piece.slots[index] > 0) {
         display = true;
+        break;
       }
     }
 
