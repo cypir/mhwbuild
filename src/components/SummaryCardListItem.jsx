@@ -41,9 +41,6 @@ class SummaryCardListItem extends Component {
   displayDescription = (index, skill, skillLevelDesc) => {
     //get max for skill
     const maxLevel = possibleSkills[skill.name].levels.length;
-    console.log(skill.level);
-    console.log(maxLevel);
-    console.log(index);
 
     //if we have allocated over the max level for skill and we are currently on the max description,
     //bold that one
