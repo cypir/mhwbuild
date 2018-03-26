@@ -7,6 +7,9 @@ import possibleDecorations from "../data/decoration.json";
 import Typography from "material-ui/Typography";
 import List from "material-ui/List";
 
+import ExpandLess from "material-ui-icons/ExpandLess";
+import ExpandMore from "material-ui-icons/ExpandMore";
+
 /**
  * Create the form for listing out the decorations. Iterate through slots and create the form.
  */
@@ -19,6 +22,14 @@ class DecorationPartListItem extends Component {
       selectedIndex: -1
     };
   }
+
+  getExpandMarker = (piece, decorations) => {
+    if (!piece || !decorations[piece.part]) {
+      return null;
+    }
+
+    return this.state.open ? <ExpandLess /> : <ExpandMore />;
+  };
 
   getSlotDisplay = (piece, decorations) => {
     let sum = 0;
@@ -60,6 +71,7 @@ class DecorationPartListItem extends Component {
             <img alt="part" src={icon} />
           </ListItemIcon>
           <ListItemText primary={this.getSlotDisplay(piece, decorations)} />
+          {this.getExpandMarker(piece, decorations)}
         </ListItem>
         {piece ? (
           <Collapse in={this.state.open} timeout="auto" unmountOnExit>
