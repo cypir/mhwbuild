@@ -1,5 +1,9 @@
 module.exports = `# Changelog
 
+## Version 0.3.1
+* Added UI elements to indicate when an expander may be expanded/collapsed.
+* Skill descriptions are displayed in the summary section.
+
 ## Version 0.3.0
 * ***New Feature*** Build creator now allows selecting a weapon so you can further customize your build.
 
