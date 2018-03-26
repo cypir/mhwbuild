@@ -5,24 +5,8 @@ import Card, { CardContent } from "material-ui/Card";
 import Typography from "material-ui/Typography";
 import _ from "lodash";
 import { observer } from "mobx-react";
-import possibleSkills from "../data/skill";
-
-const displaySkillTotal = skill => {
-  let range = skill.level - possibleSkills[skill.name].levels.length;
-  let style = {};
-  if (range === 0) {
-    style = { color: "#43A047" };
-  } else if (range > 0) {
-    style = { color: "#E53935" };
-  } else {
-    style = { color: "black" };
-  }
-  return (
-    <div style={style}>{`${skill.name} ${skill.level}/${
-      possibleSkills[skill.name].levels.length
-    }`}</div>
-  );
-};
+import Collapse from "material-ui/transitions/Collapse";
+import SummaryCardListItem from "./SummaryCardListItem";
 
 class SummaryCard extends Component {
   render() {
@@ -84,9 +68,11 @@ class SummaryCard extends Component {
             <List>
               {totalsArray.map(skill => {
                 return (
-                  <ListItem key={skill.name} style={{ padding: "4px" }}>
-                    <ListItemText primary={displaySkillTotal(skill)} />
-                  </ListItem>
+                  <SummaryCardListItem
+                    key={skill.name}
+                    skill={skill}
+                    style={{ padding: "4px" }}
+                  />
                 );
               })}
             </List>

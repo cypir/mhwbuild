@@ -24,7 +24,20 @@ class DecorationPartListItem extends Component {
   }
 
   getExpandMarker = (piece, decorations) => {
+    let display = false;
+
     if (!piece || !decorations[piece.part]) {
+      return null;
+    }
+
+    //if we have at least one slot available, we display the marker
+    for (let index in piece.slots) {
+      if (piece.slots[index] > 0) {
+        display = true;
+      }
+    }
+
+    if (display === false) {
       return null;
     }
 
