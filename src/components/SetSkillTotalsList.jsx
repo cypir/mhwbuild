@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import List, { ListItem, ListItemText } from "material-ui/List";
 import Typography from "material-ui/Typography";
 import _ from "lodash";
+import { observer } from "mobx-react";
 
 /**
  * TODO Break down into generic skill totals list and a separate set bonus component
@@ -11,8 +12,14 @@ import _ from "lodash";
 const SetSkillTotalsList = ({ set }) => {
   let totals = {};
 
+  console.log(set);
+
   _.values(set.pieces).forEach(piece => {
     //skip any pieces without skills
+    if (!piece) {
+      return;
+    }
+
     if (!piece.skills) {
       return;
     }
@@ -58,4 +65,4 @@ SetSkillTotalsList.propTypes = {
   set: PropTypes.object
 };
 
-export default SetSkillTotalsList;
+export default observer(SetSkillTotalsList);

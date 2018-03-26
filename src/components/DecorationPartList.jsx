@@ -10,6 +10,7 @@ import legIcon from "../icons/1/leg.png";
 import DecorationPartListItem from "./DecorationPartListItem";
 import weaponmeta from "../util/weaponmeta";
 import greatswordIcon from "../icons/1/weapons/greatsword.png";
+import { observer } from "mobx-react";
 
 const getIcon = (part, weapon) => {
   let imageSrc = "";
@@ -81,4 +82,4 @@ DecorationPartList.propTypes = {
   handlePartClick: PropTypes.func
 };
 
-export default DecorationPartList;
+export default observer(DecorationPartList);

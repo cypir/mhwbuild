@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import List, { ListItem, ListItemText } from "material-ui/List";
 import _ from "lodash";
+import { observer } from "mobx-react";
 
 //breakdown by total number of slots and by sum of each level of slot
 //data is stored like [3,2,2] meaning 1 level 3 slot and 2 level 2 slots
@@ -15,7 +16,9 @@ const SetSlotList = ({ set }) => {
       //index is slot, value is level
       //index is level, value is amount
       //possible that slot doesn't exist (charm)
-      if (set.pieces[piece].slots) {
+      if (!set.pieces[piece]) {
+        //break; //means the piece is undefined
+      } else if (set.pieces[piece].slots) {
         set.pieces[piece].slots.forEach(slot => {
           //slot is a gem slot that contains a variable level
           switch (slot) {
@@ -59,4 +62,4 @@ SetSlotList.propTypes = {
   set: PropTypes.object
 };
 
-export default SetSlotList;
+export default observer(SetSlotList);

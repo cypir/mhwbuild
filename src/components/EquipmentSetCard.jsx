@@ -7,6 +7,7 @@ import SetSlotList from "../components/SetSlotList";
 import EquipmentPartList from "../components/EquipmentPartList";
 import SetSkillTotalsList from "../components/SetSkillTotalsList";
 import WeaponListItem from "./WeaponListItem";
+import { observer } from "mobx-react";
 
 const styles = theme => ({
   flexContainer: {
@@ -95,4 +96,4 @@ const EquipmentSetCard = ({
   );
 };
 
-export default withStyles(styles)(EquipmentSetCard);
+export default withStyles(styles)(observer(EquipmentSetCard));

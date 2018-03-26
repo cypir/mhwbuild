@@ -17,7 +17,7 @@ class SummaryCard extends Component {
 
     _.values(set.pieces).forEach(piece => {
       //if equipment piece does not have any skills (weapons), then do nothing
-      if (!piece.skills) {
+      if (!piece || !piece.skills) {
         return;
       }
 
@@ -36,6 +36,11 @@ class SummaryCard extends Component {
     for (let part in decoParts) {
       if (decoParts.hasOwnProperty(part)) {
         let skills = decoParts[part];
+
+        //may not have this piece selected, so undefined
+        if (!skills) {
+          continue;
+        }
 
         skills.forEach(skill => {
           //if no name, then empty

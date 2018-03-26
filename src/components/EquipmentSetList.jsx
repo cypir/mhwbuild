@@ -4,6 +4,7 @@ import EquipmentSetCard from "./EquipmentSetCard";
 import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
 import { withRouter } from "react-router-dom";
+import { observer } from "mobx-react";
 
 const styles = theme => ({
   showMoreContainer: {
@@ -83,4 +84,4 @@ class EquipmentSetList extends Component {
 
 EquipmentSetList.propTypes = {};
 
-export default withRouter(withStyles(styles)(EquipmentSetList));
+export default withRouter(withStyles(styles)(observer(EquipmentSetList)));

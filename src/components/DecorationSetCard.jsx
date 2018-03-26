@@ -41,7 +41,7 @@ const DecorationSetCard = ({ set, title, classes }) => {
               <Typography variant="subheading">
                 <strong>Decoration Skill Totals</strong>
               </Typography>
-              <SkillTotalsList decorations={set.decorations} />
+              <SkillTotalsList set={set} />
             </Grid>
           </Grid>
         </CardContent>

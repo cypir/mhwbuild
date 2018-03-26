@@ -9,6 +9,7 @@ import waistIcon from "../icons/1/waist.png";
 import legIcon from "../icons/1/leg.png";
 import charmIcon from "../icons/1/charm.png";
 import skillformat from "../util/skillformat";
+import { observer } from "mobx-react";
 
 /**
  * Display the equipment part (arms, chest, etc). If the set does not contain it, display the icon and
@@ -78,4 +79,4 @@ EquipmentPartList.propTypes = {
   handlePartClick: PropTypes.func
 };
 
-export default EquipmentPartList;
+export default observer(EquipmentPartList);

@@ -9,28 +9,53 @@ class CustomEquipmentSetStore {
   bonuses = {
     immediate: []
   };
-
-  pieces = {};
-  decorations = {};
+  pieces = {
+    weapon: undefined,
+    head: undefined,
+    chest: undefined,
+    arm: undefined,
+    waist: undefined,
+    leg: undefined,
+    charm: undefined
+  };
+  decorations = {
+    weapon: undefined,
+    head: undefined,
+    chest: undefined,
+    arm: undefined,
+    waist: undefined,
+    leg: undefined,
+    charm: undefined
+  };
 
   setAll(set) {
-    this.bonuses = set.bonuses;
-    this.pieces = set.pieces;
-    this.decorations = set.decorations;
+    console.log(this.bonuses);
+    console.log(set.bonuses);
 
-    //initialize if incoming set doesn't have proper structure
     if (!set.bonuses) {
       this.bonuses = calculate.setBonus(this.completeSet);
+    } else {
+      this.bonuses = set.bonuses;
     }
 
     if (!set.pieces) {
       this.pieces = {};
+    } else {
+      this.pieces = Object.assign(this.pieces, set.pieces);
     }
 
     //initialize decorations if none
     if (!set.decorations) {
       this.decorations = calculate.decorations(this.completeSet);
+    } else {
+      this.decorations = set.decorations;
     }
+
+    console.log(this.bonuses);
+
+    //initialize if incoming set doesn't have proper structure
+
+    console.log(this.bonuses);
   }
 
   get completeSet() {
@@ -59,10 +84,15 @@ class CustomEquipmentSetStore {
 
     //calculate new decoration slot per piece
     this.decorations = calculate.singlePartDecoration(this.completeSet, piece);
+    //console.log(this.pieces);
   }
 
   removePiece(piece) {
-    delete this.pieces[piece];
+    //instead of delete, make a clone of the object without that key
+    this.pieces[piece] = undefined;
+    this.decorations[piece] = undefined;
+
+    console.log(this.completeSet);
 
     //TODO make calculation part of a computed function
     this.bonuses = calculate.setBonus(this.completeSet);

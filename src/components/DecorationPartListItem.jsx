@@ -10,6 +10,8 @@ import List from "material-ui/List";
 import ExpandLess from "material-ui-icons/ExpandLess";
 import ExpandMore from "material-ui-icons/ExpandMore";
 
+import { observer } from "mobx-react";
+
 /**
  * Create the form for listing out the decorations. Iterate through slots and create the form.
  */
@@ -157,4 +159,4 @@ DecorationPartListItem.propTypes = {
   icon: PropTypes.string
 };
 
-export default DecorationPartListItem;
+export default observer(DecorationPartListItem);

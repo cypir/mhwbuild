@@ -9,31 +9,33 @@ import { observer } from "mobx-react";
  */
 class SkillTotalsList extends Component {
   render() {
-    const { decorations } = this.props;
-    let decoParts = decorations;
+    const { set } = this.props;
 
     let skillSums = {};
 
-    for (let part in decoParts) {
-      if (decoParts.hasOwnProperty(part)) {
-        let skills = decoParts[part];
+    for (let part in set.decorations) {
+      if (set.decorations.hasOwnProperty(part)) {
+        let skills = set.decorations[part];
 
-        //console.log(skills);
+        //could be undefined if no gear selected
+        if (skills) {
+          skills.forEach(skill => {
+            //if no name, then empty
+            if (!skill.name || skill.name === "") {
+              return;
+            }
 
-        skills.forEach(skill => {
-          //if no name, then empty
-          if (!skill.name || skill.name === "") {
-            return;
-          }
+            if (!skillSums[skill.skill]) {
+              skillSums[skill.skill] = 0;
+            }
 
-          if (!skillSums[skill.skill]) {
-            skillSums[skill.skill] = 0;
-          }
-
-          skillSums[skill.skill]++;
-        });
+            skillSums[skill.skill]++;
+          });
+        }
       }
     }
+
+    console.log(skillSums);
 
     let skillSumsArray = Object.keys(skillSums).map(function(skill) {
       return { name: skill, level: skillSums[skill] };

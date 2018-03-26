@@ -15,6 +15,7 @@ import SummaryCard from "../components/SummaryCard";
 import qs from "qs";
 
 import { withRouter } from "react-router-dom";
+import { observer } from "mobx-react";
 
 const styles = theme => ({
   buttonContainer: {
@@ -162,4 +163,4 @@ class Create extends Component {
 
 Create.propTypes = {};
 
-export default withRouter(withStyles(styles)(Create));
+export default withRouter(withStyles(styles)(observer(Create)));

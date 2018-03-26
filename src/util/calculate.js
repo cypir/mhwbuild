@@ -271,10 +271,13 @@ export default {
 
     //count the set bonus numbers
     _.values(set.pieces).forEach(piece => {
-      if (!setBonusCount[piece.set]) {
-        setBonusCount[piece.set] = 0;
+      if (piece) {
+        //piece may be undefined (if deleted)
+        if (!setBonusCount[piece.set]) {
+          setBonusCount[piece.set] = 0;
+        }
+        setBonusCount[piece.set]++;
       }
-      setBonusCount[piece.set]++;
     });
 
     for (let setBonus in setBonuses) {
