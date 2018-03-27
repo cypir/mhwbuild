@@ -1,5 +1,8 @@
 module.exports = `# Changelog
 
+## Version 0.3.2
+* Updated equipment data to include the _Guild Cross Alpha and Beta Sets_ and _Deviljho Alpha and Beta Sets_
+
 ## Version 0.3.1
 * Added UI elements to indicate when an expander may be expanded/collapsed.
 * Skill descriptions are displayed in the summary section.
