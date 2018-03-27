@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import List, { ListItem, ListItemText } from "material-ui/List";
+import List from "material-ui/List";
 import Card, { CardContent } from "material-ui/Card";
 import Typography from "material-ui/Typography";
 import _ from "lodash";
 import { observer } from "mobx-react";
-import Collapse from "material-ui/transitions/Collapse";
 import SummaryCardListItem from "./SummaryCardListItem";
 
 class SummaryCard extends Component {

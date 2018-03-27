@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import List, { ListItem, ListItemText } from "material-ui/List";
 import possibleSkills from "../data/skill";
 import Collapse from "material-ui/transitions/Collapse";
-import { observer } from "mobx-react";
 
 import ExpandLess from "material-ui-icons/ExpandLess";
 import ExpandMore from "material-ui-icons/ExpandMore";

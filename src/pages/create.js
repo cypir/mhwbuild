@@ -4,7 +4,6 @@ import DecorationSetCard from "../components/DecorationSetCard";
 import PickerDialog from "../components/PickerDialog";
 import Button from "material-ui/Button";
 import { withStyles } from "material-ui/styles";
-import calculate from "../util/calculate";
 import equipment from "../data/equipment.json";
 import ShareDialog from "../components/ShareDialog";
 
