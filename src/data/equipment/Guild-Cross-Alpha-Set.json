@@ -5,11 +5,15 @@
       "part": "head",
       "skills": [
         {
-          "name": "Free Elem/Ammo Up",
-          "level": 1
+          "name": "Divine Blessing",
+          "level": 2
+        },
+        {
+          "name": "Thunder Resistance",
+          "level": 2
         }
       ],
-      "name": "Dober Helm Beta",
+      "name": "Guild Cross Circlet Alpha",
       "slots": [
         1,
         0,
@@ -20,13 +24,17 @@
       "part": "chest",
       "skills": [
         {
-          "name": "Attack Boost",
+          "name": "Resuscitate",
+          "level": 1
+        },
+        {
+          "name": "Ice Resistance",
           "level": 2
         }
       ],
-      "name": "Dober Mail Beta",
+      "name": "Guild Cross Suit Alpha",
       "slots": [
-        3,
+        1,
         0,
         0
       ]
@@ -35,18 +43,18 @@
       "part": "arm",
       "skills": [
         {
-          "name": "Stamina Surge",
+          "name": "Tool Specialist",
           "level": 1
         },
         {
-          "name": "Mushroomancer",
-          "level": 1
+          "name": "Water Resistance",
+          "level": 2
         }
       ],
-      "name": "Dober Vambraces Beta",
+      "name": "Guild Cross Vambraces Alpha",
       "slots": [
         1,
-        1,
+        0,
         0
       ]
     },
@@ -54,13 +62,17 @@
       "part": "waist",
       "skills": [
         {
+          "name": "Fortify",
+          "level": 1
+        },
+        {
           "name": "Dragon Resistance",
           "level": 2
         }
       ],
-      "name": "Dober Coil Beta",
+      "name": "Guild Cross Coil Alpha",
       "slots": [
-        3,
+        1,
         0,
         0
       ]
@@ -69,11 +81,15 @@
       "part": "leg",
       "skills": [
         {
-          "name": "Attack Boost",
+          "name": "Airborne",
+          "level": 1
+        },
+        {
+          "name": "Fire Resistance",
           "level": 2
         }
       ],
-      "name": "Dober Greaves Beta",
+      "name": "Guild Cross Boots Alpha",
       "slots": [
         1,
         0,
@@ -81,6 +97,6 @@
       ]
     }
   ],
-  "set": "Dober Beta Set",
-  "rarity": 7
+  "set": "Guild Cross Alpha Set",
+  "rarity": 8
 }

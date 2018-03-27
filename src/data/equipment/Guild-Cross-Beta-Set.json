@@ -5,33 +5,29 @@
       "part": "head",
       "skills": [
         {
-          "name": "Fire Attack",
-          "level": 1
-        },
-        {
-          "name": "Quick Sheath",
-          "level": 1
+          "name": "Divine Blessing",
+          "level": 2
         }
       ],
-      "name": "Lavasioth Helm Beta",
+      "name": "Guild Cross Circlet Beta",
       "slots": [
         1,
         1,
-        0
+        1
       ]
     },
     {
       "part": "chest",
       "skills": [
         {
-          "name": "Fire Attack",
-          "level": 2
+          "name": "Resuscitate",
+          "level": 1
         }
       ],
-      "name": "Lavasioth Mail Beta",
+      "name": "Guild Cross Suit Beta",
       "slots": [
-        1,
-        1,
+        3,
+        0,
         0
       ]
     },
@@ -39,11 +35,11 @@
       "part": "arm",
       "skills": [
         {
-          "name": "Affinity Sliding",
+          "name": "Tool Specialist",
           "level": 1
         }
       ],
-      "name": "Lavasioth Vambraces Beta",
+      "name": "Guild Cross Vambraces Beta",
       "slots": [
         3,
         0,
@@ -54,33 +50,33 @@
       "part": "waist",
       "skills": [
         {
-          "name": "Quick Sheath",
-          "level": 2
+          "name": "Fortify",
+          "level": 1
         }
       ],
-      "name": "Lavasioth Coil Beta",
+      "name": "Guild Cross Coil Beta",
       "slots": [
         1,
-        0,
-        0
+        1,
+        1
       ]
     },
     {
       "part": "leg",
       "skills": [
         {
-          "name": "Spread/Power Shots",
+          "name": "Airborne",
           "level": 1
         }
       ],
-      "name": "Lavasioth Greaves Beta",
+      "name": "Guild Cross Boots Beta",
       "slots": [
-        2,
+        3,
         0,
         0
       ]
     }
   ],
-  "set": "Lavasioth Beta Set",
-  "rarity": 6
+  "set": "Guild Cross Beta Set",
+  "rarity": 8
 }

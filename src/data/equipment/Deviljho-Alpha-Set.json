@@ -5,17 +5,17 @@
       "part": "head",
       "skills": [
         {
-          "name": "Fire Attack",
-          "level": 2
+          "name": "Partbreaker",
+          "level": 1
         },
         {
-          "name": "Quick Sheath",
+          "name": "Handicraft",
           "level": 1
         }
       ],
-      "name": "Lavasioth Helm Alpha",
+      "name": "Vangis Helm Alpha",
       "slots": [
-        0,
+        1,
         0,
         0
       ]
@@ -24,17 +24,17 @@
       "part": "chest",
       "skills": [
         {
-          "name": "Fire Attack",
-          "level": 2
+          "name": "Speed Eating",
+          "level": 1
         },
         {
-          "name": "Heat Guard",
+          "name": "Handicraft",
           "level": 1
         }
       ],
-      "name": "Lavasioth Mail Alpha",
+      "name": "Vangis Mail Alpha",
       "slots": [
-        0,
+        2,
         0,
         0
       ]
@@ -43,17 +43,17 @@
       "part": "arm",
       "skills": [
         {
-          "name": "Affinity Sliding",
-          "level": 1
+          "name": "Latent Power",
+          "level": 2
         },
         {
-          "name": "Wide-Range",
+          "name": "Partbreaker",
           "level": 1
         }
       ],
-      "name": "Lavasioth Vambraces Alpha",
+      "name": "Vangis Vambraces Alpha",
       "slots": [
-        2,
+        0,
         0,
         0
       ]
@@ -62,17 +62,17 @@
       "part": "waist",
       "skills": [
         {
-          "name": "Quick Sheath",
-          "level": 2
+          "name": "Latent Power",
+          "level": 1
         },
         {
-          "name": "Recovery Up",
+          "name": "Handicraft",
           "level": 1
         }
       ],
-      "name": "Lavasioth Coil Alpha",
+      "name": "Vangis Coil Alpha",
       "slots": [
-        0,
+        1,
         0,
         0
       ]
@@ -81,22 +81,22 @@
       "part": "leg",
       "skills": [
         {
-          "name": "Spread/Power Shots",
-          "level": 1
+          "name": "Speed Eating",
+          "level": 2
         },
         {
-          "name": "Fire Attack",
+          "name": "Partbreaker",
           "level": 1
         }
       ],
-      "name": "Lavasioth Greaves Alpha",
+      "name": "Vangis Greaves Alpha",
       "slots": [
-        1,
+        0,
         0,
         0
       ]
     }
   ],
-  "set": "Lavasioth Alpha Set",
-  "rarity": 6
+  "set": "Deviljho Alpha Set",
+  "rarity": 7
 }

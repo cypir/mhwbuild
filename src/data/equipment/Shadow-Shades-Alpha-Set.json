@@ -5,18 +5,18 @@
       "part": "head",
       "skills": [
         {
-          "name": "Affinity Sliding",
+          "name": "Stun Resistance",
           "level": 1
         }
       ],
-      "name": "Kestodon Guards Beta",
+      "name": "Shadow Shades Alpha",
       "slots": [
         1,
-        0,
-        0
+        1,
+        1
       ]
     }
   ],
-  "set": "Kestodon Beta Set",
+  "set": "Shadow Shades Alpha Set",
   "rarity": 5
 }
