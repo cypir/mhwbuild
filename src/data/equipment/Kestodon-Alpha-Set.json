@@ -2,7 +2,7 @@
   "rank": "hr",
   "pieces": [
     {
-      "part": "head",
+      "part": "arm",
       "skills": [
         {
           "name": "Affinity Sliding",
@@ -14,11 +14,7 @@
         }
       ],
       "name": "Kestodon Guards Alpha",
-      "slots": [
-        0,
-        0,
-        0
-      ]
+      "slots": [0, 0, 0]
     }
   ],
   "set": "Kestodon Alpha Set",

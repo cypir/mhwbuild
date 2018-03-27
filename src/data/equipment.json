@@ -2245,6 +2245,196 @@
     "part": "head",
     "skills": [
       {
+        "name": "Partbreaker",
+        "level": 1
+      },
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Vangis Helm Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Deviljho Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Speed Eating",
+        "level": 1
+      },
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Vangis Mail Alpha",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Deviljho Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 2
+      },
+      {
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "name": "Vangis Vambraces Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Deviljho Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 1
+      },
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Vangis Coil Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Deviljho Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Speed Eating",
+        "level": 2
+      },
+      {
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "name": "Vangis Greaves Alpha",
+    "slots": [
+      0,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Deviljho Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "name": "Vangis Helm Beta",
+    "slots": [
+      3,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Deviljho Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Speed Eating",
+        "level": 1
+      }
+    ],
+    "name": "Vangis Mail Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Deviljho Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 2
+      }
+    ],
+    "name": "Vangis Vambraces Beta",
+    "slots": [
+      2,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Deviljho Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 1
+      }
+    ],
+    "name": "Vangis Coil Beta",
+    "slots": [
+      3,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Deviljho Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Speed Eating",
+        "level": 2
+      }
+    ],
+    "name": "Vangis Greaves Beta",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Deviljho Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
         "name": "Critical Draw",
         "level": 2
       },
@@ -2745,7 +2935,7 @@
     ],
     "name": "Dober Mail Beta",
     "slots": [
-      2,
+      3,
       0,
       0
     ],
@@ -3276,6 +3466,196 @@
     ],
     "rank": "hr",
     "set": "Girros Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 2
+      },
+      {
+        "name": "Thunder Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Guild Cross Circlet Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Guild Cross Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Resuscitate",
+        "level": 1
+      },
+      {
+        "name": "Ice Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Guild Cross Suit Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Guild Cross Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "level": 1
+      },
+      {
+        "name": "Water Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Guild Cross Vambraces Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Guild Cross Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Fortify",
+        "level": 1
+      },
+      {
+        "name": "Dragon Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Guild Cross Coil Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Guild Cross Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Airborne",
+        "level": 1
+      },
+      {
+        "name": "Fire Resistance",
+        "level": 2
+      }
+    ],
+    "name": "Guild Cross Boots Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Guild Cross Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "name": "Guild Cross Circlet Beta",
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "rank": "hr",
+    "set": "Guild Cross Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Resuscitate",
+        "level": 1
+      }
+    ],
+    "name": "Guild Cross Suit Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Guild Cross Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "name": "Guild Cross Vambraces Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Guild Cross Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Fortify",
+        "level": 1
+      }
+    ],
+    "name": "Guild Cross Coil Beta",
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "rank": "hr",
+    "set": "Guild Cross Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Airborne",
+        "level": 1
+      }
+    ],
+    "name": "Guild Cross Boots Beta",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Guild Cross Beta Set"
   },
   {
     "part": "head",
@@ -7420,6 +7800,23 @@
     ],
     "rank": "hr",
     "set": "Sealed Eyepatch Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Shadow Shades Alpha",
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "rank": "hr",
+    "set": "Shadow Shades Alpha Set"
   },
   {
     "part": "head",
