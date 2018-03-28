@@ -165,7 +165,6 @@ class SkillsInputForm extends Component {
       if (isNaN(skill.level) || skill.level === "" || skill.level < 1) {
         skill.ui.levelError = "Skill level must be greater than 0";
         errorFound = true;
-        return;
       } else if (skill.level > calculate.maxSkillLevel(skill)) {
         skill.ui.levelError = `Max skill level is ${calculate.maxSkillLevel(
           skill
