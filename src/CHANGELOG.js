@@ -1,5 +1,8 @@
 module.exports = `# Changelog
 
+## Version 0.3.3
+* Added max skill level validation in planner.
+
 ## Version 0.3.2
 * Updated equipment data to include the _Guild Cross Alpha and Beta Sets_ and _Deviljho Alpha and Beta Sets_
 

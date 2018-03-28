@@ -3,6 +3,7 @@ import equipmentParts from "../data/equipment_part.json";
 import Combinatrics from "js-combinatorics";
 import _ from "lodash";
 import setBonuses from "../data/set_bonus.json";
+import possibleSkills from "../data/skill.json";
 
 export default {
   generateSets: (skillsWanted, includeCharms) => {
@@ -366,5 +367,9 @@ export default {
       ...set.decorations,
       [piece.part]: newDecos
     };
+  },
+
+  maxSkillLevel: skill => {
+    return possibleSkills[skill.name].levels.length;
   }
 };

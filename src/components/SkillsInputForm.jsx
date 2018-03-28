@@ -26,6 +26,7 @@ import Tooltip from "material-ui/Tooltip";
 
 import Radio, { RadioGroup } from "material-ui/Radio";
 import { FormControl } from "material-ui/Form";
+import calculate from "../util/calculate";
 
 const styles = theme => ({
   buttonContainer: {
@@ -155,14 +156,21 @@ class SkillsInputForm extends Component {
       //compare name
       if (!skills[skill.name]) {
         skill.ui.nameError = "Skill name must be valid";
-        return (errorFound = true);
+        errorFound = true;
+        return;
       } else {
         skill.ui.nameError = "";
       }
 
       if (isNaN(skill.level) || skill.level === "" || skill.level < 1) {
         skill.ui.levelError = "Skill level must be greater than 0";
-        return (errorFound = true);
+        errorFound = true;
+        return;
+      } else if (skill.level > calculate.maxSkillLevel(skill)) {
+        skill.ui.levelError = `Max skill level is ${calculate.maxSkillLevel(
+          skill
+        )}`;
+        errorFound = true;
       } else {
         skill.ui.levelError = "";
       }
