@@ -118,6 +118,8 @@ const AugmentList = ({ set, onClose, selectedWeapon }) => {
                 updatedWeapon.slots[leastIndex] += level;
 
                 set.setPiece(updatedWeapon);
+              } else {
+                set.setPiece(selectedWeapon);
               }
 
               onClose();
