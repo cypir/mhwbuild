@@ -113,9 +113,10 @@ const AugmentList = ({ set, onClose, selectedWeapon }) => {
                   }
                 });
 
-                //clone selected weapon
+                //clone selected weapon and add in appropriate props for UI
                 let updatedWeapon = _.merge({}, selectedWeapon);
                 updatedWeapon.slots[leastIndex] += level;
+                updatedWeapon.augmentLevel = level;
 
                 set.setPiece(updatedWeapon);
               } else {

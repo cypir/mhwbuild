@@ -9,11 +9,22 @@ import greatswordIcon from "../icons/1/weapons/greatsword.png";
 const SecondaryTextDisplay = weapon => {
   //get weapon info
 
-  return (
-    <div>
-      {weapon ? `Attack: ${weapon.attack} / Affinity: ${weapon.affinity}%` : ""}
-    </div>
-  );
+  if (weapon) {
+    //augment level is added in via the weapon picker dialog
+    if (!isNaN(weapon.augmentLevel)) {
+      return (
+        <div>
+          {`Attack: ${weapon.attack} / Affinity: ${
+            weapon.affinity
+          }% / Augment: ${weapon.augmentLevel}`}
+        </div>
+      );
+    }
+
+    return (
+      <div>{`Attack: ${weapon.attack} / Affinity: ${weapon.affinity}%`}</div>
+    );
+  }
 };
 
 /**
