@@ -10,6 +10,30 @@ import "typeface-roboto";
 import DevTools from "mobx-react-devtools";
 
 import CustomEquipmentSetStore from "./stores/CustomEquipmentSetStore";
+import { MuiThemeProvider, createMuiTheme } from "material-ui/styles";
+
+import blue from "material-ui/colors/blue";
+import indigo from "material-ui/colors/indigo";
+import pink from "material-ui/colors/pink";
+import { darken } from "material-ui/styles/colorManipulator";
+
+const theme = createMuiTheme({
+  palette: {
+    type: "dark",
+    primary: blue,
+    secondary: {
+      // Darken so we reach the AA contrast ratio level.
+      main: pink.A700
+    }
+  },
+  overrides: {
+    MuiAppBar: {
+      colorPrimary: {
+        backgroundColor: indigo["500"]
+      }
+    }
+  }
+});
 
 //css base config
 const styles = theme => ({
@@ -32,24 +56,26 @@ class App extends Component {
     const { classes } = this.props;
     return (
       <div>
-        <CssBaseline />
-        {process.env.NODE_ENV === "development" ? <DevTools /> : null}
-        <Route path="/" component={() => <MainAppBar />} />
-        <div className={classes.content}>
-          <Route exact path="/" component={() => <Index />} />
-          <Route
-            path="/plan"
-            component={() => (
-              <Plan customEquipmentSetStore={customEquipmentSetStore} />
-            )}
-          />
-          <Route
-            path="/create"
-            component={() => (
-              <Create customEquipmentSetStore={customEquipmentSetStore} />
-            )}
-          />
-        </div>
+        <MuiThemeProvider theme={theme}>
+          <CssBaseline />
+          {process.env.NODE_ENV === "development" ? <DevTools /> : null}
+          <Route path="/" component={() => <MainAppBar />} />
+          <div className={classes.content}>
+            <Route exact path="/" component={() => <Index />} />
+            <Route
+              path="/plan"
+              component={() => (
+                <Plan customEquipmentSetStore={customEquipmentSetStore} />
+              )}
+            />
+            <Route
+              path="/create"
+              component={() => (
+                <Create customEquipmentSetStore={customEquipmentSetStore} />
+              )}
+            />
+          </div>
+        </MuiThemeProvider>
       </div>
     );
   }

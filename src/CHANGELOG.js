@@ -1,5 +1,10 @@
 module.exports = `# Changelog
 
+## Version 0.4.1
+* Set theme to dark to spare your eyes.
+* Added a clear button to build creator so you no longer need to refresh page to clear.
+* Skills in summary are now sorted in alphabetical order.
+
 ## Version 0.4.0
 * Added augmentation to the build creator.
 

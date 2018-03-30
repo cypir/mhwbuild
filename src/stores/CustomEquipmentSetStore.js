@@ -28,6 +28,30 @@ class CustomEquipmentSetStore {
     charm: undefined
   };
 
+  initialize() {
+    this.bonuses = {
+      immediate: []
+    };
+    this.pieces = {
+      weapon: undefined,
+      head: undefined,
+      chest: undefined,
+      arm: undefined,
+      waist: undefined,
+      leg: undefined,
+      charm: undefined
+    };
+    this.decorations = {
+      weapon: undefined,
+      head: undefined,
+      chest: undefined,
+      arm: undefined,
+      waist: undefined,
+      leg: undefined,
+      charm: undefined
+    };
+  }
+
   setAll(set) {
     if (!set.bonuses) {
       this.bonuses = calculate.setBonus(this.completeSet);

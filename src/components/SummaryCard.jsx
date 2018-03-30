@@ -57,9 +57,11 @@ class SummaryCard extends Component {
     }
 
     //skill.name for equipment, skill.skill for decoration
-    let totalsArray = Object.keys(totals).map(function(skill) {
-      return { name: skill, level: totals[skill] };
-    });
+    let totalsArray = Object.keys(totals)
+      .sort()
+      .map(function(skill) {
+        return { name: skill, level: totals[skill] };
+      });
 
     return (
       <div style={{ marginTop: 24 }}>

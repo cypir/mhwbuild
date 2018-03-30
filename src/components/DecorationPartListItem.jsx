@@ -44,7 +44,11 @@ class DecorationPartListItem extends Component {
       return null;
     }
 
-    return this.state.open ? <ExpandLess /> : <ExpandMore />;
+    return this.state.open ? (
+      <ExpandLess color="primary" />
+    ) : (
+      <ExpandMore color="primary" />
+    );
   };
 
   getSlotDisplay = (piece, decorations) => {

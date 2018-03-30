@@ -7,21 +7,15 @@ import { withStyles } from "material-ui/styles";
 import equipment from "../data/equipment.json";
 import ShareDialog from "../components/ShareDialog";
 
-import ShareIcon from "material-ui-icons/Share";
-
 import axios from "axios";
 import SummaryCard from "../components/SummaryCard";
 import qs from "qs";
 
 import { withRouter } from "react-router-dom";
 import { observer } from "mobx-react";
+import CreatorToolbar from "../components/CreatorToolbar";
 
 const styles = theme => ({
-  buttonContainer: {
-    display: "flex",
-    justifyContent: "flex-end",
-    marginTop: "16px"
-  },
   equipmentSetCard: {
     marginBottom: "24px"
   }
@@ -38,6 +32,14 @@ class Create extends Component {
       shareDialogOpen: false
     };
   }
+
+  onShareClick = () => {
+    this.setState({ shareDialogOpen: true });
+  };
+
+  onClearClick = () => {
+    this.props.customEquipmentSetStore.initialize();
+  };
 
   componentDidMount() {
     //parse qs. Skip first character which is the question mark
@@ -111,16 +113,10 @@ class Create extends Component {
     const { classes, customEquipmentSetStore } = this.props;
     return (
       <div style={{ marginBottom: 24 }}>
-        <div className={classes.buttonContainer}>
-          <Button
-            color="primary"
-            onClick={() => {
-              this.setState({ shareDialogOpen: true });
-            }}
-          >
-            <ShareIcon />Share this build
-          </Button>
-        </div>
+        <CreatorToolbar
+          onShareClick={this.onShareClick}
+          onClearClick={this.onClearClick}
+        />
         <div className={classes.equipmentSetCard}>
           <EquipmentSetCard
             set={customEquipmentSetStore}

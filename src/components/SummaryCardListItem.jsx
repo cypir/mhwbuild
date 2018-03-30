@@ -15,7 +15,7 @@ const displaySkillTotal = skill => {
   } else if (range > 0) {
     style = { color: "#E53935" };
   } else {
-    style = { color: "black" };
+    style = { color: "#fff" };
   }
   return (
     <div style={style}>{`${skill.name} ${skill.level}/${
@@ -60,7 +60,7 @@ class SummaryCardListItem extends Component {
       <div
         style={{
           fontWeight: index === skill.level - 1 ? "bold" : "normal",
-          color: index === skill.level - 1 ? "black" : "#0000008a"
+          color: index === skill.level - 1 ? "#fff" : "#ffffff8a"
         }}
       >
         {skillLevelDesc}
@@ -81,7 +81,11 @@ class SummaryCardListItem extends Component {
           }}
         >
           <ListItemText primary={displaySkillTotal(skill)} />
-          {this.state.open ? <ExpandLess /> : <ExpandMore />}
+          {this.state.open ? (
+            <ExpandLess color="primary" />
+          ) : (
+            <ExpandMore color="primary" />
+          )}
         </ListItem>
         <Collapse in={this.state.open} timeout="auto" unmountOnExit>
           <List>
