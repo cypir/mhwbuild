@@ -15,5 +15,6 @@
   "rarity": 8,
   "type": "longsword",
   "part": "weapon",
+  "possibleAugments": 1,
   "range": "melee"
 }

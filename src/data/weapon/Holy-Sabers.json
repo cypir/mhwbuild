@@ -7,13 +7,10 @@
   "elementDamage": 120,
   "affinity": 0,
   "hidden": false,
-  "slots": [
-    3,
-    0,
-    0
-  ],
-  "rarity": 2,
+  "slots": [3, 0, 0],
+  "rarity": 7,
   "type": "dualblades",
   "part": "weapon",
+  "possibleAugments": 2,
   "range": "melee"
 }

@@ -15,5 +15,6 @@
   "rarity": 8,
   "type": "gunlance",
   "part": "weapon",
+  "possibleAugments": 1,
   "range": "melee"
 }

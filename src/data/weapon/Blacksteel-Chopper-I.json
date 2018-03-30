@@ -15,5 +15,6 @@
   "rarity": 5,
   "type": "greatsword",
   "part": "weapon",
+  "possibleAugments": 0,
   "range": "melee"
 }

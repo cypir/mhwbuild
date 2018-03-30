@@ -15,5 +15,6 @@
   "rarity": 4,
   "type": "chargeblade",
   "part": "weapon",
+  "possibleAugments": 0,
   "range": "melee"
 }

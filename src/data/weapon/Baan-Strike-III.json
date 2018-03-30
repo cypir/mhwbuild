@@ -15,5 +15,6 @@
   "rarity": 6,
   "type": "hammer",
   "part": "weapon",
+  "possibleAugments": 3,
   "range": "melee"
 }

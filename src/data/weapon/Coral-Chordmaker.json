@@ -15,5 +15,6 @@
   "rarity": 6,
   "type": "huntinghorn",
   "part": "weapon",
+  "possibleAugments": 0,
   "range": "melee"
 }

@@ -15,5 +15,6 @@
   "rarity": 8,
   "type": "lightbowgun",
   "part": "weapon",
+  "possibleAugments": 1,
   "range": "ranged"
 }
