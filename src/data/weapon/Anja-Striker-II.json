@@ -7,14 +7,10 @@
   "elementDamage": 360,
   "affinity": -20,
   "hidden": false,
-  "slots": [
-    0,
-    0,
-    0
-  ],
+  "slots": [0, 0, 0],
   "rarity": 6,
   "type": "hammer",
   "part": "weapon",
-  "possibleAugments": 3,
+  "possibleAugments": 0,
   "range": "melee"
 }

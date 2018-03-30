@@ -1,5 +1,8 @@
 module.exports = `# Changelog
 
+## Version 0.4.0
+* Added augmentation to the build creator.
+
 ## Version 0.3.3
 * Added max skill level validation in planner.
 

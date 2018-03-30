@@ -17,6 +17,8 @@ import weapons from "../data/weapon.json";
 import PickerDialogList from "./PickerDialogList";
 import weaponmeta from "../util/weaponmeta";
 
+import _ from "lodash";
+
 const styles = theme => ({
   appBar: {
     position: "relative"
@@ -33,6 +35,101 @@ const styles = theme => ({
 function Transition(props) {
   return <Slide direction="up" {...props} />;
 }
+
+//
+const ListSwitcher = index => {};
+
+//displays the appropriate active step
+const StepDisplay = ({
+  set,
+  step,
+  onClose,
+  weaponTypeSelected,
+  weaponSelected,
+  selectedWeaponType,
+  selectedWeapon
+}) => {
+  switch (step) {
+    case 0:
+      return <WeaponList weaponTypeSelected={weaponTypeSelected} />;
+    case 1:
+      return (
+        <PickerDialogList
+          items={weapons[selectedWeaponType]}
+          handlePieceSelected={piece => {
+            //update set and move to augment
+            weaponSelected(piece);
+
+            //if not possible to augment, skip the augment section
+            if (piece.possibleAugments === 0) {
+              set.setPiece(piece);
+              onClose();
+            }
+          }}
+        />
+      );
+    case 2:
+      return (
+        <AugmentList
+          set={set}
+          onClose={onClose}
+          selectedWeapon={selectedWeapon}
+        />
+      );
+    default:
+      return <div />;
+  }
+};
+
+/**
+ * Once the user makes an augment selection, persist selected weapon to store
+ * and modify the weapon jewel slots relative to augmentation
+ */
+const AugmentList = ({ set, onClose, selectedWeapon }) => {
+  console.log(selectedWeapon);
+
+  let possibleAugmentList = [];
+  for (let i = 0; i < selectedWeapon.possibleAugments + 1; i++) {
+    possibleAugmentList.push(i);
+  }
+
+  return (
+    <List>
+      {possibleAugmentList.map(level => {
+        return (
+          <ListItem
+            key={level}
+            button
+            onClick={() => {
+              //augments only apply when the level is > 0
+              if (level > 0) {
+                //on click, we assign the appropriate slot to the eqipment then close the dialog
+                let leastIndex = 0;
+                //look for lowest level slot and boost it by augment level
+                selectedWeapon.slots.forEach((slot, index) => {
+                  //if we found a slot with less value, save the index
+                  if (slot < selectedWeapon.slots[leastIndex]) {
+                    leastIndex = index;
+                  }
+                });
+
+                //clone selected weapon
+                let updatedWeapon = _.merge({}, selectedWeapon);
+                updatedWeapon.slots[leastIndex] += level;
+
+                set.setPiece(updatedWeapon);
+              }
+
+              onClose();
+            }}
+          >
+            <ListItemText primary={`Slot Augment Level ${level}`} />
+          </ListItem>
+        );
+      })}
+    </List>
+  );
+};
 
 const WeaponList = ({ weaponTypeSelected }) => {
   let weaponTypes = Object.keys(weapons);
@@ -71,7 +168,8 @@ class WeaponPickerDialog extends Component {
     super();
     this.state = {
       activeStep: 0,
-      selectedWeaponType: ""
+      selectedWeaponType: "",
+      selectedWeapon: null
     };
   }
 
@@ -82,6 +180,27 @@ class WeaponPickerDialog extends Component {
     });
   };
 
+  //temporarily hold the weapon selection in memory
+  weaponSelected = selectedWeapon => {
+    this.setState({
+      activeStep: 2,
+      selectedWeapon
+    });
+  };
+
+  /**
+   * Wrapper to clean up when close is called
+   */
+  closeWrapper = onClose => {
+    onClose();
+    this.setState({
+      filter: "",
+      activeStep: 0,
+      selectedWeaponType: "",
+      selectedWeapon: null
+    });
+  };
+
   render() {
     const { set, open, onClose, classes } = this.props;
     return (
@@ -89,8 +208,7 @@ class WeaponPickerDialog extends Component {
         fullScreen
         open={open}
         onClose={() => {
-          onClose();
-          this.setState({ filter: "" });
+          this.closeWrapper(onClose);
         }}
         transition={Transition}
       >
@@ -99,12 +217,7 @@ class WeaponPickerDialog extends Component {
             <IconButton
               color="inherit"
               onClick={() => {
-                onClose();
-                this.setState({
-                  filter: "",
-                  activeStep: 0,
-                  selectedWeaponType: ""
-                });
+                this.closeWrapper(onClose);
               }}
               aria-label="Close"
             >
@@ -121,13 +234,7 @@ class WeaponPickerDialog extends Component {
               color="inherit"
               onClick={() => {
                 set.removePiece("weapon");
-                this.setState({ filter: "" });
-                onClose();
-                this.setState({
-                  filter: "",
-                  activeStep: 0,
-                  selectedWeaponType: ""
-                });
+                this.closeWrapper(onClose);
               }}
             >
               Remove
@@ -136,29 +243,26 @@ class WeaponPickerDialog extends Component {
         </AppBar>
         <Stepper activeStep={this.state.activeStep}>
           <Step>
-            <StepLabel>Select Weapon Type</StepLabel>
+            <StepLabel>Weapon Type</StepLabel>
           </Step>
           <Step>
-            <StepLabel>Select Weapon</StepLabel>
+            <StepLabel>Weapon</StepLabel>
+          </Step>
+          <Step>
+            <StepLabel>Augment Level</StepLabel>
           </Step>
         </Stepper>
-        {this.state.activeStep === 0 ? (
-          <WeaponList weaponTypeSelected={this.weaponTypeSelected} />
-        ) : (
-          <PickerDialogList
-            items={weapons[this.state.selectedWeaponType]}
-            handlePieceSelected={piece => {
-              //update set and close dialog
-              set.setPiece(piece);
-              onClose();
-              this.setState({
-                filter: "",
-                activeStep: 0,
-                selectedWeaponType: ""
-              });
-            }}
-          />
-        )}
+        <StepDisplay
+          set={set}
+          step={this.state.activeStep}
+          weaponTypeSelected={this.weaponTypeSelected}
+          weaponSelected={this.weaponSelected}
+          selectedWeaponType={this.state.selectedWeaponType}
+          selectedWeapon={this.state.selectedWeapon}
+          onClose={() => {
+            this.closeWrapper(onClose);
+          }}
+        />
       </Dialog>
     );
   }
