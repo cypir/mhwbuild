@@ -82,4 +82,4 @@ WeaponListItem.propTypes = {
   set: PropTypes.object
 };
 
-export default WeaponListItem;
+export default observer(WeaponListItem);
