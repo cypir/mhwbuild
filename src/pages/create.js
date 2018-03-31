@@ -14,6 +14,9 @@ import qs from "qs";
 import { withRouter } from "react-router-dom";
 import { observer } from "mobx-react";
 import CreatorToolbar from "../components/CreatorToolbar";
+import SummaryStats from "../components/SummaryStats";
+
+import Grid from "material-ui/Grid";
 
 const styles = theme => ({
   equipmentSetCard: {
@@ -125,12 +128,22 @@ class Create extends Component {
             handlePartClick={this.handlePartClick}
           />
         </div>
-        <DecorationSetCard
-          set={customEquipmentSetStore}
-          onDecorationChanged={this.onDecorationChanged}
-          onDecorationRemoved={this.onDecorationRemoved}
-          title="Decoration Set"
-        />
+        <Grid container spacing={24}>
+          <Grid item xs={12} md={8}>
+            <DecorationSetCard
+              set={customEquipmentSetStore}
+              onDecorationChanged={this.onDecorationChanged}
+              onDecorationRemoved={this.onDecorationRemoved}
+              title="Decoration Set"
+            />
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <SummaryStats
+              set={customEquipmentSetStore}
+              style={{ height: "100%" }}
+            />
+          </Grid>
+        </Grid>
         <SummaryCard set={customEquipmentSetStore} />
         <PickerDialog
           open={this.state.dialogOpen}

@@ -31,13 +31,13 @@ const DecorationSetCard = ({ set, title, classes }) => {
           </div>
 
           <Grid container spacing={8}>
-            <Grid item xs={12} sm={5}>
+            <Grid item xs={12} sm={6}>
               <Typography variant="subheading">
                 <strong>Deocrations</strong>
               </Typography>
               <DecorationPartList set={set} />
             </Grid>
-            <Grid item xs={12} sm={4}>
+            <Grid item xs={12} sm={6}>
               <Typography variant="subheading">
                 <strong>Decoration Skill Totals</strong>
               </Typography>

@@ -86,8 +86,6 @@ const StepDisplay = ({
  * and modify the weapon jewel slots relative to augmentation
  */
 const AugmentList = ({ set, onClose, selectedWeapon }) => {
-  console.log(selectedWeapon);
-
   let possibleAugmentList = [];
   for (let i = 0; i < selectedWeapon.possibleAugments + 1; i++) {
     possibleAugmentList.push(i);
