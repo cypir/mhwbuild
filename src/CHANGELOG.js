@@ -1,5 +1,9 @@
 module.exports = `# Changelog
 
+## Version 0.4.2
+* Filter now searches both the name of the piece/decoration and the corresponding skill. For example, 
+searching "critical" for charm will yield "Critical Charm" and "Master's Charm", among other charms.
+
 ## Version 0.4.1
 * Set theme to dark to spare your eyes.
 * Added a clear button to build creator so you no longer need to refresh page to clear.
