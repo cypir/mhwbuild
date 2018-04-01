@@ -146,6 +146,17 @@ class DecorationPartListItem extends Component {
             }
             return false;
           })}
+          filterFn={(item, filter) => {
+            let skillMatch = item.skill
+              .toLowerCase()
+              .includes(filter.toLowerCase());
+
+            let decoNameMatch = item.name
+              .toLowerCase()
+              .includes(filter.toLowerCase());
+
+            return skillMatch || decoNameMatch;
+          }}
           handlePieceSelected={item => {
             this.setState({ dialogOpen: false });
             set.setDecoration(part, this.state.selectedIndex, item);

@@ -21,12 +21,17 @@ class PickerDialogList extends Component {
     };
   }
 
+  filterByItemName = item => {
+    return item.name.toLowerCase().includes(this.state.filter.toLowerCase());
+  };
+
   render() {
     const {
       classes,
       items,
       handlePieceSelected,
-      secondaryTextProp
+      secondaryTextProp,
+      filterFn
     } = this.props;
     return (
       <div>
@@ -43,8 +48,12 @@ class PickerDialogList extends Component {
         </div>
         <List>
           {items
-            .filter(item =>
-              item.name.toLowerCase().includes(this.state.filter.toLowerCase())
+            .filter(
+              filterFn
+                ? item => {
+                    return filterFn(item, this.state.filter);
+                  }
+                : this.filterByItemName
             )
             .map(item => {
               return (

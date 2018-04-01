@@ -50,7 +50,8 @@ class PickerDialog extends Component {
       handlePieceSelected,
       handlePieceRemoved,
       items,
-      secondaryTextProp
+      secondaryTextProp,
+      filterFn
     } = this.props;
     return (
       <div>
@@ -97,6 +98,7 @@ class PickerDialog extends Component {
             items={items}
             handlePieceSelected={handlePieceSelected}
             secondaryTextProp={secondaryTextProp}
+            filterFn={filterFn}
           />
         </Dialog>
       </div>

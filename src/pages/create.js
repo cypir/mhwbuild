@@ -143,6 +143,17 @@ class Create extends Component {
           items={equipment.filter(
             equip => equip.part === this.state.selectedPart
           )}
+          filterFn={(item, filter) => {
+            let skillMatch = item.skills.some(skill => {
+              return skill.name.toLowerCase().includes(filter.toLowerCase());
+            });
+
+            let itemNameMatch = item.name
+              .toLowerCase()
+              .includes(filter.toLowerCase());
+
+            return skillMatch || itemNameMatch;
+          }}
         />
         <ShareDialog
           open={this.state.shareDialogOpen}
