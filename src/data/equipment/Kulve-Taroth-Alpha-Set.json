@@ -1,0 +1,102 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Agitator",
+          "level": 2
+        }
+      ],
+      "name": "Kulve Taroth's Fury Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Stun Resistance",
+          "level": 2
+        },
+        {
+          "name": "Critical Boost",
+          "level": 2
+        }
+      ],
+      "name": "Kulve Taroth's Ire Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Power Prolonger",
+          "level": 2
+        }
+      ],
+      "name": "Kulve Taroth's Rage Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Free Elem/Ammo Up",
+          "level": 1
+        },
+        {
+          "name": "Handicraft",
+          "level": 2
+        }
+      ],
+      "name": "Kulve Taroth's Malice Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 2
+        },
+        {
+          "name": "Peak Performance",
+          "level": 2
+        }
+      ],
+      "name": "Kulve Taroth's Wrath Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "set": "Kulve Taroth Alpha Set",
+  "rarity": 8
+}

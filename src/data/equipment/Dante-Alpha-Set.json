@@ -1,0 +1,98 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "name": "Dante's Hair Alpha",
+      "slots": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Evade Window",
+          "level": 1
+        },
+        {
+          "name": "Critical Eye",
+          "level": 1
+        }
+      ],
+      "name": "Dante's Coat Alpha",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Evade Window",
+          "level": 1
+        },
+        {
+          "name": "Special Ammo Boost",
+          "level": 1
+        }
+      ],
+      "name": "Dante's Gloves Alpha",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Evade Window",
+          "level": 1
+        },
+        {
+          "name": "Latent Power",
+          "level": 1
+        }
+      ],
+      "name": "Dante's Belt Alpha",
+      "slots": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Weakness Exploit",
+          "level": 2
+        }
+      ],
+      "name": "Dante's Leather Boots Alpha",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "set": "Dante Alpha Set",
+  "rarity": 3
+}

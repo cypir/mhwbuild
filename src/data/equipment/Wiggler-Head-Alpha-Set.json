@@ -1,0 +1,22 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Wide-Range",
+          "level": 2
+        }
+      ],
+      "name": "Wiggler Head Alpha",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "set": "Wiggler Head Alpha Set",
+  "rarity": 5
+}

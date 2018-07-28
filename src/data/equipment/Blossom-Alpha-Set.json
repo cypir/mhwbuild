@@ -1,0 +1,82 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Honey Hunter",
+          "level": 1
+        }
+      ],
+      "name": "Blossom Headgear Alpha",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "chest",
+      "skills": [
+        {
+          "name": "Quick Sheath",
+          "level": 1
+        }
+      ],
+      "name": "Blossom Vest Alpha",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "arm",
+      "skills": [
+        {
+          "name": "Paralysis Resistance",
+          "level": 1
+        }
+      ],
+      "name": "Blossom Cuffs Alpha",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "waist",
+      "skills": [
+        {
+          "name": "Scoutfly Range Up",
+          "level": 1
+        }
+      ],
+      "name": "Blossom Coat Alpha",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "part": "leg",
+      "skills": [
+        {
+          "name": "Recovery Speed",
+          "level": 1
+        }
+      ],
+      "name": "Blossom Boots Alpha",
+      "slots": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "set": "Blossom Alpha Set",
+  "rarity": 5
+}

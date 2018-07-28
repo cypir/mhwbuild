@@ -1,0 +1,22 @@
+{
+  "rank": "hr",
+  "pieces": [
+    {
+      "part": "head",
+      "skills": [
+        {
+          "name": "Pro Transporter",
+          "level": 1
+        }
+      ],
+      "name": "Kulu-Yaku Head Alpha",
+      "slots": [
+        3,
+        1,
+        0
+      ]
+    }
+  ],
+  "set": "Kulu-Yaku Head Alpha Set",
+  "rarity": 5
+}
