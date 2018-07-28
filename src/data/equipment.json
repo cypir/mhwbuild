@@ -963,6 +963,91 @@
     "part": "head",
     "skills": [
       {
+        "name": "Honey Hunter",
+        "level": 1
+      }
+    ],
+    "name": "Blossom Headgear Alpha",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Blossom Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "name": "Blossom Vest Alpha",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Blossom Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "name": "Blossom Cuffs Alpha",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Blossom Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Scoutfly Range Up",
+        "level": 1
+      }
+    ],
+    "name": "Blossom Coat Alpha",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Blossom Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Recovery Speed",
+        "level": 1
+      }
+    ],
+    "name": "Blossom Boots Alpha",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Blossom Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
         "name": "Health Boost",
         "level": 1
       },
@@ -2050,6 +2135,107 @@
     ],
     "rank": "hr",
     "set": "Damascus Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "name": "Dante's Hair Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dante Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Evade Window",
+        "level": 1
+      },
+      {
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "name": "Dante's Coat Alpha",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dante Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Evade Window",
+        "level": 1
+      },
+      {
+        "name": "Special Ammo Boost",
+        "level": 1
+      }
+    ],
+    "name": "Dante's Gloves Alpha",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dante Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Evade Window",
+        "level": 1
+      },
+      {
+        "name": "Latent Power",
+        "level": 1
+      }
+    ],
+    "name": "Dante's Belt Alpha",
+    "slots": [
+      3,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dante Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
+    "name": "Dante's Leather Boots Alpha",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Dante Alpha Set"
   },
   {
     "part": "head",
@@ -5551,6 +5737,233 @@
     "part": "head",
     "skills": [
       {
+        "name": "Pro Transporter",
+        "level": 1
+      }
+    ],
+    "name": "Kulu-Yaku Head Alpha",
+    "slots": [
+      3,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulu-Yaku Head Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "name": "Agitator",
+        "level": 2
+      }
+    ],
+    "name": "Kulve Taroth's Fury Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulve Taroth Alpha Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "level": 2
+      },
+      {
+        "name": "Critical Boost",
+        "level": 2
+      }
+    ],
+    "name": "Kulve Taroth's Ire Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulve Taroth Alpha Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "name": "Power Prolonger",
+        "level": 2
+      }
+    ],
+    "name": "Kulve Taroth's Rage Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulve Taroth Alpha Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "name": "Kulve Taroth's Malice Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulve Taroth Alpha Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "level": 2
+      },
+      {
+        "name": "Peak Performance",
+        "level": 2
+      }
+    ],
+    "name": "Kulve Taroth's Wrath Alpha",
+    "slots": [
+      1,
+      0,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulve Taroth Alpha Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "name": "Agitator",
+        "level": 1
+      }
+    ],
+    "name": "Kulve Taroth's Fury Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulve Taroth Beta Set"
+  },
+  {
+    "part": "chest",
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "level": 2
+      },
+      {
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "name": "Kulve Taroth's Ire Beta",
+    "slots": [
+      3,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulve Taroth Beta Set"
+  },
+  {
+    "part": "arm",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "name": "Power Prolonger",
+        "level": 1
+      }
+    ],
+    "name": "Kulve Taroth's Rage Beta",
+    "slots": [
+      3,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulve Taroth Beta Set"
+  },
+  {
+    "part": "waist",
+    "skills": [
+      {
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "name": "Kulve Taroth's Malice Beta",
+    "slots": [
+      3,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulve Taroth Beta Set"
+  },
+  {
+    "part": "leg",
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "level": 2
+      },
+      {
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "name": "Kulve Taroth's Wrath Beta",
+    "slots": [
+      2,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Kulve Taroth Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
         "name": "Ice Attack",
         "level": 2
       },
@@ -8803,6 +9216,23 @@
     ],
     "rank": "hr",
     "set": "Vespoid Beta Set"
+  },
+  {
+    "part": "head",
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "level": 2
+      }
+    ],
+    "name": "Wiggler Head Alpha",
+    "slots": [
+      1,
+      1,
+      0
+    ],
+    "rank": "hr",
+    "set": "Wiggler Head Alpha Set"
   },
   {
     "part": "head",
