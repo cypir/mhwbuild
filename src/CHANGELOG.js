@@ -2,7 +2,7 @@ module.exports = `# Changelog
 
 ## Version 0.4.3
 * Added Blossom Alpha / Beta, Danta Alpha Set, Kulu Yaku Head Alpha, Kulve Taorth Alpha / Beta and
-Wiggler Head Alpha
+Wiggler Head Alpha.
 
 ## Version 0.4.2
 * Filter now searches both the name of the piece/decoration and the corresponding skill. For example, 
