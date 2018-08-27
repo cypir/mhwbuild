@@ -1,7 +1,7 @@
 module.exports = `# Changelog
 
 ## Version 0.4.3
-* Added Blossom Alpha / Beta, Danta Alpha Set, Kulu Yaku Head Alpha, Kulve Taorth Alpha / Beta and
+* Added Blossom Alpha / Beta, Dante Alpha Set, Kulu Yaku Head Alpha, Kulve Taroth Alpha / Beta and
 Wiggler Head Alpha.
 
 ## Version 0.4.2

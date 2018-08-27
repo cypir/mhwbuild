@@ -1,0 +1,102 @@
+{
+    "rank": "hr",
+    "pieces": [
+      {
+        "part": "head",
+        "skills": [
+          {
+            "name": "Evade Extender",
+            "level": 2
+          },
+          {
+            "name": "Tool Specialist",
+            "level": 1
+          }
+        ],
+        "name": "Empress Crown Alpha",
+        "slots": [
+          3,
+          1,
+          0
+        ]
+      },
+      {
+        "part": "chest",
+        "skills": [
+          {
+            "name": "Peak Performance",
+            "level": 2
+          },
+          {
+            "name": "Health Boost",
+            "level": 1
+          }
+        ],
+        "name": "Empress Mail Alpha",
+        "slots": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "part": "arm",
+        "skills": [
+          {
+            "name": "Wide-Range",
+            "level": 2
+          },
+          {
+            "name": "Blast Attack",
+            "level": 2
+          }
+        ],
+        "name": "Empress Vambraces Alpha",
+        "slots": [
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "part": "waist",
+        "skills": [
+          {
+            "name": "Tool Specialist",
+            "level": 2
+          },
+          {
+            "name": "Blast Attack",
+            "level": 1
+          }
+        ],
+        "name": "Empress Coil Alpha",
+        "slots": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "part": "leg",
+        "skills": [
+          {
+            "name": "Health Boost",
+            "level": 2
+          },
+          {
+            "name": "Wide-Range",
+            "level": 2
+          }
+        ],
+        "name": "Empress Greaves Alpha",
+        "slots": [
+          2,
+          1,
+          0
+        ]
+      }
+    ],
+    "set": "Lunastra Alpha Set",
+    "rarity": 8
+  }
