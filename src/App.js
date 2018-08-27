@@ -4,18 +4,17 @@ import MainAppBar from "./components/MainAppBar";
 import Create from "./pages/create";
 import Plan from "./pages/plan";
 import Index from "./pages/index";
-import CssBaseline from "material-ui/CssBaseline";
-import { withStyles } from "material-ui/styles";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import { withStyles } from "@material-ui/core/styles";
 import "typeface-roboto";
 import DevTools from "mobx-react-devtools";
 
 import CustomEquipmentSetStore from "./stores/CustomEquipmentSetStore";
-import { MuiThemeProvider, createMuiTheme } from "material-ui/styles";
+import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
-import blue from "material-ui/colors/blue";
-import indigo from "material-ui/colors/indigo";
-import pink from "material-ui/colors/pink";
-import { darken } from "material-ui/styles/colorManipulator";
+import blue from "@material-ui/core/colors/blue";
+import indigo from "@material-ui/core/colors/indigo";
+import pink from "@material-ui/core/colors/pink";
 
 const theme = createMuiTheme({
   palette: {

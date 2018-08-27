@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import Button from "material-ui/Button";
+import Button from "@material-ui/core/Button";
 import Dialog, {
   DialogActions,
   DialogContent,
   DialogTitle
-} from "material-ui/Dialog";
+} from "@material-ui/core/Dialog";
 import qs from "qs";
 import axios from "axios";
-import Stepper, { Step, StepLabel, StepContent } from "material-ui/Stepper";
-import Typography from "material-ui/Typography/Typography";
-import Snackbar from "material-ui/Snackbar";
+import Stepper, { Step, StepLabel, StepContent } from "@material-ui/core/Stepper";
+import Typography from "@material-ui/core/Typography";
+import Snackbar from "@material-ui/core/Snackbar";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { toJS } from "mobx";
 

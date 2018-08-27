@@ -1,8 +1,8 @@
 import React from "react";
-import { withStyles } from "material-ui/styles";
-import Card, { CardContent } from "material-ui/Card";
-import Typography from "material-ui/Typography";
-import Grid from "material-ui/Grid";
+import { withStyles } from "@material-ui/core/styles";
+import Card, { CardContent } from "@material-ui/core/Card";
+import Typography from "@material-ui/core/Typography";
+import Grid from "@material-ui/core/Grid";
 import SetSlotList from "../components/SetSlotList";
 import EquipmentPartList from "../components/EquipmentPartList";
 import SetSkillTotalsList from "../components/SetSkillTotalsList";

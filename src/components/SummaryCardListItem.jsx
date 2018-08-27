@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import List, { ListItem, ListItemText } from "material-ui/List";
+import List, { ListItem, ListItemText } from "@material-ui/core/List";
 import possibleSkills from "../data/skill";
-import Collapse from "material-ui/transitions/Collapse";
+import Collapse from "@material-ui/core/Collapse";
 
-import ExpandLess from "material-ui-icons/ExpandLess";
-import ExpandMore from "material-ui-icons/ExpandMore";
+import ExpandLess from "@material-ui/icons/ExpandLess";
+import ExpandMore from "@material-ui/icons/ExpandMore";
 
 const displaySkillTotal = skill => {
   let range = skill.level - possibleSkills[skill.name].levels.length;

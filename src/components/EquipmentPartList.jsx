@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import List, { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
+import List, { ListItem, ListItemIcon, ListItemText } from "@material-ui/core/List";
 import equipmentParts from "../data/equipment_part.json";
 import armIcon from "../icons/1/arm.png";
 import chestIcon from "../icons/1/chest.png";

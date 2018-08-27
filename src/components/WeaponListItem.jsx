@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
+import { ListItem, ListItemIcon, ListItemText } from "@material-ui/core/List";
 import WeaponPickerDialog from "./WeaponPickerDialog";
 import { observer } from "mobx-react";
 import weaponmeta from "../util/weaponmeta";

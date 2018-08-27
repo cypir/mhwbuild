@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import List, { ListItem, ListItemText } from "material-ui/List";
+import List, { ListItem, ListItemText } from "@material-ui/core/List";
 import _ from "lodash";
 import { observer } from "mobx-react";
 

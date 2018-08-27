@@ -1,11 +1,11 @@
 import React from "react";
-import { withStyles } from "material-ui/styles";
+import { withStyles } from "@material-ui/core/styles";
 import EquipmentSetList from "../components/EquipmentSetList";
 import SkillsInputForm from "../components/SkillsInputForm";
-import Typography from "material-ui/Typography";
+import Typography from "@material-ui/core/Typography";
 import Worker from "../util/file.worker.js";
 import PromiseWorker from "promise-worker";
-import { CircularProgress } from "material-ui/Progress";
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 const styles = theme => ({
   listHeader: {

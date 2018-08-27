@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { ListItem, ListItemIcon, ListItemText } from "material-ui/List";
-import Collapse from "material-ui/transitions/Collapse";
+import { ListItem, ListItemIcon, ListItemText } from "@material-ui/core/List";
+import Collapse from "@material-ui/core/Collapse";
 import PickerDialog from "./PickerDialog";
 import possibleDecorations from "../data/decoration.json";
-import Typography from "material-ui/Typography";
-import List from "material-ui/List";
+import Typography from "@material-ui/core/Typography";
+import List from "@material-ui/core/List";
 
-import ExpandLess from "material-ui-icons/ExpandLess";
-import ExpandMore from "material-ui-icons/ExpandMore";
+import ExpandLess from "@material-ui/icons/ExpandLess";
+import ExpandMore from "@material-ui/icons/ExpandMore";
 
 import { observer } from "mobx-react";
 

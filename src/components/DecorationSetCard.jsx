@@ -1,9 +1,9 @@
 import React from "react";
-import { withStyles } from "material-ui/styles";
-import Card, { CardContent } from "material-ui/Card";
-import Typography from "material-ui/Typography";
+import { withStyles } from "@material-ui/core/styles";
+import Card, { CardContent } from "@material-ui/core/Card";
+import Typography from "@material-ui/core/Typography";
 import SkillTotalsList from "../components/SkillTotalsList";
-import Grid from "material-ui/Grid";
+import Grid from "@material-ui/core/Grid";
 import DecorationPartList from "../components/DecorationPartList";
 import { observer } from "mobx-react";
 

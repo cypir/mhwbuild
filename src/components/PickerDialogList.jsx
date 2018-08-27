@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { withStyles } from "material-ui/styles";
+import { withStyles } from "@material-ui/core/styles";
 
-import List, { ListItem, ListItemText } from "material-ui/List";
-import Divider from "material-ui/Divider";
-import TextField from "material-ui/TextField";
+import List, { ListItem, ListItemText } from "@material-ui/core/List";
+import Divider from "@material-ui/core/Divider";
+import TextField from "@material-ui/core/TextField";
 import skillformat from "../util/skillformat";
 
 const styles = theme => ({

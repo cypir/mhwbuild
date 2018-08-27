@@ -2,30 +2,31 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import skills from "../data/skill.json";
 import SkillAutocompleteField from "./SkillAutocompleteField";
-import TextField from "material-ui/TextField";
-import Grid from "material-ui/Grid";
-import Button from "material-ui/Button";
-import { withStyles } from "material-ui/styles";
-import IconButton from "material-ui/IconButton";
-import DeleteIcon from "material-ui-icons/Delete";
+import TextField from "@material-ui/core/TextField";
+import Grid from "@material-ui/core/Grid";
+import Button from "@material-ui/core/Button";
+import { withStyles } from "@material-ui/core/styles";
+import IconButton from "@material-ui/core/IconButton";
+import DeleteIcon from "@material-ui/icons/Delete";
 import nanoid from "nanoid";
-import AddIcon from "material-ui-icons/AddCircleOutline";
+import AddIcon from "@material-ui/icons/AddCircleOutline";
 
 import ExpansionPanel, {
   ExpansionPanelSummary,
   ExpansionPanelDetails
-} from "material-ui/ExpansionPanel";
-import ExpandMoreIcon from "material-ui-icons/ExpandMore";
+} from "@material-ui/core/ExpansionPanel";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
-import Typography from "material-ui/Typography";
-import SearchIcon from "material-ui-icons/Search";
+import Typography from "@material-ui/core/Typography";
+import SearchIcon from "@material-ui/icons/Search";
 
-import { FormGroup, FormControlLabel } from "material-ui/Form";
-import Checkbox from "material-ui/Checkbox";
-import Tooltip from "material-ui/Tooltip";
+import FormGroup from "@material-ui/core/FormGroup";
+import FormControlLabel from "@material-ui/core/FormControlLabel"
+import Checkbox from "@material-ui/core/Checkbox";
+import Tooltip from "@material-ui/core/Tooltip";
 
-import Radio, { RadioGroup } from "material-ui/Radio";
-import { FormControl } from "material-ui/Form";
+import Radio, { RadioGroup } from "@material-ui/core/Radio";
+import FormControl from "@material-ui/core/FormControl";
 import calculate from "../util/calculate";
 
 const styles = theme => ({

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import List from "material-ui/List";
-import Card, { CardContent } from "material-ui/Card";
-import Typography from "material-ui/Typography";
+import List from "@material-ui/core/List";
+import Card, { CardContent } from "@material-ui/core/Card";
+import Typography from "@material-ui/core/Typography";
 import _ from "lodash";
 import { observer } from "mobx-react";
 import SummaryCardListItem from "./SummaryCardListItem";
