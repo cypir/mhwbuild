@@ -154,7 +154,7 @@ const WeaponList = ({ weaponTypeSelected }) => {
             }}
           >
             {imageSrc ? (
-              <ListItemIcon>
+              <ListItemIcon style={{ height: 30, width: 30 }}>
                 <img alt="part" src={imageSrc} />
               </ListItemIcon>
             ) : (

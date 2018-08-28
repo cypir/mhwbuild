@@ -89,7 +89,7 @@ class DecorationPartListItem extends Component {
             this.setState({ open: !this.state.open });
           }}
         >
-          <ListItemIcon>
+          <ListItemIcon style={{ height: 30, width: 30 }}>
             <img alt="part" src={icon} />
           </ListItemIcon>
           <ListItemText primary={this.getSlotDisplay(piece, decorations)} />

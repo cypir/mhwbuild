@@ -1,5 +1,13 @@
 module.exports = `# Changelog
 
+## Upcoming
+* Lunastra Beta Set
+* Lunastra Set Bonus
+* Behemoth Set
+
+## Version 0.4.4
+* Added Lunastra Alpha Set
+
 ## Version 0.4.3
 * Added Blossom Alpha / Beta, Dante Alpha Set, Kulu Yaku Head Alpha, Kulve Taroth Alpha / Beta and
 Wiggler Head Alpha.

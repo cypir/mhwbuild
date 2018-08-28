@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemText  from "@material-ui/core/ListItemText";
+import ListItemText from "@material-ui/core/ListItemText";
 import WeaponPickerDialog from "./WeaponPickerDialog";
 import { observer } from "mobx-react";
 import weaponmeta from "../util/weaponmeta";
@@ -58,7 +58,7 @@ class WeaponListItem extends Component {
             this.setState({ dialogOpen: !this.state.dialogOpen });
           }}
         >
-          <ListItemIcon>
+          <ListItemIcon style={{ height: 30, width: 30 }}>
             <img alt="weapon" src={imageSrc} />
           </ListItemIcon>
 

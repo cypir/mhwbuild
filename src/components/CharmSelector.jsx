@@ -28,7 +28,7 @@ const CharmSelector = ({ set, clickable, handlePartClick }) => {
                 }
               }}
             >
-              <ListItemIcon>
+              <ListItemIcon style={{ height: 30, width: 30 }}>
                 <img alt="part" src={armIcon} />
               </ListItemIcon>
               <ListItemText
