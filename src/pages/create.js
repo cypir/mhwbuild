@@ -154,13 +154,13 @@ class Create extends Component {
             return skillMatch || itemNameMatch;
           }}
         />
-        <ShareDialog
+        {/* <ShareDialog
           open={this.state.shareDialogOpen}
           onClose={() => {
             this.closeShareDialog(false);
           }}
           set={customEquipmentSetStore}
-        />
+        /> */}
       </div>
     );
   }

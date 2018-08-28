@@ -3,7 +3,10 @@ import React, { Component } from "react";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";
-import List, { ListItem, ListItemText, ListItemIcon } from "@material-ui/core/List";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
@@ -11,7 +14,9 @@ import Typography from "@material-ui/core/Typography";
 import CloseIcon from "@material-ui/icons/Close";
 import Slide from "@material-ui/core/Slide";
 
-import Stepper, { Step, StepLabel } from "@material-ui/core/Stepper";
+import Stepper from "@material-ui/core/Stepper";
+import Step from "@material-ui/core/Step";
+import StepLabel from "@material-ui/core/StepLabel";
 
 import weapons from "../data/weapon.json";
 import PickerDialogList from "./PickerDialogList";
@@ -35,9 +40,6 @@ const styles = theme => ({
 function Transition(props) {
   return <Slide direction="up" {...props} />;
 }
-
-//
-const ListSwitcher = index => {};
 
 //displays the appropriate active step
 const StepDisplay = ({
@@ -213,7 +215,6 @@ class WeaponPickerDialog extends Component {
         onClose={() => {
           this.closeWrapper(onClose);
         }}
-        transition={Transition}
       >
         <AppBar className={classes.appBar}>
           <Toolbar>
