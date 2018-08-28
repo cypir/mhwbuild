@@ -62,7 +62,7 @@ class PickerDialog extends Component {
             onClose();
             this.setState({ filter: "" });
           }}
-          transition={Transition}
+          TransitionComponent={Transition}
         >
           <AppBar className={classes.appBar}>
             <Toolbar>

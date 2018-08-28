@@ -15,11 +15,11 @@ const SecondaryTextDisplay = weapon => {
     //augment level is added in via the weapon picker dialog
     if (!isNaN(weapon.augmentLevel)) {
       return (
-        <div>
+        <span>
           {`Attack: ${weapon.attack} / Affinity: ${
             weapon.affinity
           }% / Augment: ${weapon.augmentLevel}`}
-        </div>
+        </span>
       );
     }
 

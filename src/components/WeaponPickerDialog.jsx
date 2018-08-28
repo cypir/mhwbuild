@@ -215,6 +215,7 @@ class WeaponPickerDialog extends Component {
         onClose={() => {
           this.closeWrapper(onClose);
         }}
+        TransitionComponent={Transition}
       >
         <AppBar className={classes.appBar}>
           <Toolbar>
