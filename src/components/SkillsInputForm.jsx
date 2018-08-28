@@ -11,21 +11,22 @@ import DeleteIcon from "@material-ui/icons/Delete";
 import nanoid from "nanoid";
 import AddIcon from "@material-ui/icons/AddCircleOutline";
 
-import ExpansionPanel, {
-  ExpansionPanelSummary,
-  ExpansionPanelDetails
-} from "@material-ui/core/ExpansionPanel";
+import ExpansionPanel from "@material-ui/core/ExpansionPanel";
+import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
+
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 import Typography from "@material-ui/core/Typography";
 import SearchIcon from "@material-ui/icons/Search";
 
 import FormGroup from "@material-ui/core/FormGroup";
-import FormControlLabel from "@material-ui/core/FormControlLabel"
+import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import Tooltip from "@material-ui/core/Tooltip";
 
-import Radio, { RadioGroup } from "@material-ui/core/Radio";
+import Radio from "@material-ui/core/Radio";
+import RadioGroup from "@material-ui/core/RadioGroup";
 import FormControl from "@material-ui/core/FormControl";
 import calculate from "../util/calculate";
 
